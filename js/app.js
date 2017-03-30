@@ -23,10 +23,10 @@
         }
     });
 
-    var calibreApp = angular.module('calibreApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners']);
+    var calibreLibrary = angular.module('calibreLibrary', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners']);
     // console.log('here');
 
-    calibreApp.run(function ($rootScope, $route, $window, $location) {
+    calibreLibrary.run(function ($rootScope, $route, $window, $location) {
         // console.log('here');
 
         $rootScope.$on('$routeChangeStart', function (event, next, current) {

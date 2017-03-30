@@ -1,5 +1,5 @@
 //ROUTES
-var calibreApp = angular.module('calibreApp');
+var calibreApp = angular.module('calibreLibrary');
 
 calibreApp.config(function ($routeProvider) {
 

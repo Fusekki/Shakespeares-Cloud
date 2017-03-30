@@ -1,4 +1,4 @@
-angular.module('calibreApp')
+angular.module('calibreLibrary')
 
 // The home controller handles the home.tmpl.htm page
 

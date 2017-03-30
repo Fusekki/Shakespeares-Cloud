@@ -1,6 +1,6 @@
 //DIRECTIVES
 
-angular.module('calibreApp')
+angular.module('calibreLibrary')
 
 
     .directive("resultsObject", function() {
