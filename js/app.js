@@ -23,7 +23,7 @@
         }
     });
 
-    var calibreLibrary = angular.module('calibreLibrary', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners']);
+    var calibreLibrary = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners']);
     // console.log('here');
 
     calibreLibrary.run(function ($rootScope, $route, $window, $location) {

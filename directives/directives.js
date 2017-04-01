@@ -1,6 +1,6 @@
 //DIRECTIVES
 
-angular.module('calibreLibrary')
+angular.module('shakespeareApp')
 
 
     .directive("resultsObject", function() {

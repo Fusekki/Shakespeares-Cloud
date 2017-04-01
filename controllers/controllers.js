@@ -1,4 +1,4 @@
-angular.module('calibreLibrary')
+angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
 
