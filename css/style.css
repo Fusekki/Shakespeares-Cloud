@@ -5,3 +5,56 @@ body {
 .margin-top {
     margin-top: 6em;
 }
+
+.form-group {
+}
+
+.play_cat {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.play_cat li {
+    border: 1px solid white;
+    border-radius: 1em;
+    color: black;
+    padding: 6px;
+    text-transform: capitalize;
+
+}
+
+.play_cat .active {
+    background: red;
+    color: white;
+}
+
+
+.play_cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    column-count: 2;
+    padding: 0;
+    margin: 0;
+}
+
+.play_cards li {
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+.play_name {
+    position: relative;
+    top: 40%;
+}

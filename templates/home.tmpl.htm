@@ -1,8 +1,30 @@
 
-<div class="col-xs-offset-2 col-xs-10">
+<div class="col-xs-offset-1 col-xs-10">
         <span class="indent">
-            <h4 class="title">Welcome to the Shakespeare App</span></h4>
-            <h5 class="animated fadeIn subtitle"><i>powered by the Angular framework</i></h5>
+            <h4 class="title">Welcome to Shakespeare App</span></h4>
+            <!--<h5 class="animated fadeIn subtitle"><i>powered by the Angular framework</i></h5>-->
         </span>
-    <button type="submit" class="btn" ng-click="connect()">Connect</button>
+
+    <form ng-submit="submit()"">
+        <div class="form-group">
+            <label for="srch">Search the plays</label>
+            <input type="text" ng-model="search_term" autocomplete="off" uib-typeahead="item.title for item in getPlays() | filter:$viewValue" class="form-control" id="srch" placeholder="Enter Play name" required />
+        </div>
+        <br>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    <hr>
+    <div>
+        <ul class="play_cat">
+            <li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}" ng-click="selectCategory($event)"> {{ c }}</li>
+        </ul>
+        <ul class="play_cards">
+            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }">
+                <span class="play_name" data-type="{{ p.category }}">{{ p.title }}</span>
+            </li>
+
+        </ul>
+    </div>
+
+    <!--<button type="submit" class="btn" ng-click="connect()">Connect</button>-->
 </div>

@@ -8,6 +8,170 @@ angular.module('shakespeareApp')
         return $cacheFactory('myCache');
     })
 
+    .service('modelService', function() {
+
+        var self = this;
+
+        self.categories = [
+            "all",
+            "comedy",
+            "history",
+            "tragedy"
+        ];
+
+        self.plays = [
+            {
+                title: "All's Well That Ends Well",
+                category: "comedy"
+            },
+            {
+                title: "Antony and Cleopatra",
+                category: "tragedy"
+            },
+            {
+                title: "As You Like It",
+                category: "comedy"
+            },
+            {
+                title: "Comedy of Errors",
+                category: "comedy"
+            },
+            {
+                title: "Coriolanus",
+                category: "tragedy"
+            },
+            {
+                title: "Cymbeline",
+                category: "comedy"
+            },
+            {
+                title: "Hamlet",
+                category: "tragedy"
+            },
+            {
+                title: "Henry IV, Part I",
+                category: "history"
+            },
+            {
+                title: "Henry IV, Part II",
+                category: "history"
+            },
+            {
+                title: "Henry V",
+                category: "history"
+            },
+            {
+                title: "Henry VI, Part I",
+                category: "history"
+            },
+            {
+                title: "Henry VI, Part II",
+                category: "history"
+            },
+            {
+                title: "Henry VI, Part III",
+                category: "history"
+            },
+            {
+                title: "Henry VIII",
+                category: "history"
+            },
+            {
+                title: "Julius Caesar",
+                category: "tragedy"
+            },
+            {
+                title: "King John",
+                category: "history"
+            },
+            {
+                title: "King Lear",
+                category: "tragedy"
+            },
+            {
+                title: "Love's Labour's Lost",
+                category: "comedy"
+            },
+            {
+                title: "Macbeth",
+                category: "tragedy"
+            },
+            {
+                title: "Measure for Measure",
+                category: "comedy"
+            },
+            {
+                title: "The Merchant of Venice",
+                category: "comedy"
+            },
+            {
+                title: "Merry Wives of Windsor",
+                category: "comedy"
+            },
+            {
+                title: "A Midsummer Night's Dream",
+                category: "comedy"
+            },
+            {
+                title: "Much Ado about Nothing",
+                category: "comedy"
+            },
+            {
+                title: "Othello",
+                category: "tragedy"
+            },
+            {
+                title: "Pericles",
+                category: "comedy"
+            },
+            {
+                title: "Richard II",
+                category: "history"
+            },
+            {
+                title: "Richard III",
+                category: "history"
+            },
+            {
+                title: "Romeo and Juliet",
+                category: "tragedy"
+            },
+            {
+                title: "The Taming of the Shrew",
+                category: "comedy"
+            },
+            {
+                title: "The Tempest",
+                category: "comedy"
+            },
+            {
+                title: "Timon of Athens",
+                category: "tragedy"
+            },
+            {
+                title: "Titus Andronicus",
+                category: "tragedy"
+            },
+            {
+                title: "Troilus and Cressida",
+                category: "tragedy"
+            },
+            {
+                title: "Twelfth Night",
+                category: "comedy"
+            },
+            {
+                title: "Two Gentlemen of Verona",
+                category: "comedy"
+            },
+            {
+                title: "The Winter's Tale",
+                category: "comedy"
+            }
+        ];
+
+    })
+
     // logic service is a shared service between controllers.  It's purpose is twofold.  It functions as the app's memory by storing scope variables between controllers.  If you notice,
     // the controller's first retrieve the category, search term, and various other values.  It's second purpose is to contain commonly used functions (such as capitalize, etc).
     .service('logicService', function (myCache, $rootScope, $location, $route, $templateCache) {
@@ -242,32 +406,32 @@ angular.module('shakespeareApp')
 
         var self = this;
 
-        // These variables wire the values from the logic service to the API service.
-        self.category = logicService.lowerCaseThis(logicService.category);
-        self.search_term = logicService.search_term;
+        // self.getItem = function(callback, err) {
+        //     $http.jsonp('https://us.api.battle.net/wow/character/' + this.selectedRealm + '/' + this.name +  '?jsonp=JSON_CALLBACK',  {cache: true, params: {  locale: keys.region, apikey: keys.privateKey, fields: "items" } } )
+        //         .then(callback,err);
+        // };
+
 
         // This is the wrapper for the API call when selected from the category from the home page.
         this.getData = function (callback, err) {
-            // This increments the API count which in return sets the spinner to true if not already.
-            if (logicService.incrementApiCount()) {
-                // console.log('succesfully increased API count.');
-                // console.log('API total is now at ' + logicService.getApiCount() );
-            }
-            $http.get('https://swapi.co/api/' + self.category + '/?search=' + self.search_term)
+            $http.get('https://labs.jstor.org/api/shakespeare?facet=play', {
+                cache: true,
+                headers: {"Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjI1OTAxNTcsInVzZXJuYW1lIjoiZ3JpbWFsIn0.VZFKQ24YsiIydk5PsjYoYK72iso5SBEt4_PgQKO9I8c"}
+            })
                 .then(callback, err)
-                .finally(function () {
-                        // This lowers the API count.  If it returns true then it sets the spinner to false.  True meaning the API count has reached 0.
-                        if (!logicService.decrementApiCount()) {
-                            // logicService.setSpinner(false);
-                        } else {
-                            // console.log('API count is reached zero.  Trigger spinner to stop.');
-                            // logicService.spinner = false;
-                            //  Add a timeout for setting the spinner to allow the parsing to finish before removing.
-                            $timeout(function () {
-                                logicService.setSpinner(false);
-                            }, 1000);
-                        }
-                    }
-                );
+            // .finally(function () {
+            //         // This lowers the API count.  If it returns true then it sets the spinner to false.  True meaning the API count has reached 0.
+            //         if (!logicService.decrementApiCount()) {
+            //             // logicService.setSpinner(false);
+            //         } else {
+            //             console.log('API count is reached zero.  Trigger spinner to stop.');
+            //             logicService.spinner = false;
+            //             //  Add a timeout for setting the spinner to allow the parsing to finish before removing.
+            //             $timeout(function () {
+            //                 logicService.setSpinner(false);
+            //             }, 1000);
+            //         }
+            //     }
         };
+        // };
     })
