@@ -2,7 +2,7 @@ angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
 
-    .controller('homeCtrl', function ($scope, logicService, modelService) {
+    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
 
         $scope.active_cat = -1;
 
@@ -38,6 +38,20 @@ angular.module('shakespeareApp')
                 return modelService.categories[$scope.active_cat];
             }
         };
+
+        $scope.openPlay = function(slug) {
+            console.log('opening play: ' + slug);
+            apiService.play_slug = slug;
+            apiService.getPlay(function(response){
+                logicService.setCacheItem(slug, response.data);
+                sharedService.unsafestring = response.data;
+                logicService.navTo("/play");
+                console.log(response.data);
+            }, function(err) {
+                console.log(err.status);
+            });
+
+        }
     })
 
     .controller('connectCtrl', function ($scope, logicService, apiService) {
@@ -50,21 +64,17 @@ angular.module('shakespeareApp')
             console.log(err.status);
         });
 
-        // realmService.getRealms(function(response){
-        //     // console.log('Get Realms API Call.');
-        //     setCacheStatus("realms", response.data);
-        //     // Store in local array
-        //     realmMap = response.data;
-        //     // Send broadcast to controller
-        //     $rootScope.$broadcast('realms_update');
-        //     // console.log('just sent update');
-        //     if (getCacheStatus("realms")) {
-        //         // console.log('realms are now defined.');
-        //         // console.log('realms are cached: ');
-        //     }
-        // }, function(err) {
-        //     console.log(err.status);
-        // });
+    })
+
+    .controller('playCtrl', function ($scope, logicService, apiService, sharedService) {
+        console.log('here');
+
+        // sharedService.parseString(sharedService.unsafestring);
+
+        $scope.unsafeString = sharedService.unsafestring;
+
+        // $scope.unsafeString = sharedService.parseString(sharedService.unsafestring);
+        // console.log($scope.unsafeString);
 
 
     })

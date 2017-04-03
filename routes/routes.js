@@ -13,4 +13,9 @@ calibreApp.config(function ($routeProvider) {
             templateUrl: 'templates/connect.tmpl.htm',
             controller: 'connectCtrl'
         })
+
+        .when('/play', {
+            templateUrl: 'templates/play.tmpl.htm',
+            controller: 'playCtrl'
+        })
 });

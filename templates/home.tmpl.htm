@@ -19,7 +19,7 @@
             <li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}" ng-click="selectCategory($event)"> {{ c }}</li>
         </ul>
         <ul class="play_cards">
-            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }">
+            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-click="openPlay(p.slug)">
                 <span class="play_name" data-type="{{ p.category }}">{{ p.title }}</span>
             </li>
 
@@ -28,3 +28,4 @@
 
     <!--<button type="submit" class="btn" ng-click="connect()">Connect</button>-->
 </div>
+

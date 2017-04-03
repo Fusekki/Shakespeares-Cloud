@@ -22,7 +22,8 @@ angular.module('shakespeareApp')
         self.plays = [
             {
                 title: "All's Well That Ends Well",
-                category: "comedy"
+                category: "comedy",
+                slug: "alls_well_that_ends_well"
             },
             {
                 title: "Antony and Cleopatra",
@@ -409,7 +410,15 @@ angular.module('shakespeareApp')
         // self.getItem = function(callback, err) {
         //     $http.jsonp('https://us.api.battle.net/wow/character/' + this.selectedRealm + '/' + this.name +  '?jsonp=JSON_CALLBACK',  {cache: true, params: {  locale: keys.region, apikey: keys.privateKey, fields: "items" } } )
         //         .then(callback,err);
-        // };
+        // }
+
+        this.getPlay = function (callback, err) {
+            $http.get('https://labs.jstor.org/shakespeare/' + self.play_slug, {
+                cache: true,
+                headers: {"Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjI1OTAxNTcsInVzZXJuYW1lIjoiZ3JpbWFsIn0.VZFKQ24YsiIydk5PsjYoYK72iso5SBEt4_PgQKO9I8c"}
+            })
+                .then(callback, err)
+        };
 
 
         // This is the wrapper for the API call when selected from the category from the home page.
@@ -434,4 +443,28 @@ angular.module('shakespeareApp')
             //     }
         };
         // };
+    })
+
+    .service('sharedService', function (myCache, $rootScope, $location, $route, $templateCache) {
+
+        var self = this;
+
+        var stripped_string = function(unparsed_string) {
+            // console.log(unparsed_string);
+
+            var start = unparsed_string.indexOf('<div id="header">');
+            var end = unparsed_string.indexOf('<div id="separator">');
+
+            return unparsed_string.slice(start, end);
+        };
+
+        // Public variables
+
+        return {
+
+            parseString: function(unparsed_string) {
+                return stripped_string(unparsed_string);
+            }
+
+        };
     })
