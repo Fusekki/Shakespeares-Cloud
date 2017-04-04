@@ -58,3 +58,11 @@ body {
     position: relative;
     top: 40%;
 }
+
+/*Play Template*/
+
+.play_title,
+.play_author,
+.play_edition {
+    text-align: center;
+}

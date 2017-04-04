@@ -39,17 +39,32 @@ angular.module('shakespeareApp')
             }
         };
 
+        // $scope.openPlay = function(slug) {
+        //     console.log('opening play: ' + slug);
+        //     apiService.play_slug = slug;
+        //     apiService.getPlay(function(response){
+        //         logicService.setCacheItem(slug, response.data);
+        //         sharedService.unsafestring = response.data;
+        //         logicService.navTo("/play");
+        //         console.log(response.data);
+        //     }, function(err) {
+        //         console.log(err.status);
+        //     });
+        //
+        // }
+
         $scope.openPlay = function(slug) {
-            console.log('opening play: ' + slug);
-            apiService.play_slug = slug;
-            apiService.getPlay(function(response){
-                logicService.setCacheItem(slug, response.data);
-                sharedService.unsafestring = response.data;
-                logicService.navTo("/play");
-                console.log(response.data);
-            }, function(err) {
-                console.log(err.status);
-            });
+            // console.log('opening play: ' + slug);
+            // apiService.play_slug = slug;
+            // apiService.getPlay(function(response){
+            //     logicService.setCacheItem(slug, response.data);
+            //     sharedService.unsafestring = response.data;
+            //     logicService.navTo("/play");
+            //     console.log(response.data);
+            // }, function(err) {
+            //     console.log(err.status);
+            // });
+            logicService.navTo("/play");
 
         }
     })
@@ -73,8 +88,34 @@ angular.module('shakespeareApp')
 
         $scope.unsafeString = sharedService.unsafestring;
 
+        apiService.getXML(function(response){
+            $scope.play = response.data.play;
+            console.log(response.data.play);
+        }, function(err) {
+            console.log(err.status);
+        });
+
         // $scope.unsafeString = sharedService.parseString(sharedService.unsafestring);
         // console.log($scope.unsafeString);
+        //
+        // function loadXMLDoc(dname) {
+        //     // if (window.XMLHttpRequest) {
+        //     //     console.log('here');
+        //     //     xhttp=new XMLHttpRequest();
+        //     // }
+        //     // else {
+        //     //     xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        //     // }
+        //     xhttp=new XMLHttpRequest();
+        //     xhttp.open("GET",dname,false);
+        //     xhttp.send();
+        //     return xhttp.responseXML;
+        // }
+
+        //
+        // var xmlDoc = loadXMLDoc("assets/plays/F-aww.xml");
+        // var x2js = new X2JS();
+        // var jsonObj = x2js.xml2json(xmlDoc);
 
 
     })

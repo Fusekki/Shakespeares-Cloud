@@ -442,6 +442,22 @@ angular.module('shakespeareApp')
             //         }
             //     }
         };
+
+        this.getXML = function (callback, err) {
+            $http.get("assets/plays/alls_well_that_ends_well_FF.xml",
+                {
+                    transformResponse: function (cnv) {
+                        var x2js = new X2JS();
+                        var aftCnv = x2js.xml_str2json(cnv);
+                        return aftCnv;
+                    }
+                })
+                .then(callback, err)
+/*                .success(function (response) {
+                    $scope.details = response.urlset.url;
+                    console.log(response);
+                });*/
+        };
         // };
     })
 
@@ -468,3 +484,24 @@ angular.module('shakespeareApp')
 
         };
     })
+
+
+    .service('xmlService', function (x2js) {
+        var xmlDoc = x2js.json2xml(
+            {
+                MyRoot : {
+                    MyChild : 'my_child_value',
+                    MyAnotherChild: 10,
+                    MyArray : [ 'test', 'test2' ],
+                    MyArrayRecords : [
+                        {
+                            ttt : 'vvvv'
+                        },
+                        {
+                            ttt : 'vvvv2'
+                        }
+                    ]
+                }
+            }
+        );
+    });
