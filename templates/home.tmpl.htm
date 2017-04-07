@@ -20,6 +20,7 @@
         </ul>
         <ul class="play_cards">
             <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-click="openPlay(p.slug)">
+                <img src="assets/img/{{ p.img }}" />
                 <span class="play_name" data-type="{{ p.category }}">{{ p.title }}</span>
             </li>
 

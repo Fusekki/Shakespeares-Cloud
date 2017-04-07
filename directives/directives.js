@@ -11,6 +11,17 @@ angular.module('shakespeareApp')
         // };
     })
 
+
+    // .directive("playwright", function() {
+    //
+    //     return {
+    //         template: "<h2><div ng-transclude></div></h2>"
+    //     };
+    // })
+
+
+
+
     .directive('bindUnsafeHtml', ['$compile',
         function($compile) {
             return function(scope, element, attrs) {
@@ -33,4 +44,4 @@ angular.module('shakespeareApp')
                 );
             };
         }
-    ]);
+    ])

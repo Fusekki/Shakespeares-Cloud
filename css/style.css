@@ -48,21 +48,97 @@ body {
     height: 100px;
     margin: 0 auto;
     line-height: 10px;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 10px;
     text-align: center;
 }
 
+.play_cards img {
+    width: 100%;
+}
+
 .play_name {
     position: relative;
-    top: 40%;
+    top: -60%;
 }
 
 /*Play Template*/
 
-.play_title,
-.play_author,
-.play_edition {
+/*.play_title,*/
+/*.play_author,*/
+/*.play_edition {*/
+    /*text-align: center;*/
+/*}*/
+
+.play_container {
+    background: #e1dac8;
+}
+
+.play {
+    padding-left: 15px;
+    padding-right: 15px;
+    /*font-family: 'Times New Roman';*/
+}
+
+.title {
+    font-size: 2em;
+}
+
+.playwright {
+    font-size: 1.5em;
+}
+
+.title,
+.playwright,
+.acttitle,
+.stagedir,
+.edition,
+.finis {
     text-align: center;
 }
+
+.stagedir,
+.nameref {
+    font-style: italic;
+}
+
+.speaker {
+    /*padding-left: 15px;*/
+    clear: both;
+    float: left;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 10pt;
+    line-height: 20px;
+    padding-right: 10px;
+}
+
+.line {
+    padding-left: 30px;
+}
+
+.speaker,
+.finis {
+    font-weight: bold;
+}
+
+.acttitle,
+.stagedir {
+    margin: 10px 0 10px;
+}
+
+.nameref {
+    display: inline;
+}
+
+.epilogue {
+    padding-left: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.epilogue .line {
+    padding-left: 0;
+}
+

@@ -81,19 +81,48 @@ angular.module('shakespeareApp')
 
     })
 
-    .controller('playCtrl', function ($scope, logicService, apiService, sharedService) {
+    .controller('playCtrl', function ($scope, logicService, apiService, sharedService, $sce) {
         console.log('here');
 
         // sharedService.parseString(sharedService.unsafestring);
 
-        $scope.unsafeString = sharedService.unsafestring;
+        // $scope.unsafeString = sharedService.unsafestring;
+
+        // $scope.play = function(src) {
+        //     return $sce.trustAsResourceUrl(src);
+        // }
+
 
         apiService.getXML(function(response){
-            $scope.play = response.data.play;
-            console.log(response.data.play);
+            $scope.play = response.data.toString();
+            console.log($scope.play);
+            console.log(typeof(response));
+            // $scope.play = response.data.play;
+            // console.log(response.data.play);
         }, function(err) {
             console.log(err.status);
         });
+
+        $scope.parseLine = function(line_of_text) {
+            if (typeof(line_of_text) == 'string') {
+                console.log(line_of_text);
+                console.log(line_of_text.search('%s'));
+                if (line_of_text.search('%s') !== -1) {
+                    console.log('string found');
+                    // var start = line_of_text.toString();
+                    var start = line_of_text.replace("%s", "");
+                    var finish = start.replace("%e", "").italics();
+                    var html = $(finish);
+                    console.log(html);
+                    return html;
+                } else {
+                    console.log('string is text but characters not found');
+                }
+            } else
+                console.log(typeof(line_of_text));
+
+        };
+
 
         // $scope.unsafeString = sharedService.parseString(sharedService.unsafestring);
         // console.log($scope.unsafeString);
@@ -119,3 +148,4 @@ angular.module('shakespeareApp')
 
 
     })
+

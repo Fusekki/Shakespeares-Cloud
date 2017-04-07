@@ -23,151 +23,187 @@ angular.module('shakespeareApp')
             {
                 title: "All's Well That Ends Well",
                 category: "comedy",
-                slug: "alls_well_that_ends_well"
+                img: "All_well_that_ends_well_218x218.jpg"
             },
             {
                 title: "Antony and Cleopatra",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Antony_and_Cleopatra218x218.jpg"
             },
             {
                 title: "As You Like It",
-                category: "comedy"
+                category: "comedy",
+                img: "As_You_Like_It_218x218.jpg"
             },
             {
                 title: "Comedy of Errors",
-                category: "comedy"
+                category: "comedy",
+                img: "Comedy_of_Errors218x218.jpg"
             },
             {
                 title: "Coriolanus",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Coriolanus218x218.jpg"
             },
             {
                 title: "Cymbeline",
-                category: "comedy"
+                category: "comedy",
+                img: "Cymbeline_218x218.jpg"
             },
             {
                 title: "Hamlet",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Hamlet_218x218.jpg"
             },
             {
                 title: "Henry IV, Part I",
-                category: "history"
+                category: "history",
+                img: "Henry_IV_P1218x218.jpg"
             },
             {
                 title: "Henry IV, Part II",
-                category: "history"
+                category: "history",
+                img: "Henry_IV_P2218x218.jpg"
             },
             {
                 title: "Henry V",
-                category: "history"
+                category: "history",
+                img: "Henry_V218x218.jpg"
             },
             {
                 title: "Henry VI, Part I",
-                category: "history"
+                category: "history",
+                img: "Henry_VI_P1218x218.jpg"
             },
             {
                 title: "Henry VI, Part II",
-                category: "history"
+                category: "history",
+                img: "Henry_VI_P2218x218.jpg"
             },
             {
                 title: "Henry VI, Part III",
-                category: "history"
+                category: "history",
+                img: "Henry_VI_P3218x218.jpg"
             },
             {
                 title: "Henry VIII",
-                category: "history"
+                category: "history",
+                img: "Henry_VIII_218x218.jpg"
             },
             {
                 title: "Julius Caesar",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Julius_Caesar_218x218.jpg"
             },
             {
                 title: "King John",
-                category: "history"
+                category: "history",
+                img: "King_John_218x218.jpg"
             },
             {
                 title: "King Lear",
-                category: "tragedy"
+                category: "tragedy",
+                img: "King_Lear218x218.jpg"
             },
             {
                 title: "Love's Labour's Lost",
-                category: "comedy"
+                category: "comedy",
+                img: "Loves_Labours_Lost218x218.jpg"
             },
             {
                 title: "Macbeth",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Macbeth218x218.jpg"
             },
             {
                 title: "Measure for Measure",
-                category: "comedy"
+                category: "comedy",
+                img: "Measure_for_Measure218x218.jpg"
             },
             {
                 title: "The Merchant of Venice",
-                category: "comedy"
+                category: "comedy",
+                img: "Merchant_of_Venice218x218.jpg"
             },
             {
                 title: "Merry Wives of Windsor",
-                category: "comedy"
+                category: "comedy",
+                img: "Merry_Wives_Of_Windsor218x218.jpg"
             },
             {
                 title: "A Midsummer Night's Dream",
-                category: "comedy"
+                category: "comedy",
+                img: "A_Midsummer218x218.jpg"
             },
             {
                 title: "Much Ado about Nothing",
-                category: "comedy"
+                category: "comedy",
+                img: "Much_Ado_About_Nothing218x218.jpg"
             },
             {
                 title: "Othello",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Othello_218x218.jpg"
             },
             {
                 title: "Pericles",
-                category: "comedy"
+                category: "comedy",
+                img: "Pericles218x218.jpg"
             },
             {
                 title: "Richard II",
-                category: "history"
+                category: "history",
+                img: "Richard_II218x218.jpg"
             },
             {
                 title: "Richard III",
-                category: "history"
+                category: "history",
+                img: "Richard_III218x218.jpg"
             },
             {
                 title: "Romeo and Juliet",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Romeo_and_Juliet218x218.jpg"
             },
             {
                 title: "The Taming of the Shrew",
-                category: "comedy"
+                category: "comedy",
+                img: "Taming_of_the_Shrew218x218.jpg"
             },
             {
                 title: "The Tempest",
-                category: "comedy"
+                category: "comedy",
+                img: "The_Tempest218x218.jpg"
             },
             {
                 title: "Timon of Athens",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Timon_of_Athens218x218.jpg"
             },
             {
                 title: "Titus Andronicus",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Titus_Andronicus218x218.jpg"
             },
             {
                 title: "Troilus and Cressida",
-                category: "tragedy"
+                category: "tragedy",
+                img: "Troilus_and_Cressida218x218.jpg"
             },
             {
                 title: "Twelfth Night",
-                category: "comedy"
+                category: "comedy",
+                img: "Twelfth_Night218x218.jpg"
             },
             {
                 title: "Two Gentlemen of Verona",
-                category: "comedy"
+                category: "comedy",
+                img: "Two_Gentlemen_of_Verona218x218.jpg"
             },
             {
                 title: "The Winter's Tale",
-                category: "comedy"
+                category: "comedy",
+                img: "Winters_Tale218x218.jpg"
             }
         ];
 
@@ -444,13 +480,17 @@ angular.module('shakespeareApp')
         };
 
         this.getXML = function (callback, err) {
-            $http.get("assets/plays/alls_well_that_ends_well_FF.xml",
+            $http.get("assets/plays/alls_well_that_ends_well_FF_str.html",
                 {
-                    transformResponse: function (cnv) {
-                        var x2js = new X2JS();
-                        var aftCnv = x2js.xml_str2json(cnv);
-                        return aftCnv;
-                    }
+                    // transformResponse: function (cnv) {
+                    //     var x2js = new X2JS();
+                    //     // Convert XML to JSON
+                    //     // var aftCnv = x2js.xml_str2json(cnv);
+                    //     // Convert XML to String
+                    //     var aftCnv = x2js.json2xml_str(cnv);
+                    //     return aftCnv;
+                    // }
+
                 })
                 .then(callback, err)
 /*                .success(function (response) {
