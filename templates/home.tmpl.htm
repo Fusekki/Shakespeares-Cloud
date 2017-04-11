@@ -16,17 +16,16 @@
     <hr>
     <div>
         <ul class="play_cat">
-            <li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}" ng-click="selectCategory($event)"> {{ c }}</li>
+            <li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}"  ng-click="selectCategory($event)"> {{ c }}</li>
         </ul>
         <ul class="play_cards">
-            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-click="openPlay(p.slug)">
-                <img src="assets/img/{{ p.img }}" />
-                <span class="play_name" data-type="{{ p.category }}">{{ p.title }}</span>
+            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-click="openPlay(p.file)" ng-class="getCategory(p.category)" datatorder="$index">
+                <img ng-src="assets/img/{{ p.img }}"  />
+                <div class="img_underlay"></div>
+                <div class="play_name" data-type="{{ p.category }}">{{ p.title }}</div>
             </li>
 
         </ul>
     </div>
-
-    <!--<button type="submit" class="btn" ng-click="connect()">Connect</button>-->
 </div>
 

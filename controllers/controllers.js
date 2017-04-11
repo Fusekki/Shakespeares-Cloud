@@ -22,7 +22,10 @@ angular.module('shakespeareApp')
         };
 
         $scope.selectCategory = function(e) {
+            var str = e.target.innerText.toLowerCase();
+            console.log(str);
             var el = e.target;
+            console.log(el);
             // First fine the previously active li and remove active class
             var prev = $(".active", ".play_cat");
             $(prev).removeClass('active');
@@ -39,33 +42,35 @@ angular.module('shakespeareApp')
             }
         };
 
-        // $scope.openPlay = function(slug) {
-        //     console.log('opening play: ' + slug);
-        //     apiService.play_slug = slug;
-        //     apiService.getPlay(function(response){
-        //         logicService.setCacheItem(slug, response.data);
-        //         sharedService.unsafestring = response.data;
-        //         logicService.navTo("/play");
-        //         console.log(response.data);
-        //     }, function(err) {
-        //         console.log(err.status);
-        //     });
-        //
-        // }
-
-        $scope.openPlay = function(slug) {
-            // console.log('opening play: ' + slug);
-            // apiService.play_slug = slug;
-            // apiService.getPlay(function(response){
-            //     logicService.setCacheItem(slug, response.data);
-            //     sharedService.unsafestring = response.data;
-            //     logicService.navTo("/play");
-            //     console.log(response.data);
-            // }, function(err) {
-            //     console.log(err.status);
-            // });
+        $scope.openPlay = function(file) {
+            sharedService.filename = 'assets/plays/' + file;
+            // console.log(file);
             logicService.navTo("/play");
 
+        }
+
+        $scope.getCategory = function(category) {
+            switch(category) {
+                case 'comedy':
+                    return '';
+                case 'tragedy':
+                    return '';
+                case 'history':
+                    return '';
+            }
+
+        }
+
+        $scope.applyFilter = function(index) {
+            switch (index) {
+                case 1:
+                    return "all"
+                case 2:
+                    return 'shit';
+                case 3:
+                    return 'fuck';
+
+            }
         }
     })
 
@@ -95,8 +100,8 @@ angular.module('shakespeareApp')
 
         apiService.getXML(function(response){
             $scope.play = response.data.toString();
-            console.log($scope.play);
-            console.log(typeof(response));
+            // console.log($scope.play);
+            // console.log(typeof(response));
             // $scope.play = response.data.play;
             // console.log(response.data.play);
         }, function(err) {

@@ -58,9 +58,23 @@ body {
     width: 100%;
 }
 
+
+.play_cards li:hover .img_underlay {
+   opacity: 0.5;
+}
 .play_name {
     position: relative;
-    top: -60%;
+    top: -160%;
+}
+
+.img_underlay {
+    position: relative;
+    top: -100%;
+    /*width: 100%;*/
+    height: 100%;
+    background: hsl(0, 0%, 0%);
+    opacity: 0;
+    transition: opacity .25s;
 }
 
 /*Play Template*/
@@ -112,6 +126,7 @@ body {
     font-size: 10pt;
     line-height: 20px;
     padding-right: 10px;
+    /*width: 75px;*/
 }
 
 .line {
