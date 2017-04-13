@@ -2,96 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fdt-poem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fdt.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/1H4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/1H6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/2H4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/2H6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/3H6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/AWW.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/AYL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Ado.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Ant.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Cor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Cym.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Err.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-ado.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-aww.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-ayl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-cor (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-cor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-err.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-jc (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-jc (2).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-jc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-jn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-lll.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-mac.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-mm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-mnd (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-mnd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-mv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-rom (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-rom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-shr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tem.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tgv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tim (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tim.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tit (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tro (1).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-tro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-wiv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/F-wt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/H5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/H8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Ham.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/JC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Jn.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/LLL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Lr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Luc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/MM.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/MND.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/MV.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Mac.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Oth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Per.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/PhT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/R2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/R3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Rom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Shr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Son.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/TGV.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/TN.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/TNK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Tim.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Tit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Tmp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Tro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Ven.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/WT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/Wiv.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_mod.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/fdt-poem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/fdt.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/fdt.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/fdtpoems.xsl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directives.js" afterPath="$PROJECT_DIR$/directives/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/services.js" afterPath="$PROJECT_DIR$/services/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.tmpl.htm" afterPath="$PROJECT_DIR$/templates/home.tmpl.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/alls_well_that_ends_well_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/alls_well_that_ends_well_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/antony_cleopatra_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/antony_cleopatra_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/as_you_like_it_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/as_you_like_it_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/comedy_of_errors_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/comedy_of_errors_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/coriolanus_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/coriolanus_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/cymbeline_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/cymbeline_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/edward_iii_Q1.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/edward_iii_Q1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/hamlet_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/hamlet_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_iv_pt1_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_iv_pt1_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_iv_pt2_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_iv_pt2_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_v_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_v_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_vi_pt1_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_vi_pt1_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_vi_pt2_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_vi_pt2_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_vi_pt3_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_vi_pt3_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/henry_viii_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/henry_viii_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/julius_caesar_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/julius_caesar_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/king_john_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/king_john_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/king_lear_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/king_lear_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/king_richard_ii_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/king_richard_ii_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/loves_labours_lost_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/loves_labours_lost_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/macbeth_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/macbeth_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/measure_for_measure_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/measure_for_measure_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/merchant_of_venice_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/merchant_of_venice_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/merry_wives_of_windsor_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/merry_wives_of_windsor_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/midsummer_nights_dream_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/midsummer_nights_dream_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/much_ado_about_nothing_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/much_ado_about_nothing_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/othello_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/othello_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/pericles_F3.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/pericles_F3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/richard_iii_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/richard_iii_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/romeo_and_juliet_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/romeo_and_juliet_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/sonnets_Q1.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/sonnets_Q1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/taming_of_the_shrew_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/taming_of_the_shrew_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/tempest_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/tempest_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/timon_of_athens_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/timon_of_athens_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/titus_andronicus_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/titus_andronicus_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/troilus_cressida_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/troilus_cressida_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/twelfth_night_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/twelfth_night_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/two_gentlemen_of_verona_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/two_gentlemen_of_verona_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/git/plays_xml/winters_tale_FF.xml" afterPath="$PROJECT_DIR$/grunt/plays_xml/winters_tale_FF.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,8 +66,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="1083">
+              <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +76,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -129,19 +86,21 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="1785">
+              <caret line="246" column="24" lean-forward="false" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.tmpl.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="134" lean-forward="false" selection-start-line="19" selection-start-column="134" selection-end-line="19" selection-end-column="134" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +108,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="629">
+              <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -159,28 +118,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixitup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="409" column="6" lean-forward="true" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/directives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -189,18 +128,18 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <file leaf-file-name="directives.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/directives/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,10 +156,13 @@
       <find>src=&quot;vendor/img/</find>
       <find>stage</find>
       <find>act</find>
+      <find>container</find>
+      <find>.container</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
       <replace>src=&quot;assets/img/</replace>
+      <replace>.play_cards</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -233,21 +175,23 @@
         <option value="$PROJECT_DIR$/vendor/plays/AWW.html" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/directives/directives.js" />
-        <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.html" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
+        <option value="$PROJECT_DIR$/dev/mixitup/index.htm" />
+        <option value="$PROJECT_DIR$/dev/mixitup/style.css" />
+        <option value="$PROJECT_DIR$/services/services.js" />
+        <option value="$PROJECT_DIR$/services/services.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
+        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/services/services.js" />
-        <option value="$PROJECT_DIR$/services/services.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
-        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
+        <option value="$PROJECT_DIR$/directives/directives.js" />
+        <option value="$PROJECT_DIR$/directives/directives.js" />
       </list>
     </option>
   </component>
@@ -279,6 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,118 +234,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x2js-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml2json.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x2js-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mixitup-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mixitup-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mixitup.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,6 +289,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="grunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -483,28 +331,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,6 +362,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shakespeare/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shakespeare/dev/mixitup/index.htm">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -598,14 +433,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -635,23 +472,25 @@
       <workItem from="1491667695049" duration="997000" />
       <workItem from="1491756312345" duration="167000" />
       <workItem from="1491924425932" duration="8614000" />
+      <workItem from="1492014729422" duration="11383000" />
+      <workItem from="1492095813749" duration="8849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65853000" />
+    <option name="totallyTimeSpent" value="86085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,34 +508,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -755,7 +572,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -825,7 +644,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -931,21 +752,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/plays/AWW.html" />
-    <entry file="file://$PROJECT_DIR$/assets/plays/F-aww.xml">
+    <entry file="file://$PROJECT_DIR$/assets/plays/F-aww.xml" />
+    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.xml" />
+    <entry file="file://$PROJECT_DIR$/assets/img/All_well_that_ends_well_218x218.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/x2js-master/xml2json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/All_well_that_ends_well_218x218.jpg">
+    <entry file="file://$PROJECT_DIR$/assets/img/1H4titleblack.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -958,95 +780,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.html">
+    <entry file="file://$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="7201" column="30" lean-forward="false" selection-start-line="7201" selection-start-column="30" selection-end-line="7201" selection-end-column="30" />
+        <state relative-caret-position="6936">
+          <caret line="408" column="40" lean-forward="false" selection-start-line="408" selection-start-column="40" selection-end-line="408" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directives.js">
+    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/tests/lib/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="17">
+          <caret line="1" column="593" lean-forward="false" selection-start-line="1" selection-start-column="593" selection-end-line="1" selection-end-column="593" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+    <entry file="file://$PROJECT_DIR$/dev/mixitup/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/x2js-master/xml2json.js">
+    <entry file="file://$PROJECT_DIR$/dev/mixitup/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/1H4titleblack.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="765">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="409" column="6" lean-forward="true" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="6" />
+        <state relative-caret-position="1785">
+          <caret line="246" column="24" lean-forward="false" selection-start-line="246" selection-start-column="24" selection-end-line="246" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="629">
+          <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="134" lean-forward="false" selection-start-line="19" selection-start-column="134" selection-end-line="19" selection-end-column="134" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

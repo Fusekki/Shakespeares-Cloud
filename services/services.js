@@ -13,7 +13,6 @@ angular.module('shakespeareApp')
         var self = this;
 
         self.categories = [
-            "all",
             "comedy",
             "history",
             "tragedy"
@@ -244,6 +243,14 @@ angular.module('shakespeareApp')
             }
         ];
 
+        self.searchModel = function (value) {
+            for (var key in self.plays) {
+                if (self.plays[key].title === value) {
+                    return self.plays[key].file;
+                }
+            }
+        };
+
     })
 
     // logic service is a shared service between controllers.  It's purpose is twofold.  It functions as the app's memory by storing scope variables between controllers.  If you notice,
@@ -296,6 +303,7 @@ angular.module('shakespeareApp')
         var getCacheItem = function (item) {
             return myCache.get(item);
         };
+
 
         // function to set a cache item.
         var setCacheItem = function (cache, items) {

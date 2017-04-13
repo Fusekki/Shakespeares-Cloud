@@ -15,16 +15,36 @@
     </form>
     <hr>
     <div>
-        <ul class="play_cat">
-            <li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}"  ng-click="selectCategory($event)"> {{ c }}</li>
-        </ul>
+        <div class="play_cat">
+        <!--<div class="controls">-->
+            <!--<li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}"  ng-click="selectCategory($event)"> {{ c }}</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter="all">All</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-1">Comedies</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-2">Histories</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-3">Tragedies</li>-->
+            <button type="button" class="filter" data-filter="all">All</button>
+            <!--<button type="button" class="filter" ng-repeat="c in getCategories()" >{{ c }}</button>-->
+
+            <button type="button" class="filter" data-filter=".category-1">Comedies</button>
+            <button type="button" class="filter" data-filter=".category-2">Histories</button>
+            <button type="button" class="filter" data-filter=".category-3">Tragedies</button>
+        </div>
+    </div>
         <ul class="play_cards">
-            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-click="openPlay(p.file)" ng-class="getCategory(p.category)" datatorder="$index">
-                <img ng-src="assets/img/{{ p.img }}"  />
+            <!--<li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="getClass(p.category)" ng-click="openPlay(p.file)"   data-myorder="{{ $index }}">-->
+            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="{ 'mix category-1': p.category == 'comedy', 'mix category-2' : p.category == 'history', 'mix category-3' : p.category == 'tragedy' }" ng-click="openPlay(p.file)"   data-myorder="{{ $index }}" style="display: inline-block;">
+
+            <img ng-src="assets/img/{{ p.img }}"  />
                 <div class="img_underlay"></div>
                 <div class="play_name" data-type="{{ p.category }}">{{ p.title }}</div>
             </li>
 
+            <!--Need to write code to add the number of gap divs based on max columns - 2-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
         </ul>
     </div>
 </div>

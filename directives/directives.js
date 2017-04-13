@@ -3,25 +3,6 @@
 angular.module('shakespeareApp')
 
 
-    .directive("resultsObject", function() {
-
-        // return {
-        //     template: '<ng-include src="getTemplateUrl()"/>',
-        //     replace: true
-        // };
-    })
-
-
-    // .directive("playwright", function() {
-    //
-    //     return {
-    //         template: "<h2><div ng-transclude></div></h2>"
-    //     };
-    // })
-
-
-
-
     .directive('bindUnsafeHtml', ['$compile',
         function($compile) {
             return function(scope, element, attrs) {
