@@ -1,27 +1,32 @@
-
-<div class="col-xs-offset-1 col-xs-10">
+<div class="col-xs-offset-1 col-xs-10 hero_form">
         <span class="indent">
-            <h4 class="title">Welcome to Shakespeare App</span></h4>
+            <!--<h4 class="title">Shakespeare's Cloud</span></h4>-->
             <!--<h5 class="animated fadeIn subtitle"><i>powered by the Angular framework</i></h5>-->
         </span>
 
     <form ng-submit="submit()"">
         <div class="form-group">
-            <label for="srch">Search the plays</label>
+            <!--<label for="srch">Search plays</label>-->
+            <span class="form_container">
             <input type="text" ng-model="search_term" autocomplete="off" uib-typeahead="item.title for item in getPlays() | filter:$viewValue" class="form-control" id="srch" placeholder="Enter Play name" required />
+            <button type="submit" class="btn">Go</button>
+            </span>
         </div>
-        <br>
-        <button type="submit" class="btn">Submit</button>
+
     </form>
-    <hr>
-    <div>
+    <hr class="hr_top">
+    <div class="hero_container">
+        <span class="hero_summary">Digital texts of the first folio provided by <span>PlayShakespeare.com</span></span>
+
+        <!--<div class="header_filter">Browse</div>-->
         <div class="play_cat">
-        <!--<div class="controls">-->
+            <!--<div class="controls">-->
             <!--<li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}"  ng-click="selectCategory($event)"> {{ c }}</li>-->
             <!--<li class="filter" ng-click="selectCategory($event)" data-filter="all">All</li>-->
             <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-1">Comedies</li>-->
             <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-2">Histories</li>-->
             <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-3">Tragedies</li>-->
+            <span>Browse</span>
             <button type="button" class="filter" data-filter="all">All</button>
             <!--<button type="button" class="filter" ng-repeat="c in getCategories()" >{{ c }}</button>-->
 
@@ -48,4 +53,5 @@
         </ul>
     </div>
 </div>
+<img src="img/header.jpg" class="img-responsive hero_img"  />
 
