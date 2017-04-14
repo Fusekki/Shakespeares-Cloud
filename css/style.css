@@ -236,6 +236,24 @@ navbar-default .navbar-nav>li>a {
     color: #2c2a47;
 }
 
+.play_cards li:nth-of-type(3):hover,
+.play_cards li:nth-of-type(7):hover,
+.play_cards li:nth-of-type(9):hover,
+.play_cards li:nth-of-type(12):hover,
+.play_cards li:nth-of-type(17):hover,
+.play_cards li:nth-of-type(19):hover,
+.play_cards li:nth-of-type(21):hover,
+.play_cards li:nth-of-type(22):hover,
+.play_cards li:nth-of-type(23):hover,
+.play_cards li:nth-of-type(24):hover,
+.play_cards li:nth-of-type(25):hover,
+.play_cards li:nth-of-type(26):hover,
+.play_cards li:nth-of-type(33):hover,
+.play_cards li:nth-of-type(35):hover,
+.play_cards li:nth-of-type(36):hover {
+    color: white;
+}
+
 .play_cards .mix {
     display: none;
     float: none;
@@ -467,6 +485,10 @@ navbar-default .navbar-nav>li>a {
 
     .hero_img {
         top: 51px;
+    }
+
+    .play_cat span {
+        color: #e1dac8;
     }
     .play_cards {
         max-width: 1000px;
