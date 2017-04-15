@@ -53,13 +53,16 @@ navbar-default .navbar-nav>li>a {
 }
 
 .navbar-default .navbar-brand {
+    font-family: 'Kaushan Script', cursive;
     color: #e1dac8;
+    font-size: 20px;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #474231;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
     color: #474231;
 
 }
@@ -93,7 +96,7 @@ navbar-default .navbar-nav>li>a {
 
 }
 
-.hero_summary span {
+.hero_summary a {
     color: red;
 }
 
@@ -485,6 +488,10 @@ navbar-default .navbar-nav>li>a {
 
     .hero_img {
         top: 51px;
+    }
+
+    .navbar-default .navbar-nav>li>a{
+        color: #e1dac8;
     }
 
     .play_cat span {
