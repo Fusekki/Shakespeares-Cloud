@@ -37,7 +37,7 @@
     </div>
         <ul class="play_cards">
             <!--<li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="getClass(p.category)" ng-click="openPlay(p.file)"   data-myorder="{{ $index }}">-->
-            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="{ 'mix category-1': p.category == 'comedy', 'mix category-2' : p.category == 'history', 'mix category-3' : p.category == 'tragedy' }" ng-click="openPlay(p.file)"   data-myorder="{{ $index }}" style="display: inline-block;">
+            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="{ 'mix category-1': p.category == 'comedy', 'mix category-2' : p.category == 'history', 'mix category-3' : p.category == 'tragedy' }" ng-click="openPlay(p.file, p.title)" data-myorder="{{ $index }}" style="display: inline-block;">
 
             <img ng-src="assets/img/{{ p.img }}"  />
                 <div class="img_underlay"></div>

@@ -1,21 +1,36 @@
-<!--<div class="play_header">-->
+
+<div class="play_nav">
+    <span>    {{ title }} </span>
+    <span> - Act
+        <input type="text" class="jump" id="act" />
+        Scene
+        <input type="text" class="jump" id="scene" />
+    </span>
+    <a scroll-to="a2">Act 2 </a>
+</div>
+
+
+<div class="play_container" ng-bind-html="play | unsafe" >
+    <!--<div after-render="createIndex"></div>-->
+    <!--<div class="play_header">-->
     <!--<h1 class="play_title">{{ play.title._short }}</h1>-->
     <!--<h2 class="play_author"> by {{ play.playwright}}</h2>-->
     <!--<h3 class="play_edition"> {{ play.edition }}</h3>-->
-<!--</div>-->
-<!--<div class="play_body">-->
+    <!--</div>-->
+    <!--<div class="play_body">-->
     <!--<div class="act_header" ng-repeat="act in play.act"> {{ act.acttitle }}-->
-        <!--<div ng-repeat="l in act.scene.speech">-->
-            <!--<div ng-repeat="s in l"> {{ parseLine(s) }}-->
-            <!--</div>-->
-            <!--&lt;!&ndash;<div ng-repeat="s in stagedir">{{ s }}</div>&ndash;&gt;-->
-        <!--</div>-->
+    <!--<div ng-repeat="l in act.scene.speech">-->
+    <!--<div ng-repeat="s in l"> {{ parseLine(s) }}-->
+    <!--</div>-->
+    <!--&lt;!&ndash;<div ng-repeat="s in stagedir">{{ s }}</div>&ndash;&gt;-->
+    <!--</div>-->
 
     <!--</div>-->
 
-<!--</div>-->
+    <!--</div>-->
 
-<div class="play_container" ng-bind-html="play | unsafe"></div>
+</div>
+
 
 
 

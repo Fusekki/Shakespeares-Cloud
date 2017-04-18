@@ -85,6 +85,8 @@ navbar-default .navbar-nav>li>a {
     margin-top: 6em;
 }
 
+/*Home template*/
+
 
 .hero_container {
     margin-top: 30px;
@@ -286,9 +288,37 @@ navbar-default .navbar-nav>li>a {
     transition: opacity .25s;
 }
 
+/*End Home Template*/
+
+/*play template*/
+.play_nav {
+    width: 100%;
+    position: fixed;
+    top: 57px;
+    color: #e1dac8;
+    background: #948c75;
+    padding: 10px 0 10px;
+    text-align: center;
+}
+
+.play_nav span {
+    font-weight: bold;
+}
+
+.play_nav input {
+    color: #948c75;
+}
+
+.jump {
+    width: 20px;
+    text-align: right;
+    height: 25px;
+}
+
 .play_container {
     background: #e1dac8;
     color: #2c2a47;
+    padding-top: 3em;
 }
 
 .play {
@@ -358,6 +388,11 @@ navbar-default .navbar-nav>li>a {
 .epilogue .line {
     padding-left: 0;
 }
+
+
+
+
+/*End play template*/
 
 
 /*MEDIA QUERIES*/

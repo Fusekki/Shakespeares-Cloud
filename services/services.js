@@ -24,6 +24,7 @@ angular.module('shakespeareApp')
                 category: "comedy",
                 img: "All_well_that_ends_well_218x218.jpg",
                 file: "alls_well_that_ends_well_FF.htm"
+                // file: "alls_well_that_ends_well_FF.xml"
             },
             {
                 title: "Antony and Cleopatra",
@@ -264,14 +265,6 @@ angular.module('shakespeareApp')
 
         self.orientation = screen.orientation.angle;
 
-        var capitalize = function(word) {
-            return word.charAt(0).toUpperCase() + word.slice(1);
-        };
-
-        var lowerCase = function(word) {
-            return word.charAt(0).toLowerCase() + word.slice(1);
-        };
-
         // function to convert date from european time to local with hour and minute.
         var convertToLocal = function(some_date) {
             return new Date(some_date).toLocaleString().replace(/(.*)\D\d+/, '$1');
@@ -281,22 +274,6 @@ angular.module('shakespeareApp')
 
         var convertToLocalDate = function(some_date) {
             return new Date(some_date).toLocaleDateString();
-        };
-
-        // function to convert european weight to american standard.
-        var convertToLbs = function (mass) {
-            var approx = mass/0.45359237;
-            var lbs = Math.floor(approx);
-            var oz = Math.floor((approx - lbs) * 16);
-            return lbs + " lbs " + oz +  " oz";
-        };
-
-        // function to convert meters to feet and inches
-        var convertToFeet = function (height) {
-            var actualFeet = ((height * 0.393700) / 12);
-            var feet = Math.floor(actualFeet);
-            var inches = Math.round((actualFeet - feet) * 12);
-            return feet + "'" + inches + '"';
         };
 
         // function to get a cache item.
@@ -399,38 +376,7 @@ angular.module('shakespeareApp')
                 spinner = activate;
             },
 
-            // returns the api count.  this is used to track the number of subsequent API calls needed to be made from the original JSON object.  Remember, the JOSN returned containes URLs for
-            // some fields
-            getApiCount: function() {
-                return api_count;
-            },
 
-            // Sets the API count.
-            // We ate going to use this variable to store the number of api calls.
-
-            setApiCount: function(num) {
-                api_count = num;
-                return true;
-            },
-
-            // After each successful API call is initiated, this function is called to increase the API count.
-            incrementApiCount: function() {
-                api_count++;
-                if (api_count === 1) {
-                    spinner = true;
-                }
-                return true;
-            },
-
-            // After each successful API call is returned, this function is called to mark off an API call.
-            decrementApiCount: function() {
-                api_count--;
-                if (!api_count) {
-                    spinner = false;
-                    return false;
-                }
-                return true;
-            },
 
             // Public functions for set and get cache.
 
@@ -447,18 +393,6 @@ angular.module('shakespeareApp')
                 return categories;
             },
 
-            heightThis: function(height) {
-                return convertToFeet(height);
-            },
-
-            capitalizeThis: function(word) {
-                return capitalize(word);
-            },
-
-            lowerCaseThis: function(word) {
-                return lowerCase(word);
-            },
-
             localizeThis: function(some_date) {
                 return convertToLocal(some_date);
             },
@@ -471,16 +405,6 @@ angular.module('shakespeareApp')
                 navigateTo(url);
             },
 
-            weightThis: function(mass) {
-                return convertToLbs(mass);
-            },
-
-            checkValue: function(returnedValue) {
-                if (values_to_not_show.includes(returnedValue)) {
-                    return false;
-                }
-                return true;
-            }
         };
     })
 
@@ -489,77 +413,56 @@ angular.module('shakespeareApp')
 
         var self = this;
 
-        // self.getItem = function(callback, err) {
-        //     $http.jsonp('https://us.api.battle.net/wow/character/' + this.selectedRealm + '/' + this.name +  '?jsonp=JSON_CALLBACK',  {cache: true, params: {  locale: keys.region, apikey: keys.privateKey, fields: "items" } } )
-        //         .then(callback,err);
-        // }
-
-        this.getPlay = function (callback, err) {
-            $http.get('https://labs.jstor.org/shakespeare/' + self.play_slug, {
-                cache: true,
-                headers: {"Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjI1OTAxNTcsInVzZXJuYW1lIjoiZ3JpbWFsIn0.VZFKQ24YsiIydk5PsjYoYK72iso5SBEt4_PgQKO9I8c"}
-            })
+        this.getHTML = function (callback, err) {
+            $http.get(sharedService.filename)
                 .then(callback, err)
         };
 
-
-        // This is the wrapper for the API call when selected from the category from the home page.
-        this.getData = function (callback, err) {
-            $http.get('https://labs.jstor.org/api/shakespeare?facet=play', {
-                cache: true,
-                headers: {"Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjI1OTAxNTcsInVzZXJuYW1lIjoiZ3JpbWFsIn0.VZFKQ24YsiIydk5PsjYoYK72iso5SBEt4_PgQKO9I8c"}
-            })
-                .then(callback, err)
-            // .finally(function () {
-            //         // This lowers the API count.  If it returns true then it sets the spinner to false.  True meaning the API count has reached 0.
-            //         if (!logicService.decrementApiCount()) {
-            //             // logicService.setSpinner(false);
-            //         } else {
-            //             console.log('API count is reached zero.  Trigger spinner to stop.');
-            //             logicService.spinner = false;
-            //             //  Add a timeout for setting the spinner to allow the parsing to finish before removing.
-            //             $timeout(function () {
-            //                 logicService.setSpinner(false);
-            //             }, 1000);
-            //         }
-            //     }
-        };
-
-        this.getXML = function (callback, err) {
-            $http.get(sharedService.filename,
-                {
-                    // transformResponse: function (cnv) {
-                    //     var x2js = new X2JS();
-                    //     // Convert XML to JSON
-                    //     // var aftCnv = x2js.xml_str2json(cnv);
-                    //     // Convert XML to String
-                    //     var aftCnv = x2js.json2xml_str(cnv);
-                    //     return aftCnv;
-                    // }
-
-                })
-                .then(callback, err)
-/*                .success(function (response) {
-                    $scope.details = response.urlset.url;
-                    console.log(response);
-                });*/
-        };
+        // this.getXML = function (callback, err) {
+        //     $http.get(sharedService.filename,
+        //         {
+        //             transformResponse: function (cnv) {
+        //                 var x2js = new X2JS();
+        //                 // console.log(cnv);
+        //                 // Convert XML to JSON
+        //                 // var aftCnv = x2js.json2xml_str(cnv);
+        //                 var aftCnv = x2js.xml_str2json(cnv);
+        //                 // var aftCnv = x2js.json2xml(cnv);
+        //                 // var aftCnv = x2js.asArray(cnv);
+        //
+        //                 // Convert XML to String
+        //                 // var aftCnv = x2js.json2xml_str(cnv);
+        //                 console.log(aftCnv);
+        //                 return aftCnv;
+        //             }
+        //
+        //         })
+        //         .then(callback, err)
+        //     /*                .success(function (response) {
+        //      $scope.details = response.urlset.url;
+        //      console.log(response);
+        //      });*/
         // };
+
     })
 
-    .service('sharedService', function (myCache, $rootScope, $location, $route, $templateCache) {
+    .service('sharedService', function () {
 
         var self = this;
 
         self.filename = null;
 
-        var stripped_string = function(unparsed_string) {
-            // console.log(unparsed_string);
 
-            var start = unparsed_string.indexOf('<div id="header">');
-            var end = unparsed_string.indexOf('<div id="separator">');
+        var built_index = function(play_text) {
+             var text = play_text.data;
+            // Need to find the first act.
+            var act_index = text.IndexOf('<div class="act">');
 
-            return unparsed_string.slice(start, end);
+
+
+
+            return play_text.data;
+
         };
 
         // Public variables
@@ -568,28 +471,70 @@ angular.module('shakespeareApp')
 
             parseString: function(unparsed_string) {
                 return stripped_string(unparsed_string);
+            },
+
+            buildIndex: function(play_text) {
+                return built_index(play_text);
             }
 
         };
     })
 
+    .service('ScrollTo', ['$window', 'ngScrollToOptions', function($window, ngScrollToOptions) {
 
-    .service('xmlService', function (x2js) {
-        var xmlDoc = x2js.json2xml(
-            {
-                MyRoot : {
-                    MyChild : 'my_child_value',
-                    MyAnotherChild: 10,
-                    MyArray : [ 'test', 'test2' ],
-                    MyArrayRecords : [
-                        {
-                            ttt : 'vvvv'
-                        },
-                        {
-                            ttt : 'vvvv2'
-                        }
-                    ]
+        this.idOrName = function (idOrName, offset, focus) {//find element with the given id or name and scroll to the first element it finds
+            var document = $window.document;
+
+            if(!idOrName) {//move to top if idOrName is not provided
+                $window.scrollTo(0, 0);
+            }
+
+            if(focus === undefined) { //set default action to focus element
+                focus = true;
+            }
+
+            //check if an element can be found with id attribute
+            var el = document.getElementById(idOrName);
+            if(!el) {//check if an element can be found with name attribute if there is no such id
+                el = document.getElementsByName(idOrName);
+
+                if(el && el.length)
+                    el = el[0];
+                else
+                    el = null;
+            }
+
+            if(el) { //if an element is found, scroll to the element
+                if (focus) {
+                    el.focus();
+                }
+
+                ngScrollToOptions.handler(el, offset);
+            }
+
+            //otherwise, ignore
+        }
+
+    }])
+    .provider("ngScrollToOptions", function() {
+        this.options = {
+            handler : function(el, offset) {
+                if (offset) {
+                    var top = $(el).offset().top - offset;
+                    window.scrollTo(0, top);
+                }
+                else {
+                    el.scrollIntoView();
                 }
             }
-        );
+        };
+        this.$get = function() {
+            return this.options;
+        };
+        this.extend = function(options) {
+            this.options = angular.extend(this.options, options);
+        };
     });
+
+
+

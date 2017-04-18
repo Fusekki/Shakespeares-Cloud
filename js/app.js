@@ -27,7 +27,7 @@
     // console.log('here');
 
 
-    shakespeareApp.run(function ($rootScope, $route, $window, $location) {
+    shakespeareApp.run(function ($rootScope, $route, $window, $location, $routeParams, $anchorScroll) {
         // console.log('here');
 
         $rootScope.$on('$routeChangeStart', function (event, next, current) {
@@ -43,6 +43,11 @@
             } else if (!current) {
                 $location.path('/error');
             }
+        });
+
+        $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
+            $location.hash($routeParams.scrollTo);
+            $anchorScroll();
         });
 
 
