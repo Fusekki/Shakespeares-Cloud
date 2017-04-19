@@ -56,28 +56,22 @@ angular.module('shakespeareApp')
         $scope.title = sharedService.title;
 
 
+
         apiService.getHTML(function(response){
             // $scope.play = sharedService.buildIndex(response);
             $scope.play = response.data;
+
+            // $scope.play = [
+            //     {text : response.data } ]
             // $scope.$broadcast('LOADED');
         }, function(err) {
             console.log(err.status);
         });
 
-        // apiService.getXML(function(response){
-        //     // $scope.play = response.data.toString();
-        // }, function(err) {
-        //     console.log(err.status);
-        // });
+        $scope.myHilitor = new Hilitor("content");
 
-        $scope.createIndex = function() {
-            alert('here');
-        };
+        $scope.myHilitor.apply("highlight words");
 
-
-        // var allListElements = $( ".act" );
-
-        // console.log($('.play_container').find(allListElements));
 
 
     })
