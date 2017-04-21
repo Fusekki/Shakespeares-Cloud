@@ -14,12 +14,10 @@
 
 body {
     color: #2c2a47;
-    /*background: #948c75;*/
     background: #e1dac8;
 }
 
 .hero_img {
-    /*height: 100px;*/
     width: 100%;
     position: absolute;
     top: 56px;
@@ -69,7 +67,6 @@ navbar-default .navbar-nav>li>a {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
-    /*background: #e1dac8;*/
     color: #e1dac8;
 }
 
@@ -79,6 +76,10 @@ navbar-default .navbar-nav>li>a {
 
 .navbar-default .navbar-toggle {
     border-color: #b1b3c7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #e1dac8;
 }
 
 .margin-top {
@@ -93,7 +94,6 @@ navbar-default .navbar-nav>li>a {
     text-align: center;
 }
 .hero_summary {
-    /*font-weight: bold;*/
     font-size: 1.3em;
 
 }
@@ -104,20 +104,15 @@ navbar-default .navbar-nav>li>a {
 
 .form-control,
 .dropdown-menu {
-    /*background: #e1dac8;*/
     background: #948c75;
-    /*color: #2c2a47;*/
     color: #e1dac8;
     border: 1px solid #474231;
 
 }
 
 .btn {
-    /*background: #e1dac8;*/
     background: #474231;
-    /*color: #2c2a47;*/
     color: #e1dac8;
-    /*border: 1px solid #474231;*/
 }
 
 .hr-top {
@@ -132,9 +127,7 @@ navbar-default .navbar-nav>li>a {
 }
 
 .play_cat {
-    /*list-style: none;*/
     display: flex;
-    /*flex-wrap: wrap;*/
     padding: 0;
     margin: 10px 0 10px 0;
 }
@@ -150,11 +143,9 @@ navbar-default .navbar-nav>li>a {
 .play_cat button {
     border: 1px solid white;
     border-radius: 1em;
-    /*color: #2c2a47;*/
     color: #e1dac8;
     padding: 6px;
     text-transform: capitalize;
-    /*background: #e1dac8;*/
     background: #948c75;
 }
 
@@ -281,7 +272,6 @@ navbar-default .navbar-nav>li>a {
 .img_underlay {
     position: relative;
     top: -100%;
-    /*width: 100%;*/
     height: 100%;
     background: hsl(0, 0%, 0%);
     opacity: 0;
@@ -324,7 +314,6 @@ navbar-default .navbar-nav>li>a {
 .play {
     padding-left: 15px;
     padding-right: 15px;
-    /*font-family: 'Times New Roman';*/
 }
 
 .title {
@@ -350,7 +339,6 @@ navbar-default .navbar-nav>li>a {
 }
 
 .speaker {
-    /*padding-left: 15px;*/
     clear: both;
     float: left;
     font-style: normal;
@@ -358,7 +346,6 @@ navbar-default .navbar-nav>li>a {
     font-size: 10pt;
     line-height: 20px;
     padding-right: 10px;
-    /*width: 75px;*/
 }
 
 .line {
@@ -389,7 +376,9 @@ navbar-default .navbar-nav>li>a {
     padding-left: 0;
 }
 
-
+.myCustomStyle {
+    color: yellow;
+}
 
 
 /*End play template*/

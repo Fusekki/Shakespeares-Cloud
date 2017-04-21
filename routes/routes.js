@@ -19,11 +19,4 @@ calibreApp.config(function ($routeProvider) {
             controller: 'playCtrl'
         })
 
-        // .when('/aww', {
-        //     templateUrl: 'assets/plays/aww.html',
-        //     controller: 'playCtrl'
-        // })
-
-
-
 });

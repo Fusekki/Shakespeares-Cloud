@@ -1,51 +1,5 @@
 
-<div class="play_nav">
-    <!--&lt;!&ndash;<span>    {{ title }} </span>&ndash;&gt;-->
-    <!--&lt;!&ndash;<span> - Act&ndash;&gt;-->
-        <!--&lt;!&ndash;<input type="text" class="jump" id="act" />&ndash;&gt;-->
-        <!--&lt;!&ndash;Scene&ndash;&gt;-->
-        <!--&lt;!&ndash;<input type="text" class="jump" id="scene" />&ndash;&gt;-->
-    <!--&lt;!&ndash;</span>&ndash;&gt;-->
-    <!--&lt;!&ndash;<a scroll-to="a2">Act 2 </a>&ndash;&gt;-->
-    <!--&lt;!&ndash;<input type="text" placeholder="Search" ng-model="search.text">&ndash;&gt;-->
-
-    <!--&lt;!&ndash;<ul>&ndash;&gt;-->
-        <!--&lt;!&ndash;&lt;!&ndash; filter code &ndash;&gt;&ndash;&gt;-->
-        <!--&lt;!&ndash;<div ng-repeat="item in play | filter:search.text"&ndash;&gt;-->
-             <!--&lt;!&ndash;ng-bind-html="item.text | highlight:search.text">&ndash;&gt;-->
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-    <form method="GET" onsubmit="myHilitor.apply(hilite.value); return false;">
-        <fieldset>
-            <legend>Highlight Words</legend>
-            <label>Keywords</label><span><input type="text" size="32" name="hilite" value="search">
-                <input type="submit" value="Apply">
-                <input type="button" value="Remove" onclick="myHilitor.remove();"></span>
-        </fieldset>
-    </form>
-
-</div>
-
-
-<div class="play_container" ng-bind-html="play | unsafe" id="content" >
-    <!--<div after-render="createIndex"></div>-->
-    <!--<div class="play_header">-->
-    <!--<h1 class="play_title">{{ play.title._short }}</h1>-->
-    <!--<h2 class="play_author"> by {{ play.playwright}}</h2>-->
-    <!--<h3 class="play_edition"> {{ play.edition }}</h3>-->
-    <!--</div>-->
-    <!--<div class="play_body">-->
-    <!--<div class="act_header" ng-repeat="act in play.act"> {{ act.acttitle }}-->
-    <!--<div ng-repeat="l in act.scene.speech">-->
-    <!--<div ng-repeat="s in l"> {{ parseLine(s) }}-->
-    <!--</div>-->
-    <!--&lt;!&ndash;<div ng-repeat="s in stagedir">{{ s }}</div>&ndash;&gt;-->
-    <!--</div>-->
-
-    <!--</div>-->
-
-    <!--</div>-->
-
+<div class="play_container" ng-bind-html="play | unsafe" >
 </div>
 
 

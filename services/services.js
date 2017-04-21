@@ -24,7 +24,6 @@ angular.module('shakespeareApp')
                 category: "comedy",
                 img: "All_well_that_ends_well_218x218.jpg",
                 file: "alls_well_that_ends_well_FF.htm"
-                // file: "alls_well_that_ends_well_FF.xml"
             },
             {
                 title: "Antony and Cleopatra",
@@ -409,40 +408,12 @@ angular.module('shakespeareApp')
     })
 
     .service('apiService', function($http, logicService, sharedService) {
-
-
         var self = this;
 
         this.getHTML = function (callback, err) {
             $http.get(sharedService.filename)
                 .then(callback, err)
         };
-
-        // this.getXML = function (callback, err) {
-        //     $http.get(sharedService.filename,
-        //         {
-        //             transformResponse: function (cnv) {
-        //                 var x2js = new X2JS();
-        //                 // console.log(cnv);
-        //                 // Convert XML to JSON
-        //                 // var aftCnv = x2js.json2xml_str(cnv);
-        //                 var aftCnv = x2js.xml_str2json(cnv);
-        //                 // var aftCnv = x2js.json2xml(cnv);
-        //                 // var aftCnv = x2js.asArray(cnv);
-        //
-        //                 // Convert XML to String
-        //                 // var aftCnv = x2js.json2xml_str(cnv);
-        //                 console.log(aftCnv);
-        //                 return aftCnv;
-        //             }
-        //
-        //         })
-        //         .then(callback, err)
-        //     /*                .success(function (response) {
-        //      $scope.details = response.urlset.url;
-        //      console.log(response);
-        //      });*/
-        // };
 
     })
 
@@ -452,89 +423,6 @@ angular.module('shakespeareApp')
 
         self.filename = null;
 
-
-        var built_index = function(play_text) {
-             var text = play_text.data;
-            // Need to find the first act.
-            var act_index = text.IndexOf('<div class="act">');
-
-
-
-
-            return play_text.data;
-
-        };
-
-        // Public variables
-
-        return {
-
-            parseString: function(unparsed_string) {
-                return stripped_string(unparsed_string);
-            },
-
-            buildIndex: function(play_text) {
-                return built_index(play_text);
-            }
-
-        };
     })
-
-    .service('ScrollTo', ['$window', 'ngScrollToOptions', function($window, ngScrollToOptions) {
-
-        this.idOrName = function (idOrName, offset, focus) {//find element with the given id or name and scroll to the first element it finds
-            var document = $window.document;
-
-            if(!idOrName) {//move to top if idOrName is not provided
-                $window.scrollTo(0, 0);
-            }
-
-            if(focus === undefined) { //set default action to focus element
-                focus = true;
-            }
-
-            //check if an element can be found with id attribute
-            var el = document.getElementById(idOrName);
-            if(!el) {//check if an element can be found with name attribute if there is no such id
-                el = document.getElementsByName(idOrName);
-
-                if(el && el.length)
-                    el = el[0];
-                else
-                    el = null;
-            }
-
-            if(el) { //if an element is found, scroll to the element
-                if (focus) {
-                    el.focus();
-                }
-
-                ngScrollToOptions.handler(el, offset);
-            }
-
-            //otherwise, ignore
-        }
-
-    }])
-    .provider("ngScrollToOptions", function() {
-        this.options = {
-            handler : function(el, offset) {
-                if (offset) {
-                    var top = $(el).offset().top - offset;
-                    window.scrollTo(0, top);
-                }
-                else {
-                    el.scrollIntoView();
-                }
-            }
-        };
-        this.$get = function() {
-            return this.options;
-        };
-        this.extend = function(options) {
-            this.options = angular.extend(this.options, options);
-        };
-    });
-
 
 
