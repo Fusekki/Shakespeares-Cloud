@@ -1,7 +1,7 @@
 angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
-    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
+    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService, $log) {
 
         $('.play_cards').mixItUp({
             load: {
@@ -9,14 +9,14 @@ angular.module('shakespeareApp')
             }
         });
 
-        $scope.submit = function() {
+        $scope.submit = function () {
             console.log($scope.search_term);
             var file = modelService.searchModel($scope.search_term);
             sharedService.filename = 'assets/plays/' + file;
             logicService.navTo("/play");
         };
 
-        $scope.getPlays = function() {
+        $scope.getPlays = function () {
             return modelService.plays;
         };
 
@@ -24,14 +24,30 @@ angular.module('shakespeareApp')
             return modelService.categories;
         };
 
-        $scope.openPlay = function(file, title) {
+        $scope.openPlay = function (file, title) {
             sharedService.filename = 'assets/plays/' + file;
             sharedService.title = title;
             logicService.navTo("/play");
 
         }
+        // var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+'];
+        var size = logicService.getWindowSize();
 
-    })
+
+        $scope.getGaps = function () {
+            if (size == 'lrg+') {
+                return 2;
+            }
+            else if (size == 'lrg') {
+                return 1;
+            } else
+                return 0;
+        }
+
+        $log.log($scope.getGaps());
+
+
+  })
 
     .controller('connectCtrl', function ($scope, logicService, apiService) {
 
