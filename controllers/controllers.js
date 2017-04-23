@@ -31,20 +31,22 @@ angular.module('shakespeareApp')
 
         }
         // var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+'];
-        var size = logicService.getWindowSize();
+        // var size = logicService.getWindowSize();
+        //
+        //
+        // $scope.getGaps = function () {
+        //     if (size == 'lrg+') {
+        //         return [1 , 2];
+        //     }
+        //     else if (size == 'lrg') {
+        //         return [1];
+        //     } else
+        //         return 0;
+        // }
+        //
+        // $log.log($scope.getGaps());
 
-
-        $scope.getGaps = function () {
-            if (size == 'lrg+') {
-                return 2;
-            }
-            else if (size == 'lrg') {
-                return 1;
-            } else
-                return 0;
-        }
-
-        $log.log($scope.getGaps());
+        // $scope.number = 2;
 
 
   })
