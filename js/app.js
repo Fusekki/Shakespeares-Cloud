@@ -23,7 +23,7 @@
     });
 
 
-    var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners']);
+    var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners', 'ngSanitize']);
     // console.log('here');
 
 
@@ -53,10 +53,18 @@
 
     });
 
+    shakespeareApp.filter('unsafe', ['$sce', function($sce){
+        return function(val) {
+            if (typeof(val) != 'string') {
+                val = val.toString();
+            }
+            return $sce.trustAsHtml(val);
+        };
+    }]);
 
-    shakespeareApp.filter('unsafe', function($sce) {
-        return $sce.trustAsHtml;
-    });
+    // shakespeareApp.filter('unsafe', function($sce) {
+    //     return $sce.trustAsHtml;
+    // });
 
 
 })();
