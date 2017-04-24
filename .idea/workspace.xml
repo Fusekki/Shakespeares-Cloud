@@ -4,560 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/services/services.js" description="&#10;    .provider(&quot;ngScrollToOptions&quot;, function() {&#10; ..." line="426" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/1H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/1H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/2H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/2H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/3H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Anttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/H8titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/LLLtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Luctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/PhTtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Sontitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Two_Noble_Kinsmen_218x218.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/Ventitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/adotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/awwtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ayltitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/cortitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/errtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-emend-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-emend-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-texta-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-texta-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-textb-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fdt-textb-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/h5titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/hamtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/jctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/jntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/lrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/mactitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/mmtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/mndtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/mvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/othtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/pertitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/r2titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/r3titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/romtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/shrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tgvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/timtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tittitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tmptitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tnktitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/tntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/trotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/wivtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/wttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/plays/edward_iii_Q1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/._html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._1H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._1H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._2H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._2H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._3H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._Anttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._Cymtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._H8titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._LLLtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._Luctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._PhTtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._Sontitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._Ventitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._adotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._awwtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._ayltitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._cortitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._errtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-emend-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-emend-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-poem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-texta-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-texta-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-textb-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt-textb-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdt.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._fdtpoems.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._h5titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._hamtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._jctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._jntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._lrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._mactitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._mmtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._mndtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._mvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._othtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._pertitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._r2titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._r3titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._romtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._shrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._tgvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._timtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._tittitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._tmptitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._tnktitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._tntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._trotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._wivtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/__MACOSX/html/._wttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/1H4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/1H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/1H6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/1H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/2H4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/2H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/2H6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/2H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/3H6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/3H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/AWW.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/AYL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Ado.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Ant.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Anttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Cor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Cym.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Cymtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Err.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/H5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/H8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/H8titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Ham.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/JC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Jn.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/LLL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/LLLtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Lr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Luc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Luctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/MM.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/MND.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/MV.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Mac.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Oth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Per.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/PhT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/PhTtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/R2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/R3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Rom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Shr.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Son.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Sontitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/TGV.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/TN.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/TNK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Tim.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Tit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Tmp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Tro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Ven.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Ventitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/WT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/Wiv.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/adotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/awwtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/ayltitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/cortitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/errtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-emend-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-emend-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-poem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-texta-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-texta-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-textb-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt-textb-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdt.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/fdtpoems.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/h5titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/hamtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/jctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/jntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/lrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/mactitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/mmtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/mndtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/mvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/othtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/pertitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/r2titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/r3titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/romtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/shrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/tgvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/timtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/tittitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/tmptitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/tnktitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/tntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/trotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/wivtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/wttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/1H4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/1H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/1H6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/1H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/2H4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/2H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/2H6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/2H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/3H6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/3H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/AWW.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/AYL.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Ado.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Anttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Cor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Cym.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Cymtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Err.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/H5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/H8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/H8titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Ham.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/JC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Jn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/LLL.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/LLLtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Lr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Luc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Luctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/MM.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/MND.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/MV.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Mac.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Oth.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Per.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/PhT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/PhTtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/R2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/R3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Rom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Shr.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Son.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Sontitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/TGV.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/TN.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/TNK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Tim.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Tit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Tmp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Tro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Ven.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Ventitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/WT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/Wiv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/adotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/awwtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/ayltitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/cortitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/errtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-emend-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-emend-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-poem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-texta-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-texta-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-textb-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt-textb-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdt.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/fdtpoems.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/h5titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/hamtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/jctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/jntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/lrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/mactitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/mmtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/mndtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/mvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/othtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/pertitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/r2titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/r3titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/romtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/shrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/tgvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/timtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/tittitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/tmptitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/tnktitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/tntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/trotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/wivtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/FolgerDigitalTexts_XML_Complete/wttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/._FolgerDigitalTexts_XML_Complete" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._1H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._1H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._2H4titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._2H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._3H6titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._Anttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._Cymtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._H8titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._LLLtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._Luctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._PhTtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._Sontitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._Ventitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._adotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._awwtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._ayltitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._cortitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._errtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-emend-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-emend-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-poem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-texta-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-texta-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-textb-l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt-textb-r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdt.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._fdtpoems.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._h5titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._hamtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._jctitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._jntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._lrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._mactitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._mmtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._mndtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._mvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._othtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._pertitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._r2titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._r3titleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._romtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._shrtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._tgvtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._timtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._tittitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._tmptitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._tnktitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._tntitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._trotitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._wivtitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/FolgerDigitalTexts_XML_Complete/__MACOSX/FolgerDigitalTexts_XML_Complete/._wttitleblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hilitor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/advanced-viewport.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/advanced-viewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/advanced.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/advanced.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/es6-example/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/es6-example/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/es6-example/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/es6-example/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/es6-example/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/es6-example/rollup.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/isInViewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/isInViewport.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/examples/tests" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/isInViewport.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.es6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.es6.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/src/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/customViewportTests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/defaultViewportTests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/horizontallyScrollingViewportTests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/grunt-reporter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/isInViewport.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/isInViewport.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/mocha.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/mocha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/lib/should.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/isInViewport/tests/tests.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/attribute-selectors/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/attribute-selectors/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/basic-ie-8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/basic-ie-8/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/basic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/basic/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/dataset-empty-container/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/dataset-empty-container/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/dataset-pre-rendered-targets/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/dataset-pre-rendered-targets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/filtering-by-text-input/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/filtering-by-text-input/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/filtering-by-url/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/filtering-by-url/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-columns/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-columns/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-flex-box-matching-heights/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-flex-box-matching-heights/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-flex-box/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-flex-box/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-floats/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-floats/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-inline-block/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/grid-inline-block/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/insertion-non-target-elements/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/insertion-non-target-elements/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/loading-animation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/loading-animation/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/mixitup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/mock-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/multiple-instances-global-control-scoping/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/multiple-instances-global-control-scoping/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/multiple-instances-local-control-scoping/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/multiple-instances-local-control-scoping/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/removal-by-reference/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/removal-by-reference/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/sorting-by-attribute/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/sorting-by-attribute/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/sorting-by-default/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/sorting-by-default/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/sorting-by-multiple-attributes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/sorting-by-multiple-attributes/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/toggle-filtering-and-logic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/toggle-filtering-and-logic/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/toggle-filtering-or-logic/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/demos/toggle-filtering-or-logic/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/docs/mixitup-3-migration-guide.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/docs/mixitup.Config.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/docs/mixitup.Events.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/docs/mixitup.Mixer.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/docs/mixitup.State.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/docs/mixitup.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/banner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/base-static.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-change-layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-dataset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-insert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-multimix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-remove.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/command-sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-class-names.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-controls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-selectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config-templates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/control-definition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/facade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/factory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/features.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/h.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/i-move-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/mixer-dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/mixer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/module-definitions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/operation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/queue-item.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/style-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/target-dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/target.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/transform-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/transform-defaults.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/ui-class-names.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/user-instruction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/src/wrapper.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/functional/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/functional/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/functional/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/mock/dataset.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/mock/dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/mock/extension.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/controls-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/controls-live.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/controls-multimix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/controls-sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/controls-toggle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/extension.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/factory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/h.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-change-layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-dataset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-get-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-get-state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-insert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-multimix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-remove.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/mixer-sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mixitup-3/tests/unit/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/check_issues.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/samples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/xml2json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/x2js-master/xml2json.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Add function in home controller to calculate number of div.gap classes to add at end of ul.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/services.js" afterPath="$PROJECT_DIR$/services/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.tmpl.htm" afterPath="$PROJECT_DIR$/templates/home.tmpl.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -571,23 +20,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="shakespeare" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alls_well_that_ends_well_FF.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="5836" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5900" selection-end-column="0" />
+            <state relative-caret-position="799">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -596,8 +38,8 @@
       <file leaf-file-name="home.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="966">
+              <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -606,18 +48,18 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6052">
-              <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="375" selection-end-column="14" />
+            <state relative-caret-position="5502">
+              <caret line="262" column="27" lean-forward="true" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -626,7 +68,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
+            <state relative-caret-position="1722">
               <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
@@ -636,8 +78,8 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -646,8 +88,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3927">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -656,8 +98,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="609">
+              <caret line="29" column="100" lean-forward="false" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -703,8 +145,6 @@
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.html" />
         <option value="$PROJECT_DIR$/dev/mixitup/index.htm" />
         <option value="$PROJECT_DIR$/dev/mixitup/style.css" />
-        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
-        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="code.angularjs.org/1.5.8/angular.js" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
@@ -715,17 +155,19 @@
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/vendor/highlight.js" />
-        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/services/services.js" />
         <option value="$PROJECT_DIR$/services/services.js" />
+        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
+        <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
       </list>
     </option>
   </component>
@@ -738,8 +180,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -757,36 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="shakespeare">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="shakespeare">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -925,23 +337,35 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="shakespeare">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="shakespeare">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -949,7 +373,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="E:/Program Files/nodejs/node" />
@@ -1094,31 +518,51 @@
       <workItem from="1492786594339" duration="362000" />
       <workItem from="1492786969338" duration="598000" />
       <workItem from="1492787678437" duration="5970000" />
+      <workItem from="1492895908061" duration="3728000" />
+      <workItem from="1492900035251" duration="345000" />
     </task>
+    <task id="LOCAL-00001" summary="Add function in home controller to calculate number of div.gap classes to add at end of ul.">
+      <created>1492900166928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492900166928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140492000" />
+    <option name="totallyTimeSpent" value="144565000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1127,6 +571,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add function in home controller to calculate number of div.gap classes to add at end of ul." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add function in home controller to calculate number of div.gap classes to add at end of ul." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1222,20 +670,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/tests/lib/isInViewport.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.es6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/tests/lib/isInViewport.min.js" />
+    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.es6.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1243,25 +679,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/AWW.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
-          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/awwtitleblack.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/1H4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/AWW.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/awwtitleblack.png" />
+    <entry file="file://$PROJECT_DIR$/vendor/FolgerDigitalTexts_HTML_Complete/html/1H4.html" />
     <entry file="file://$PROJECT_DIR$/vendor/plays/AWW.html" />
     <entry file="file://$PROJECT_DIR$/assets/plays/F-aww.xml" />
     <entry file="file://$PROJECT_DIR$/assets/img/All_well_that_ends_well_218x218.jpg">
@@ -1270,25 +690,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF_str.html" />
-    <entry file="file://$PROJECT_DIR$/vendor/x2js-master/xml2json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/1H4titleblack.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6936">
-          <caret line="408" column="40" lean-forward="false" selection-start-line="408" selection-start-column="40" selection-end-line="408" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/x2js-master/xml2json.js" />
+    <entry file="file://$PROJECT_DIR$/assets/img/1H4titleblack.png" />
+    <entry file="file://$PROJECT_DIR$/vendor/mixitup-3/dist/mixitup.js" />
     <entry file="file://$PROJECT_DIR$/dev/mixitup/style.css" />
     <entry file="file://$PROJECT_DIR$/dev/mixitup/index.htm" />
     <entry file="file://$PROJECT_DIR$/img/SplitShire-0627-1024x683.jpg">
@@ -1306,13 +710,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/tests/lib/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="593" lean-forward="false" selection-start-line="1" selection-start-column="593" selection-end-line="1" selection-end-column="593" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/tests/lib/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/.idea/shakespeare.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1327,14 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/grunt/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/grunt/Gruntfile.js" />
     <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.xml" />
     <entry file="file://$PROJECT_DIR$/grunt/build/alls_well_that_ends_well_FF.htm">
       <provider selected="true" editor-type-id="text-editor">
@@ -1357,19 +748,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/hilitor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hilitor.js" />
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1385,86 +767,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="408" column="13" lean-forward="false" selection-start-line="408" selection-start-column="13" selection-end-line="408" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/highlight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="5836" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5900" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/highlight.js" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3927">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5836" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5900" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="100" lean-forward="false" selection-start-line="29" selection-start-column="100" selection-end-line="29" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6052">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="375" selection-end-column="14" />
+        <state relative-caret-position="5502">
+          <caret line="262" column="27" lean-forward="true" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
