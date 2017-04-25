@@ -64,13 +64,50 @@ angular.module('shakespeareApp')
 
     .controller('playCtrl', function ($scope, logicService, apiService, sharedService, $sce) {
 
-        $scope.title = sharedService.title;
+        // $scope.title = sharedService.title;
+        //
+        // apiService.getHTML(function(response){
+        //     $scope.play = response.data;
+        // }, function(err) {
+        //     console.log(err.status);
+        // });
+        var innerText;
 
-        apiService.getHTML(function(response){
-            $scope.play = response.data;
-        }, function(err) {
-            console.log(err.status);
-        });
+        // $scope.$watch('text', function() {
+        //    $scope.text = innerText;
+        // });
+
+        // $scope.$watch('text', function() {
+        //    $scope.text = $sce.trustAsHtml($scope.grabText);
+        // });
+        $scope.grabText = function($event) {
+            console.log($event.target.innerHTML);
+            console.log(typeof($event.target.innerText));
+            $scope.text = $sce.trustAsHtml($event.target.innerText);
+            console.log($scope.text);
+        }
+
+        $scope.lookupDefinition = function() {
+            console.log('going to look up ' + $scope.text);
+        }
+
+        apiService.getDef(function (response) {
+            // console.log(response);
+            // console.log(response.data);
+            var x2js = new X2JS();
+            var xmlText = response.data;
+            var jsonObj = x2js.xml_str2json( xmlText );
+            console.log(jsonObj);
+        })
+
+        var xmlDoc = loadXMLDoc("assets/plays/F-aww.xml");
+        var x2js = new X2JS();
+        var jsonObj = x2js.xml2json(xmlDoc);
+
+        // $scope.htmlTooltip = $sce.trustAsHtml('I\'ve been made <b>bold</b>!');
+
+
+        // $scope.textToShow = $scope.grabText();
 
 
     })

@@ -14,8 +14,13 @@ calibreApp.config(function ($routeProvider) {
             controller: 'connectCtrl'
         })
 
+        // .when('/play', {
+        //     templateUrl: 'templates/play.tmpl.htm',
+        //     controller: 'playCtrl'
+        // })
+
         .when('/play', {
-            templateUrl: 'templates/play.tmpl.htm',
+            templateUrl: 'assets/plays/alls_well_that_ends_well_FF.htm',
             controller: 'playCtrl'
         })
 
