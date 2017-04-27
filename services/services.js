@@ -411,6 +411,7 @@ angular.module('shakespeareApp')
         var self = this;
         self.key = 'ac46cd34-fb0b-47ed-a7f8-56b5ff24cc65';
         self.url = 'http://www.dictionaryapi.com/api/v1/references/collegiate/xml/';
+        self.word = "dog";
 
         $sce.trustAsResourceUrl(self.url);
 
@@ -441,24 +442,5 @@ angular.module('shakespeareApp')
 
     })
 
-    .service('xmlService', function (x2js) {
-        var xmlDoc = x2js.json2xml(
-            {
-                MyRoot : {
-                    MyChild : 'my_child_value',
-                    MyAnotherChild: 10,
-                    MyArray : [ 'test', 'test2' ],
-                    MyArrayRecords : [
-                        {
-                            ttt : 'vvvv'
-                        },
-                        {
-                            ttt : 'vvvv2'
-                        }
-                    ]
-                }
-            }
-        );
-    });
 
 

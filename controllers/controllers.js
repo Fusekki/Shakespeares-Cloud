@@ -64,6 +64,7 @@ angular.module('shakespeareApp')
 
     .controller('playCtrl', function ($scope, logicService, apiService, sharedService, $sce) {
 
+        $scope.text="Sentence";
         // $scope.title = sharedService.title;
         //
         // apiService.getHTML(function(response){
@@ -80,12 +81,25 @@ angular.module('shakespeareApp')
         // $scope.$watch('text', function() {
         //    $scope.text = $sce.trustAsHtml($scope.grabText);
         // });
-        $scope.grabText = function($event) {
-            console.log($event.target.innerHTML);
-            console.log(typeof($event.target.innerText));
-            $scope.text = $sce.trustAsHtml($event.target.innerText);
-            console.log($scope.text);
-        }
+        // $scope.grabText = function($event) {
+        //     console.log($event.target.innerHTML);
+        //     console.log(typeof($event.target.innerText));
+        //     var text = $sce.trustAsHtml($event.target.innerText);
+        //     // console.log($scope.text);
+        //     text = text.toString().split(" ");
+        //     console.log(text);
+        //     var new_text = "";
+        //     for (var x = 0; x < text.length; x++) {
+        //         console.log(text[x]);
+        //         new_text += '<span class="word" ng-mouseover="chooseWord($event)">' + text[x] + '</span> ';
+        //     }
+        //
+        //     $scope.text =  $sce.trustAsHtml('<button ng-click="testAlert()">Submit</button>');
+        //     console.log($scope.text);
+        //     // $scope.text = text;
+        // }
+
+        $scope.trustedHtml = $sce.trustAsHtml('<button ng-click="testAlert()">Submit</button>');
 
         $scope.lookupDefinition = function() {
             console.log('going to look up ' + $scope.text);
@@ -97,12 +111,20 @@ angular.module('shakespeareApp')
             var x2js = new X2JS();
             var xmlText = response.data;
             var jsonObj = x2js.xml_str2json( xmlText );
-            console.log(jsonObj);
+            console.log(jsonObj.entry_list);
+
+            // console.log(jsonObj.entry_list.entry[0].def[2]);
         })
 
-        var xmlDoc = loadXMLDoc("assets/plays/F-aww.xml");
-        var x2js = new X2JS();
-        var jsonObj = x2js.xml2json(xmlDoc);
+        // $scope.chooseWord = function($event) {
+        //     console.log('here');
+        //     console.log($event.target.innerHTML);
+        //     console.log(typeof($event.target.innerText));
+        //
+        // }
+        // var xmlDoc = loadXMLDoc("assets/plays/F-aww.xml");
+        // var x2js = new X2JS();
+        // var jsonObj = x2js.xml2json(xmlDoc);
 
         // $scope.htmlTooltip = $sce.trustAsHtml('I\'ve been made <b>bold</b>!');
 
