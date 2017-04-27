@@ -545,10 +545,6 @@ navbar-default .navbar-nav>li>a {
 
     }
 
-    .right div:nth-of-type(1) {
-        height: 50px;
-    }
-
     .right_top {
         position: relative;
         width: 100%;
@@ -557,6 +553,7 @@ navbar-default .navbar-nav>li>a {
         border: 1px solid blue;
         background: blue;
         color: white;
+        transition: background, color 0.5s;
     }
 
     .right_bottom {
@@ -567,6 +564,37 @@ navbar-default .navbar-nav>li>a {
         border: 1px solid green;
         background: green;
         color: white;
+        transition: background, color 0.5s;
+    }
+    .word {
+        transition: background 0.5s;
+    }
+    .word:hover {
+        background: black;
+        color: white;
+    }
+    .text {
+        background: mintcream;
+        transition: background, color 0.5s;
+
+    }
+
+    .right_top:hover {
+        background: lightblue;
+        color: black;
+    }
+    .right_bottom:hover {
+        background: lightgreen;
+        color: black;
+    }
+    .text:hover {
+        background: white;
+        color: black;
+    }
+
+    .active {
+        /*background: black;*/
+        /*color: grey;*/
     }
 }
 

@@ -65,6 +65,9 @@ angular.module('shakespeareApp')
     .controller('playCtrl', function ($scope, logicService, apiService, sharedService, $sce) {
 
         $scope.text="Sentence";
+        $scope.sel_word = "Word";
+
+        $scope.isActive = false;
         // $scope.title = sharedService.title;
         //
         // apiService.getHTML(function(response){
@@ -74,35 +77,24 @@ angular.module('shakespeareApp')
         // });
         var innerText;
 
-        // $scope.$watch('text', function() {
-        //    $scope.text = innerText;
-        // });
 
-        // $scope.$watch('text', function() {
-        //    $scope.text = $sce.trustAsHtml($scope.grabText);
-        // });
-        // $scope.grabText = function($event) {
-        //     console.log($event.target.innerHTML);
-        //     console.log(typeof($event.target.innerText));
-        //     var text = $sce.trustAsHtml($event.target.innerText);
-        //     // console.log($scope.text);
-        //     text = text.toString().split(" ");
-        //     console.log(text);
-        //     var new_text = "";
-        //     for (var x = 0; x < text.length; x++) {
-        //         console.log(text[x]);
-        //         new_text += '<span class="word" ng-mouseover="chooseWord($event)">' + text[x] + '</span> ';
-        //     }
-        //
-        //     $scope.text =  $sce.trustAsHtml('<button ng-click="testAlert()">Submit</button>');
-        //     console.log($scope.text);
-        //     // $scope.text = text;
-        // }
+        $scope.grabText = function($event) {
+            var text = $event.target.innerText;
+            text = text.toString().split(" ");
+            var new_text = "";
+            for (var x = 0; x < text.length; x++) {
+                new_text += '<span class="word" ng-click="chooseWord($event)">' + text[x] + '</span> ';
+            }
+            $scope.text = new_text;
+        }
 
-        $scope.trustedHtml = $sce.trustAsHtml('<button ng-click="testAlert()">Submit</button>');
-
+        console.log($scope.trustedHtml);
         $scope.lookupDefinition = function() {
             console.log('going to look up ' + $scope.text);
+        }
+
+        $scope.testAlert = function() {
+            console.log('test alert!!');
         }
 
         apiService.getDef(function (response) {
@@ -116,20 +108,19 @@ angular.module('shakespeareApp')
             // console.log(jsonObj.entry_list.entry[0].def[2]);
         })
 
-        // $scope.chooseWord = function($event) {
-        //     console.log('here');
-        //     console.log($event.target.innerHTML);
-        //     console.log(typeof($event.target.innerText));
-        //
-        // }
-        // var xmlDoc = loadXMLDoc("assets/plays/F-aww.xml");
-        // var x2js = new X2JS();
-        // var jsonObj = x2js.xml2json(xmlDoc);
+        $scope.chooseWord = function($event) {
+            console.log($event.target.parentElement);
 
-        // $scope.htmlTooltip = $sce.trustAsHtml('I\'ve been made <b>bold</b>!');
+            $scope.sel_word = $event.target.innerHTML;
+            $scope.isActive = !$scope.isActive;
 
+            // console.log(typeof($event.target.innerText));
+        }
 
-        // $scope.textToShow = $scope.grabText();
+        $scope.lookupWord = function($event) {
+            console.log('Lookup word: ' + $event.target.innerHTML);
+        }
+
 
 
     })
