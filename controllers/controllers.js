@@ -148,6 +148,8 @@ angular.module('shakespeareApp')
                     }
                 }
                 console.log(def_list);
+                $scope.def_cards = def_list;
+
 
             }, function (err) {
                 console.log(err.status);

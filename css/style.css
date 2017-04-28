@@ -596,6 +596,38 @@ navbar-default .navbar-nav>li>a {
         /*background: black;*/
         /*color: grey;*/
     }
+
+    .container_def_card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .def_card {
+        list-style: none;
+    }
+
+
+
+
+
+    .def_card p {
+        height: 100px;
+        width: 100px;
+        list-style: none;
+        border: 3px solid orange;
+        background: orange;
+        color: black;
+        border-radius: 2em;
+        padding: 3px 10px;
+        font-size: 12px;
+        line-height: 85px;
+    }
+
+    /*.def_card p:after {*/
+        /*display: block;*/
+        /*background: transparent;*/
+        /*content: "";*/
+        /*height: 20px;*/
+    /*}*/
 }
 
 /*Microsoft IE*/
