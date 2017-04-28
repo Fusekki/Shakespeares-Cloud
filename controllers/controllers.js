@@ -1,7 +1,7 @@
 angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
-    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService, $log) {
+    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
 
         $('.play_cards').mixItUp({
             load: {
@@ -122,6 +122,7 @@ angular.module('shakespeareApp')
             // Set the word
             apiService.word = $event.target.innerHTML;
             apiService.getDef(function (response) {
+                console.log(response.data);
                 var x2js = new X2JS();
                 var xmlText = response.data;
                 var jsonObj = x2js.xml_str2json( xmlText );
