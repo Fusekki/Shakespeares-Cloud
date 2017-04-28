@@ -1,2 +1,14 @@
-<div class="play_container" ng-bind-html="play | unsafe" >
+<!--<div class="play_container" ng-bind-html="play | unsafe" >-->
+<!--</div>-->
+<div dynamic="play"></div>
+
+<div class="right">
+    <div class="text" dynamic="text" ng-class="{'active': isActive}"></div>
+    <div class="right_top">
+        <h4 dynamic="sel_word" ng-click="lookupWord($event)"></h4>
+    </div>
+
+    <div class="right_bottom">
+        <h4>Definition</h4>
+    </div>
 </div>

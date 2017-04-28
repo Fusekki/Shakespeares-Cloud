@@ -62,7 +62,7 @@ angular.module('shakespeareApp')
 
     })
 
-    .controller('playCtrl', function ($scope, logicService, apiService, sharedService, $sce) {
+    .controller('playCtrl', function ($scope, logicService, apiService) {
 
         $scope.text="Sentence";
         $scope.sel_word = "Word";
@@ -70,13 +70,11 @@ angular.module('shakespeareApp')
         $scope.isActive = false;
         // $scope.title = sharedService.title;
         //
-        // apiService.getHTML(function(response){
-        //     $scope.play = response.data;
-        // }, function(err) {
-        //     console.log(err.status);
-        // });
-        var innerText;
-
+        apiService.getHTML(function(response){
+            $scope.play = response.data;
+        }, function(err) {
+            console.log(err.status);
+        });
 
         $scope.grabText = function($event) {
             var text = $event.target.innerText;
@@ -89,16 +87,16 @@ angular.module('shakespeareApp')
                 new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
             }
             $scope.text = new_text;
-        }
+        };
 
         console.log($scope.trustedHtml);
         $scope.lookupDefinition = function() {
             console.log('going to look up ' + $scope.text);
-        }
+        };
 
         $scope.testAlert = function() {
             console.log('test alert!!');
-        }
+        };
 
         apiService.getDef(function (response) {
             // console.log(response);
@@ -109,12 +107,12 @@ angular.module('shakespeareApp')
             console.log(jsonObj.entry_list);
 
             // console.log(jsonObj.entry_list.entry[0].def[2]);
-        })
+        });
 
         $scope.chooseWord = function($event) {
             $scope.sel_word = $event.target.innerHTML;
             $scope.isActive = !$scope.isActive;
-        }
+        };
 
         $scope.lookupWord = function($event) {
             var def_list = [];
@@ -122,7 +120,6 @@ angular.module('shakespeareApp')
             // Set the word
             apiService.word = $event.target.innerHTML;
             apiService.getDef(function (response) {
-                console.log(response.data);
                 var x2js = new X2JS();
                 var xmlText = response.data;
                 var jsonObj = x2js.xml_str2json( xmlText );
@@ -135,42 +132,19 @@ angular.module('shakespeareApp')
                     console.log(x);
                     var def = entries.entry[x].def;
                     console.log(def);
-                    if (def.dt.length > 1) {
+                    if (def.dt.length) {
                         for (var i = 0; i < def.dt.length + 1; i++ ) {
                             console.log(i);
                             console.log(def.dt[i]);
                             if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                def_list.push({
-                                    type: 't',
-                                    def: def.dt[i]
-                                });
-                            } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
-                                if (def.dt[i].hasOwnProperty(('vt'))) {
-                                    def_list.push({
-                                        type: 't',
-                                        def: def.dt[i].__text
-                                });
-                                } else {
-                                    def_list.push({
-                                        type: 'i',
-                                        def: def.dt[i].__text
-                                });
-                                }
+                                def_list.push(def.dt[i].replace(/^:/, ""));
 
+                            } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
+                                def_list.push(def.dt.__text.replace(/^:/, ""));
                             }
                         }
                     } else {
-                        if (typeof(def.dt.hasOwnProperty('vt'))) {
-                            def_list.push({
-                                type: 't',
-                                def: def.dt
-                            });
-                        } else {
-                            def_list.push({
-                                type: 'i',
-                                def: def.dt.__text
-                            });
-                        }
+                        def_list.push(def.dt.__text.replace(/^:/, ""));
                     }
                 }
                 console.log(def_list);
@@ -183,5 +157,5 @@ angular.module('shakespeareApp')
 
 
 
-    })
+    });
 
