@@ -82,8 +82,11 @@ angular.module('shakespeareApp')
             var text = $event.target.innerText;
             text = text.toString().split(" ");
             var new_text = "";
+            var new_word;
             for (var x = 0; x < text.length; x++) {
-                new_text += '<span class="word" ng-click="chooseWord($event)">' + text[x] + '</span> ';
+                // Here we are stripping punctuation-like characters out of the word
+                new_word = text[x].replace(/([.,!?\\-])/,"");
+                new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
             }
             $scope.text = new_text;
         }
@@ -109,16 +112,72 @@ angular.module('shakespeareApp')
         })
 
         $scope.chooseWord = function($event) {
-            console.log($event.target.parentElement);
-
             $scope.sel_word = $event.target.innerHTML;
             $scope.isActive = !$scope.isActive;
-
-            // console.log(typeof($event.target.innerText));
         }
 
         $scope.lookupWord = function($event) {
+            var def_list = [];
             console.log('Lookup word: ' + $event.target.innerHTML);
+            // Set the word
+            apiService.word = $event.target.innerHTML;
+            apiService.getDef(function (response) {
+                var x2js = new X2JS();
+                var xmlText = response.data;
+                var jsonObj = x2js.xml_str2json( xmlText );
+                var entries = jsonObj.entry_list;
+                console.log(entries);
+                console.log(entries.entry);
+                // Here we cycle through the results and push the relevant information to the object array.
+                // t = transitive verb / i = intransitive verb
+                for(var x = 0; x < entries.entry.length; x++) {
+                    console.log(x);
+                    var def = entries.entry[x].def;
+                    console.log(def);
+                    if (def.dt.length > 1) {
+                        for (var i = 0; i < def.dt.length + 1; i++ ) {
+                            console.log(i);
+                            console.log(def.dt[i]);
+                            if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                                def_list.push({
+                                    type: 't',
+                                    def: def.dt[i]
+                                });
+                            } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
+                                if (def.dt[i].hasOwnProperty(('vt'))) {
+                                    def_list.push({
+                                        type: 't',
+                                        def: def.dt[i].__text
+                                });
+                                } else {
+                                    def_list.push({
+                                        type: 'i',
+                                        def: def.dt[i].__text
+                                });
+                                }
+
+                            }
+                        }
+                    } else {
+                        if (typeof(def.dt.hasOwnProperty('vt'))) {
+                            def_list.push({
+                                type: 't',
+                                def: def.dt
+                            });
+                        } else {
+                            def_list.push({
+                                type: 'i',
+                                def: def.dt.__text
+                            });
+                        }
+                    }
+                }
+                console.log(def_list);
+
+            }, function (err) {
+                console.log(err.status);
+            });
+
         }
 
 
