@@ -112,6 +112,12 @@ angular.module('shakespeareApp')
         $scope.chooseWord = function($event) {
             $scope.sel_word = $event.target.innerHTML;
             $scope.isActive = !$scope.isActive;
+            if ($scope.def_cards) {
+                $scope.def_cards.length = 0;
+            }
+            if ($scope.definition) {
+                $scope.definition= "";
+            }
         };
 
         $scope.lookupWord = function($event) {
@@ -128,33 +134,37 @@ angular.module('shakespeareApp')
                 console.log(entries.entry);
                 // Here we cycle through the results and push the relevant information to the object array.
                 // t = transitive verb / i = intransitive verb
-                for(var x = 0; x < entries.entry.length; x++) {
-                    console.log(x);
-                    var def = entries.entry[x].def;
-                    console.log(def);
-                    if (def.dt.length) {
-                        for (var i = 0; i < def.dt.length + 1; i++ ) {
-                            console.log(i);
-                            console.log(def.dt[i]);
-                            if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                def_list.push(def.dt[i].replace(/^:/, ""));
+                if ('entry' in entries) {
+                    for(var x = 0; x < entries.entry.length; x++) {
+                        console.log(x);
+                        var def = entries.entry[x].def;
+                        console.log(def);
+                        if (def.dt.length) {
+                            for (var i = 0; i < def.dt.length + 1; i++ ) {
+                                console.log(i);
+                                console.log(def.dt[i]);
+                                if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                                    def_list.push(def.dt[i].replace(/^:/, ""));
 
-                            } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
-                                def_list.push(def.dt.__text.replace(/^:/, ""));
+                                } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
+                                    def_list.push(def.dt.__text.replace(/^:/, ""));
+                                }
                             }
+                        } else {
+                            def_list.push(def.dt.__text.replace(/^:/, ""));
                         }
-                    } else {
-                        def_list.push(def.dt.__text.replace(/^:/, ""));
                     }
+                    $scope.def_cards = def_list;
                 }
-                console.log(def_list);
-                $scope.def_cards = def_list;
-
 
             }, function (err) {
                 console.log(err.status);
             });
 
+        }
+
+        $scope.displayDef = function(def) {
+            $scope.definition = def;
         }
 
 

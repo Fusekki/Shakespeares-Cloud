@@ -8,15 +8,30 @@
         <h4 dynamic="sel_word" ng-click="lookupWord($event)"></h4>
     </div>
 
-    <div class="right_bottom">
-        <h4>Definition</h4>
-        <ul class="container_def_card">
-            <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards">
+    <div class="right_middle">
+        <h4>Definitions</h4>
+        <ul ng-show="def_cards.length" class="container_def_card" ng-if="def_cards.length">
+            <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">
                 <p>
                     <!--{{ title(d) }}-->
                     {{ d.slice(0,10)+ '...' }}
                 </p>
             </li>
         </ul>
+        <span ng-show="!def_cards.length">
+            <p>
+                            No results.
+            </p>
+        </span>
+    </div>
+    <div class="right_bottom">
+        <div class="definition">
+            <p ng-show="definition">
+                "{{ definition }}"
+            </p>
+            <p ng-show="!definition">
+                Definition
+            </p>
+        </div>
     </div>
 </div>
