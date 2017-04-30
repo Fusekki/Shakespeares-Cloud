@@ -4,11 +4,11 @@
 
 <div class="right">
     <div class="text" dynamic="text" ng-class="{'active': isActive}"></div>
-    <div class="right_top">
+    <div class="right_top" ng-class="{'active': rt_Active}">
         <h4 dynamic="sel_word" ng-click="lookupWord($event)"></h4>
     </div>
 
-    <div class="right_middle">
+    <div class="right_middle" ng-class="{'active': rm_Active}">
         <h4>Definitions</h4>
         <ul ng-show="def_cards.length" class="container_def_card" ng-if="def_cards.length">
             <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">
@@ -24,7 +24,7 @@
             </p>
         </span>
     </div>
-    <div class="right_bottom">
+    <div class="right_bottom" ng-class="{'active': rb_Active}">
         <div class="definition">
             <p ng-show="definition">
                 "{{ definition }}"
