@@ -3,9 +3,17 @@
 <div dynamic="play"></div>
 
 <div class="right">
+    <div>
+        <span><i class="fa fa-reply" aria-hidden="true"></i></span>
+        <h3 ng-class="{'line-through': i_done}">Hover over a line to examine the meaning</h3>
+    </div>
+    <div class="text_header" ng-class="{'active': th_Active}">
+        <h3>Choose a word to lookup its definition. </h3>
+    </div>
     <div class="text" dynamic="text" ng-class="{'active': isActive}"></div>
     <div class="right_top" ng-class="{'active': rt_Active}">
-        <h4 dynamic="sel_word" ng-click="lookupWord($event)"></h4>
+        <h3>Look up definition: </h3>
+        <label class="btn btn-primary" ng-click="lookupWord($event)" dynamic="sel_word"></label>
     </div>
 
     <div class="right_middle" ng-class="{'active': rm_Active}">
@@ -14,7 +22,7 @@
             <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">
                 <p>
                     <!--{{ title(d) }}-->
-                    {{ d.slice(0,10)+ '...' }}
+                   {{ $index }}
                 </p>
             </li>
         </ul>

@@ -73,6 +73,8 @@ angular.module('shakespeareApp')
         $scope.rt_Active = false;
         $scope.rm_Active = false;
         $scope.rb_Active = false;
+        $scope.th_Active = false;
+        $scope.i_done = false;
 
         var text;
 
@@ -86,7 +88,12 @@ angular.module('shakespeareApp')
 
         // This is triggered on a hover over a line in the play
         $scope.grabText = function($event) {
+            console.log($event);
+            $scope.th_Active = !$scope.th_Active;
             $scope.isActive = !$scope.isActive;
+            $scope.i_done = !$scope.i_done;
+
+            console.log($scope.th_Active);
             console.log($scope.isActive);
             text = $event.target.innerText;
             var split_text = text.toString().split(" ");
@@ -122,14 +129,17 @@ angular.module('shakespeareApp')
             console.log('choose word');
             $scope.sel_word = $event.target.innerHTML;
             // $scope.isActive = !$scope.isActive;
-            $scope.rt_Active = !$scope.rt_Active;
+            // $scope.rt_Active = !$scope.rt_Active;
+            if (!$scope.rt_Active) {
+                $scope.rt_Active = !$scope.rt_Active;
+            }
             // Check if rm and rb are open. If so, close them.
-            if ($scope.rm_Active) {
-                $scope.rm_Active = !$scope.rm_Active;
-            }
-            if ($scope.rb_Active) {
-                $scope.rb_Active = !$scope.rb_Active;
-            }
+            // if ($scope.rm_Active) {
+            //     $scope.rm_Active = !$scope.rm_Active;
+            // }
+            // if ($scope.rb_Active) {
+            //     $scope.rb_Active = !$scope.rb_Active;
+            // }
             if ($scope.def_cards) {
                 $scope.def_cards.length = 0;
             }
@@ -140,7 +150,11 @@ angular.module('shakespeareApp')
 
         // This triggers when the word is clicked when by itself.  It prompts the following API call.
         $scope.lookupWord = function($event) {
-            $scope.rm_Active = !$scope.rm_Active;
+            if (!$scope.rm_Active) {
+                $scope.rm_Active = !$scope.rm_Active;
+            }
+
+            // $scope.rm_Active = !$scope.rm_Active;
             var def_list = [];
             console.log('Lookup word: ' + $event.target.innerHTML);
             // Set the word
@@ -155,25 +169,40 @@ angular.module('shakespeareApp')
                 // Here we cycle through the results and push the relevant information to the object array.
                 // t = transitive verb / i = intransitive verb
                 if ('entry' in entries) {
-                    for(var x = 0; x < entries.entry.length; x++) {
-                        console.log(x);
-                        var def = entries.entry[x].def;
-                        console.log(def);
-                        if (def.dt.length) {
-                            for (var i = 0; i < def.dt.length + 1; i++ ) {
-                                console.log(i);
-                                console.log(def.dt[i]);
-                                if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                    def_list.push(def.dt[i].replace(/^:/, ""));
+                    console.log('here');
+                    console.log(entries.entry.length);
+                    if (entries.entry.length) {
+                        console.log('here now');
+                        for(var x = 0; x < entries.entry.length; x++) {
+                            console.log(x);
+                            var def = entries.entry[x].def;
+                            console.log(def);
+                            // console.log(typeof(def.dt));
+                            if (typeof(def.dt) == 'object') {
+                                for (var i = 0; i < def.dt.length + 1; i++ ) {
+                                    console.log(i);
+                                    console.log(def.dt[i]);
+                                    if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                                        def_list.push(def.dt[i].replace(/^:/, ""));
 
-                                } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
-                                    def_list.push(def.dt.__text.replace(/^:/, ""));
+                                    } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
+                                        def_list.push(def.dt.__text.replace(/^:/, ""));
+                                    }
                                 }
+                            } else if (def.dt.__text)  {
+                                def_list.push(def.dt.__text.replace(/^:/, ""));
+                                // def_list.push(def.dt.replace(/^:/, ""));
+
+                            } else {
+                                console.log(def.dt);
                             }
-                        } else {
-                            def_list.push(def.dt.__text.replace(/^:/, ""));
                         }
+                    } else {
+                        console.log('in else');
+                        console.log(entries.entry.def.dt);
+                        def_list.push(entries.entry.def.dt.replace(/^:/, ""));
                     }
+
                     $scope.def_cards = def_list;
 
                 }
@@ -186,7 +215,10 @@ angular.module('shakespeareApp')
         // This is triggered when a def_card is clicked.
         $scope.displayDef = function(def) {
             console.log('display def.');
-            $scope.rb_Active = !$scope.rb_Active;
+            if (!$scope.rb_Active) {
+                $scope.rb_Active = !$scope.rb_Active;
+            }
+            // $scope.rb_Active = !$scope.rb_Active;
             $scope.definition = def;
         }
 

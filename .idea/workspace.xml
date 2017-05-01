@@ -6,58 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/coriolanus_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/coriolanus_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/cymbeline_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/cymbeline_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/henry_vi_pt3_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/henry_vi_pt3_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/king_john_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/king_john_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/king_richard_ii_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/king_richard_ii_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/merchant_of_venice_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/merchant_of_venice_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/merry_wives_of_windsor_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/merry_wives_of_windsor_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/midsummer_nights_dream_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/midsummer_nights_dream_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/much_ado_about_nothing_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/much_ado_about_nothing_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/pericles_F3.htm" afterPath="$PROJECT_DIR$/assets/plays/pericles_F3.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/romeo_and_juliet_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/romeo_and_juliet_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/sonnets_Q1.htm" afterPath="$PROJECT_DIR$/assets/plays/sonnets_Q1.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/timon_of_athens_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/timon_of_athens_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/titus_andronicus_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/titus_andronicus_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/troilus_cressida_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/troilus_cressida_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/twelfth_night_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/twelfth_night_FF.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plays/winters_tale_FF.htm" afterPath="$PROJECT_DIR$/assets/plays/winters_tale_FF.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/HELP-US-OUT.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/css/font-awesome.css" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/animated.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/animated.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/bordered-pulled.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/core.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/fixed-width.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/fixed-width.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/font-awesome.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/icons.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/larger.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/larger.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/list.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/mixins.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/path.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/path.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/rotated-flipped.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/screen-reader.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/screen-reader.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/stacked.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/stacked.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/variables.less" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_animated.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_animated.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_bordered-pulled.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_core.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_fixed-width.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_icons.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_larger.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_larger.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_list.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_mixins.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_path.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_path.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_rotated-flipped.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_screen-reader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_stacked.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_stacked.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_variables.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/font-awesome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ui-bootstrap-tpls-2.5.0.min.js" afterPath="$PROJECT_DIR$/vendor/ui-bootstrap-tpls-2.5.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="80" column="46" lean-forward="true" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -88,8 +39,8 @@
       <file leaf-file-name="alls_well_that_ends_well_FF.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100317">
-              <caret line="5901" column="0" lean-forward="false" selection-start-line="5901" selection-start-column="0" selection-end-line="5901" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -105,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="618" column="22" lean-forward="false" selection-start-line="618" selection-start-column="22" selection-end-line="618" selection-end-column="22" />
+            <state relative-caret-position="3452">
+              <caret line="533" column="13" lean-forward="false" selection-start-line="533" selection-start-column="13" selection-end-line="533" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -150,11 +101,9 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-              <folding>
-                <marker date="1493587059933" expanded="true" signature="1249:1256" ph="..." />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,6 +143,8 @@
       <find>ui</find>
       <find>haskey</find>
       <find>hasKety</find>
+      <find>rgba</find>
+      <find>has</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -221,7 +172,6 @@
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
-        <option value="code.angularjs.org/1.6.4/angular.js" />
         <option value="code.angularjs.org/1.6.4/angular-route.js" />
         <option value="ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" />
         <option value="extensions::messaging" />
@@ -237,11 +187,12 @@
         <option value="$PROJECT_DIR$/response.xml" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
-        <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="code.angularjs.org/1.6.4/angular.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
       </list>
     </option>
   </component>
@@ -672,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493420342774</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added files that were not added during previous commit.">
+      <created>1493649917743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1493649917743</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199603000" />
+    <option name="totallyTimeSpent" value="207906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,7 +658,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39868668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -762,7 +720,8 @@
     <MESSAGE value="Remaining files from last push that only included one file :(&#10;&#10;alls_well....htm&#10;&#10;Remove div.right from template.&#10;--&#10;controller.js&#10;&#10;renabled getHTML function.&#10;cleaned up apiService.getDef wrapper internal for loop.&#10;--&#10;router.js&#10;&#10;changed '/play' directive by toggling the commenting.&#10;--&#10;play.templ.html&#10;&#10;comment out existing div.container.  Paste the div.right from the play template.&#10;--" />
     <MESSAGE value="Remaining files from last push that only included one file :(&#10;&#10;alls_well....htm&#10;&#10;Remove div.right from template.&#10;--&#10;controller.js&#10;&#10;Add $scope.def_cards and set inside the apiService.getDeg function at tail end.&#10;--&#10;style.css&#10;&#10;Add styling for .def_card and .def_card p and .container_def_card.&#10;--&#10;play.templ.html&#10;&#10;Add ul.container_def card containing li.def_card and p.   Inside the P place the sliced 10th character value of the text inside.&#10;--" />
     <MESSAGE value="controller.js&#10;&#10;Clear $scope.def_cards and $scope.definition on chooseWords funtion. Add if 'entry' statement before looping through results.  This avoids an error if the results come up with no defs.&#10;--&#10;style.css&#10;&#10;Add righ_middle and renamed right_bottom.  Changed size of cards to 50px.  Add  background color to right_bottom as well as hover effect.&#10;--&#10;play.templ.html&#10;&#10;Add ng-show to def_cards li ng-repeat. Add div for defitinition area.  Add ng-show for No results for either.&#10;--" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller.js&#10;&#10;Clear $scope.def_cards and $scope.definition on chooseWords funtion. Add if 'entry' statement before looping through results.  This avoids an error if the results come up with no defs.&#10;--&#10;style.css&#10;&#10;Add righ_middle and renamed right_bottom.  Changed size of cards to 50px.  Add  background color to right_bottom as well as hover effect.&#10;--&#10;play.templ.html&#10;&#10;Add ng-show to def_cards li ng-repeat. Add div for defitinition area.  Add ng-show for No results for either.&#10;--" />
+    <MESSAGE value="Added files that were not added during previous commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files that were not added during previous commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,7 +732,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -875,11 +834,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/highlight.js" />
-    <entry file="https://code.angularjs.org/1.6.4/angular.js">
-      <provider selected="true" editor-type-id="httpFileEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
@@ -898,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="76" lean-forward="false" selection-start-line="85" selection-start-column="76" selection-end-line="85" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/xml2json.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -915,14 +861,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm.html" />
     <entry file="file://$PROJECT_DIR$/templates/nav-def.tmpl.htm" />
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100317">
-          <caret line="5901" column="0" lean-forward="false" selection-start-line="5901" selection-start-column="0" selection-end-line="5901" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -971,28 +909,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+    <entry file="https://code.angularjs.org/1.6.4/angular.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="3452">
+          <caret line="533" column="13" lean-forward="false" selection-start-line="533" selection-start-column="13" selection-end-line="533" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="76" lean-forward="false" selection-start-line="85" selection-start-column="76" selection-end-line="85" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding>
-            <marker date="1493587059933" expanded="true" signature="1249:1256" ph="..." />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="618" column="22" lean-forward="false" selection-start-line="618" selection-start-column="22" selection-end-line="618" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="18" column="92" lean-forward="true" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="80" column="46" lean-forward="true" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
           <folding />
         </state>
       </provider>

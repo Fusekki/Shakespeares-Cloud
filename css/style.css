@@ -528,6 +528,11 @@ navbar-default .navbar-nav>li>a {
     }
     .play {
         font-size: 1.5em;
+        width: 60%;
+    }
+
+    .line_cb {
+        float: right;
     }
     .speaker {
         font-size: 1em;
@@ -536,10 +541,10 @@ navbar-default .navbar-nav>li>a {
 
     .right {
         position: fixed;
-        width: 400px;
+        width: 450px;
         height: calc(100% - 308px);
-        top: 308px;
-        right: 0;
+        top: 200px;
+        right: 15px;
         background: transparent;
 
     }
@@ -547,13 +552,22 @@ navbar-default .navbar-nav>li>a {
     .right_top {
         position: relative;
         width: 100%;
-        height: 20%;
+        height: 10%;
         top: 0;
         border: 1px solid blue;
         background: blue;
         color: white;
         opacity: 0;
         transition: background, color, opacity 0.5s;
+    }
+
+    .right_top h3 {
+        display: inline;
+    }
+
+    .right_top label {
+        float: right;
+        padding-left: 10px;
     }
 
     .right_top:hover {
@@ -564,7 +578,7 @@ navbar-default .navbar-nav>li>a {
     .right_middle {
         position: relative;
         width: 100%;
-        height: 48%;
+        height: 37%;
         /*top: 20%;*/
         border: 1px solid green;
         background: green;
@@ -591,9 +605,7 @@ navbar-default .navbar-nav>li>a {
         background: lightpink;
         color: black;
     }
-    .active {
-         opacity: 1;
-     }
+
 
     .word {
         transition: background 0.5s;
@@ -602,14 +614,21 @@ navbar-default .navbar-nav>li>a {
         background: black;
         color: white;
     }
+
+    .text_header {
+        opacity: 0;
+        transition: opacity 0.25s;
+    }
+
     .text {
+        font-size: 20px;
         background: rgba(255,255,255, 0.5);
         opacity: 0;
         transition: background, color, opacity 0.5s;
     }
 
     .text:hover {
-        background: rgba(255,255,255);
+        background: rgba(255,255,255, 1);
         color: black;
     }
 
@@ -632,24 +651,29 @@ navbar-default .navbar-nav>li>a {
         background: orange;
         color: black;
         border-radius: 2em;
-        padding: 3px 10px;
-        font-size: 12px;
+        font-size: 34px;
         line-height: 85px;
         overflow: hidden;
+        line-height: 34px;
+        padding-top: 18%;
+        text-align: center;
+    }
+
+    .fa-reply {
+        font-size: 8em !important;
+        color: red;
+    }
+
+    .line-through {
+        text-decoration: line-through;
     }
 
 
-
-    .definition {
-
+    /*This needs to be the last element so it overrides all preceding elements*/
+    .active {
+        opacity: 1;
     }
 
-    /*.def_card p:after {*/
-        /*display: block;*/
-        /*background: transparent;*/
-        /*content: "";*/
-        /*height: 20px;*/
-    /*}*/
 }
 
 /*Microsoft IE*/
