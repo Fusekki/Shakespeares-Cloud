@@ -537,11 +537,10 @@ navbar-default .navbar-nav>li>a {
     .right {
         position: fixed;
         width: 400px;
-        border: 1px solid red;
         height: calc(100% - 308px);
         top: 308px;
         right: 0;
-        background: white;
+        background: transparent;
 
     }
 
@@ -553,8 +552,14 @@ navbar-default .navbar-nav>li>a {
         border: 1px solid blue;
         background: blue;
         color: white;
-        transition: background, color 0.5s;
+        opacity: 0;
+        transition: background, color, opacity 0.5s;
     }
+
+    .right_top:hover {
+         background: lightblue;
+         color: black;
+     }
 
     .right_middle {
         position: relative;
@@ -564,8 +569,32 @@ navbar-default .navbar-nav>li>a {
         border: 1px solid green;
         background: green;
         color: white;
-        transition: background, color 0.5s;
+        opacity: 0;
+        transition: background, color, opacity 0.5s;
     }
+
+    .right_middle:hover {
+        background: lightgreen;
+        color: black;
+    }
+
+    .right_bottom {
+        /*display: block;*/
+        height: 100px;
+        background: purple;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.5s;
+     }
+
+    .right_bottom:hover {
+        background: lightpink;
+        color: black;
+    }
+    .active {
+         opacity: 1;
+     }
+
     .word {
         transition: background 0.5s;
     }
@@ -574,27 +603,14 @@ navbar-default .navbar-nav>li>a {
         color: white;
     }
     .text {
-        background: mintcream;
-        transition: background, color 0.5s;
-
+        background: rgba(255,255,255, 0.5);
+        opacity: 0;
+        transition: background, color, opacity 0.5s;
     }
 
-    .right_top:hover {
-        background: lightblue;
-        color: black;
-    }
-    .right_middle:hover {
-        background: lightgreen;
-        color: black;
-    }
     .text:hover {
-        background: white;
+        background: rgba(255,255,255);
         color: black;
-    }
-
-    .active {
-        /*background: black;*/
-        /*color: grey;*/
     }
 
     .container_def_card {
@@ -622,18 +638,7 @@ navbar-default .navbar-nav>li>a {
         overflow: hidden;
     }
 
-    .right_bottom {
-        display: block;
-        height: 100px;
-        background: purple;
-        color: white;
-        transition: opacity 0.25s;
-    }
 
-    .right_bottom:hover {
-        background: lightpink;
-        color: black;
-    }
 
     .definition {
 

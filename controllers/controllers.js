@@ -68,6 +68,14 @@ angular.module('shakespeareApp')
         $scope.sel_word = "Word";
 
         $scope.isActive = false;
+
+        // Sets the right dictionary area to opacity 1 on true; 0 when false
+        $scope.rt_Active = false;
+        $scope.rm_Active = false;
+        $scope.rb_Active = false;
+
+        var text;
+
         // $scope.title = sharedService.title;
         //
         apiService.getHTML(function(response){
@@ -76,14 +84,17 @@ angular.module('shakespeareApp')
             console.log(err.status);
         });
 
+        // This is triggered on a hover over a line in the play
         $scope.grabText = function($event) {
-            var text = $event.target.innerText;
-            text = text.toString().split(" ");
+            $scope.isActive = !$scope.isActive;
+            console.log($scope.isActive);
+            text = $event.target.innerText;
+            var split_text = text.toString().split(" ");
             var new_text = "";
             var new_word;
-            for (var x = 0; x < text.length; x++) {
+            for (var x = 0; x < split_text.length; x++) {
                 // Here we are stripping punctuation-like characters out of the word
-                new_word = text[x].replace(/([.,!?\\-])/,"");
+                new_word = split_text[x].replace(/([.,!?\\-])/,"");
                 new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
             }
             $scope.text = new_text;
@@ -94,9 +105,6 @@ angular.module('shakespeareApp')
             console.log('going to look up ' + $scope.text);
         };
 
-        $scope.testAlert = function() {
-            console.log('test alert!!');
-        };
 
         apiService.getDef(function (response) {
             // console.log(response);
@@ -109,9 +117,19 @@ angular.module('shakespeareApp')
             // console.log(jsonObj.entry_list.entry[0].def[2]);
         });
 
+        // This triggers when the word is clicked in the sentence field.
         $scope.chooseWord = function($event) {
+            console.log('choose word');
             $scope.sel_word = $event.target.innerHTML;
-            $scope.isActive = !$scope.isActive;
+            // $scope.isActive = !$scope.isActive;
+            $scope.rt_Active = !$scope.rt_Active;
+            // Check if rm and rb are open. If so, close them.
+            if ($scope.rm_Active) {
+                $scope.rm_Active = !$scope.rm_Active;
+            }
+            if ($scope.rb_Active) {
+                $scope.rb_Active = !$scope.rb_Active;
+            }
             if ($scope.def_cards) {
                 $scope.def_cards.length = 0;
             }
@@ -120,7 +138,9 @@ angular.module('shakespeareApp')
             }
         };
 
+        // This triggers when the word is clicked when by itself.  It prompts the following API call.
         $scope.lookupWord = function($event) {
+            $scope.rm_Active = !$scope.rm_Active;
             var def_list = [];
             console.log('Lookup word: ' + $event.target.innerHTML);
             // Set the word
@@ -155,6 +175,7 @@ angular.module('shakespeareApp')
                         }
                     }
                     $scope.def_cards = def_list;
+
                 }
 
             }, function (err) {
@@ -162,12 +183,12 @@ angular.module('shakespeareApp')
             });
 
         }
-
+        // This is triggered when a def_card is clicked.
         $scope.displayDef = function(def) {
+            console.log('display def.');
+            $scope.rb_Active = !$scope.rb_Active;
             $scope.definition = def;
         }
-
-
 
     });
 
