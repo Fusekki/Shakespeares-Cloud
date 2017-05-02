@@ -8,4 +8,4 @@ Utilizes:
 * [jQuery](https://jquery.com/)
 
 code by [Phillip Stafford](http://philliprstafford.com)
-texts provided by [PlayShakespeare](https://www.playshakespeare.co
+texts provided by [PlayShakespeare](https://www.playshakespeare.com).
