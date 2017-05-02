@@ -543,10 +543,14 @@ navbar-default .navbar-nav>li>a {
         position: fixed;
         width: 450px;
         height: calc(100% - 308px);
-        top: 200px;
+        top: 220px;
         right: 15px;
         background: transparent;
 
+    }
+
+    .right span {
+        font-size: 14px;
     }
 
     .right_top {
@@ -615,7 +619,9 @@ navbar-default .navbar-nav>li>a {
         color: white;
     }
 
-    .text_header {
+    .step_one,
+    .step_two,
+    .step_three {
         opacity: 0;
         transition: opacity 0.25s;
     }
