@@ -4,16 +4,22 @@
 
 <div class="right">
     <div>
-        <span><i class="fa fa-reply" aria-hidden="true"></i></span>
-        <h3 ng-class="{'line-through': i_done}">Hover over a line to examine the meaning</h3>
+        <div><i class="fa fa-reply" aria-hidden="true"></i></div>
+        <span ng-class="{'line-through': i_done}">Hover over a line to examine the meaning</span>
     </div>
-    <div class="text_header" ng-class="{'active': th_Active}">
-        <h3>Choose a word to lookup its definition. </h3>
+    <div class="step_one" ng-class="{'active': so_Active}">
+        <span ng-class="{'line-through': s_done}">Choose a word below to select it. </span>
     </div>
-    <div class="text" dynamic="text" ng-class="{'active': isActive}"></div>
+    <div class="step_two" ng-class="{'active': st_Active}">
+        <span ng-class="{'line-through': t_done}">Click the button to lookup the definiton </span>
+    </div>
+    <div class="step_three" ng-class="{'active': sth_Active}">
+        <span>Click a defintion to view its contents </span>
+    </div>
+    <div class="text" dynamic="examinedText" ng-class="{'active': isActive}"></div>
     <div class="right_top" ng-class="{'active': rt_Active}">
-        <h3>Look up definition: </h3>
-        <label class="btn btn-primary" ng-click="lookupWord($event)" dynamic="sel_word"></label>
+        <h3 dynamic="sel_word"></h3>
+        <label class="btn btn-primary" ng-click="lookupWord($event)">Define</label>
     </div>
 
     <div class="right_middle" ng-class="{'active': rm_Active}">
