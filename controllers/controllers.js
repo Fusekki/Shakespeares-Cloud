@@ -165,6 +165,7 @@ angular.module('shakespeareApp')
 
         // This triggers when the define button is clicked..  It prompts the following API call.
         $scope.lookupWord = function($event) {
+            var idx = 0;
 
             $scope.t_done = !$scope.t_done;
             $scope.sth_Active = !$scope.sth_Active;
@@ -188,98 +189,137 @@ angular.module('shakespeareApp')
                 var jsonObj = x2js.xml_str2json( xmlText );
                 var entries = jsonObj.entry_list;
                 console.log(entries);
+                // if (entries.entry.length)
+                //     console.log('There are ' + entries.entry.length + ' entries total.');
+                // else
+                //     console.log('There is only one entry');
                 // Here we cycle through the results and push the relevant information to the object array.
                 if ('entry' in entries) {
-                    console.log('here');
-                    // console.log(entries.entry.length);
+                    // There is 1 or more entries.
+                    console.log('beginning entry');
                     // Check if entry length is above 1
                     if (entries.entry.length) {
-                        console.log('here now');
+                        console.log('entry is length of 1 or more');
                         for(var x = 0; x < entries.entry.length; x++) {
                             // console.log(x);
-                            var def = entries.entry[x].def;
-                            console.log(def);
-                            // console.log(typeof(def.dt));
-                            // This should always be an object returned
-                            console.log(typeof(def));
-                                for (var i = 0; i < def.dt.length + 1; i++ ) {
-                                    console.log(def.dt[i]);
-                                    // console.log(typeof(def.dt[i]));
-                                    if (typeof(def.dt[i]) == 'string') {
-                                        console.log('type is string');
-                                        if (def.dt[i].length > 1) {
-                                            def_list.push(def.dt[i].replace(/^:/, ""));
-                                        } else if (typeof(def.dt[i]) == 'object') {
-                                            if (def.dt[i].length > 1) {
-                                                def_list.push(def.dt.__text.replace(/^:/, ""));
+                            if ('def' in entries.entry[x]) {
+                                var def = entries.entry[x].def;
+                                console.log('entry: ' + x);
+                                console.log(def);
+
+                                // console.log(typeof(def.dt));
+                                // This should always be an object returned
+                                console.log(typeof(def));
+                                if (typeof(def.dt) == 'object') {
+                                    console.log('OBJECT ' + ' entry: ' + x);
+                                    if ('__text' in def.dt) {
+                                        console.log('push ' + idx + '-----------------');
+                                        def_list.push(def.dt.__text.replace(/^:/, ""));
+                                    } else {
+                                        for (var i = 0; i < def.dt.length + 1; i++ ) {
+                                            idx++;
+                                            console.log(def.dt[i]);
+                                            // console.log(typeof(def.dt[i]));
+                                            if (typeof(def.dt[i]) == 'string') {
+                                                console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
+                                                if (def.dt[i].length > 1) {
+                                                    console.log('push ' + idx + '-----------------');
+                                                    def_list.push(def.dt[i].replace(/^:/, ""));
+                                                }
+                                                // \else if (typeof(def.dt[i]) == 'object') {
+                                                //     if (def.dt[i].length > 1) {
+                                                //         def_list.push(def.dt.__text.replace(/^:/, ""));
+                                                //     }
+                                                // }
+                                            } else if (typeof(def.dt[i]) == 'object') {
+                                                console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
+                                                if  (def.dt[i].__text)  {
+                                                    if (def.dt[i].__text.length > 1) {
+                                                        console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+                                                        def_list.push(def.dt[i].__text.replace(/^:/, ""));
+                                                        // def_list.push(def.dt.replace(/^:/, ""));
+                                                    }
+                                                } else {
+                                                    console.log('unable to parse this entry: ' + x + ' dt: ' + i);
+                                                    console.log(def.dt[i]);
+                                                }
                                             }
                                         }
-                                    } else if (typeof(def.dt[i]) == 'object') {
-                                        console.log('type is string');
-                                        if  (def.dt[i].__text)  {
-                                            def_list.push(def.dt[i].__text.replace(/^:/, ""));
-                                            // def_list.push(def.dt.replace(/^:/, ""));
-                                        } else {
-                                            console.log('unable to parse this entry: ');
-                                            console.log(def.dt[i]);
-                                        }
                                     }
-                                }
-                            // if (typeof(def.dt) == 'object') {
-                            //     for (var i = 0; i < def.dt.length + 1; i++ ) {
-                            //         // console.log(i);
-                            //         // console.log(def.dt[i]);
-                            //         if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                            //             def_list.push(def.dt[i].replace(/^:/, ""));
-                            //
-                            //         } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
-                            //             def_list.push(def.dt.__text.replace(/^:/, ""));
-                            //         }
-                            //     }
-                            // } else if (typeof(def.dt) == 'object'){
-                            //     if  (def.dt.__text)  {
-                            //         def_list.push(def.dt.__text.replace(/^:/, ""));
-                            //         // def_list.push(def.dt.replace(/^:/, ""));
-                            //     } else {
-                            //         console.log(def.dt);
-                            //     }
-                            // }
 
+                                } else if (typeof(def.dt) == 'string') {
+                                    console.log('STRING' + ' entry: ' + x + ' dt: 0');
+                                    console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: 0');
+                                    def_list.push(def.dt.replace(/^:/, ""));
+
+                                }
+
+                                // if (typeof(def.dt) == 'object') {
+                                //     for (var i = 0; i < def.dt.length + 1; i++ ) {
+                                //         // console.log(i);
+                                //         // console.log(def.dt[i]);
+                                //         if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                                //             def_list.push(def.dt[i].replace(/^:/, ""));
+                                //
+                                //         } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
+                                //             def_list.push(def.dt.__text.replace(/^:/, ""));
+                                //         }
+                                //     }
+                                // } else if (typeof(def.dt) == 'object'){
+                                //     if  (def.dt.__text)  {
+                                //         def_list.push(def.dt.__text.replace(/^:/, ""));
+                                //         // def_list.push(def.dt.replace(/^:/, ""));
+                                //     } else {
+                                //         console.log(def.dt);
+                                //     }
+                                // }
+
+                            }
                         }
-                    } else {
+                            }
+ else {
                         // Only one entry exists but it may contain multiple dts
                         var def = entries.entry.def;
                         console.log(def);
                         console.log(def.dt.length);
                         if (typeof(def.dt) == 'string') {
+                            console.log('push ' + idx + '-----------------');
                             def_list.push(def.dt.replace(/^:/, ""));
                         } else {
                             for(var i = 0; i < def.dt.length + 1; i++) {
                                 console.log(i);
                                 console.log(def.dt[i]);
                                 if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                    console.log('HERE');
+                                    console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+
                                     def_list.push(def.dt[i].replace(/^:/, ""));
 
                                 } else if (typeof(def.dt[i]) == 'object' && def.dt[i].__text.length > 1) {
-                                    console.log('here');
-                                    console.log(def.dt[i]);
+                                    console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+
                                     def_list.push(def.dt[i].__text.replace(/^:/, ""));
                                 } else if (def.dt.__text)  {
                                     console(def.dt.__text.length);
+                                    console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+
                                     def_list.push(def.dt.__text.replace(/^:/, ""));
                                     // def_list.push(def.dt.replace(/^:/, ""));
                                 } else {
                                     console.log(def.dt);
+                                    console.log(' entry: ' + x + ' dt: ' + i);
                                 }
                             }
                         }
                         console.log(def_list);
                     }
+                    console.log('COMPILE-----------------');
 
                     $scope.def_cards = def_list;
 
+                } else {
+                    console.log('no entries returned.');
                 }
+
 
             }, function (err) {
                 console.log(err.status);

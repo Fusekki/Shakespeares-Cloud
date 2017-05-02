@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/services/services.js" description="&#10;    .provider(&quot;ngScrollToOptions&quot;, function() {&#10; ..." line="443" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="controller.js&#10;&#10;Add $scope.rt_Active, $scope.rm_Active, $scope.rb_Active booleans for opacity 1 on right dictionary area.  Add changes to values in function for hover or click.&#10;--&#10;style.css&#10;&#10;Add opacity 0 for rt, rm, rb divs.  Add transition opacity for each as well.  Remove border from rt.  Set bg to transparent as well.&#10;--&#10;play.templ.html&#10;&#10;Add ng-class to text, rt, rm and rb divs.&#10;--">
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Remove overflow from container_def_card.  Replace it in">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
     </list>
@@ -27,8 +27,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="216" column="31" lean-forward="true" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="31" />
+            <state relative-caret-position="177">
+              <caret line="213" column="24" lean-forward="false" selection-start-line="213" selection-start-column="24" selection-end-line="213" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -47,18 +47,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1157">
-              <caret line="667" column="15" lean-forward="true" selection-start-line="667" selection-start-column="15" selection-end-line="667" selection-end-column="15" />
-              <folding>
-                <marker date="1493754279598" expanded="true" signature="8077:11161" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10111:10260" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10278:10349" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10375:10477" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10492:10526" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10544:10891" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10907:10969" ph="{...}" />
-                <marker date="1493754279598" expanded="true" signature="10989:11035" ph="{...}" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="590" column="19" lean-forward="true" selection-start-line="590" selection-start-column="19" selection-end-line="590" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -5151,6 +5142,8 @@
       <find>hasKety</find>
       <find>entries.entry[x]</find>
       <find>def</find>
+      <find>console.log('push-----------------');</find>
+      <find>overflow</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -5158,6 +5151,7 @@
       <replace>.play_cards</replace>
       <replace>currentEntry</replace>
       <replace>currentDef</replace>
+      <replace>console.log('push ' + idx + '-----------------');</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -5197,11 +5191,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.js" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -5385,24 +5379,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5683,11 +5659,25 @@
       <option name="project" value="LOCAL" />
       <updated>1493747024486</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Rework parsing function for definitions by examining three words: enter, yong, count.">
+      <created>1493757593633</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493757593633</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add overflow: hidden to .right_middle.">
+      <created>1493762524172</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1493762524172</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220480000" />
+    <option name="totallyTimeSpent" value="225192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5780,7 +5770,9 @@
     <MESSAGE value="tooltip.htm&#10;&#10;Comment out first line as it is unneeded." />
     <MESSAGE value="play.tmpl.htm&#10;&#10;Add additional divs for instructions." />
     <MESSAGE value="Add additional classes for instruction fields opacity and strikethrough booleans." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add additional classes for instruction fields opacity and strikethrough booleans." />
+    <MESSAGE value="Rework parsing function for definitions by examining three words: enter, yong, count." />
+    <MESSAGE value="Add overflow: hidden to .right_middle." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add overflow: hidden to .right_middle." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5791,7 +5783,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -11016,23 +11008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1157">
-          <caret line="667" column="15" lean-forward="true" selection-start-line="667" selection-start-column="15" selection-end-line="667" selection-end-column="15" />
-          <folding>
-            <marker date="1493754279598" expanded="true" signature="8077:11161" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10111:10260" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10278:10349" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10375:10477" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10492:10526" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10544:10891" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10907:10969" ph="{...}" />
-            <marker date="1493754279598" expanded="true" signature="10989:11035" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/response.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -11041,10 +11016,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="590" column="19" lean-forward="true" selection-start-line="590" selection-start-column="19" selection-end-line="590" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="216" column="31" lean-forward="true" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="31" />
+        <state relative-caret-position="177">
+          <caret line="213" column="24" lean-forward="false" selection-start-line="213" selection-start-column="24" selection-end-line="213" selection-end-column="24" />
           <folding />
         </state>
       </provider>
