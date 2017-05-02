@@ -73,8 +73,11 @@ angular.module('shakespeareApp')
         $scope.rt_Active = false;
         $scope.rm_Active = false;
         $scope.rb_Active = false;
-        $scope.th_Active = false;
+        $scope.so_Active = false;
+        $scope.st_Active = false;
         $scope.i_done = false;
+        $scope.t_done = false;
+        $scope.sth_Active = false;
 
         var text;
 
@@ -89,12 +92,7 @@ angular.module('shakespeareApp')
         // This is triggered on a hover over a line in the play
         $scope.grabText = function($event) {
             console.log($event);
-            $scope.th_Active = !$scope.th_Active;
-            $scope.isActive = !$scope.isActive;
-            $scope.i_done = !$scope.i_done;
 
-            console.log($scope.th_Active);
-            console.log($scope.isActive);
             text = $event.target.innerText;
             var split_text = text.toString().split(" ");
             var new_text = "";
@@ -107,9 +105,18 @@ angular.module('shakespeareApp')
             $scope.text = new_text;
         };
 
-        console.log($scope.trustedHtml);
+        // console.log($scope.trustedHtml);
         $scope.lookupDefinition = function() {
-            console.log('going to look up ' + $scope.text);
+            console.log('going to look up sentence');
+            $scope.examinedText = $scope.text;
+
+            $scope.so_Active = !$scope.so_Active;
+            $scope.isActive = !$scope.isActive;
+            $scope.i_done = !$scope.i_done;
+
+
+            console.log($scope.so_Active);
+            console.log($scope.isActive);
         };
 
 
@@ -128,60 +135,75 @@ angular.module('shakespeareApp')
         $scope.chooseWord = function($event) {
             console.log('choose word');
             $scope.sel_word = $event.target.innerHTML;
-            // $scope.isActive = !$scope.isActive;
-            // $scope.rt_Active = !$scope.rt_Active;
+            $scope.s_done = !$scope.s_done;
+
+            // Show the rt if hidden
             if (!$scope.rt_Active) {
                 $scope.rt_Active = !$scope.rt_Active;
             }
-            // Check if rm and rb are open. If so, close them.
-            // if ($scope.rm_Active) {
-            //     $scope.rm_Active = !$scope.rm_Active;
-            // }
-            // if ($scope.rb_Active) {
-            //     $scope.rb_Active = !$scope.rb_Active;
-            // }
+            // Show the st if hidden
+            if (!$scope.st_Active) {
+                $scope.st_Active = !$scope.st_Active;
+            }
+            // Hide the rm and rb if they are showing.
+            if ($scope.rm_Active) {
+                $scope.rm_Active = !$scope.rm_Active;
+            }
+            if ($scope.rb_Active) {
+                $scope.rb_Active = !$scope.rb_Active;
+            }
+
+            // Clear the def_cards of any previous values.
             if ($scope.def_cards) {
                 $scope.def_cards.length = 0;
             }
             if ($scope.definition) {
                 $scope.definition= "";
             }
+
         };
 
-        // This triggers when the word is clicked when by itself.  It prompts the following API call.
+        // This triggers when the define button is clicked..  It prompts the following API call.
         $scope.lookupWord = function($event) {
+
+            $scope.t_done = !$scope.t_done;
+            $scope.sth_Active = !$scope.sth_Active;
             if (!$scope.rm_Active) {
                 $scope.rm_Active = !$scope.rm_Active;
             }
-
+            // Clear out the def_cards if there are any.
+            console.log($scope.def_cards);
+            console.log(def_list);
+            if ($scope.def_cards) {
+                $scope.def_cards.length = 0;
+            }
             // $scope.rm_Active = !$scope.rm_Active;
             var def_list = [];
-            console.log('Lookup word: ' + $event.target.innerHTML);
+            console.log('Lookup word: ' + $scope.sel_word);
             // Set the word
-            apiService.word = $event.target.innerHTML;
+            apiService.word = $scope.sel_word;
             apiService.getDef(function (response) {
                 var x2js = new X2JS();
                 var xmlText = response.data;
                 var jsonObj = x2js.xml_str2json( xmlText );
                 var entries = jsonObj.entry_list;
                 console.log(entries);
-                console.log(entries.entry);
                 // Here we cycle through the results and push the relevant information to the object array.
-                // t = transitive verb / i = intransitive verb
                 if ('entry' in entries) {
                     console.log('here');
-                    console.log(entries.entry.length);
+                    // console.log(entries.entry.length);
+                    // Check if entry length is above 1
                     if (entries.entry.length) {
                         console.log('here now');
                         for(var x = 0; x < entries.entry.length; x++) {
-                            console.log(x);
+                            // console.log(x);
                             var def = entries.entry[x].def;
-                            console.log(def);
+                            // console.log(def);
                             // console.log(typeof(def.dt));
                             if (typeof(def.dt) == 'object') {
                                 for (var i = 0; i < def.dt.length + 1; i++ ) {
-                                    console.log(i);
-                                    console.log(def.dt[i]);
+                                    // console.log(i);
+                                    // console.log(def.dt[i]);
                                     if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
                                         def_list.push(def.dt[i].replace(/^:/, ""));
 
@@ -198,9 +220,34 @@ angular.module('shakespeareApp')
                             }
                         }
                     } else {
-                        console.log('in else');
-                        console.log(entries.entry.def.dt);
-                        def_list.push(entries.entry.def.dt.replace(/^:/, ""));
+                        // Only one entry exists but it may contain multiple dts
+                        var def = entries.entry.def;
+                        console.log(def);
+                        console.log(def.dt.length);
+                        if (typeof(def.dt) == 'string') {
+                            def_list.push(def.dt.replace(/^:/, ""));
+                        } else {
+                            for(var i = 0; i < def.dt.length + 1; i++) {
+                                console.log(i);
+                                console.log(def.dt[i]);
+                                if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                                    console.log('HERE');
+                                    def_list.push(def.dt[i].replace(/^:/, ""));
+
+                                } else if (typeof(def.dt[i]) == 'object' && def.dt[i].__text.length > 1) {
+                                    console.log('here');
+                                    console.log(def.dt[i]);
+                                    def_list.push(def.dt[i].__text.replace(/^:/, ""));
+                                } else if (def.dt.__text)  {
+                                    console(def.dt.__text.length);
+                                    def_list.push(def.dt.__text.replace(/^:/, ""));
+                                    // def_list.push(def.dt.replace(/^:/, ""));
+                                } else {
+                                    console.log(def.dt);
+                                }
+                            }
+                        }
+                        console.log(def_list);
                     }
 
                     $scope.def_cards = def_list;
