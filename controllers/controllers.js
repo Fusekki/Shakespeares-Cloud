@@ -198,26 +198,53 @@ angular.module('shakespeareApp')
                         for(var x = 0; x < entries.entry.length; x++) {
                             // console.log(x);
                             var def = entries.entry[x].def;
-                            // console.log(def);
+                            console.log(def);
                             // console.log(typeof(def.dt));
-                            if (typeof(def.dt) == 'object') {
+                            // This should always be an object returned
+                            console.log(typeof(def));
                                 for (var i = 0; i < def.dt.length + 1; i++ ) {
-                                    // console.log(i);
-                                    // console.log(def.dt[i]);
-                                    if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                        def_list.push(def.dt[i].replace(/^:/, ""));
-
-                                    } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
-                                        def_list.push(def.dt.__text.replace(/^:/, ""));
+                                    console.log(def.dt[i]);
+                                    // console.log(typeof(def.dt[i]));
+                                    if (typeof(def.dt[i]) == 'string') {
+                                        console.log('type is string');
+                                        if (def.dt[i].length > 1) {
+                                            def_list.push(def.dt[i].replace(/^:/, ""));
+                                        } else if (typeof(def.dt[i]) == 'object') {
+                                            if (def.dt[i].length > 1) {
+                                                def_list.push(def.dt.__text.replace(/^:/, ""));
+                                            }
+                                        }
+                                    } else if (typeof(def.dt[i]) == 'object') {
+                                        console.log('type is string');
+                                        if  (def.dt[i].__text)  {
+                                            def_list.push(def.dt[i].__text.replace(/^:/, ""));
+                                            // def_list.push(def.dt.replace(/^:/, ""));
+                                        } else {
+                                            console.log('unable to parse this entry: ');
+                                            console.log(def.dt[i]);
+                                        }
                                     }
                                 }
-                            } else if (def.dt.__text)  {
-                                def_list.push(def.dt.__text.replace(/^:/, ""));
-                                // def_list.push(def.dt.replace(/^:/, ""));
+                            // if (typeof(def.dt) == 'object') {
+                            //     for (var i = 0; i < def.dt.length + 1; i++ ) {
+                            //         // console.log(i);
+                            //         // console.log(def.dt[i]);
+                            //         if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                            //             def_list.push(def.dt[i].replace(/^:/, ""));
+                            //
+                            //         } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
+                            //             def_list.push(def.dt.__text.replace(/^:/, ""));
+                            //         }
+                            //     }
+                            // } else if (typeof(def.dt) == 'object'){
+                            //     if  (def.dt.__text)  {
+                            //         def_list.push(def.dt.__text.replace(/^:/, ""));
+                            //         // def_list.push(def.dt.replace(/^:/, ""));
+                            //     } else {
+                            //         console.log(def.dt);
+                            //     }
+                            // }
 
-                            } else {
-                                console.log(def.dt);
-                            }
                         }
                     } else {
                         // Only one entry exists but it may contain multiple dts
