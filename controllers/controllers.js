@@ -212,7 +212,8 @@ angular.module('shakespeareApp')
                                 console.log(typeof(def));
                                 if (typeof(def.dt) == 'object') {
                                     console.log('OBJECT ' + ' entry: ' + x);
-                                    if ('__text' in def.dt) {
+                                    // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
+                                    if ('__text' in def.dt  && def.dt.__text.length > 1) {
                                         console.log('push ' + idx + '-----------------');
                                         def_list.push(def.dt.__text.replace(/^:/, ""));
                                     } else {
