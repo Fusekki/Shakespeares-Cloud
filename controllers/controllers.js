@@ -77,7 +77,8 @@ angular.module('shakespeareApp')
         $scope.st_Active = false;
         $scope.i_done = false;
         $scope.t_done = false;
-        $scope.sth_Active = false;
+        // $scope.sth_Active = false;
+        $scope.button_clicked = false;
 
         var text;
 
@@ -137,6 +138,7 @@ angular.module('shakespeareApp')
             $scope.sel_word = $event.target.innerHTML;
             $scope.s_done = !$scope.s_done;
 
+
             // Show the rt if hidden
             if (!$scope.rt_Active) {
                 $scope.rt_Active = !$scope.rt_Active;
@@ -152,6 +154,14 @@ angular.module('shakespeareApp')
             if ($scope.rb_Active) {
                 $scope.rb_Active = !$scope.rb_Active;
             }
+            // // Hide the third step if displaying.
+            // if ($scope.st_Active) {
+            //     $scope.st_Active = !$scope.st_Active;
+            // }
+            // // Remove the strike-through on the third step if present from previous call.
+            // if ($scope.t_done) {
+            //     $scope.t_done = !$scope.t_done;
+            // }
 
             // Clear the def_cards of any previous values.
             if ($scope.def_cards) {
@@ -160,6 +170,12 @@ angular.module('shakespeareApp')
             if ($scope.definition) {
                 $scope.definition= "";
             }
+            // Reenable the define button if a new word is clicked and if the button was disabled from a previous press.
+            if($scope.button_clicked) {
+                $scope.button_clicked = !$scope.button_clicked;
+            }
+
+
 
         };
 
@@ -167,8 +183,10 @@ angular.module('shakespeareApp')
         $scope.lookupWord = function($event) {
             var idx = 0;
 
+            $scope.button_clicked = true;
+
             $scope.t_done = !$scope.t_done;
-            $scope.sth_Active = !$scope.sth_Active;
+            // $scope.sth_Active = !$scope.sth_Active;
             if (!$scope.rm_Active) {
                 $scope.rm_Active = !$scope.rm_Active;
             }
@@ -278,7 +296,7 @@ angular.module('shakespeareApp')
                             }
                         }
                             }
- else {
+                         else {
                         // Only one entry exists but it may contain multiple dts
                         var def = entries.entry.def;
                         console.log(def);

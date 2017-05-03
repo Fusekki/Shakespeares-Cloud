@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="214" column="154" lean-forward="false" selection-start-line="214" selection-start-column="154" selection-end-line="214" selection-end-column="154" />
+            <state relative-caret-position="320">
+              <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -67,17 +67,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9010">
-              <caret line="530" column="19" lean-forward="false" selection-start-line="530" selection-start-column="19" selection-end-line="530" selection-end-column="19" />
-              <folding>
-                <marker date="1493826479786" expanded="true" signature="8077:11191" ph="{...}" />
-                <marker date="1493826479786" expanded="true" signature="9249:9434" ph="{...}" />
-                <marker date="1493826479786" expanded="true" signature="10808:10921" ph="{...}" />
-                <marker date="1493826479786" expanded="true" signature="10937:10999" ph="{...}" />
-                <marker date="1493826479786" expanded="true" signature="11019:11065" ph="{...}" />
-                <marker date="1493826479786" expanded="true" signature="11161:11188" ph="{...}" />
-                <marker date="1493826479786" expanded="true" signature="11283:11287" ph="{...}" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="651" column="22" lean-forward="false" selection-start-line="651" selection-start-column="22" selection-end-line="651" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -154,6 +146,7 @@
       <find>def</find>
       <find>overflow</find>
       <find>console.log('push-----------------');</find>
+      <find>sth_Active</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -199,12 +192,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
-        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
       </list>
@@ -691,11 +684,32 @@
       <option name="project" value="LOCAL" />
       <updated>1493762654381</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add &quot;&quot;&amp;&amp; def.dt__text.length &gt; 1&quot; to a if else if the object is string.  This will ensure it doesn't pass just an empty character.">
+      <created>1493827188617</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1493827188617</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Change height of .right_top.  Readjust the .right_top h3 and .right_top label to switch their positions from right to left and vice-versa.  Comment out right_bottom as I believe the design is moving away from it.">
+      <created>1493829734454</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1493829734454</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element.">
+      <created>1493829850028</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1493829850028</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226430000" />
+    <option name="totallyTimeSpent" value="229198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,9 +722,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -791,7 +804,10 @@
     <MESSAGE value="Rework parsing function for definitions by examining three words: enter, yong, count." />
     <MESSAGE value="Add overflow: hidden to .right_middle." />
     <MESSAGE value="Rework lookupWord function.  Try setting out to clarify early on the object type and branch put with if else from those basic categories initially.  Move specific logic to within.  This will help un-spaghettify the function code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rework lookupWord function.  Try setting out to clarify early on the object type and branch put with if else from those basic categories initially.  Move specific logic to within.  This will help un-spaghettify the function code." />
+    <MESSAGE value="Add &quot;&quot;&amp;&amp; def.dt__text.length &gt; 1&quot; to a if else if the object is string.  This will ensure it doesn't pass just an empty character." />
+    <MESSAGE value="Change height of .right_top.  Readjust the .right_top h3 and .right_top label to switch their positions from right to left and vice-versa.  Comment out right_bottom as I believe the design is moving away from it." />
+    <MESSAGE value="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -972,42 +988,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/response.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9010">
-          <caret line="530" column="19" lean-forward="false" selection-start-line="530" selection-start-column="19" selection-end-line="530" selection-end-column="19" />
-          <folding>
-            <marker date="1493826479786" expanded="true" signature="8077:11191" ph="{...}" />
-            <marker date="1493826479786" expanded="true" signature="9249:9434" ph="{...}" />
-            <marker date="1493826479786" expanded="true" signature="10808:10921" ph="{...}" />
-            <marker date="1493826479786" expanded="true" signature="10937:10999" ph="{...}" />
-            <marker date="1493826479786" expanded="true" signature="11019:11065" ph="{...}" />
-            <marker date="1493826479786" expanded="true" signature="11161:11188" ph="{...}" />
-            <marker date="1493826479786" expanded="true" signature="11283:11287" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="214" column="154" lean-forward="false" selection-start-line="214" selection-start-column="154" selection-end-line="214" selection-end-column="154" />
           <folding />
         </state>
       </provider>
@@ -1031,6 +1015,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="146" column="36" lean-forward="true" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="651" column="22" lean-forward="false" selection-start-line="651" selection-start-column="22" selection-end-line="651" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
