@@ -13,22 +13,22 @@
     <div class="step_two" ng-class="{'active': st_Active}">
         <span ng-class="{'line-through': t_done}">Click the button to lookup the definiton </span>
     </div>
-    <div class="step_three" ng-class="{'active': sth_Active}">
-        <span>Click a defintion to view its contents </span>
-    </div>
+    <!--<div class="step_three" ng-class="{'active': sth_Active}">-->
+        <!--<span>Click a defintion to view its contents </span>-->
+    <!--</div>-->
     <div class="text" dynamic="examinedText" ng-class="{'active': isActive}"></div>
     <div class="right_top" ng-class="{'active': rt_Active}">
-        <h3 dynamic="sel_word"></h3>
-        <label class="btn btn-primary" ng-click="lookupWord($event)">Define</label>
+        <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
+        <span dynamic="sel_word"></span>
     </div>
-
     <div class="right_middle" ng-class="{'active': rm_Active}">
         <h4>Definitions</h4>
         <ul ng-show="def_cards.length" class="container_def_card" ng-if="def_cards.length">
-            <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">
+            <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
+            <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index">
                 <p>
                     <!--{{ title(d) }}-->
-                   {{ $index }}
+                   {{ $index }}) {{ d }}
                 </p>
             </li>
         </ul>
@@ -38,14 +38,14 @@
             </p>
         </span>
     </div>
-    <div class="right_bottom" ng-class="{'active': rb_Active}">
-        <div class="definition">
-            <p ng-show="definition">
-                "{{ definition }}"
-            </p>
-            <p ng-show="!definition">
-                Definition
-            </p>
-        </div>
-    </div>
+    <!--<div class="right_bottom" ng-class="{'active': rb_Active}">-->
+        <!--<div class="definition">-->
+            <!--<p ng-show="definition">-->
+                <!--"{{ definition }}"-->
+            <!--</p>-->
+            <!--<p ng-show="!definition">-->
+                <!--Definition-->
+            <!--</p>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
