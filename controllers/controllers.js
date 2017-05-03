@@ -1,7 +1,7 @@
 angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
-    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
+    .controller('homeCtrl', function($scope, logicService, modelService, apiService, sharedService) {
 
         $('.play_cards').mixItUp({
             load: {
@@ -9,22 +9,22 @@ angular.module('shakespeareApp')
             }
         });
 
-        $scope.submit = function () {
+        $scope.submit = function() {
             console.log($scope.search_term);
             var file = modelService.searchModel($scope.search_term);
             sharedService.filename = 'assets/plays/' + file;
             logicService.navTo("/play");
         };
 
-        $scope.getPlays = function () {
+        $scope.getPlays = function() {
             return modelService.plays;
         };
 
-        $scope.getCategories = function () {
+        $scope.getCategories = function() {
             return modelService.categories;
         };
 
-        $scope.openPlay = function (file, title) {
+        $scope.openPlay = function(file, title) {
             sharedService.filename = 'assets/plays/' + file;
             sharedService.title = title;
             logicService.navTo("/play");
@@ -49,11 +49,11 @@ angular.module('shakespeareApp')
         // $scope.number = 2;
 
 
-  })
+    })
 
-    .controller('connectCtrl', function ($scope, logicService, apiService) {
+    .controller('connectCtrl', function($scope, logicService, apiService) {
 
-        apiService.getData(function(response){
+        apiService.getData(function(response) {
             var data = response.data;
             console.log(data);
         }, function(err) {
@@ -62,9 +62,9 @@ angular.module('shakespeareApp')
 
     })
 
-    .controller('playCtrl', function ($scope, logicService, apiService) {
+    .controller('playCtrl', function($scope, logicService, apiService) {
 
-        $scope.text="Sentence";
+        $scope.text = "Sentence";
         $scope.sel_word = "Word";
 
         $scope.isActive = false;
@@ -81,10 +81,11 @@ angular.module('shakespeareApp')
         $scope.button_clicked = false;
 
         var text;
+        var hasClicked = false;
 
         // $scope.title = sharedService.title;
         //
-        apiService.getHTML(function(response){
+        apiService.getHTML(function(response) {
             $scope.play = response.data;
         }, function(err) {
             console.log(err.status);
@@ -93,6 +94,9 @@ angular.module('shakespeareApp')
         // This is triggered on a hover over a line in the play
         $scope.grabText = function($event) {
             console.log($event);
+            if (hasClicked) {
+                hasClicked = !hasClicked;
+            }
 
             text = $event.target.innerText;
             var split_text = text.toString().split(" ");
@@ -100,7 +104,7 @@ angular.module('shakespeareApp')
             var new_word;
             for (var x = 0; x < split_text.length; x++) {
                 // Here we are stripping punctuation-like characters out of the word
-                new_word = split_text[x].replace(/([.,!?\\-])/,"");
+                new_word = split_text[x].replace(/([.,!?\\-])/, "");
                 new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
             }
             $scope.text = new_text;
@@ -121,12 +125,12 @@ angular.module('shakespeareApp')
         };
 
 
-        apiService.getDef(function (response) {
+        apiService.getDef(function(response) {
             // console.log(response);
             // console.log(response.data);
             var x2js = new X2JS();
             var xmlText = response.data;
-            var jsonObj = x2js.xml_str2json( xmlText );
+            var jsonObj = x2js.xml_str2json(xmlText);
             console.log(jsonObj.entry_list);
 
             // console.log(jsonObj.entry_list.entry[0].def[2]);
@@ -134,10 +138,21 @@ angular.module('shakespeareApp')
 
         // This triggers when the word is clicked in the sentence field.
         $scope.chooseWord = function($event) {
-            console.log('choose word');
-            $scope.sel_word = $event.target.innerHTML;
-            $scope.s_done = !$scope.s_done;
 
+            console.log('choose word');
+            // Grab the text from the element
+            $scope.sel_word = $event.target.innerHTML;
+            // Toggle the second line strike-through
+
+            // If this is the first time selecting a word after a sentence is chosen to be examined,
+            // toggle the s_done and t_done so that they appear.
+            // If this is not the first time, if the t_done is marked, unmark it.
+            if (!hasClicked) {
+                hasClicked = true;
+                $scope.s_done = !$scope.s_done;
+            } else if ($scope.t_done) {
+                $scope.t_done = !$scope.t_done;
+            }
 
             // Show the rt if hidden
             if (!$scope.rt_Active) {
@@ -168,13 +183,12 @@ angular.module('shakespeareApp')
                 $scope.def_cards.length = 0;
             }
             if ($scope.definition) {
-                $scope.definition= "";
+                $scope.definition = "";
             }
             // Reenable the define button if a new word is clicked and if the button was disabled from a previous press.
-            if($scope.button_clicked) {
+            if ($scope.button_clicked) {
                 $scope.button_clicked = !$scope.button_clicked;
             }
-
 
 
         };
@@ -201,10 +215,10 @@ angular.module('shakespeareApp')
             console.log('Lookup word: ' + $scope.sel_word);
             // Set the word
             apiService.word = $scope.sel_word;
-            apiService.getDef(function (response) {
+            apiService.getDef(function(response) {
                 var x2js = new X2JS();
                 var xmlText = response.data;
-                var jsonObj = x2js.xml_str2json( xmlText );
+                var jsonObj = x2js.xml_str2json(xmlText);
                 var entries = jsonObj.entry_list;
                 console.log(entries);
                 // if (entries.entry.length)
@@ -218,7 +232,7 @@ angular.module('shakespeareApp')
                     // Check if entry length is above 1
                     if (entries.entry.length) {
                         console.log('entry is length of 1 or more');
-                        for(var x = 0; x < entries.entry.length; x++) {
+                        for (var x = 0; x < entries.entry.length; x++) {
                             // console.log(x);
                             if ('def' in entries.entry[x]) {
                                 var def = entries.entry[x].def;
@@ -231,11 +245,11 @@ angular.module('shakespeareApp')
                                 if (typeof(def.dt) == 'object') {
                                     console.log('OBJECT ' + ' entry: ' + x);
                                     // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
-                                    if ('__text' in def.dt  && def.dt.__text.length > 1) {
+                                    if ('__text' in def.dt && def.dt.__text.length > 1) {
                                         console.log('push ' + idx + '-----------------');
                                         def_list.push(def.dt.__text.replace(/^:/, ""));
                                     } else {
-                                        for (var i = 0; i < def.dt.length + 1; i++ ) {
+                                        for (var i = 0; i < def.dt.length + 1; i++) {
                                             idx++;
                                             console.log(def.dt[i]);
                                             // console.log(typeof(def.dt[i]));
@@ -245,14 +259,9 @@ angular.module('shakespeareApp')
                                                     console.log('push ' + idx + '-----------------');
                                                     def_list.push(def.dt[i].replace(/^:/, ""));
                                                 }
-                                                // \else if (typeof(def.dt[i]) == 'object') {
-                                                //     if (def.dt[i].length > 1) {
-                                                //         def_list.push(def.dt.__text.replace(/^:/, ""));
-                                                //     }
-                                                // }
                                             } else if (typeof(def.dt[i]) == 'object') {
                                                 console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
-                                                if  (def.dt[i].__text)  {
+                                                if (def.dt[i].__text) {
                                                     if (def.dt[i].__text.length > 1) {
                                                         console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
                                                         def_list.push(def.dt[i].__text.replace(/^:/, ""));
@@ -265,38 +274,14 @@ angular.module('shakespeareApp')
                                             }
                                         }
                                     }
-
                                 } else if (typeof(def.dt) == 'string') {
                                     console.log('STRING' + ' entry: ' + x + ' dt: 0');
                                     console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: 0');
                                     def_list.push(def.dt.replace(/^:/, ""));
-
                                 }
-
-                                // if (typeof(def.dt) == 'object') {
-                                //     for (var i = 0; i < def.dt.length + 1; i++ ) {
-                                //         // console.log(i);
-                                //         // console.log(def.dt[i]);
-                                //         if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                //             def_list.push(def.dt[i].replace(/^:/, ""));
-                                //
-                                //         } else if (typeof(def.dt[i]) == 'object' && def.dt[i].length > 1) {
-                                //             def_list.push(def.dt.__text.replace(/^:/, ""));
-                                //         }
-                                //     }
-                                // } else if (typeof(def.dt) == 'object'){
-                                //     if  (def.dt.__text)  {
-                                //         def_list.push(def.dt.__text.replace(/^:/, ""));
-                                //         // def_list.push(def.dt.replace(/^:/, ""));
-                                //     } else {
-                                //         console.log(def.dt);
-                                //     }
-                                // }
-
                             }
                         }
-                            }
-                         else {
+                    } else {
                         // Only one entry exists but it may contain multiple dts
                         var def = entries.entry.def;
                         console.log(def);
@@ -305,7 +290,7 @@ angular.module('shakespeareApp')
                             console.log('push ' + idx + '-----------------');
                             def_list.push(def.dt.replace(/^:/, ""));
                         } else {
-                            for(var i = 0; i < def.dt.length + 1; i++) {
+                            for (var i = 0; i < def.dt.length + 1; i++) {
                                 console.log(i);
                                 console.log(def.dt[i]);
                                 if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
@@ -317,7 +302,7 @@ angular.module('shakespeareApp')
                                     console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
 
                                     def_list.push(def.dt[i].__text.replace(/^:/, ""));
-                                } else if (def.dt.__text)  {
+                                } else if (def.dt.__text) {
                                     console(def.dt.__text.length);
                                     console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
 
@@ -340,7 +325,7 @@ angular.module('shakespeareApp')
                 }
 
 
-            }, function (err) {
+            }, function(err) {
                 console.log(err.status);
             });
 
@@ -356,4 +341,3 @@ angular.module('shakespeareApp')
         }
 
     });
-
