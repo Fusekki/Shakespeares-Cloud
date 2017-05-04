@@ -28,7 +28,7 @@
             <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index">
                 <p>
                     <!--{{ title(d) }}-->
-                   {{ $index }}) {{ d }}
+                    <span ng-show="def_cards.length > 1">{{ $index }})</span> <span>{{ d }}</span>
                 </p>
             </li>
         </ul>
