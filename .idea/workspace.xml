@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="907">
-              <caret line="545" column="19" lean-forward="true" selection-start-line="545" selection-start-column="19" selection-end-line="545" selection-end-column="19" />
+            <state relative-caret-position="550">
+              <caret line="595" column="26" lean-forward="false" selection-start-line="595" selection-start-column="26" selection-end-line="595" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="484">
+              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -5767,11 +5767,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493931994963</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add .right_container, step_zero to enclose the first set of directions as is custom with the other two.&#10;Set .right_container to fixed position with remaining viewport height and width.  Set .right to position:relative since it is now the child of the container just created.">
+      <created>1493932179553</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1493932179553</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240398000" />
+    <option name="totallyTimeSpent" value="242096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5847,7 +5854,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added files that were not added during previous commit." />
     <MESSAGE value="controller.js&#10;&#10;Add logic so that the rm, rb only toggle on word change if not already active.&#10;&#10;Add additional logic in parsing in the case that the entry does not include '__text' to just grab the dt value instead.&#10;--&#10;&#10;style.css&#10;&#10;Add direction divs above the right and in-between to instruct the user on each step of the dictionary process.  Adjust height and width of right divs.  Also limit the .play div to only contain about 60% of width.&#10;--&#10;play.tmpl.htm&#10;&#10;Add additional divs for instructions.  Have defintion &lt;li&gt; objects have the $index number on display." />
     <MESSAGE value="alls_well....htm&#10;&#10;Add the uib-tooltip back to the stagedir line." />
     <MESSAGE value="&#10;controller.js&#10;Add more $scope booleans accounting for additional text instuctions created in play.templ.htm. Create boolean for opacity and strikethrough properties.&#10;Add logic to lookupDefiniton to grab the $scope.text and assign it to $scope.exacminedText.  Did this because otherwise the button click in the tooltip would need to traverse the DOM to get the text value.  This makes it simpler as a hover populates the $scope.text but is not revealed unless $scope.examinedText becomes defined." />
@@ -5872,7 +5878,8 @@
     <MESSAGE value="Add 'div.container_sug' and set column-count to 3." />
     <MESSAGE value="Add 'div.container_sug' that wraps 'ul.container_sug_card'" />
     <MESSAGE value="Create .right_container. Set the .right to relative display.    Add border-right with half opacity cream type placeholder color to 1px right." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create .right_container. Set the .right to relative display.    Add border-right with half opacity cream type placeholder color to 1px right." />
+    <MESSAGE value="Add .right_container, step_zero to enclose the first set of directions as is custom with the other two.&#10;Set .right_container to fixed position with remaining viewport height and width.  Set .right to position:relative since it is now the child of the container just created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .right_container, step_zero to enclose the first set of directions as is custom with the other two.&#10;Set .right_container to fixed position with remaining viewport height and width.  Set .right to position:relative since it is now the child of the container just created." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -11109,16 +11116,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="484">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="545" column="19" lean-forward="true" selection-start-line="545" selection-start-column="19" selection-end-line="545" selection-end-column="19" />
+        <state relative-caret-position="550">
+          <caret line="595" column="26" lean-forward="false" selection-start-line="595" selection-start-column="26" selection-end-line="595" selection-end-column="26" />
           <folding />
         </state>
       </provider>
