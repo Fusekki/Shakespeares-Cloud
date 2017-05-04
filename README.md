@@ -9,3 +9,5 @@ Utilizes:
 
 code by [Phillip Stafford](http://philliprstafford.com)
 texts provided by [PlayShakespeare](https://www.playshakespeare.com).
+
+Note: This project is still under development.
