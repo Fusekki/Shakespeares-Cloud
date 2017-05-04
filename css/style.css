@@ -658,9 +658,12 @@ navbar-default .navbar-nav>li>a {
         overflow: auto;
     }
 
+    .container_sug {
+        column-count: 3;
+    }
+
     .container_sug_card {
         overflow: auto;
-        height: 166px;
     }
     .def_card,
     .sug_card {
