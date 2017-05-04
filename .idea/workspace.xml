@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="117" column="48" lean-forward="false" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -128,7 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sw</find>
       <find>app</find>
       <find>categoryfilter</find>
       <find>img</find>
@@ -157,6 +156,8 @@
       <find>sth_Active</find>
       <find>console.log('push-----------------');</find>
       <find>overflow</find>
+      <find>lookupWord</find>
+      <find>lookup</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -206,10 +207,10 @@
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
       </list>
     </option>
   </component>
@@ -785,11 +786,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493913436001</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add 'div.container_sug' that wraps 'ul.container_sug_card'">
+      <created>1493913523070</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1493913523070</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236725000" />
+    <option name="totallyTimeSpent" value="238875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -865,7 +873,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remaining files from last push that only included one file :(&#10;&#10;alls_well....htm&#10;&#10;Remove div.right from template.&#10;--&#10;controller.js&#10;&#10;Add $scope.def_cards and set inside the apiService.getDeg function at tail end.&#10;--&#10;style.css&#10;&#10;Add styling for .def_card and .def_card p and .container_def_card.&#10;--&#10;play.templ.html&#10;&#10;Add ul.container_def card containing li.def_card and p.   Inside the P place the sliced 10th character value of the text inside.&#10;--" />
     <MESSAGE value="controller.js&#10;&#10;Clear $scope.def_cards and $scope.definition on chooseWords funtion. Add if 'entry' statement before looping through results.  This avoids an error if the results come up with no defs.&#10;--&#10;style.css&#10;&#10;Add righ_middle and renamed right_bottom.  Changed size of cards to 50px.  Add  background color to right_bottom as well as hover effect.&#10;--&#10;play.templ.html&#10;&#10;Add ng-show to def_cards li ng-repeat. Add div for defitinition area.  Add ng-show for No results for either.&#10;--" />
     <MESSAGE value="Added files that were not added during previous commit." />
     <MESSAGE value="controller.js&#10;&#10;Add logic so that the rm, rb only toggle on word change if not already active.&#10;&#10;Add additional logic in parsing in the case that the entry does not include '__text' to just grab the dt value instead.&#10;--&#10;&#10;style.css&#10;&#10;Add direction divs above the right and in-between to instruct the user on each step of the dictionary process.  Adjust height and width of right divs.  Also limit the .play div to only contain about 60% of width.&#10;--&#10;play.tmpl.htm&#10;&#10;Add additional divs for instructions.  Have defintion &lt;li&gt; objects have the $index number on display." />
@@ -890,7 +897,8 @@
     <MESSAGE value="Add 'reducedHeight' class. Add 'sug_card p' styling." />
     <MESSAGE value="Add object to hold suggestions (sug_card).  Add logic to populate with suggestion objects as returned." />
     <MESSAGE value="Add 'div.container_sug' and set column-count to 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 'div.container_sug' and set column-count to 3." />
+    <MESSAGE value="Add 'div.container_sug' that wraps 'ul.container_sug_card'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 'div.container_sug' that wraps 'ul.container_sug_card'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,22 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="981">
@@ -1119,10 +1111,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="117" column="48" lean-forward="false" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
           <folding />
         </state>
       </provider>

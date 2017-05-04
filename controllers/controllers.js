@@ -110,14 +110,55 @@ angular.module('shakespeareApp')
             $scope.text = new_text;
         };
 
-        // console.log($scope.trustedHtml);
+        // This triggers when the Examine button is clicked in the tooltip.
         $scope.lookupDefinition = function() {
             console.log('going to look up sentence');
+
+            // if (!$scope.i_done) {
+            //     $scope.i_done = !$scope.i_done;
+            // }
+            // if ($scope.s_done) {
+            //     $scope.s_done = !$scope.s_done;
+            // }
+
+            // if (!$scope.rt_Active) {
+            //     $scope.rt_Active = !scope.rt_Active;
+            // }
             $scope.examinedText = $scope.text;
 
-            $scope.so_Active = !$scope.so_Active;
-            $scope.isActive = !$scope.isActive;
-            $scope.i_done = !$scope.i_done;
+
+
+            if (!$scope.so_Active) {
+                $scope.so_Active = !$scope.so_Active;
+            }
+            if (!$scope.isActive) {
+                $scope.isActive = !$scope.isActive;
+            }
+
+            if ($scope.rt_Active) {
+                $scope.rt_Active = !$scope.rt_Active;
+            }
+
+            if ($scope.rm_Active) {
+                $scope.rm_Active = !$scope.rm_Active;
+            }
+
+            if ($scope.rb_Active) {
+                $scope.rb_Active = !$scope.rb_Active;
+            }
+
+            if (!$scope.i_done) {
+                $scope.i_done = !$scope.i_done;
+            }
+
+            if ($scope.s_done) {
+                $scope.s_done = !$scope.s_done;
+            }
+            if ($scope.t_done) {
+                $scope.t_done = !$scope.t_done;
+            }
+
+            // $scope.i_done = !$scope.i_done;
 
 
             console.log($scope.so_Active);
@@ -189,7 +230,7 @@ angular.module('shakespeareApp')
 
         };
 
-        // This triggers when the define button is clicked..  It prompts the following API call.
+        //  This is triggered when the define button is clicked. It prompts the following API call.
         $scope.lookupWord = function($event) {
             var idx = 0;
 
