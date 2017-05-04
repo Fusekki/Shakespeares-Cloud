@@ -126,14 +126,10 @@ angular.module('shakespeareApp')
 
 
         apiService.getDef(function(response) {
-            // console.log(response);
-            // console.log(response.data);
             var x2js = new X2JS();
             var xmlText = response.data;
             var jsonObj = x2js.xml_str2json(xmlText);
             console.log(jsonObj.entry_list);
-
-            // console.log(jsonObj.entry_list.entry[0].def[2]);
         });
 
         // This triggers when the word is clicked in the sentence field.
@@ -221,10 +217,6 @@ angular.module('shakespeareApp')
                 var jsonObj = x2js.xml_str2json(xmlText);
                 var entries = jsonObj.entry_list;
                 console.log(entries);
-                // if (entries.entry.length)
-                //     console.log('There are ' + entries.entry.length + ' entries total.');
-                // else
-                //     console.log('There is only one entry');
                 // Here we cycle through the results and push the relevant information to the object array.
                 if ('entry' in entries) {
                     // There is 1 or more entries.
@@ -238,8 +230,6 @@ angular.module('shakespeareApp')
                                 var def = entries.entry[x].def;
                                 console.log('entry: ' + x);
                                 console.log(def);
-
-                                // console.log(typeof(def.dt));
                                 // This should always be an object returned
                                 console.log(typeof(def));
                                 if (typeof(def.dt) == 'object') {
@@ -322,6 +312,20 @@ angular.module('shakespeareApp')
 
                 } else {
                     console.log('no entries returned.');
+                    if ('suggestion' in entries) {
+                        var sug = entries.suggestion;
+                        console.log('sugestions found');
+                        if (typeof(sug) == 'object') {
+                            console.log('There are multiple suggestions.');
+                            for (var s = 0; s < sug.length; s++) {
+                                console.log(sug[s]);
+                            }
+
+                        } else if (typeof(sug) == 'string') {
+                            console.log('There is only one suggestion.');
+                            console.log(sug);
+                        }
+                    }
                 }
 
 
@@ -336,7 +340,6 @@ angular.module('shakespeareApp')
             if (!$scope.rb_Active) {
                 $scope.rb_Active = !$scope.rb_Active;
             }
-            // $scope.rb_Active = !$scope.rb_Active;
             $scope.definition = def;
         }
 
