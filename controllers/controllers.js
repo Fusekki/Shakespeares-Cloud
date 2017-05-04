@@ -208,6 +208,7 @@ angular.module('shakespeareApp')
             }
             // $scope.rm_Active = !$scope.rm_Active;
             var def_list = [];
+            var sug_list = [];
             console.log('Lookup word: ' + $scope.sel_word);
             // Set the word
             apiService.word = $scope.sel_word;
@@ -313,18 +314,22 @@ angular.module('shakespeareApp')
                 } else {
                     console.log('no entries returned.');
                     if ('suggestion' in entries) {
+                        $scope.rb_Active = true;
                         var sug = entries.suggestion;
                         console.log('sugestions found');
                         if (typeof(sug) == 'object') {
                             console.log('There are multiple suggestions.');
                             for (var s = 0; s < sug.length; s++) {
                                 console.log(sug[s]);
+                                sug_list.push(sug[s]);
                             }
 
                         } else if (typeof(sug) == 'string') {
                             console.log('There is only one suggestion.');
                             console.log(sug);
+                            sug_list.push(sug);
                         }
+                        $scope.sug_cards = sug_list;
                     }
                 }
 
