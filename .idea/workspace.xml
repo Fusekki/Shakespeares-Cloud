@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/services/services.js" description="&#10;    .provider(&quot;ngScrollToOptions&quot;, function() {&#10; ..." line="443" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/shakespeare.iml" afterPath="$PROJECT_DIR$/.idea/Shakespeare's Cloud.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="161" column="36" lean-forward="false" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
+            <state relative-caret-position="786">
+              <caret line="320" column="47" lean-forward="false" selection-start-line="320" selection-start-column="47" selection-end-line="320" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -38,7 +36,7 @@
       <file leaf-file-name="alls_well_that_ends_well_FF.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="17">
               <caret line="7" column="120" lean-forward="false" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
               <folding />
             </state>
@@ -68,8 +66,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11067">
-              <caret line="651" column="22" lean-forward="false" selection-start-line="651" selection-start-column="22" selection-end-line="651" selection-end-column="22" />
+            <state relative-caret-position="573">
+              <caret line="652" column="23" lean-forward="true" selection-start-line="652" selection-start-column="23" selection-end-line="652" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -95,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="425">
+              <caret line="25" column="91" lean-forward="true" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -197,8 +195,8 @@
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
       </list>
@@ -706,11 +704,39 @@
       <option name="project" value="LOCAL" />
       <updated>1493829850028</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Renamed project.">
+      <created>1493907447451</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1493907447451</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Remove forced height of .container_def_card.  It was causing too much empty space between entries when only two definitions are returned.">
+      <created>1493909369771</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1493909369771</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Remove some older code that was commented out and just taking space.  Add beginning for else conditioning if the word entry contains 'suggestion' container.  Add if else for type of container.  If object, cycle through each element.  If string, just grab it.">
+      <created>1493909502965</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1493909502965</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Break the &lt;p&gt; element of li.def_card into two spans.  One span containing the index, and with an ng-show that specifies it only be displayed if def_cards.length &gt; 1.  The other &lt;span&gt; contains the definition text.">
+      <created>1493909620732</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1493909620732</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230905000" />
+    <option name="totallyTimeSpent" value="233157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,13 +749,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -787,7 +812,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add function in home controller to calculate number of div.gap classes to add at end of ul." />
     <MESSAGE value="Add tooltip to line text in one shakeapeare play.  Set a mouseover on div element to store the innerText as a scope variable.  Remodify the app.filter for unsafe html to convert to string type if not string.  Add button to tooltip for function lookupDefintition in playCtrl.  Begin working on creating API call to Oxford dictionary API service calls." />
     <MESSAGE value="Add Oxford API call.  Troubleshoot issues on call." />
     <MESSAGE value="Add angular directives in play htm file." />
@@ -809,7 +833,11 @@
     <MESSAGE value="Add &quot;&quot;&amp;&amp; def.dt__text.length &gt; 1&quot; to a if else if the object is string.  This will ensure it doesn't pass just an empty character." />
     <MESSAGE value="Change height of .right_top.  Readjust the .right_top h3 and .right_top label to switch their positions from right to left and vice-versa.  Comment out right_bottom as I believe the design is moving away from it." />
     <MESSAGE value="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element." />
+    <MESSAGE value="Renamed project." />
+    <MESSAGE value="Remove forced height of .container_def_card.  It was causing too much empty space between entries when only two definitions are returned." />
+    <MESSAGE value="Remove some older code that was commented out and just taking space.  Add beginning for else conditioning if the word entry contains 'suggestion' container.  Add if else for type of container.  If object, cycle through each element.  If string, just grab it." />
+    <MESSAGE value="Break the &lt;p&gt; element of li.def_card into two spans.  One span containing the index, and with an ng-show that specifies it only be displayed if def_cards.length &gt; 1.  The other &lt;span&gt; contains the definition text." />
+    <option name="LAST_COMMIT_MESSAGE" value="Break the &lt;p&gt; element of li.def_card into two spans.  One span containing the index, and with an ng-show that specifies it only be displayed if def_cards.length &gt; 1.  The other &lt;span&gt; contains the definition text." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -961,14 +989,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="120" lean-forward="false" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1010,6 +1030,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="121" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,26 +1041,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11067">
-          <caret line="651" column="22" lean-forward="false" selection-start-line="651" selection-start-column="22" selection-end-line="651" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="25" column="91" lean-forward="true" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="573">
+          <caret line="652" column="23" lean-forward="true" selection-start-line="652" selection-start-column="23" selection-end-line="652" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="120" lean-forward="false" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="161" column="36" lean-forward="false" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
+        <state relative-caret-position="786">
+          <caret line="320" column="47" lean-forward="false" selection-start-line="320" selection-start-column="47" selection-end-line="320" selection-end-column="47" />
           <folding />
         </state>
       </provider>
