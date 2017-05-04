@@ -21,9 +21,9 @@
         <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
         <span dynamic="sel_word"></span>
     </div>
-    <div class="right_middle" ng-class="{'active': rm_Active}">
+    <div class="right_middle" ng-class="{'active': rm_Active, 'reducedHeight': !def_cards.length}">
         <h4>Definitions</h4>
-        <ul ng-show="def_cards.length" class="container_def_card" ng-if="def_cards.length">
+        <ul ng-show="def_cards.length" class="container_def_card">
             <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
             <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index">
                 <p>
@@ -37,6 +37,18 @@
                             No results.
             </p>
         </span>
+
+    </div>
+    <div class="right_bottom" ng-class="{'active': rb_Active}">
+        <hr>
+        <h4>Suggestions</h4>
+        <ul ng-show="sug_cards.length" class="container_sug_card">
+            <li class="sug_card" id="sug_{{ $index }}" ng-repeat="s in sug_cards track by $index">
+                <p>
+                    <span ng-show="sug_cards.length > 1">{{ $index }})</span> <span>{{ s }}</span>
+                </p>
+            </li>
+        </ul>
     </div>
     <!--<div class="right_bottom" ng-class="{'active': rb_Active}">-->
         <!--<div class="definition">-->
