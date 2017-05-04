@@ -599,6 +599,10 @@ navbar-default .navbar-nav>li>a {
         transition: background, color, opacity 0.5s;
     }
 
+    .reducedHeight {
+        height: 14%;
+    }
+
     .right_middle:hover {
         background: lightgreen;
         color: black;
@@ -606,7 +610,8 @@ navbar-default .navbar-nav>li>a {
 
     .right_bottom {
         /*display: block;*/
-        height: 100px;
+        overflow: hidden;
+        /*height: 50%;*/
         background: purple;
         color: white;
         opacity: 0;
@@ -652,11 +657,18 @@ navbar-default .navbar-nav>li>a {
         /*height: 225px;*/
         overflow: auto;
     }
-    .def_card {
+
+    .container_sug_card {
+        overflow: auto;
+        height: 166px;
+    }
+    .def_card,
+    .sug_card {
         list-style: none;
     }
 
-    .def_card p {
+    .def_card p,
+    .sug_card p {
         /*height: 60px;*/
         /*width: 60px;*/
         list-style: none;
