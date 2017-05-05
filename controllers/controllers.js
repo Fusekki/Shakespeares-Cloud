@@ -81,6 +81,7 @@ angular.module('shakespeareApp')
         $scope.button_clicked = false;
 
         var toolTipActive = false;
+        var lineMarked = false;
 
 
         var text;
@@ -96,22 +97,55 @@ angular.module('shakespeareApp')
 
         $scope.doThis = function($event) {
             console.log('line is clicked.  We should change the color  of it');
-            console.log($event);
-            var target = $event.target.classList;
+            // console.log($event);
+            var targetClass = $event.target.classList;
             // if (target.className == "fuckyou") {
             //     target.className -= "fuckyou"
             // }
             // target.className += "fuckyou";
-            if (target.contains ("fuckyou")) {
-                console.log("does contain class");
-                target.remove('fuckyou');
+            console.log(targetClass);
+
+            if (toolTipActive) {
+                // console.log('tooltip Active. Locating last one and removing ID and class.  Remove tooltip as well.')
+                // var currentToolTip = document.getElementById('fuckyou-active');
+                // currentToolTip.removeAttribute('id');
+                // currentTooltip.classList.remove('fuckyou');
+                // var prevToolTip = document.getElementById('tooltip-active');
+                // console.log(prevToolTip);
+                // console.log('removing tooltip');
+                // prevToolTip.remove();
+                // Need to find the element with ID fuckyou-active.
+                // Remove ID and class fuckyou
+                // Remove tooltip.
+
+            }
+            if (targetClass.contains ("fuckyou")) {
+                console.log("does contain class. Removing fuckyou from it.");
+                targetClass.remove('fuckyou');
             } else {
-                console.log("does not contain class");
-                var ele = document.getElementsByClassName('fuckyou');
-                // if (ele) {
-                //     ele.remove('fuckyou');
-                // }
-                target.add('fuckyou');
+                console.log("does not contain class. adding fuckyou to it");
+                targetClass.add('fuckyou');
+                console.log(targetClass);
+                if (!lineMarked) {
+                    console.log('linemarked set to true');
+                    lineMarked = !lineMarked;
+                } else {
+                    console.log('linemarked is already true.');
+                    var prevLine = document.getElementById('fuckyou-active');
+
+                    console.log(prevLine);
+                    if (prevLine.classList.contains('fuckyou')) {
+                        console.log('Removing fuckyou from prevline');
+                        prevLine.classList.remove('fuckyou');
+                    }
+
+
+                    // prevLine.removeAttribute('id');
+                    // prevLine.classList.remove('fuckyou');
+                }
+                console.log('setting ID fuckyouactive');
+                $event.target.setAttribute('id', 'fuckyou-active');
+
             }
 
             if (!toolTipActive) {
@@ -119,14 +153,22 @@ angular.module('shakespeareApp')
                 toolTipActive = !toolTipActive;
                 var currentToolTip = document.getElementsByClassName('tooltipClass');
                 console.log(currentToolTip);
+                console.log('setting ID tooltip-active');
                 currentToolTip[0].setAttribute('id', 'tooltip-active');
             } else {
                 console.log('tooltip is active');
                 toolTipActive = !toolTipActive;
-                var prevToolTip = document.getElementById('tooltip-active');
-                console.log(prevToolTip);
-                prevToolTip.remove();
-                var markedLine = document.getElements
+                // var prevToolTip = document.getElementById('tooltip-active');
+                // console.log(prevToolTip);
+                console.log('removing tooltip');
+                // prevToolTip.remove();
+                var prevLine = document.getElementById('fuckyou-active');
+                console.log('removing ID fuckyou-active');
+                prevLine.removeAttribute('id');
+                console.log('removing claas fuckyou');
+                prevLine.classList.remove('fuckyou');
+                prevLine.setAttribute('tooltip-is-open', 'false');
+                // var markedLine = document.getElements
                 // var currentToolTip = document.getElementsByClassName('tooltipClass');
                 // console.log(currentToolTip);
                 // if (currentToolTip.length) {
@@ -144,7 +186,7 @@ angular.module('shakespeareApp')
 
         // This is triggered on a hover over a line in the play
         $scope.grabText = function($event) {
-            console.log($event);
+            // console.log($event);
             if (hasClicked) {
                 hasClicked = !hasClicked;
             }
@@ -223,7 +265,7 @@ angular.module('shakespeareApp')
             var x2js = new X2JS();
             var xmlText = response.data;
             var jsonObj = x2js.xml_str2json(xmlText);
-            console.log(jsonObj.entry_list);
+            // console.log(jsonObj.entry_list);
         });
 
         // This triggers when the word is clicked in the sentence field.
