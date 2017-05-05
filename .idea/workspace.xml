@@ -7,7 +7,6 @@
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/tooltip.tmpl.htm" afterPath="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+            <state relative-caret-position="595">
+              <caret line="105" column="50" lean-forward="true" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tooltip.tmpl.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tooltip.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -812,11 +811,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494004257612</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add functions to playController for tooltip clicks and in marking tooltips that are active so that we can ensure only one tooltip is active at a time and only one line of text can be selected at a time.">
+      <created>1494004371068</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1494004371069</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248539000" />
+    <option name="totallyTimeSpent" value="249784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +897,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tooltip.htm&#10;&#10;Comment out first line as it is unneeded." />
     <MESSAGE value="play.tmpl.htm&#10;&#10;Add additional divs for instructions." />
     <MESSAGE value="Add additional classes for instruction fields opacity and strikethrough booleans." />
     <MESSAGE value="Rework parsing function for definitions by examining three words: enter, yong, count." />
@@ -916,7 +921,8 @@
     <MESSAGE value="Add class that has color: white and background black.  This class will be added to a line when a tooltip appears.  Add" />
     <MESSAGE value="Add class that has color: white and background black.  This class will be added to a line when a tooltip appears." />
     <MESSAGE value="Remove tooltip-delay. Add tooltip-trigger to 'click'." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove tooltip-delay. Add tooltip-trigger to 'click'." />
+    <MESSAGE value="Add functions to playController for tooltip clicks and in marking tooltips that are active so that we can ensure only one tooltip is active at a time and only one line of text can be selected at a time." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functions to playController for tooltip clicks and in marking tooltips that are active so that we can ensure only one tooltip is active at a time and only one line of text can be selected at a time." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1143,18 +1149,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="595">
+          <caret line="105" column="50" lean-forward="true" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
           <folding />
         </state>
       </provider>

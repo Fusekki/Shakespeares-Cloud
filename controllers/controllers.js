@@ -82,6 +82,7 @@ angular.module('shakespeareApp')
 
         var toolTipActive = false;
 
+
         var text;
         var hasClicked = false;
 
@@ -114,18 +115,27 @@ angular.module('shakespeareApp')
             }
 
             if (!toolTipActive) {
+                console.log('tooltip not active');
                 toolTipActive = !toolTipActive;
                 var currentToolTip = document.getElementsByClassName('tooltipClass');
                 console.log(currentToolTip);
                 currentToolTip[0].setAttribute('id', 'tooltip-active');
             } else {
+                console.log('tooltip is active');
                 toolTipActive = !toolTipActive;
                 var prevToolTip = document.getElementById('tooltip-active');
                 console.log(prevToolTip);
                 prevToolTip.remove();
-                var currentToolTip = document.getElementsByClassName('tooltipClass');
-                console.log(currentToolTip);
-                currentToolTip[0].setAttribute('id', 'tooltip-active');
+                var markedLine = document.getElements
+                // var currentToolTip = document.getElementsByClassName('tooltipClass');
+                // console.log(currentToolTip);
+                // if (currentToolTip.length) {
+                //     console.log('there exists a current tooltip. going to mark it');
+                //     currentToolTip[0].setAttribute('id', 'tooltip-active');
+                // } else {
+                //     console.log('there does not exist a current tooltip.');
+                // }
+
             }
 
         }
