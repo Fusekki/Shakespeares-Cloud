@@ -696,6 +696,20 @@ navbar-default .navbar-nav>li>a {
         text-decoration: line-through;
     }
 
+    .toolTip {
+        width: 125px;
+        height: 75px;
+    }
+
+    .examineBtn {
+        margin-top: 15%;
+        width: 100px;
+    }
+
+    .examineBtn:hover {
+        color: white;
+    }
+
 
     /*This needs to be the last element so it overrides all preceding elements*/
     .active {
