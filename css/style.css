@@ -539,6 +539,11 @@ navbar-default .navbar-nav>li>a {
         font-size: 1em;
         padding-right: 20px;
     }
+
+    .fuckyou {
+        background: black;
+        color: white;
+    }
     .right_container {
         position: fixed;
         left: 60%;
