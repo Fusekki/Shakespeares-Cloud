@@ -80,6 +80,8 @@ angular.module('shakespeareApp')
         // $scope.sth_Active = false;
         $scope.button_clicked = false;
 
+        var toolTipActive = false;
+
         var text;
         var hasClicked = false;
 
@@ -90,6 +92,45 @@ angular.module('shakespeareApp')
         }, function(err) {
             console.log(err.status);
         });
+
+        $scope.doThis = function($event) {
+            console.log('line is clicked.  We should change the color  of it');
+            console.log($event);
+            var target = $event.target.classList;
+            // if (target.className == "fuckyou") {
+            //     target.className -= "fuckyou"
+            // }
+            // target.className += "fuckyou";
+            if (target.contains ("fuckyou")) {
+                console.log("does contain class");
+                target.remove('fuckyou');
+            } else {
+                console.log("does not contain class");
+                var ele = document.getElementsByClassName('fuckyou');
+                // if (ele) {
+                //     ele.remove('fuckyou');
+                // }
+                target.add('fuckyou');
+            }
+
+            if (!toolTipActive) {
+                toolTipActive = !toolTipActive;
+                var currentToolTip = document.getElementsByClassName('tooltipClass');
+                console.log(currentToolTip);
+                currentToolTip[0].setAttribute('id', 'tooltip-active');
+            } else {
+                toolTipActive = !toolTipActive;
+                var prevToolTip = document.getElementById('tooltip-active');
+                console.log(prevToolTip);
+                prevToolTip.remove();
+                var currentToolTip = document.getElementsByClassName('tooltipClass');
+                console.log(currentToolTip);
+                currentToolTip[0].setAttribute('id', 'tooltip-active');
+            }
+
+        }
+
+
 
         // This is triggered on a hover over a line in the play
         $scope.grabText = function($event) {
@@ -111,8 +152,10 @@ angular.module('shakespeareApp')
         };
 
         // This triggers when the Examine button is clicked in the tooltip.
-        $scope.lookupDefinition = function() {
+        $scope.lookupDefinition = function($event) {
             console.log('going to look up sentence');
+
+            console.log($event);
 
             // if (!$scope.i_done) {
             //     $scope.i_done = !$scope.i_done;
