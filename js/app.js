@@ -50,8 +50,8 @@
             $anchorScroll();
         });
 
-
     });
+
 
     shakespeareApp.filter('unsafe', ['$sce', function($sce){
         return function(val) {
@@ -79,10 +79,6 @@
     // shakespeareApp.config(['$qProvider', function ($qProvider) {
     //     $qProvider.errorOnUnhandledRejections(false);
     // }]);
-
-
-
-
 
 })();
 
