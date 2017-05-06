@@ -151,23 +151,69 @@ angular.module('shakespeareApp')
             if (!toolTipActive) {
                 console.log('tooltip not active');
                 toolTipActive = !toolTipActive;
-                var currentToolTip = document.getElementsByClassName('tooltipClass');
-                console.log(currentToolTip);
-                console.log('setting ID tooltip-active');
-                currentToolTip[0].setAttribute('id', 'tooltip-active');
+                // var currentToolTip = document.getElementsByClassName('tooltipClass');
+                // console.log(currentToolTip);
+                // console.log('setting ID tooltip-active');
+                // currentToolTip[0].setAttribute('id', 'tooltip-active');
             } else {
                 console.log('tooltip is active');
                 toolTipActive = !toolTipActive;
                 // var prevToolTip = document.getElementById('tooltip-active');
                 // console.log(prevToolTip);
-                console.log('removing tooltip');
+                // console.log('removing tooltip');
+                // prevToolTip.setAttribute('tooltip-is-open', 'false');
                 // prevToolTip.remove();
                 var prevLine = document.getElementById('fuckyou-active');
+                angular.element('#fuckyou-active').attr('tooltip-is-open', 'false');
+                // $scope.$apply();
                 console.log('removing ID fuckyou-active');
                 prevLine.removeAttribute('id');
+
+                //Find all elements with the popover attribute
+                var popups = document.querySelectorAll('*[popover]');
+                if(popups) {
+                    console.log('popups found');
+                    //Go through all of them
+                    console.log(popups.length);
+                    for(var i=0; i<popups.length; i++) {
+                        //The following is the popover DOM elemet
+                        var popup = popups[i];
+                        console.log(popups[i]);
+                        //The following is the same jQuery lite element
+                        var popupElement = angular.element(popup);
+
+                        var content;
+                        var arrow;
+                        if(popupElement.next()) {
+                            //The following is the content child in the popovers first sibling
+                            content = popupElement.next()[0].querySelector('.popover-content');
+                            //The following is the arrow child in the popovers first sibling
+                            arrow = popupElement.next()[0].querySelector('.arrow');
+                        }
+                        //If the following condition is met, then the click does not correspond
+                        //to a click on the current popover in the loop or its content.
+                        //So, we can safely remove the current popover's content and set the
+                        //scope property of the popover
+                        if(popup != e.target && e.target != content && e.target != arrow) {
+                            if(popupElement.next().hasClass('popover')) {
+                                console.log('going to remove');
+                                //Remove the popover content
+                                popupElement.next().remove();
+                                //Set the scope to reflect this
+                                popupElement.scope().tt_isOpen = false;
+                            }
+                        }
+                    }
+                }
+
+                // prevLine.click();
+
                 console.log('removing claas fuckyou');
                 prevLine.classList.remove('fuckyou');
-                prevLine.setAttribute('tooltip-is-open', 'false');
+                console.log('setting attribute for prev line fot tootip to be inactive.');
+                var notTrue = false;
+                prevLine.setAttribute('tooltip-is-open', notTrue);
+                // prevLine.setAttribute('tooltip-is-open', 'false');
                 // var markedLine = document.getElements
                 // var currentToolTip = document.getElementsByClassName('tooltipClass');
                 // console.log(currentToolTip);
