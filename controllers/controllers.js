@@ -30,6 +30,10 @@ angular.module('shakespeareApp')
             logicService.navTo("/play");
 
         }
+
+        $scope.clickBody = function() {
+            sharedService.prevLine = !sharedService.prevLine;
+        }
         // var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+'];
         // var size = logicService.getWindowSize();
         //
@@ -62,7 +66,7 @@ angular.module('shakespeareApp')
 
     })
 
-    .controller('playCtrl', function($scope, logicService, apiService) {
+    .controller('playCtrl', function($scope, logicService, apiService, sharedService) {
 
         $scope.text = "Sentence";
         $scope.sel_word = "Word";
@@ -82,6 +86,9 @@ angular.module('shakespeareApp')
 
         var toolTipActive = false;
         var lineMarked = false;
+        sharedService.prevLine = false;
+
+        $scope.$watch
 
 
         var text;
@@ -104,115 +111,183 @@ angular.module('shakespeareApp')
             // }
             // target.className += "fuckyou";
             console.log(targetClass);
+            var currentLine = $event.target;
+            //
+            // $scope.$watch('showFeed', function() {
+            //     $scope.buttonText = $scope.showFeed ? 'Hide' : 'Show';
+            // });
 
-            if (toolTipActive) {
-                // console.log('tooltip Active. Locating last one and removing ID and class.  Remove tooltip as well.')
-                // var currentToolTip = document.getElementById('fuckyou-active');
-                // currentToolTip.removeAttribute('id');
-                // currentTooltip.classList.remove('fuckyou');
-                // var prevToolTip = document.getElementById('tooltip-active');
-                // console.log(prevToolTip);
-                // console.log('removing tooltip');
-                // prevToolTip.remove();
-                // Need to find the element with ID fuckyou-active.
-                // Remove ID and class fuckyou
-                // Remove tooltip.
+            // First check if their is a previously marked line.
+            if (sharedService.prevLine) {
+                //  if boolean is true, locate the line with the id.
+                var lastLine = document.getElementById('fuckyou-active');
+                if (currentLine != lastLine) {
+                    // console.log(lastLine);
+                    // remove the Attribute from the lastLine
+                    console.log('linees do not match. removing the id and class from lastline');
+                    lastLine.removeAttribute('id');
+                    // Remove the class from the lastLine
+                    lastLine.classList.remove('fuckyou');
+                } else {
+                    console.log('lines match. removing elements from currentline');
+                    console.log("does contain class. Removing fuckyou class and id from it.");
+                    targetClass.remove('fuckyou');
+                    console.log($event.target);
+                    $event.target.removeAttribute('id', 'fuckyou-active')
+                }
 
-            }
-            if (targetClass.contains ("fuckyou")) {
-                console.log("does contain class. Removing fuckyou from it.");
-                targetClass.remove('fuckyou');
             } else {
-                console.log("does not contain class. adding fuckyou to it");
+                // Set this for the first time only.
+                sharedService.prevLine = !sharedService.prevLine;
+                console.log("adding fuckyou to it");
                 targetClass.add('fuckyou');
                 console.log(targetClass);
-                if (!lineMarked) {
-                    console.log('linemarked set to true');
-                    lineMarked = !lineMarked;
-                } else {
-                    console.log('linemarked is already true.');
-                    var prevLine = document.getElementById('fuckyou-active');
-
-                    console.log(prevLine);
-                    if (prevLine.classList.contains('fuckyou')) {
-                        console.log('Removing fuckyou from prevline');
-                        prevLine.classList.remove('fuckyou');
-                    }
-
-
-                    // prevLine.removeAttribute('id');
-                    // prevLine.classList.remove('fuckyou');
-                }
                 console.log('setting ID fuckyouactive');
                 $event.target.setAttribute('id', 'fuckyou-active');
-
             }
 
-            if (!toolTipActive) {
-                console.log('tooltip not active');
-                toolTipActive = !toolTipActive;
-                // var currentToolTip = document.getElementsByClassName('tooltipClass');
-                // console.log(currentToolTip);
-                // console.log('setting ID tooltip-active');
-                // currentToolTip[0].setAttribute('id', 'tooltip-active');
-            } else {
-                console.log('tooltip is active');
-                toolTipActive = !toolTipActive;
-                // var prevToolTip = document.getElementById('tooltip-active');
-                // console.log(prevToolTip);
-                // console.log('removing tooltip');
-                // prevToolTip.setAttribute('tooltip-is-open', 'false');
-                // prevToolTip.remove();
-                var prevLine = document.getElementById('fuckyou-active');
-                angular.element('#fuckyou-active').attr('tooltip-is-open', 'false');
-                // $scope.$apply();
-                console.log('removing ID fuckyou-active');
-                prevLine.removeAttribute('id');
 
-                //Find all elements with the popover attribute
-                var popups = document.querySelectorAll('*[popover]');
-                if(popups) {
-                    console.log('popups found');
-                    //Go through all of them
-                    console.log(popups.length);
-                    for(var i=0; i<popups.length; i++) {
-                        //The following is the popover DOM elemet
-                        var popup = popups[i];
-                        console.log(popups[i]);
-                        //The following is the same jQuery lite element
-                        var popupElement = angular.element(popup);
 
-                        var content;
-                        var arrow;
-                        if(popupElement.next()) {
-                            //The following is the content child in the popovers first sibling
-                            content = popupElement.next()[0].querySelector('.popover-content');
-                            //The following is the arrow child in the popovers first sibling
-                            arrow = popupElement.next()[0].querySelector('.arrow');
-                        }
-                        //If the following condition is met, then the click does not correspond
-                        //to a click on the current popover in the loop or its content.
-                        //So, we can safely remove the current popover's content and set the
-                        //scope property of the popover
-                        if(popup != e.target && e.target != content && e.target != arrow) {
-                            if(popupElement.next().hasClass('popover')) {
-                                console.log('going to remove');
-                                //Remove the popover content
-                                popupElement.next().remove();
-                                //Set the scope to reflect this
-                                popupElement.scope().tt_isOpen = false;
-                            }
-                        }
-                    }
-                }
 
-                // prevLine.click();
 
-                console.log('removing claas fuckyou');
-                prevLine.classList.remove('fuckyou');
-                console.log('setting attribute for prev line fot tootip to be inactive.');
-                var notTrue = false;
-                prevLine.setAttribute('tooltip-is-open', notTrue);
+
+
+
+
+
+            //     if (!lineMarked) {
+            //         console.log('linemarked set to true');
+            //         lineMarked = !lineMarked;
+            //     } else {
+            //         console.log('linemarked is already true.');
+            //         var prevLine = document.getElementById('fuckyou-active');
+            //
+            //         console.log(prevLine);
+            //         if (prevLine.classList.contains('fuckyou')) {
+            //             console.log('Removing fuckyou from prevline');
+            //             prevLine.classList.remove('fuckyou');
+            //         }
+            //
+            //
+            //         // prevLine.removeAttribute('id');
+            //         // prevLine.classList.remove('fuckyou');
+            //     }
+            //     console.log('setting ID fuckyouactive');
+            //     $event.target.setAttribute('id', 'fuckyou-active');
+            //
+            // }
+
+
+
+            //
+            // if (toolTipActive) {
+            //     // console.log('tooltip Active. Locating last one and removing ID and class.  Remove tooltip as well.')
+            //     // var currentToolTip = document.getElementById('fuckyou-active');
+            //     // currentToolTip.removeAttribute('id');
+            //     // currentTooltip.classList.remove('fuckyou');
+            //     // var prevToolTip = document.getElementById('tooltip-active');
+            //     // console.log(prevToolTip);
+            //     // console.log('removing tooltip');
+            //     // prevToolTip.remove();
+            //     // Need to find the element with ID fuckyou-active.
+            //     // Remove ID and class fuckyou
+            //     // Remove tooltip.
+            //
+            // }
+            // if (targetClass.contains ("fuckyou")) {
+            //     console.log("does contain class. Removing fuckyou from it.");
+            //     targetClass.remove('fuckyou');
+            // } else {
+            //     console.log("does not contain class. adding fuckyou to it");
+            //     targetClass.add('fuckyou');
+            //     console.log(targetClass);
+            //     if (!lineMarked) {
+            //         console.log('linemarked set to true');
+            //         lineMarked = !lineMarked;
+            //     } else {
+            //         console.log('linemarked is already true.');
+            //         var prevLine = document.getElementById('fuckyou-active');
+            //
+            //         console.log(prevLine);
+            //         if (prevLine.classList.contains('fuckyou')) {
+            //             console.log('Removing fuckyou from prevline');
+            //             prevLine.classList.remove('fuckyou');
+            //         }
+            //
+            //
+            //         // prevLine.removeAttribute('id');
+            //         // prevLine.classList.remove('fuckyou');
+            //     }
+            //     console.log('setting ID fuckyouactive');
+            //     $event.target.setAttribute('id', 'fuckyou-active');
+            //
+            // }
+
+            // if (!toolTipActive) {
+            //     console.log('tooltip not active');
+            //     toolTipActive = !toolTipActive;
+            //     // var currentToolTip = document.getElementsByClassName('tooltipClass');
+            //     // console.log(currentToolTip);
+            //     // console.log('setting ID tooltip-active');
+            //     // currentToolTip[0].setAttribute('id', 'tooltip-active');
+            // } else {
+            //     console.log('tooltip is active');
+            //     toolTipActive = !toolTipActive;
+            //     // var prevToolTip = document.getElementById('tooltip-active');
+            //     // console.log(prevToolTip);
+            //     // console.log('removing tooltip');
+            //     // prevToolTip.setAttribute('tooltip-is-open', 'false');
+            //     // prevToolTip.remove();
+            //     var prevLine = document.getElementById('fuckyou-active');
+            //     angular.element('#fuckyou-active').attr('tooltip-is-open', 'false');
+            //     // $scope.$apply();
+            //     console.log('removing ID fuckyou-active');
+            //     prevLine.removeAttribute('id');
+            //
+            //     //Find all elements with the popover attribute
+            //     var popups = document.querySelectorAll('*[popover]');
+            //     if(popups) {
+            //         console.log('popups found');
+            //         //Go through all of them
+            //         console.log(popups.length);
+            //         for(var i=0; i<popups.length; i++) {
+            //             //The following is the popover DOM elemet
+            //             var popup = popups[i];
+            //             console.log(popups[i]);
+            //             //The following is the same jQuery lite element
+            //             var popupElement = angular.element(popup);
+            //
+            //             var content;
+            //             var arrow;
+            //             if(popupElement.next()) {
+            //                 //The following is the content child in the popovers first sibling
+            //                 content = popupElement.next()[0].querySelector('.popover-content');
+            //                 //The following is the arrow child in the popovers first sibling
+            //                 arrow = popupElement.next()[0].querySelector('.arrow');
+            //             }
+            //             //If the following condition is met, then the click does not correspond
+            //             //to a click on the current popover in the loop or its content.
+            //             //So, we can safely remove the current popover's content and set the
+            //             //scope property of the popover
+            //             if(popup != e.target && e.target != content && e.target != arrow) {
+            //                 if(popupElement.next().hasClass('popover')) {
+            //                     console.log('going to remove');
+            //                     //Remove the popover content
+            //                     popupElement.next().remove();
+            //                     //Set the scope to reflect this
+            //                     popupElement.scope().tt_isOpen = false;
+            //                 }
+            //             }
+            //         }
+            //     }
+            //
+            //     // prevLine.click();
+            //
+            //     console.log('removing claas fuckyou');
+            //     prevLine.classList.remove('fuckyou');
+            //     console.log('setting attribute for prev line fot tootip to be inactive.');
+            //     var notTrue = false;
+            //     prevLine.setAttribute('tooltip-is-open', notTrue);
                 // prevLine.setAttribute('tooltip-is-open', 'false');
                 // var markedLine = document.getElements
                 // var currentToolTip = document.getElementsByClassName('tooltipClass');
@@ -224,7 +299,7 @@ angular.module('shakespeareApp')
                 //     console.log('there does not exist a current tooltip.');
                 // }
 
-            }
+            // }
 
         }
 
