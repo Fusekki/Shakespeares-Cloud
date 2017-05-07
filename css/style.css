@@ -717,6 +717,11 @@ navbar-default .navbar-nav>li>a {
         height: 75px;
     }
 
+    .dark {
+        background: black;
+        color: white;
+    }
+
     .examineBtn {
         margin-top: 15%;
         width: 100px;
