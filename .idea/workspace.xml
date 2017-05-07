@@ -7,6 +7,7 @@
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,9 +28,12 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="-3945">
+              <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <marker date="1494169547971" expanded="true" signature="2871:2971" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +61,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="721" column="21" lean-forward="false" selection-start-line="721" selection-start-column="21" selection-end-line="721" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -67,8 +71,8 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="147">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -77,25 +81,35 @@
       <file leaf-file-name="alls_well_that_ends_well_FF.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="147">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="46" />
               <folding>
-                <element signature="e#19806#19811#0" expanded="true" />
-                <element signature="e#39441#39446#0" expanded="true" />
-                <element signature="e#73895#73900#0" expanded="true" />
-                <element signature="e#157100#157105#0" expanded="true" />
-                <element signature="e#184881#184886#0" expanded="true" />
-                <element signature="e#215661#215666#0" expanded="true" />
-                <element signature="e#228330#228335#0" expanded="true" />
-                <element signature="e#235196#235201#0" expanded="true" />
-                <element signature="e#247343#247348#0" expanded="true" />
-                <element signature="e#250249#250254#0" expanded="true" />
-                <element signature="e#254964#254969#0" expanded="true" />
-                <element signature="e#259655#259660#0" expanded="true" />
-                <element signature="e#265884#265889#0" expanded="true" />
-                <element signature="e#269187#269192#0" expanded="true" />
-                <element signature="e#362582#362587#0" expanded="true" />
+                <element signature="e#19905#19910#0" expanded="true" />
+                <element signature="e#39540#39545#0" expanded="true" />
+                <element signature="e#73994#73999#0" expanded="true" />
+                <element signature="e#157199#157204#0" expanded="true" />
+                <element signature="e#184980#184985#0" expanded="true" />
+                <element signature="e#215760#215765#0" expanded="true" />
+                <element signature="e#228429#228434#0" expanded="true" />
+                <element signature="e#235295#235300#0" expanded="true" />
+                <element signature="e#247442#247447#0" expanded="true" />
+                <element signature="e#250348#250353#0" expanded="true" />
+                <element signature="e#255063#255068#0" expanded="true" />
+                <element signature="e#259754#259759#0" expanded="true" />
+                <element signature="e#265983#265988#0" expanded="true" />
+                <element signature="e#269286#269291#0" expanded="true" />
+                <element signature="e#362681#362686#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directives/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
       <find>src=&quot;vendor/img/</find>
       <find>stage</find>
       <find>container</find>
@@ -133,6 +146,7 @@
       <find>haskey</find>
       <find>overflow</find>
       <find>toolTipActive</find>
+      <find>tooltip</find>
       <find>popover</find>
     </findStrings>
     <replaceStrings>
@@ -168,8 +182,6 @@
         <option value="extensions::messaging" />
         <option value="$PROJECT_DIR$/vendor/xml2json.min.js" />
         <option value="$PROJECT_DIR$/services/services.js" />
-        <option value="$PROJECT_DIR$/directives/directives.js" />
-        <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/services/services.js" />
         <option value="$PROJECT_DIR$/response.xml" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
@@ -180,16 +192,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.js" />
         <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/adblock-uiscripts-rightclick_hook.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/directives/directives.js" />
+        <option value="$PROJECT_DIR$/directives/directives.js" />
       </list>
     </option>
   </component>
@@ -243,6 +257,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -257,7 +285,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,7 +523,7 @@
       <workItem from="1493305130483" duration="6071000" />
       <workItem from="1493737894694" duration="744000" />
       <workItem from="1493738647434" duration="8211000" />
-      <workItem from="1494080055246" duration="11726000" />
+      <workItem from="1494080055246" duration="21137000" />
     </task>
     <task id="LOCAL-00001" summary="Add function in home controller to calculate number of div.gap classes to add at end of ul.">
       <created>1492900166928</created>
@@ -745,11 +819,32 @@
       <option name="project" value="LOCAL" />
       <updated>1494101065098</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Continue to refactor and record doThis function.">
+      <created>1494101120976</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1494101120976</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Remove ng-click directive from line.  Add custom 'mydir' directive.">
+      <created>1494172377569</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1494172377569</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add custom 'mydir' directive to monitor element's changes.">
+      <created>1494172414455</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1494172414455</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266420000" />
+    <option name="totallyTimeSpent" value="275831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +858,7 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -815,9 +910,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add &quot;&quot;&amp;&amp; def.dt__text.length &gt; 1&quot; to a if else if the object is string.  This will ensure it doesn't pass just an empty character." />
-    <MESSAGE value="Change height of .right_top.  Readjust the .right_top h3 and .right_top label to switch their positions from right to left and vice-versa.  Comment out right_bottom as I believe the design is moving away from it." />
-    <MESSAGE value="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element." />
     <MESSAGE value="Renamed project." />
     <MESSAGE value="Remove forced height of .container_def_card.  It was causing too much empty space between entries when only two definitions are returned." />
     <MESSAGE value="Remove some older code that was commented out and just taking space.  Add beginning for else conditioning if the word entry contains 'suggestion' container.  Add if else for type of container.  If object, cycle through each element.  If string, just grab it." />
@@ -840,7 +932,10 @@
     <MESSAGE value="Change config options in module to aid with the tooltip click." />
     <MESSAGE value="Add logic to tooltip function." />
     <MESSAGE value="Add ng-click to body of app.  Link it to the sharedService.prevLin boolean." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ng-click to body of app.  Link it to the sharedService.prevLin boolean." />
+    <MESSAGE value="Continue to refactor and record doThis function." />
+    <MESSAGE value="Remove ng-click directive from line.  Add custom 'mydir' directive." />
+    <MESSAGE value="Add custom 'mydir' directive to monitor element's changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom 'mydir' directive to monitor element's changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -856,7 +951,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/isInViewport/tests/lib/isInViewport.min.js" />
     <entry file="file://$PROJECT_DIR$/vendor/isInViewport/lib/isInViewport.es6.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -970,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="https://code.angularjs.org/1.6.4/angular.js">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
@@ -1011,14 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1039,35 +1118,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="178">
+          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#19806#19811#0" expanded="true" />
-            <element signature="e#39441#39446#0" expanded="true" />
-            <element signature="e#73895#73900#0" expanded="true" />
-            <element signature="e#157100#157105#0" expanded="true" />
-            <element signature="e#184881#184886#0" expanded="true" />
-            <element signature="e#215661#215666#0" expanded="true" />
-            <element signature="e#228330#228335#0" expanded="true" />
-            <element signature="e#235196#235201#0" expanded="true" />
-            <element signature="e#247343#247348#0" expanded="true" />
-            <element signature="e#250249#250254#0" expanded="true" />
-            <element signature="e#254964#254969#0" expanded="true" />
-            <element signature="e#259655#259660#0" expanded="true" />
-            <element signature="e#265884#265889#0" expanded="true" />
-            <element signature="e#269187#269192#0" expanded="true" />
-            <element signature="e#362582#362587#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,19 +1142,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$USER_HOME$/Downloads/ui-bootstrap-tpls-2.5.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        <state relative-caret-position="-1379">
+          <caret line="5062" column="63" lean-forward="true" selection-start-line="5062" selection-start-column="63" selection-end-line="5062" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="721" column="21" lean-forward="false" selection-start-line="721" selection-start-column="21" selection-end-line="721" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#19905#19910#0" expanded="true" />
+            <element signature="e#39540#39545#0" expanded="true" />
+            <element signature="e#73994#73999#0" expanded="true" />
+            <element signature="e#157199#157204#0" expanded="true" />
+            <element signature="e#184980#184985#0" expanded="true" />
+            <element signature="e#215760#215765#0" expanded="true" />
+            <element signature="e#228429#228434#0" expanded="true" />
+            <element signature="e#235295#235300#0" expanded="true" />
+            <element signature="e#247442#247447#0" expanded="true" />
+            <element signature="e#250348#250353#0" expanded="true" />
+            <element signature="e#255063#255068#0" expanded="true" />
+            <element signature="e#259754#259759#0" expanded="true" />
+            <element signature="e#265983#265988#0" expanded="true" />
+            <element signature="e#269286#269291#0" expanded="true" />
+            <element signature="e#362681#362686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="-3945">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <marker date="1494169547971" expanded="true" signature="2871:2971" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

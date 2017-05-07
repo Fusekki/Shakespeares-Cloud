@@ -88,7 +88,7 @@ angular.module('shakespeareApp')
         var lineMarked = false;
         sharedService.prevLine = false;
 
-        $scope.$watch
+        $scope.someshit='fuck';
 
 
         var text;
@@ -101,6 +101,13 @@ angular.module('shakespeareApp')
         }, function(err) {
             console.log(err.status);
         });
+
+        // $scope.check_for_tooltip = function(this) {
+        //     console.log(this);
+        // }
+        $scope.check_for_tooltip = function(e) {
+            console.log(e);
+        }
 
         $scope.doThis = function($event) {
             console.log('line is clicked.  We should change the color  of it');
