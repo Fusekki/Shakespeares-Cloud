@@ -7,7 +7,6 @@
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,12 +27,9 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3945">
-              <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
-              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding>
-                <marker date="1494169547971" expanded="true" signature="2871:2971" ph="..." />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1575">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,7 +57,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="1260">
               <caret line="721" column="21" lean-forward="false" selection-start-line="721" selection-start-column="21" selection-end-line="721" selection-end-column="21" />
               <folding />
             </state>
@@ -72,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="76" />
+              <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -81,24 +77,24 @@
       <file leaf-file-name="alls_well_that_ends_well_FF.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="294">
+              <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
               <folding>
-                <element signature="e#19905#19910#0" expanded="true" />
-                <element signature="e#39540#39545#0" expanded="true" />
-                <element signature="e#73994#73999#0" expanded="true" />
-                <element signature="e#157199#157204#0" expanded="true" />
-                <element signature="e#184980#184985#0" expanded="true" />
-                <element signature="e#215760#215765#0" expanded="true" />
-                <element signature="e#228429#228434#0" expanded="true" />
-                <element signature="e#235295#235300#0" expanded="true" />
-                <element signature="e#247442#247447#0" expanded="true" />
-                <element signature="e#250348#250353#0" expanded="true" />
-                <element signature="e#255063#255068#0" expanded="true" />
-                <element signature="e#259754#259759#0" expanded="true" />
-                <element signature="e#265983#265988#0" expanded="true" />
-                <element signature="e#269286#269291#0" expanded="true" />
-                <element signature="e#362681#362686#0" expanded="true" />
+                <element signature="e#19870#19875#0" expanded="true" />
+                <element signature="e#39505#39510#0" expanded="true" />
+                <element signature="e#73959#73964#0" expanded="true" />
+                <element signature="e#157164#157169#0" expanded="true" />
+                <element signature="e#184945#184950#0" expanded="true" />
+                <element signature="e#215725#215730#0" expanded="true" />
+                <element signature="e#228394#228399#0" expanded="true" />
+                <element signature="e#235260#235265#0" expanded="true" />
+                <element signature="e#247407#247412#0" expanded="true" />
+                <element signature="e#250313#250318#0" expanded="true" />
+                <element signature="e#255028#255033#0" expanded="true" />
+                <element signature="e#259719#259724#0" expanded="true" />
+                <element signature="e#265948#265953#0" expanded="true" />
+                <element signature="e#269251#269256#0" expanded="true" />
+                <element signature="e#362646#362651#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +103,8 @@
       <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/directives/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="777">
+              <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -194,16 +190,16 @@
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
         <option value="cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.js" />
         <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/adblock-uiscripts-rightclick_hook.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/directives/directives.js" />
+        <option value="$PROJECT_DIR$/directives/directives.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
+        <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
-        <option value="$PROJECT_DIR$/directives/directives.js" />
-        <option value="$PROJECT_DIR$/directives/directives.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -286,6 +282,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,14 +533,7 @@
       <workItem from="1493305130483" duration="6071000" />
       <workItem from="1493737894694" duration="744000" />
       <workItem from="1493738647434" duration="8211000" />
-      <workItem from="1494080055246" duration="21137000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add function in home controller to calculate number of div.gap classes to add at end of ul.">
-      <created>1492900166928</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1492900166928</updated>
+      <workItem from="1494080055246" duration="26580000" />
     </task>
     <task id="LOCAL-00002" summary="Add tooltip to line text in one shakeapeare play.  Set a mouseover on div element to store the innerText as a scope variable.  Remodify the app.filter for unsafe html to convert to string type if not string.  Add button to tooltip for function lookupDefintition in playCtrl.  Begin working on creating API call to Oxford dictionary API service calls.">
       <created>1493048825557</created>
@@ -840,11 +843,46 @@
       <option name="project" value="LOCAL" />
       <updated>1494172414455</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add $scope.checkfortooltip function.">
+      <created>1494172464636</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1494172464636</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add .dark class for when line has tooltip displayed.">
+      <created>1494172503154</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1494172503154</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add shithead directive.  Remove ng-click and ng-style directives.">
+      <created>1494186744167</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1494186744167</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Remove old commented out code for previous HTML filters.">
+      <created>1494186788335</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1494186788335</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Create shithead directive that monitors the nextElementSibling of the element for it to change (presumable to tooltip).  On this, it toggles the clasa dark. &#10;&#10;Remived former unused directives.">
+      <created>1494186901955</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1494186901959</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275831000" />
+    <option name="totallyTimeSpent" value="281274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,11 +948,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Renamed project." />
-    <MESSAGE value="Remove forced height of .container_def_card.  It was causing too much empty space between entries when only two definitions are returned." />
-    <MESSAGE value="Remove some older code that was commented out and just taking space.  Add beginning for else conditioning if the word entry contains 'suggestion' container.  Add if else for type of container.  If object, cycle through each element.  If string, just grab it." />
-    <MESSAGE value="Break the &lt;p&gt; element of li.def_card into two spans.  One span containing the index, and with an ng-show that specifies it only be displayed if def_cards.length &gt; 1.  The other &lt;span&gt; contains the definition text." />
-    <MESSAGE value="Update workspace.xml and .name to have the new project name." />
     <MESSAGE value="Update readme file." />
     <MESSAGE value="Add div.right_bottom back.  Have it contain the suggestions.  Set additional class condition on div.right_middle that if the def_cards is empty, the 'reducedHeight' class will be added." />
     <MESSAGE value="Add 'reducedHeight' class. Add 'sug_card p' styling." />
@@ -935,7 +968,12 @@
     <MESSAGE value="Continue to refactor and record doThis function." />
     <MESSAGE value="Remove ng-click directive from line.  Add custom 'mydir' directive." />
     <MESSAGE value="Add custom 'mydir' directive to monitor element's changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom 'mydir' directive to monitor element's changes." />
+    <MESSAGE value="Add $scope.checkfortooltip function." />
+    <MESSAGE value="Add .dark class for when line has tooltip displayed." />
+    <MESSAGE value="Add shithead directive.  Remove ng-click and ng-style directives." />
+    <MESSAGE value="Remove old commented out code for previous HTML filters." />
+    <MESSAGE value="Create shithead directive that monitors the nextElementSibling of the element for it to change (presumable to tooltip).  On this, it toggles the clasa dark. &#10;&#10;Remived former unused directives." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create shithead directive that monitors the nextElementSibling of the element for it to change (presumable to tooltip).  On this, it toggles the clasa dark. &#10;&#10;Remived former unused directives." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1118,30 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/ui-bootstrap-tpls-2.5.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1379">
@@ -1150,54 +1164,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="1260">
           <caret line="721" column="21" lean-forward="false" selection-start-line="721" selection-start-column="21" selection-end-line="721" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="294">
+          <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
           <folding>
-            <element signature="e#19905#19910#0" expanded="true" />
-            <element signature="e#39540#39545#0" expanded="true" />
-            <element signature="e#73994#73999#0" expanded="true" />
-            <element signature="e#157199#157204#0" expanded="true" />
-            <element signature="e#184980#184985#0" expanded="true" />
-            <element signature="e#215760#215765#0" expanded="true" />
-            <element signature="e#228429#228434#0" expanded="true" />
-            <element signature="e#235295#235300#0" expanded="true" />
-            <element signature="e#247442#247447#0" expanded="true" />
-            <element signature="e#250348#250353#0" expanded="true" />
-            <element signature="e#255063#255068#0" expanded="true" />
-            <element signature="e#259754#259759#0" expanded="true" />
-            <element signature="e#265983#265988#0" expanded="true" />
-            <element signature="e#269286#269291#0" expanded="true" />
-            <element signature="e#362681#362686#0" expanded="true" />
+            <element signature="e#19870#19875#0" expanded="true" />
+            <element signature="e#39505#39510#0" expanded="true" />
+            <element signature="e#73959#73964#0" expanded="true" />
+            <element signature="e#157164#157169#0" expanded="true" />
+            <element signature="e#184945#184950#0" expanded="true" />
+            <element signature="e#215725#215730#0" expanded="true" />
+            <element signature="e#228394#228399#0" expanded="true" />
+            <element signature="e#235260#235265#0" expanded="true" />
+            <element signature="e#247407#247412#0" expanded="true" />
+            <element signature="e#250313#250318#0" expanded="true" />
+            <element signature="e#255028#255033#0" expanded="true" />
+            <element signature="e#259719#259724#0" expanded="true" />
+            <element signature="e#265948#265953#0" expanded="true" />
+            <element signature="e#269251#269256#0" expanded="true" />
+            <element signature="e#362646#362651#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/directives/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="777">
+          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3945">
-          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <marker date="1494169547971" expanded="true" signature="2871:2971" ph="..." />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
