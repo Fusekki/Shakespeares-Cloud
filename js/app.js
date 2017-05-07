@@ -62,24 +62,6 @@
         };
     }]);
 
-    // shakespeareApp.filter('unsafe', function($sce) {
-    //     return $sce.trustAsHtml;
-    // });
-    // shakespeareApp.config(function($sceDelegateProvider) {
-    //     $sceDelegateProvider.resourceUrlWhitelist([
-    //         // Allow same origin resource loads.
-    //         'self',
-    //         'http://localhost:63342',
-    //         // Allow loading from our assets domain.  Notice the difference between * and **.
-    //         'https://od-api.oxforddictionaries.com/api/v1/entries/en/ace'
-    //     ]);
-    //
-    // });
-    //
-    // shakespeareApp.config(['$qProvider', function ($qProvider) {
-    //     $qProvider.errorOnUnhandledRejections(false);
-    // }]);
-
 })();
 
 
