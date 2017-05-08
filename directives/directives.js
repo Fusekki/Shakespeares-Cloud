@@ -49,6 +49,10 @@ angular.module('shakespeareApp')
                                     if ($scope.btnClicked) {
                                         $scope.btnClicked = !$scope.btnClicked;
                                     }
+
+                                    if ($scope.dictionary.rb_Active) {
+                                        $scope.dictionary.rb_Active = !$scope.definition.rb_Active;
+                                    }
                                 } else {
                                     $el.addClass('dark');
                                     if (!$scope.dictionary.i_done) {
@@ -113,6 +117,26 @@ angular.module('shakespeareApp')
                             }
                         }
                     );
+                }
+            };
+        })
+
+        .directive('scrolly', function () {
+            return {
+                restrict: 'A',
+                link: function (scope, element, attrs) {
+                    var raw = element[0];
+                    console.log('loading directive');
+
+                    element.bind('scroll', function () {
+                        console.log('in scroll');
+                        console.log(raw.scrollTop + raw.offsetHeight);
+                        console.log(raw.scrollHeight);
+                        if (raw.scrollTop + raw.offsetHeight > raw.scrollHeight) {
+                            console.log("I am at the bottom");
+                            scope.$apply(attrs.scrolly);
+                        }
+                    });
                 }
             };
         });
