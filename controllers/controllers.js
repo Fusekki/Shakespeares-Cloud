@@ -70,19 +70,30 @@ angular.module('shakespeareApp')
 
         $scope.text = "Sentence";
         $scope.sel_word = "Word";
-
-        $scope.isActive = false;
+        $scope.btnText = 'Examine';
+        // $scope.isActive = false;
 
         // Sets the right dictionary area to opacity 1 on true; 0 when false
-        $scope.rt_Active = false;
-        $scope.rm_Active = false;
-        $scope.rb_Active = false;
-        $scope.so_Active = false;
-        $scope.st_Active = false;
-        $scope.i_done = false;
-        $scope.t_done = false;
 
-        $scope.btnText = 'Examine';
+        $scope.dictionary = {
+            is_Active: false,
+            rt_Active: false,
+            rm_Active: false,
+            rb_Active: false,
+            so_Active: false,
+            st_Active: false,
+            i_done: false,
+            t_done: false
+        }
+        // $scope.rt_Active = false;
+        // $scope.rm_Active = false;
+        // $scope.rb_Active = false;
+        // $scope.so_Active = false;
+        // $scope.st_Active = false;
+        // $scope.i_done = false;
+        // $scope.t_done = false;
+
+
 
 
         var text;
@@ -118,59 +129,59 @@ angular.module('shakespeareApp')
                 // }
                 $scope.examinedText = $scope.text;
 
-                if (!$scope.so_Active) {
-                    $scope.so_Active = !$scope.so_Active;
+                if (!$scope.dictionary.so_Active) {
+                    $scope.dictionary.so_Active = !$scope.dictionary.so_Active;
                 }
-                if (!$scope.isActive) {
-                    $scope.isActive = !$scope.isActive;
-                }
-
-                if ($scope.rt_Active) {
-                    $scope.rt_Active = !$scope.rt_Active;
+                if (!$scope.dictionary.isActive) {
+                    $scope.dictionary.isActive = !$scope.dictionary.isActive;
                 }
 
-                if ($scope.rm_Active) {
-                    $scope.rm_Active = !$scope.rm_Active;
+                if ($scope.dictionary.rt_Active) {
+                    $scope.dictionary.rt_Active = !$scope.dictionary.rt_Active;
                 }
 
-                if ($scope.rb_Active) {
-                    $scope.rb_Active = !$scope.rb_Active;
+                if ($scope.dictionary.rm_Active) {
+                    $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
                 }
 
-                if (!$scope.i_done) {
-                    $scope.i_done = !$scope.i_done;
+                if ($scope.dictionary.rb_Active) {
+                    $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
                 }
 
-                if ($scope.s_done) {
-                    $scope.s_done = !$scope.s_done;
-                }
-                if ($scope.t_done) {
-                    $scope.t_done = !$scope.t_done;
+                if (!$scope.dictionary.i_done) {
+                    $scope.dictionary.i_done = !$scope.dictionary.i_done;
                 }
 
-                // $scope.i_done = !$scope.i_done;
+                if ($scope.dictionary.s_done) {
+                    $scope.dictionary.s_done = !$scope.dictionary.s_done;
+                }
+                if ($scope.dictionary.t_done) {
+                    $scope.dictionary.t_done = !$scope.dictionary.t_done;
+                }
+
+                // $scope.dictionary.i_done = !$scope.dictionary.i_done;
 
 
-                console.log($scope.so_Active);
-                console.log($scope.isActive);
+                console.log($scope.dictionary.so_Active);
+                console.log($scope.dictionary.isActive);
             } else {
                 $scope.btnText = 'Examine';
                 $scope.examineText = "";
 
-                if ($scope.isActive) {
-                    $scope.isActive = !$scope.isActive;
+                if ($scope.dictionary.isActive) {
+                    $scope.dictionary.isActive = !$scope.dictionary.isActive;
                 }
 
-                if ($scope.s_done) {
-                    $scope.s_done = !$scope.s_done;
+                if ($scope.dictionary.s_done) {
+                    $scope.dictionary.s_done = !$scope.dictionary.s_done;
                 }
 
-                if ($scope.so_Active) {
-                    $scope.so_Active = !$scope.so_Active;
+                if ($scope.dictionary.so_Active) {
+                    $scope.dictionary.so_Active = !$scope.dictionary.so_Active;
                 }
 
-                if ($scope.i_done) {
-                    $scope.i_done = !$scope.i_done;
+                if ($scope.dictionary.i_done) {
+                    $scope.dictionary.i_done = !$scope.dictionary.i_done;
                 }
 
 
@@ -203,25 +214,25 @@ angular.module('shakespeareApp')
             // If this is not the first time, if the t_done is marked, unmark it.
             if (!$scope.hasClicked) {
                 $scope.hasClicked = true;
-                $scope.s_done = !$scope.s_done;
-            } else if ($scope.t_done) {
-                $scope.t_done = !$scope.t_done;
+                $scope.dictionary.s_done = !$scope.dictionary.s_done;
+            } else if ($scope.dictionary.t_done) {
+                $scope.dictionary.t_done = !$scope.dictionary.t_done;
             }
 
             // Show the rt if hidden
-            if (!$scope.rt_Active) {
-                $scope.rt_Active = !$scope.rt_Active;
+            if (!$scope.dictionary.rt_Active) {
+                $scope.dictionary.rt_Active = !$scope.dictionary.rt_Active;
             }
             // Show the st if hidden
-            if (!$scope.st_Active) {
-                $scope.st_Active = !$scope.st_Active;
+            if (!$scope.dictionary.st_Active) {
+                $scope.dictionary.st_Active = !$scope.dictionary.st_Active;
             }
             // Hide the rm and rb if they are showing.
-            if ($scope.rm_Active) {
-                $scope.rm_Active = !$scope.rm_Active;
+            if ($scope.dictionary.rm_Active) {
+                $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
             }
-            if ($scope.rb_Active) {
-                $scope.rb_Active = !$scope.rb_Active;
+            if ($scope.dictionary.rb_Active) {
+                $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
             }
             // // Hide the third step if displaying.
             // if ($scope.st_Active) {
@@ -253,10 +264,10 @@ angular.module('shakespeareApp')
 
             $scope.button_clicked = true;
 
-            $scope.t_done = !$scope.t_done;
-            // $scope.sth_Active = !$scope.sth_Active;
-            if (!$scope.rm_Active) {
-                $scope.rm_Active = !$scope.rm_Active;
+            $scope.dictionary.t_done = !$scope.dictionary.t_done;
+            // $scope.dictionary.sth_Active = !$scope.dictionary.sth_Active;
+            if (!$scope.dictionary.rm_Active) {
+                $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
             }
             // Clear out the def_cards if there are any.
             console.log($scope.def_cards);
@@ -372,7 +383,7 @@ angular.module('shakespeareApp')
                 } else {
                     console.log('no entries returned.');
                     if ('suggestion' in entries) {
-                        $scope.rb_Active = true;
+                        $scope.dictionary.rb_Active = true;
                         var sug = entries.suggestion;
                         console.log('sugestions found');
                         if (typeof(sug) == 'object') {
@@ -400,10 +411,10 @@ angular.module('shakespeareApp')
         // This is triggered when a def_card is clicked.
         $scope.displayDef = function(def) {
             console.log('display def.');
-            if (!$scope.rb_Active) {
-                $scope.rb_Active = !$scope.rb_Active;
+            if (!$scope.dictionary.rb_Active) {
+                $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
             }
-            $scope.definition = def;
+            $scope.dictionary.definition = def;
         }
 
     });
