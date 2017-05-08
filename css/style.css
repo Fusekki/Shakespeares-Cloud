@@ -349,8 +349,10 @@ navbar-default .navbar-nav>li>a {
 }
 
 .line {
+    display: -webkit-box;
     padding-left: 30px;
 }
+
 
 .speaker,
 .finis {
