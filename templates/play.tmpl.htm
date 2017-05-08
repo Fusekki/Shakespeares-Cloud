@@ -6,23 +6,23 @@
     <div class="right">
     <div class="step_zero">
         <div><i class="fa fa-reply" aria-hidden="true"></i></div>
-        <span ng-class="{'line-through': i_done}">Click a line to examine the meaning</span>
+        <span ng-class="{'line-through': dictionary.i_done}">Click a line to examine the meaning</span>
     </div>
-    <div class="step_one" ng-class="{'active': so_Active}">
-        <span ng-class="{'line-through': s_done}">Click the Examine button and choose a word below to select it. </span>
+    <div class="step_one" ng-class="{'active': dictionary.so_Active}">
+        <span ng-class="{'line-through': dictionary.s_done}">Click the Examine button and choose a word below to select it. </span>
     </div>
-    <div class="step_two" ng-class="{'active': st_Active}">
-        <span ng-class="{'line-through': t_done}">Click the button to lookup the definiton </span>
+    <div class="step_two" ng-class="{'active': dictionary.st_Active}">
+        <span ng-class="{'line-through': dictionary.t_done}">Click the button to lookup the definiton </span>
     </div>
     <!--<div class="step_three" ng-class="{'active': sth_Active}">-->
         <!--<span>Click a defintion to view its contents </span>-->
     <!--</div>-->
-    <div class="text" dynamic="examinedText" ng-class="{'active': isActive}"></div>
-    <div class="right_top" ng-class="{'active': rt_Active}">
+    <div class="text" dynamic="examinedText" ng-class="{'active': dictionary.isActive}"></div>
+    <div class="right_top" ng-class="{'active': dictionary.rt_Active}">
         <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
         <span dynamic="sel_word"></span>
     </div>
-    <div class="right_middle" ng-class="{'active': rm_Active, 'reducedHeight': !def_cards.length}">
+    <div class="right_middle" ng-class="{'active': dictionary.rm_Active, 'reducedHeight': !def_cards.length}">
         <h4>Definitions</h4>
         <ul ng-show="def_cards.length" class="container_def_card">
             <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
@@ -40,7 +40,7 @@
         </span>
 
     </div>
-    <div class="right_bottom" ng-class="{'active': rb_Active}">
+    <div class="right_bottom" ng-class="{'active': dictionary.rb_Active}">
         <hr>
         <h4>Suggestions</h4>
         <div class="container_sug">
