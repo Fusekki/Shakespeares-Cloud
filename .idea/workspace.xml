@@ -5095,8 +5095,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="755" column="1" lean-forward="false" selection-start-line="755" selection-start-column="1" selection-end-line="755" selection-end-column="1" />
+            <state relative-caret-position="535">
+              <caret line="617" column="38" lean-forward="false" selection-start-line="617" selection-start-column="38" selection-end-line="617" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -5524,13 +5524,6 @@
       <workItem from="1493738647434" duration="8211000" />
       <workItem from="1494080055246" duration="26580000" />
     </task>
-    <task id="LOCAL-00021" summary="Comment out step_three.  Adjust ng-click for button to hold value of disabled to be wired to $scope.button_clicked.  Set ng-click to be &quot;button_clicked || (action)&quot;.  Change def_cards to not be cards but show definitions as a text element.">
-      <created>1493829850028</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1493829850028</updated>
-    </task>
     <task id="LOCAL-00022" summary="Renamed project.">
       <created>1493907447451</created>
       <option name="number" value="00022" />
@@ -5867,11 +5860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494273721487</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Include .idea folder in project.">
+      <created>1494273797950</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1494273797950</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293972000" />
+    <option name="totallyTimeSpent" value="294362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5947,7 +5947,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add custom 'mydir' directive to monitor element's changes." />
     <MESSAGE value="Add $scope.checkfortooltip function." />
     <MESSAGE value="Add .dark class for when line has tooltip displayed." />
     <MESSAGE value="Add shithead directive.  Remove ng-click and ng-style directives." />
@@ -5972,7 +5971,8 @@
     <MESSAGE value="Change ng-show for arrow_down div to be if elements exceed 21 in length." />
     <MESSAGE value="Purge old code." />
     <MESSAGE value="Purge old code.&#10;&#10;Make stylist changes to div.right and children color themes.  Align colors to a more neutral placehoilder color along the lines of the theme's colors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Purge old code.&#10;&#10;Make stylist changes to div.right and children color themes.  Align colors to a more neutral placehoilder color along the lines of the theme's colors." />
+    <MESSAGE value="Include .idea folder in project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Include .idea folder in project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -11210,8 +11210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="755" column="1" lean-forward="false" selection-start-line="755" selection-start-column="1" selection-end-line="755" selection-end-column="1" />
+        <state relative-caret-position="535">
+          <caret line="617" column="38" lean-forward="false" selection-start-line="617" selection-start-column="38" selection-end-line="617" selection-end-column="38" />
           <folding />
         </state>
       </provider>

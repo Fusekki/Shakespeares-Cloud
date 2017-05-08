@@ -579,6 +579,9 @@ navbar-default .navbar-nav>li>a {
         color: black;
         opacity: 0;
         transition: background, color, opacity 0.5s;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 5px 0 0 5px;
     }
 
     .right_top h3 {
@@ -611,6 +614,9 @@ navbar-default .navbar-nav>li>a {
         overflow: hidden;
         opacity: 0;
         transition: background, color, opacity 0.5s;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
     }
 
     .reducedHeight {
@@ -630,6 +636,8 @@ navbar-default .navbar-nav>li>a {
         color: white;
         opacity: 0;
         transition: opacity 0.5s;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
      }
 
     .right_bottom:hover {
