@@ -82,8 +82,10 @@ angular.module('shakespeareApp')
         $scope.i_done = false;
         $scope.t_done = false;
 
+        $scope.btnText = 'Examine';
+
+
         var text;
-        var hasClicked = false;
 
         // $scope.title = sharedService.title;
         //
@@ -95,64 +97,89 @@ angular.module('shakespeareApp')
 
         // This triggers when the Examine button is clicked in the tooltip.
         $scope.lookupDefinition = function($event) {
-            console.log('grabbing text first.');
-            // Grab the text first
-            // grabText($event);
 
-            console.log('going to look up sentence');
+            // Change the appearance of the button
+
+            $scope.btnClicked = !$scope.btnClicked;
+
+            if ($scope.btnClicked) {
+                $scope.btnText = "Unexamine";
+                console.log('going to look up sentence');
+                console.log($event);
+                // if (!$scope.i_done) {
+                //     $scope.i_done = !$scope.i_done;
+                // }
+                // if ($scope.s_done) {
+                //     $scope.s_done = !$scope.s_done;
+                // }
+
+                // if (!$scope.rt_Active) {
+                //     $scope.rt_Active = !scope.rt_Active;
+                // }
+                $scope.examinedText = $scope.text;
+
+                if (!$scope.so_Active) {
+                    $scope.so_Active = !$scope.so_Active;
+                }
+                if (!$scope.isActive) {
+                    $scope.isActive = !$scope.isActive;
+                }
+
+                if ($scope.rt_Active) {
+                    $scope.rt_Active = !$scope.rt_Active;
+                }
+
+                if ($scope.rm_Active) {
+                    $scope.rm_Active = !$scope.rm_Active;
+                }
+
+                if ($scope.rb_Active) {
+                    $scope.rb_Active = !$scope.rb_Active;
+                }
+
+                if (!$scope.i_done) {
+                    $scope.i_done = !$scope.i_done;
+                }
+
+                if ($scope.s_done) {
+                    $scope.s_done = !$scope.s_done;
+                }
+                if ($scope.t_done) {
+                    $scope.t_done = !$scope.t_done;
+                }
+
+                // $scope.i_done = !$scope.i_done;
 
 
-            console.log($event);
+                console.log($scope.so_Active);
+                console.log($scope.isActive);
+            } else {
+                $scope.btnText = 'Examine';
+                $scope.examineText = "";
 
-            // if (!$scope.i_done) {
-            //     $scope.i_done = !$scope.i_done;
-            // }
-            // if ($scope.s_done) {
-            //     $scope.s_done = !$scope.s_done;
-            // }
+                if ($scope.isActive) {
+                    $scope.isActive = !$scope.isActive;
+                }
 
-            // if (!$scope.rt_Active) {
-            //     $scope.rt_Active = !scope.rt_Active;
-            // }
-            $scope.examinedText = $scope.text;
+                if ($scope.s_done) {
+                    $scope.s_done = !$scope.s_done;
+                }
+
+                if ($scope.so_Active) {
+                    $scope.so_Active = !$scope.so_Active;
+                }
+
+                if ($scope.i_done) {
+                    $scope.i_done = !$scope.i_done;
+                }
 
 
 
-            if (!$scope.so_Active) {
-                $scope.so_Active = !$scope.so_Active;
             }
-            if (!$scope.isActive) {
-                $scope.isActive = !$scope.isActive;
-            }
-
-            if ($scope.rt_Active) {
-                $scope.rt_Active = !$scope.rt_Active;
-            }
-
-            if ($scope.rm_Active) {
-                $scope.rm_Active = !$scope.rm_Active;
-            }
-
-            if ($scope.rb_Active) {
-                $scope.rb_Active = !$scope.rb_Active;
-            }
-
-            if (!$scope.i_done) {
-                $scope.i_done = !$scope.i_done;
-            }
-
-            if ($scope.s_done) {
-                $scope.s_done = !$scope.s_done;
-            }
-            if ($scope.t_done) {
-                $scope.t_done = !$scope.t_done;
-            }
-
-            // $scope.i_done = !$scope.i_done;
 
 
-            console.log($scope.so_Active);
-            console.log($scope.isActive);
+
+
         };
 
 
@@ -174,8 +201,8 @@ angular.module('shakespeareApp')
             // If this is the first time selecting a word after a sentence is chosen to be examined,
             // toggle the s_done and t_done so that they appear.
             // If this is not the first time, if the t_done is marked, unmark it.
-            if (!hasClicked) {
-                hasClicked = true;
+            if (!$scope.hasClicked) {
+                $scope.hasClicked = true;
                 $scope.s_done = !$scope.s_done;
             } else if ($scope.t_done) {
                 $scope.t_done = !$scope.t_done;
