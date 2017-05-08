@@ -573,7 +573,7 @@ navbar-default .navbar-nav>li>a {
         /* height: 7%; */
         /* top: 0; */
         /* border: 1px solid blue; */
-        /*background: blue;*/
+        background: blue;
         color: black;
         opacity: 0;
         transition: background, color, opacity 0.5s;
@@ -732,6 +732,17 @@ navbar-default .navbar-nav>li>a {
 
     .examineBtn:hover {
         color: white;
+    }
+
+    .sug_word {
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 2px 1px;
+    }
+
+    .sug_word:hover {
+        color: black;
+        background: white;
     }
 
 
