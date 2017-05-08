@@ -183,14 +183,7 @@ angular.module('shakespeareApp')
                 if ($scope.dictionary.i_done) {
                     $scope.dictionary.i_done = !$scope.dictionary.i_done;
                 }
-
-
-
             }
-
-
-
-
         };
 
 
@@ -384,6 +377,7 @@ angular.module('shakespeareApp')
                     console.log('no entries returned.');
                     if ('suggestion' in entries) {
                         $scope.dictionary.rb_Active = true;
+                        // $scope.dictionary.rm_Active = false;
                         var sug = entries.suggestion;
                         console.log('sugestions found');
                         if (typeof(sug) == 'object') {
