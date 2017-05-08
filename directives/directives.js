@@ -31,18 +31,6 @@ angular.module('shakespeareApp')
                                 console.log('change');
                                 if ($el.hasClass('dark')) {
                                     $el.removeClass('dark');
-                                    // if ($scope.i_done) {
-                                    //     $scope.i_done = !$scope.i_done;
-                                    // }
-                                    // if ($scope.so_Active) {
-                                    //     $scope.so_Active = !$scope.so_Active;
-                                    // }
-                                    // if ($scope.st_Active) {
-                                    //     $scope.st_Active = !$scope.st_Active;
-                                    // }
-                                    // if ($scope.isActive) {
-                                    //     $scope.isActive = !$scope.isActive;
-                                    // }
                                     if ($scope.btnText != 'Examine')
                                         $scope.btnText = 'Examine';
 
@@ -70,11 +58,9 @@ angular.module('shakespeareApp')
                                         $scope.dictionary.i_done = !$scope.dictionary.i_done;
                                     }
 
-
                                     if ($scope.dictionary.t_done) {
                                         $scope.dictionary.t_done = !$scope.dictionary.t_done;
                                     }
-
 
                                     if ($scope.dictionary.isActive) {
                                         $scope.dictionary.isActive = !$scope.dictionary.isActive;
@@ -92,10 +78,7 @@ angular.module('shakespeareApp')
                                         $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
                                     }
 
-
-
                                     console.log('going to grab text of line');
-                                    // grabText($el[0].innerHTML);
                                     text = $el[0].innerText;
                                     console.log(text);
                                     var split_text = text.toString().split(" ");
@@ -108,9 +91,7 @@ angular.module('shakespeareApp')
                                     }
                                     console.log(new_text);
                                     $scope.text = new_text;
-                                    // if (!$scope.isActive) {
-                                    //     $scope.isActive = !$scope.isActive;
-                                    // }
+
                                 }
                                 console.log(oldValue);
                                 console.log(newValue);
