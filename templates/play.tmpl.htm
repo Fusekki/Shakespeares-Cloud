@@ -43,17 +43,21 @@
     <div class="right_bottom" ng-class="{'active': dictionary.rb_Active}">
         <hr>
         <h4>Suggestions</h4>
-        <span><i>Click a word to select</i></span>
+        <span><i>Click a word to select</i> - {{ sug_cards.length }}</span>
         <div class="container_sug">
-            <ul ng-show="sug_cards.length" class="container_sug_card">
+            <ul ng-show="sug_cards.length" class="ul_sug_card">
                 <li class="sug_card" id="sug_{{ $index }}" ng-repeat="s in sug_cards track by $index">
-                    <p>
-                        <span class="sug_word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)"> {{ s }}</span>
-                    </p>
+                    <!--<p>-->
+                    <span class="sug_word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)"> {{$index}}) {{ s }}</span>
+                    <!--</p>-->
                 </li>
             </ul>
+            <div class="arrow_down blink_me" ng-show="sug_cards.length > 9">
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+            </div>
         </div>
     </div>
+
     <!--<div class="right_bottom" ng-class="{'active': rb_Active}">-->
         <!--<div class="definition">-->
             <!--<p ng-show="definition">-->
