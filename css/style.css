@@ -7,6 +7,16 @@
 /*#777594 med purple*/
 /*#b1b3c7 lt purple*/
 
+/*Animations*/
+.blink_me {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+/*Animations end*/
+
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #474231;
     font-weight: bold;
@@ -674,22 +684,34 @@ navbar-default .navbar-nav>li>a {
         flex-wrap: wrap;
         /*height: 225px;*/
         overflow: auto;
+
     }
 
     .container_sug {
-        column-count: 3;
+        /* column-count: 3; */
+        /* overflow-x: hidden; */
+        overflow-y: auto;
+        height: 95px;
+        /* column-gap: 0; */
+        /* margin-right: 40px; */
     }
 
-    .container_sug_card {
-        overflow: auto;
+    .ul_sug_card {
+        /*overflow: auto;*/
+        padding-left: 25px;
+        column-count: 3;
     }
     .def_card,
     .sug_card {
         list-style: none;
     }
 
+    .sug_card {
+        padding: 5px 0;
+    }
+
     .def_card p,
-    .sug_card p {
+    .sug_card span {
         /*height: 60px;*/
         /*width: 60px;*/
         list-style: none;
@@ -743,6 +765,13 @@ navbar-default .navbar-nav>li>a {
     .sug_word:hover {
         color: black;
         background: white;
+    }
+
+    .arrow_down {
+        position: fixed;
+        bottom: 33px;
+        right: 10px;
+        font-size: 25px;
     }
 
 
