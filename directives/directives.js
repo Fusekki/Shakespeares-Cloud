@@ -31,26 +31,64 @@ angular.module('shakespeareApp')
                                 console.log('change');
                                 if ($el.hasClass('dark')) {
                                     $el.removeClass('dark');
-                                    if ($scope.i_done) {
-                                        $scope.i_done = !$scope.i_done;
-                                    }
-                                    if ($scope.so_Active) {
-                                        $scope.so_Active = !$scope.so_Active;
-                                    }
-                                    if ($scope.st_Active) {
-                                        $scope.st_Active = !$scope.st_Active;
-                                    }
-                                    if ($scope.isActive) {
-                                        $scope.isActive = !$scope.isActive;
+                                    // if ($scope.i_done) {
+                                    //     $scope.i_done = !$scope.i_done;
+                                    // }
+                                    // if ($scope.so_Active) {
+                                    //     $scope.so_Active = !$scope.so_Active;
+                                    // }
+                                    // if ($scope.st_Active) {
+                                    //     $scope.st_Active = !$scope.st_Active;
+                                    // }
+                                    // if ($scope.isActive) {
+                                    //     $scope.isActive = !$scope.isActive;
+                                    // }
+                                    if ($scope.btnText != 'Examine')
+                                        $scope.btnText = 'Examine';
+
+                                    if ($scope.btnClicked) {
+                                        $scope.btnClicked = !$scope.btnClicked;
                                     }
                                 } else {
                                     $el.addClass('dark');
                                     if (!$scope.i_done) {
                                         $scope.i_done = !$scope.i_done;
                                     }
-                                    if (!$scope.so_Active) {
+                                    if ($scope.so_Active) {
                                         $scope.so_Active = !$scope.so_Active;
                                     }
+
+                                    if ($scope.s_done) {
+                                        $scope.s_done = !$scope.s_done;
+                                    }
+
+                                    if ($scope.i_done) {
+                                        $scope.i_done = !$scope.i_done;
+                                    }
+
+
+                                    if ($scope.t_done) {
+                                        $scope.t_done = !$scope.t_done;
+                                    }
+
+
+                                    if ($scope.isActive) {
+                                        $scope.isActive = !$scope.isActive;
+                                    }
+
+                                    if ($scope.rt_Active) {
+                                        $scope.rt_Active = !$scope.rt_Active;
+                                    }
+
+                                    if ($scope.st_Active) {
+                                        $scope.st_Active = !$scope.st_Active;
+                                    }
+
+                                    if ($scope.rm_Active) {
+                                        $scope.rm_Active = !$scope.rm_Active;
+                                    }
+
+
 
                                     console.log('going to grab text of line');
                                     // grabText($el[0].innerHTML);
