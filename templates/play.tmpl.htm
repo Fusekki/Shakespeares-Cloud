@@ -48,11 +48,11 @@
             <ul ng-show="sug_cards.length" class="ul_sug_card">
                 <li class="sug_card" id="sug_{{ $index }}" ng-repeat="s in sug_cards track by $index">
                     <!--<p>-->
-                    <span class="sug_word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)"> {{$index}}) {{ s }}</span>
+                    <span class="sug_word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)">{{$index}}) {{ s }}</span>
                     <!--</p>-->
                 </li>
             </ul>
-            <div class="arrow_down blink_me" ng-show="sug_cards.length > 9">
+            <div class="arrow_down blink_me" ng-show="sug_cards.length > 21">
                 <i class="fa fa-angle-double-down" aria-hidden="true"></i>
             </div>
         </div>
