@@ -565,12 +565,9 @@ navbar-default .navbar-nav>li>a {
     }
     .right {
         position: relative;
-        width: 450px;
         height: calc(100% - 308px);
-        top: 220px;
-        left: 15px;
+        top: 100px;
         background: transparent;
-
     }
 
     .right div span {
@@ -578,12 +575,7 @@ navbar-default .navbar-nav>li>a {
     }
 
     .right_top {
-        /* position: relative; */
-        /* width: 100%; */
-        /* height: 7%; */
-        /* top: 0; */
-        /* border: 1px solid blue; */
-        background: blue;
+        background: #b1b3c7;
         color: black;
         opacity: 0;
         transition: background, color, opacity 0.5s;
@@ -594,34 +586,28 @@ navbar-default .navbar-nav>li>a {
         float: right;
     }
 
-    .right_top label {
-        /*float: right;*/
-        /*padding-left: 10px;*/
-    }
+
 
     .right_top span {
         float: right;
-        /* line-height: 14px; */
         margin-top: 5px;
         margin-right: 62%;
         right: 10px;
-        /* background: blue; */
         font-size: 23px !important;
     }
 
     .right_top:hover {
-         background: black;
+         background: hsla(235, 16%, 74%, 0.5);
          color: white;
      }
 
     .right_middle {
         position: relative;
         width: 100%;
-        height: 57%;
-        /*top: 20%;*/
+        /*height: 57%;*/
         border: 1px solid green;
-        background: green;
-        color: white;
+        background: hsl(235, 14%, 74%);
+        color: black;
         overflow: hidden;
         opacity: 0;
         transition: background, color, opacity 0.5s;
@@ -632,23 +618,23 @@ navbar-default .navbar-nav>li>a {
     }
 
     .right_middle:hover {
-        background: lightgreen;
-        color: black;
+        background:  hsla(235, 14%, 74%, 0.5);
+        color: hsl(0, 0%, 0%, 0.95);
     }
 
     .right_bottom {
         /*display: block;*/
         overflow: hidden;
         /*height: 50%;*/
-        background: purple;
+        background: #474231;
         color: white;
         opacity: 0;
         transition: opacity 0.5s;
      }
 
     .right_bottom:hover {
-        background: lightpink;
-        color: black;
+        background: hsla(46, 18%, 24%, 0.75);
+        color: white;
     }
 
 
@@ -682,22 +668,15 @@ navbar-default .navbar-nav>li>a {
     .container_def_card {
         display: flex;
         flex-wrap: wrap;
-        /*height: 225px;*/
         overflow: auto;
 
     }
 
     .container_sug {
-        /* column-count: 3; */
-        /* overflow-x: hidden; */
         overflow-y: auto;
-        height: 95px;
-        /* column-gap: 0; */
-        /* margin-right: 40px; */
     }
 
     .ul_sug_card {
-        /*overflow: auto;*/
         padding-left: 25px;
         column-count: 3;
     }
@@ -712,19 +691,7 @@ navbar-default .navbar-nav>li>a {
 
     .def_card p,
     .sug_card span {
-        /*height: 60px;*/
-        /*width: 60px;*/
         list-style: none;
-        /*border: 3px solid orange;*/
-        /*background: orange;*/
-        /*color: black;*/
-        /*border-radius: 2em;*/
-        /*font-size: 34px;*/
-        /*line-height: 85px;*/
-        /*overflow: hidden;*/
-        /*line-height: 34px;*/
-        /*padding-top: 18%;*/
-        /*text-align: center;*/
     }
 
     .fa-reply {
@@ -758,13 +725,14 @@ navbar-default .navbar-nav>li>a {
 
     .sug_word {
         border: 1px solid white;
-        border-radius: 10px;
-        padding: 2px 1px;
+        border-radius: 20px;
+        padding: 5px;
     }
 
     .sug_word:hover {
         color: black;
         background: white;
+        border-color: black;
     }
 
     .arrow_down {

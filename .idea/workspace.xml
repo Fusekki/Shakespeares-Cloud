@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="380" column="53" lean-forward="true" selection-start-line="380" selection-start-column="53" selection-end-line="380" selection-end-column="53" />
+            <state relative-caret-position="-2193">
+              <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="tooltip.tmpl.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="21">
+              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -67,8 +68,8 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="367">
+              <caret line="54" column="77" lean-forward="true" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -5085,8 +5086,18 @@
       <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/directives/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="137" column="25" lean-forward="true" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+            <state relative-caret-position="1028">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="636" column="21" lean-forward="false" selection-start-line="636" selection-start-column="21" selection-end-line="636" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -5096,7 +5107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$</find>
       <find>broadcast</find>
       <find>act</find>
       <find>div class=&quot;act&quot;</find>
@@ -5123,9 +5133,10 @@
       <find>popover</find>
       <find>exam</find>
       <find>$scope</find>
-      <find>def_cards</find>
       <find>animat</find>
       <find>float</find>
+      <find>.examineBtn</find>
+      <find>def_cards</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -5179,10 +5190,10 @@
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -5307,24 +5318,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5531,27 +5524,6 @@
       <workItem from="1493737894694" duration="744000" />
       <workItem from="1493738647434" duration="8211000" />
       <workItem from="1494080055246" duration="26580000" />
-    </task>
-    <task id="LOCAL-00017" summary="Add overflow: hidden to .right_middle.">
-      <created>1493762524172</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1493762524172</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Rework lookupWord function.  Try setting out to clarify early on the object type and branch put with if else from those basic categories initially.  Move specific logic to within.  This will help un-spaghettify the function code.">
-      <created>1493762654381</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1493762654381</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Add &quot;&quot;&amp;&amp; def.dt__text.length &gt; 1&quot; to a if else if the object is string.  This will ensure it doesn't pass just an empty character.">
-      <created>1493827188617</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1493827188617</updated>
     </task>
     <task id="LOCAL-00020" summary="Change height of .right_top.  Readjust the .right_top h3 and .right_top label to switch their positions from right to left and vice-versa.  Comment out right_bottom as I believe the design is moving away from it.">
       <created>1493829734454</created>
@@ -5875,11 +5847,32 @@
       <option name="project" value="LOCAL" />
       <updated>1494266568278</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Fix right-bottom divs and suggestion space for overwrap.&#10;Add down_arrow div for when the suggestions area can be scrolled down.">
+      <created>1494266655480</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1494266655480</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Change ng-show for arrow_down div to be if elements exceed 21 in length.">
+      <created>1494273561741</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1494273561741</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Purge old code.">
+      <created>1494273616198</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1494273616199</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290688000" />
+    <option name="totallyTimeSpent" value="293840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5955,9 +5948,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add logic to tooltip function." />
-    <MESSAGE value="Add ng-click to body of app.  Link it to the sharedService.prevLin boolean." />
-    <MESSAGE value="Continue to refactor and record doThis function." />
     <MESSAGE value="Remove ng-click directive from line.  Add custom 'mydir' directive." />
     <MESSAGE value="Add custom 'mydir' directive to monitor element's changes." />
     <MESSAGE value="Add $scope.checkfortooltip function." />
@@ -5980,7 +5970,10 @@
     <MESSAGE value="Add blink animation.  Fixed overflow for suggestions div." />
     <MESSAGE value="Removed emtpy excess lines." />
     <MESSAGE value="Add a couple more conditionals for suggestions div in changeOnTooltip directive.  Add scrolly directive." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a couple more conditionals for suggestions div in changeOnTooltip directive.  Add scrolly directive." />
+    <MESSAGE value="Fix right-bottom divs and suggestion space for overwrap.&#10;Add down_arrow div for when the suggestions area can be scrolled down." />
+    <MESSAGE value="Change ng-show for arrow_down div to be if elements exceed 21 in length." />
+    <MESSAGE value="Purge old code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Purge old code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -6167,29 +6160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="380" column="53" lean-forward="true" selection-start-line="380" selection-start-column="53" selection-end-line="380" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -11199,26 +11169,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2193">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/directives/directives.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="137" column="25" lean-forward="true" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
+        <state relative-caret-position="1028">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="367">
+          <caret line="54" column="77" lean-forward="true" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="420">
+          <caret line="636" column="21" lean-forward="false" selection-start-line="636" selection-start-column="21" selection-end-line="636" selection-end-column="21" />
           <folding />
         </state>
       </provider>

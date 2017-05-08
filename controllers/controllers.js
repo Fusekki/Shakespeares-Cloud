@@ -71,9 +71,6 @@ angular.module('shakespeareApp')
         $scope.text = "Sentence";
         $scope.sel_word = "Word";
         $scope.btnText = 'Examine';
-        // $scope.isActive = false;
-
-        // Sets the right dictionary area to opacity 1 on true; 0 when false
 
         $scope.dictionary = {
             is_Active: false,
@@ -85,21 +82,10 @@ angular.module('shakespeareApp')
             i_done: false,
             t_done: false
         }
-        // $scope.rt_Active = false;
-        // $scope.rm_Active = false;
-        // $scope.rb_Active = false;
-        // $scope.so_Active = false;
-        // $scope.st_Active = false;
-        // $scope.i_done = false;
-        // $scope.t_done = false;
-
-
-
 
         var text;
 
-        // $scope.title = sharedService.title;
-        //
+
         apiService.getHTML(function(response) {
             $scope.play = response.data;
         }, function(err) {
@@ -117,16 +103,6 @@ angular.module('shakespeareApp')
                 $scope.btnText = "Unexamine";
                 console.log('going to look up sentence');
                 console.log($event);
-                // if (!$scope.i_done) {
-                //     $scope.i_done = !$scope.i_done;
-                // }
-                // if ($scope.s_done) {
-                //     $scope.s_done = !$scope.s_done;
-                // }
-
-                // if (!$scope.rt_Active) {
-                //     $scope.rt_Active = !scope.rt_Active;
-                // }
                 $scope.examinedText = $scope.text;
 
                 if (!$scope.dictionary.so_Active) {
@@ -227,14 +203,6 @@ angular.module('shakespeareApp')
             if ($scope.dictionary.rb_Active) {
                 $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
             }
-            // // Hide the third step if displaying.
-            // if ($scope.st_Active) {
-            //     $scope.st_Active = !$scope.st_Active;
-            // }
-            // // Remove the strike-through on the third step if present from previous call.
-            // if ($scope.t_done) {
-            //     $scope.t_done = !$scope.t_done;
-            // }
 
             // Clear the def_cards of any previous values.
             if ($scope.def_cards) {
@@ -258,7 +226,6 @@ angular.module('shakespeareApp')
             $scope.button_clicked = true;
 
             $scope.dictionary.t_done = !$scope.dictionary.t_done;
-            // $scope.dictionary.sth_Active = !$scope.dictionary.sth_Active;
             if (!$scope.dictionary.rm_Active) {
                 $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
             }
@@ -383,13 +350,13 @@ angular.module('shakespeareApp')
                         if (typeof(sug) == 'object') {
                             console.log('There are multiple suggestions.');
                             for (var s = 0; s < sug.length; s++) {
-                                console.log(sug[s]);
+                                // console.log(sug[s]);
                                 sug_list.push(sug[s]);
                             }
 
                         } else if (typeof(sug) == 'string') {
                             console.log('There is only one suggestion.');
-                            console.log(sug);
+                            // console.log(sug);
                             sug_list.push(sug);
                         }
                         $scope.sug_cards = sug_list;
