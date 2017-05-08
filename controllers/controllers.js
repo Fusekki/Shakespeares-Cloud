@@ -93,28 +93,14 @@ angular.module('shakespeareApp')
             console.log(err.status);
         });
 
-        // This is triggered on a hover over a line in the play
-        $scope.grabText = function($event) {
-            // console.log($event);
-            if (hasClicked) {
-                hasClicked = !hasClicked;
-            }
-
-            text = $event.target.innerText;
-            var split_text = text.toString().split(" ");
-            var new_text = "";
-            var new_word;
-            for (var x = 0; x < split_text.length; x++) {
-                // Here we are stripping punctuation-like characters out of the word
-                new_word = split_text[x].replace(/([.,!?\\-])/, "");
-                new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
-            }
-            $scope.text = new_text;
-        };
-
         // This triggers when the Examine button is clicked in the tooltip.
         $scope.lookupDefinition = function($event) {
+            console.log('grabbing text first.');
+            // Grab the text first
+            // grabText($event);
+
             console.log('going to look up sentence');
+
 
             console.log($event);
 
