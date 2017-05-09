@@ -73,7 +73,7 @@ angular.module('shakespeareApp')
         $scope.btnText = 'Examine';
 
         $scope.dictionary = {
-            is_Visible: false,
+            isVisible: false,
             rt_Visible: false,
             rm_Visible: false,
             rb_Visible: false,
@@ -82,9 +82,6 @@ angular.module('shakespeareApp')
             step_one_done: false,
             step_three_done: false
         }
-
-        var text;
-
 
         apiService.getHTML(function(response) {
             $scope.play = response.data;
@@ -108,8 +105,8 @@ angular.module('shakespeareApp')
                 if (!$scope.dictionary.so_Visible) {
                     $scope.dictionary.so_Visible = !$scope.dictionary.so_Visible;
                 }
-                if (!$scope.dictionary.isActive) {
-                    $scope.dictionary.isActive = !$scope.dictionary.isActive;
+                if (!$scope.dictionary.isVisible) {
+                    $scope.dictionary.isVisible = !$scope.dictionary.isVisible;
                 }
 
                 if ($scope.dictionary.rt_Visible) {
@@ -135,17 +132,14 @@ angular.module('shakespeareApp')
                     $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
                 }
 
-                // $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
-
-
                 console.log($scope.dictionary.so_Visible);
-                console.log($scope.dictionary.isActive);
+                console.log($scope.dictionary.isVisible);
             } else {
                 $scope.btnText = 'Examine';
                 $scope.examineText = "";
 
-                if ($scope.dictionary.isActive) {
-                    $scope.dictionary.isActive = !$scope.dictionary.isActive;
+                if ($scope.dictionary.isVisible) {
+                    $scope.dictionary.isVisible = !$scope.dictionary.isVisible;
                 }
 
                 if ($scope.dictionary.step_two_done) {

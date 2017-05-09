@@ -7,8 +7,6 @@
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="$PROJECT_DIR$/controllers/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directives.js" afterPath="$PROJECT_DIR$/directives/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+            <state relative-caret-position="328">
+              <caret line="141" column="78" lean-forward="false" selection-start-line="141" selection-start-column="78" selection-end-line="141" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -90,8 +88,8 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="114" lean-forward="true" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="132" />
+            <state relative-caret-position="320">
+              <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -100,8 +98,9 @@
       <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/directives/directives.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="1258">
+              <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +109,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
+            <state relative-caret-position="981">
               <caret line="74" column="61" lean-forward="true" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
               <folding>
                 <marker date="1494251126510" expanded="true" signature="1164:3921" ph="..." />
@@ -123,9 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;span</find>
-      <find>ui</find>
-      <find>rgba</find>
       <find>has</find>
       <find>text_header</find>
       <find>hasKety</find>
@@ -151,8 +147,11 @@
       <find>s_done</find>
       <find>Active</find>
       <find>_visible</find>
-      <find>_Active</find>
       <find>i_done</find>
+      <find>_Active</find>
+      <find>$scope.text</find>
+      <find>isActive</find>
+      <find>is_Visible</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -168,9 +167,10 @@
       <replace>step_two_done</replace>
       <replace>step_three_done</replace>
       <replace>_visible</replace>
-      <replace>Visible</replace>
-      <replace>_Visible</replace>
       <replace>step_one_done</replace>
+      <replace>_Visible</replace>
+      <replace>Visible</replace>
+      <replace>isVisible</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -213,8 +213,8 @@
         <option value="$PROJECT_DIR$/templates/tooltip.tmpl.htm" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
-        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
         <option value="$PROJECT_DIR$/controllers/controllers.js" />
       </list>
@@ -626,13 +626,6 @@
       <workItem from="1493738647434" duration="8211000" />
       <workItem from="1494080055246" duration="26580000" />
     </task>
-    <task id="LOCAL-00022" summary="Renamed project.">
-      <created>1493907447451</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1493907447451</updated>
-    </task>
     <task id="LOCAL-00023" summary="Remove forced height of .container_def_card.  It was causing too much empty space between entries when only two definitions are returned.">
       <created>1493909369771</created>
       <option name="number" value="00023" />
@@ -969,11 +962,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494273797950</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Renamed $scope variables in dictionary object to more appropriate names.">
+      <created>1494339928196</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1494339928197</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295760000" />
+    <option name="totallyTimeSpent" value="296079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,8 +986,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1049,7 +1050,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add $scope.checkfortooltip function." />
     <MESSAGE value="Add .dark class for when line has tooltip displayed." />
     <MESSAGE value="Add shithead directive.  Remove ng-click and ng-style directives." />
     <MESSAGE value="Remove old commented out code for previous HTML filters." />
@@ -1074,7 +1074,8 @@
     <MESSAGE value="Purge old code." />
     <MESSAGE value="Purge old code.&#10;&#10;Make stylist changes to div.right and children color themes.  Align colors to a more neutral placehoilder color along the lines of the theme's colors." />
     <MESSAGE value="Include .idea folder in project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Include .idea folder in project." />
+    <MESSAGE value="Renamed $scope variables in dictionary object to more appropriate names." />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed $scope variables in dictionary object to more appropriate names." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1264,16 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="61" lean-forward="true" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
-          <folding>
-            <marker date="1494251126510" expanded="true" signature="1164:3921" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1290,22 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="114" lean-forward="true" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -1314,10 +1289,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="981">
+          <caret line="74" column="61" lean-forward="true" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+          <folding>
+            <marker date="1494251126510" expanded="true" signature="1164:3921" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        <state relative-caret-position="328">
+          <caret line="141" column="78" lean-forward="false" selection-start-line="141" selection-start-column="78" selection-end-line="141" selection-end-column="78" />
           <folding />
         </state>
       </provider>
