@@ -68,6 +68,8 @@ angular.module('shakespeareApp')
 
     .controller('playCtrl', function($scope, logicService, apiService, sharedService) {
 
+        var hasClicked = false;
+
         $scope.dictionary = {
             dict_visible: false,
             dict_right_top_visible: false,
@@ -81,6 +83,8 @@ angular.module('shakespeareApp')
             sel_word: "Word",
             btnText: "Examine"
         }
+
+
 
         apiService.getHTML(function(response) {
             $scope.play = response.data;
@@ -169,13 +173,12 @@ angular.module('shakespeareApp')
             console.log('choose word');
             // Grab the text from the element
             $scope.dictionary.sel_word = $event.target.innerHTML;
-            // Toggle the second line strike-through
 
             // If this is the first time selecting a word after a sentence is chosen to be examined,
             // toggle the step_two_done and step_three_done so that they appear.
             // If this is not the first time, if the step_three_done is marked, unmark it.
-            if (!$scope.hasClicked) {
-                $scope.hasClicked = true;
+            if (!hasClicked) {
+                hasClicked = !hasClicked;
                 $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
             } else if ($scope.dictionary.step_three_done) {
                 $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
@@ -359,8 +362,6 @@ angular.module('shakespeareApp')
                         $scope.sug_cards = sug_list;
                     }
                 }
-
-
             }, function(err) {
                 console.log(err.status);
             });
