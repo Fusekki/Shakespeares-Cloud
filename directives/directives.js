@@ -38,44 +38,44 @@ angular.module('shakespeareApp')
                                         $scope.btnClicked = !$scope.btnClicked;
                                     }
 
-                                    if ($scope.dictionary.rb_Active) {
-                                        $scope.dictionary.rb_Active = !$scope.definition.rb_Active;
+                                    if ($scope.dictionary.rb_Visible) {
+                                        $scope.dictionary.rb_Visible = !$scope.definition.rb_Visible;
                                     }
                                 } else {
                                     $el.addClass('dark');
-                                    if (!$scope.dictionary.i_done) {
-                                        $scope.dictionary.i_done = !$scope.dictionary.i_done;
+                                    if (!$scope.dictionary.step_one_done) {
+                                        $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
                                     }
-                                    if ($scope.dictionary.so_Active) {
-                                        $scope.dictionary.so_Active = !$scope.dictionary.so_Active;
-                                    }
-
-                                    if ($scope.dictionary.s_done) {
-                                        $scope.dictionary.s_done = !$scope.dictionary.s_done;
+                                    if ($scope.dictionary.so_Visible) {
+                                        $scope.dictionary.so_Visible = !$scope.dictionary.so_Visible;
                                     }
 
-                                    if ($scope.dictionary.i_done) {
-                                        $scope.dictionary.i_done = !$scope.dictionary.i_done;
+                                    if ($scope.dictionary.step_two_done) {
+                                        $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
                                     }
 
-                                    if ($scope.dictionary.t_done) {
-                                        $scope.dictionary.t_done = !$scope.dictionary.t_done;
+                                    if ($scope.dictionary.step_one_done) {
+                                        $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
                                     }
 
-                                    if ($scope.dictionary.isActive) {
-                                        $scope.dictionary.isActive = !$scope.dictionary.isActive;
+                                    if ($scope.dictionary.step_three_done) {
+                                        $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
                                     }
 
-                                    if ($scope.dictionary.rt_Active) {
-                                        $scope.dictionary.rt_Active = !$scope.dictionary.rt_Active;
+                                    if ($scope.dictionary.isVisible) {
+                                        $scope.dictionary.isVisible = !$scope.dictionary.isVisible;
                                     }
 
-                                    if ($scope.dictionary.st_Active) {
-                                        $scope.dictionary.st_Active = !$scope.dictionary.st_Active;
+                                    if ($scope.dictionary.rt_Visible) {
+                                        $scope.dictionary.rt_Visible = !$scope.dictionary.rt_Visible;
                                     }
 
-                                    if ($scope.dictionary.rm_Active) {
-                                        $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
+                                    if ($scope.dictionary.st_Visible) {
+                                        $scope.dictionary.st_Visible = !$scope.dictionary.st_Visible;
+                                    }
+
+                                    if ($scope.dictionary.rm_Visible) {
+                                        $scope.dictionary.rm_Visible = !$scope.dictionary.rm_Visible;
                                     }
 
                                     console.log('going to grab text of line');

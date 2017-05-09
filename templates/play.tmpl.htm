@@ -6,23 +6,23 @@
     <div class="right">
     <div class="step_zero">
         <div><i class="fa fa-reply" aria-hidden="true"></i></div>
-        <span ng-class="{'line-through': dictionary.i_done}">Click a line to examine the meaning</span>
+        <span ng-class="{'line-through': dictionary.step_one_done}">Click a line to examine the meaning</span>
     </div>
-    <div class="step_one" ng-class="{'active': dictionary.so_Active}">
-        <span ng-class="{'line-through': dictionary.s_done}">Click the Examine button and choose a word below to select it. </span>
+    <div class="step_one" ng-class="{'visible': dictionary.so_Visible}">
+        <span ng-class="{'line-through': dictionary.step_two_done}">Click the Examine button and choose a word below to select it. </span>
     </div>
-    <div class="step_two" ng-class="{'active': dictionary.st_Active}">
-        <span ng-class="{'line-through': dictionary.t_done}">Click the button to lookup the definiton </span>
+    <div class="step_two" ng-class="{'visible': dictionary.st_Visible}">
+        <span ng-class="{'line-through': dictionary.step_three_done}">Click the button to lookup the definiton </span>
     </div>
-    <!--<div class="step_three" ng-class="{'active': sth_Active}">-->
+    <!--<div class="step_three" ng-class="{'visible': sth_Visible}">-->
         <!--<span>Click a defintion to view its contents </span>-->
     <!--</div>-->
-    <div class="text" dynamic="examinedText" ng-class="{'active': dictionary.isActive}"></div>
-    <div class="right_top" ng-class="{'active': dictionary.rt_Active}">
+    <div class="text" dynamic="examinedText" ng-class="{'visible': dictionary.isActive}"></div>
+    <div class="right_top" ng-class="{'visible': dictionary.rt_Visible}">
         <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
         <span dynamic="sel_word"></span>
     </div>
-    <div class="right_middle" ng-class="{'active': dictionary.rm_Active, 'reducedHeight': !def_cards.length}">
+    <div class="right_middle" ng-class="{'visible': dictionary.rm_Visible, 'reducedHeight': !def_cards.length, 'curved_bottom_border': !sug_cards.length}">
         <h4>Definitions</h4>
         <ul ng-show="def_cards.length" class="container_def_card">
             <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
@@ -40,7 +40,7 @@
         </span>
 
     </div>
-    <div class="right_bottom" ng-class="{'active': dictionary.rb_Active}">
+    <div class="right_bottom" ng-class="{'visible': dictionary.rb_Visible}">
         <hr>
         <h4>Suggestions</h4>
         <span><i>Click a word to select</i> - {{ sug_cards.length }}</span>
@@ -48,7 +48,7 @@
             <ul ng-show="sug_cards.length" class="ul_sug_card">
                 <li class="sug_card" id="sug_{{ $index }}" ng-repeat="s in sug_cards track by $index">
                     <!--<p>-->
-                    <span class="sug_word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)">{{$index}}) {{ s }}</span>
+                    <span class="sug_word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)">{{ s }}</span>
                     <!--</p>-->
                 </li>
             </ul>
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <!--<div class="right_bottom" ng-class="{'active': rb_Active}">-->
+    <!--<div class="right_bottom" ng-class="{'visible': rb_Visible}">-->
         <!--<div class="definition">-->
             <!--<p ng-show="definition">-->
                 <!--"{{ definition }}"-->

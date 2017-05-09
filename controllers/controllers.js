@@ -73,14 +73,14 @@ angular.module('shakespeareApp')
         $scope.btnText = 'Examine';
 
         $scope.dictionary = {
-            is_Active: false,
-            rt_Active: false,
-            rm_Active: false,
-            rb_Active: false,
-            so_Active: false,
-            st_Active: false,
-            i_done: false,
-            t_done: false
+            is_Visible: false,
+            rt_Visible: false,
+            rm_Visible: false,
+            rb_Visible: false,
+            so_Visible: false,
+            st_Visible: false,
+            step_one_done: false,
+            step_three_done: false
         }
 
         var text;
@@ -105,40 +105,40 @@ angular.module('shakespeareApp')
                 console.log($event);
                 $scope.examinedText = $scope.text;
 
-                if (!$scope.dictionary.so_Active) {
-                    $scope.dictionary.so_Active = !$scope.dictionary.so_Active;
+                if (!$scope.dictionary.so_Visible) {
+                    $scope.dictionary.so_Visible = !$scope.dictionary.so_Visible;
                 }
                 if (!$scope.dictionary.isActive) {
                     $scope.dictionary.isActive = !$scope.dictionary.isActive;
                 }
 
-                if ($scope.dictionary.rt_Active) {
-                    $scope.dictionary.rt_Active = !$scope.dictionary.rt_Active;
+                if ($scope.dictionary.rt_Visible) {
+                    $scope.dictionary.rt_Visible = !$scope.dictionary.rt_Visible;
                 }
 
-                if ($scope.dictionary.rm_Active) {
-                    $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
+                if ($scope.dictionary.rm_Visible) {
+                    $scope.dictionary.rm_Visible = !$scope.dictionary.rm_Visible;
                 }
 
-                if ($scope.dictionary.rb_Active) {
-                    $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
+                if ($scope.dictionary.rb_Visible) {
+                    $scope.dictionary.rb_Visible = !$scope.dictionary.rb_Visible;
                 }
 
-                if (!$scope.dictionary.i_done) {
-                    $scope.dictionary.i_done = !$scope.dictionary.i_done;
+                if (!$scope.dictionary.step_one_done) {
+                    $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
                 }
 
-                if ($scope.dictionary.s_done) {
-                    $scope.dictionary.s_done = !$scope.dictionary.s_done;
+                if ($scope.dictionary.step_two_done) {
+                    $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
                 }
-                if ($scope.dictionary.t_done) {
-                    $scope.dictionary.t_done = !$scope.dictionary.t_done;
+                if ($scope.dictionary.step_three_done) {
+                    $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
                 }
 
-                // $scope.dictionary.i_done = !$scope.dictionary.i_done;
+                // $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
 
 
-                console.log($scope.dictionary.so_Active);
+                console.log($scope.dictionary.so_Visible);
                 console.log($scope.dictionary.isActive);
             } else {
                 $scope.btnText = 'Examine';
@@ -148,16 +148,16 @@ angular.module('shakespeareApp')
                     $scope.dictionary.isActive = !$scope.dictionary.isActive;
                 }
 
-                if ($scope.dictionary.s_done) {
-                    $scope.dictionary.s_done = !$scope.dictionary.s_done;
+                if ($scope.dictionary.step_two_done) {
+                    $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
                 }
 
-                if ($scope.dictionary.so_Active) {
-                    $scope.dictionary.so_Active = !$scope.dictionary.so_Active;
+                if ($scope.dictionary.so_Visible) {
+                    $scope.dictionary.so_Visible = !$scope.dictionary.so_Visible;
                 }
 
-                if ($scope.dictionary.i_done) {
-                    $scope.dictionary.i_done = !$scope.dictionary.i_done;
+                if ($scope.dictionary.step_one_done) {
+                    $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
                 }
             }
         };
@@ -179,34 +179,38 @@ angular.module('shakespeareApp')
             // Toggle the second line strike-through
 
             // If this is the first time selecting a word after a sentence is chosen to be examined,
-            // toggle the s_done and t_done so that they appear.
-            // If this is not the first time, if the t_done is marked, unmark it.
+            // toggle the step_two_done and step_three_done so that they appear.
+            // If this is not the first time, if the step_three_done is marked, unmark it.
             if (!$scope.hasClicked) {
                 $scope.hasClicked = true;
-                $scope.dictionary.s_done = !$scope.dictionary.s_done;
-            } else if ($scope.dictionary.t_done) {
-                $scope.dictionary.t_done = !$scope.dictionary.t_done;
+                $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
+            } else if ($scope.dictionary.step_three_done) {
+                $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
             }
 
             // Show the rt if hidden
-            if (!$scope.dictionary.rt_Active) {
-                $scope.dictionary.rt_Active = !$scope.dictionary.rt_Active;
+            if (!$scope.dictionary.rt_Visible) {
+                $scope.dictionary.rt_Visible = !$scope.dictionary.rt_Visible;
             }
             // Show the st if hidden
-            if (!$scope.dictionary.st_Active) {
-                $scope.dictionary.st_Active = !$scope.dictionary.st_Active;
+            if (!$scope.dictionary.st_Visible) {
+                $scope.dictionary.st_Visible = !$scope.dictionary.st_Visible;
             }
             // Hide the rm and rb if they are showing.
-            if ($scope.dictionary.rm_Active) {
-                $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
+            if ($scope.dictionary.rm_Visible) {
+                $scope.dictionary.rm_Visible = !$scope.dictionary.rm_Visible;
             }
-            if ($scope.dictionary.rb_Active) {
-                $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
+            if ($scope.dictionary.rb_Visible) {
+                $scope.dictionary.rb_Visible = !$scope.dictionary.rb_Visible;
             }
 
             // Clear the def_cards of any previous values.
             if ($scope.def_cards) {
                 $scope.def_cards.length = 0;
+            }
+            // Clear out sug_cards of any previous values.
+            if ($scope.sug_cards) {
+                $scope.sug_cards.length = 0;
             }
             if ($scope.definition) {
                 $scope.definition = "";
@@ -225,9 +229,9 @@ angular.module('shakespeareApp')
 
             $scope.button_clicked = true;
 
-            $scope.dictionary.t_done = !$scope.dictionary.t_done;
-            if (!$scope.dictionary.rm_Active) {
-                $scope.dictionary.rm_Active = !$scope.dictionary.rm_Active;
+            $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
+            if (!$scope.dictionary.rm_Visible) {
+                $scope.dictionary.rm_Visible = !$scope.dictionary.rm_Visible;
             }
             // Clear out the def_cards if there are any.
             console.log($scope.def_cards);
@@ -235,7 +239,7 @@ angular.module('shakespeareApp')
             if ($scope.def_cards) {
                 $scope.def_cards.length = 0;
             }
-            // $scope.rm_Active = !$scope.rm_Active;
+            // $scope.rm_Visible = !$scope.rm_Visible;
             var def_list = [];
             var sug_list = [];
             console.log('Lookup word: ' + $scope.sel_word);
@@ -343,8 +347,8 @@ angular.module('shakespeareApp')
                 } else {
                     console.log('no entries returned.');
                     if ('suggestion' in entries) {
-                        $scope.dictionary.rb_Active = true;
-                        // $scope.dictionary.rm_Active = false;
+                        $scope.dictionary.rb_Visible = true;
+                        // $scope.dictionary.rm_Visible = false;
                         var sug = entries.suggestion;
                         console.log('sugestions found');
                         if (typeof(sug) == 'object') {
@@ -372,8 +376,8 @@ angular.module('shakespeareApp')
         // This is triggered when a def_card is clicked.
         $scope.displayDef = function(def) {
             console.log('display def.');
-            if (!$scope.dictionary.rb_Active) {
-                $scope.dictionary.rb_Active = !$scope.dictionary.rb_Active;
+            if (!$scope.dictionary.rb_Visible) {
+                $scope.dictionary.rb_Visible = !$scope.dictionary.rb_Visible;
             }
             $scope.dictionary.definition = def;
         }

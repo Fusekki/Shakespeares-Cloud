@@ -750,9 +750,14 @@ navbar-default .navbar-nav>li>a {
         font-size: 25px;
     }
 
+    .curved_bottom_border {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
 
     /*This needs to be the last element so it overrides all preceding elements*/
-    .active {
+    .visible {
         opacity: 1;
     }
 
