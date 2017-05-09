@@ -29,68 +29,26 @@ angular.module('shakespeareApp')
 
     // This triggers when the Examine button is clicked in the tooltip.
     $scope.lookupDefinition = function($event) {
-
         // Change the appearance of the button
-
         $scope.btnClicked = !$scope.btnClicked;
-
         if ($scope.btnClicked) {
             $scope.dictionary.btnText = "Unexamine";
-            console.log('going to look up sentence');
-            console.log($event);
             $scope.examinedText = $scope.dictionary.text;
-
-            if (!$scope.dictionary.step_two_visible) {
-                $scope.dictionary.step_two_visible = !$scope.dictionary.step_two_visible;
-            }
-            if (!$scope.dictionary.dict_visible) {
-                $scope.dictionary.dict_visible = !$scope.dictionary.dict_visible;
-            }
-
-            if ($scope.dictionary.dict_right_top_visible) {
-                $scope.dictionary.dict_right_top_visible = !$scope.dictionary.dict_right_top_visible;
-            }
-
-            if ($scope.dictionary.dict_right_middle_visible) {
-                $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
-            }
-
-            if ($scope.dictionary.dict_right_bottom_visible) {
-                $scope.dictionary.dict_right_bottom_visible = !$scope.dictionary.dict_right_bottom_visible;
-            }
-
-            if (!$scope.dictionary.step_one_done) {
-                $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
-            }
-
-            if ($scope.dictionary.step_two_done) {
-                $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
-            }
-            if ($scope.dictionary.step_three_done) {
-                $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
-            }
-
-            console.log($scope.dictionary.step_two_visible);
-            console.log($scope.dictionary.dict_visible);
+            $scope.dictionary.step_two_visible = true;
+            $scope.dictionary.dict_visible = true;
+            $scope.dictionary.dict_right_top_visible = false;
+            $scope.dictionary.dict_right_middle_visible = false;
+            $scope.dictionary.dict_right_bottom_visible = false;
+            $scope.dictionary.step_one_done = true;
+            $scope.dictionary.step_two_done = false;
+            $scope.dictionary.step_three_done = false;
         } else {
             $scope.dictionary.btnText = 'Examine';
             $scope.examineText = "";
-
-            if ($scope.dictionary.dict_visible) {
-                $scope.dictionary.dict_visible = !$scope.dictionary.dict_visible;
-            }
-
-            if ($scope.dictionary.step_two_done) {
-                $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
-            }
-
-            if ($scope.dictionary.step_two_visible) {
-                $scope.dictionary.step_two_visible = !$scope.dictionary.step_two_visible;
-            }
-
-            if ($scope.dictionary.step_one_done) {
-                $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
-            }
+            $scope.dictionary.dict_visible = false;
+            $scope.dictionary.step_two_done = false;
+            $scope.dictionary.step_two_visible = false
+            $scope.dictionary.step_one_done = false;
         }
     };
 
@@ -104,8 +62,6 @@ angular.module('shakespeareApp')
 
     // This triggers when the word is clicked in the sentence field.
     $scope.chooseWord = function($event) {
-
-        console.log('choose word');
         // Grab the text from the element
         $scope.dictionary.sel_word = $event.target.innerHTML;
 
@@ -113,28 +69,14 @@ angular.module('shakespeareApp')
         // toggle the step_two_done and step_three_done so that they appear.
         // If this is not the first time, if the step_three_done is marked, unmark it.
         if (!hasClicked) {
-            hasClicked = !hasClicked;
+            hasClicked = true;
             $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
-        } else if ($scope.dictionary.step_three_done) {
-            $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
         }
-
-        // Show the rt if hidden
-        if (!$scope.dictionary.dict_right_top_visible) {
-            $scope.dictionary.dict_right_top_visible = !$scope.dictionary.dict_right_top_visible;
-        }
-        // Show the st if hidden
-        if (!$scope.dictionary.step_three_visible) {
-            $scope.dictionary.step_three_visible = !$scope.dictionary.step_three_visible;
-        }
-        // Hide the rm and rb if they are showing.
-        if ($scope.dictionary.dict_right_middle_visible) {
-            $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
-        }
-        if ($scope.dictionary.dict_right_bottom_visible) {
-            $scope.dictionary.dict_right_bottom_visible = !$scope.dictionary.dict_right_bottom_visible;
-        }
-
+        $scope.dictionary.step_three_done = false
+        $scope.dictionary.dict_right_top_visible = true;
+        $scope.dictionary.step_three_visible = true;
+        $scope.dictionary.dict_right_middle_visible = false;
+        $scope.dictionary.dict_right_bottom_visible = false;
         // Clear the def_cards of any previous values.
         if ($scope.def_cards) {
             $scope.def_cards.length = 0;
@@ -143,15 +85,8 @@ angular.module('shakespeareApp')
         if ($scope.sug_cards) {
             $scope.sug_cards.length = 0;
         }
-        if ($scope.definition) {
-            $scope.definition = "";
-        }
-        // Reenable the define button if a new word is clicked and if the button was disabled from a previous press.
-        if ($scope.button_clicked) {
-            $scope.button_clicked = !$scope.button_clicked;
-        }
-
-
+        $scope.definition = "";
+        $scope.button_clicked = false;
     };
 
     //  This is triggered when the define button is clicked. It prompts the following API call.
