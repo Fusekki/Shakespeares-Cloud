@@ -68,6 +68,7 @@ angular.module('shakespeareApp')
 
     .controller('playCtrl', function($scope, logicService, apiService, sharedService) {
 
+        // This is just used once for the chooseWord function when run for the first time.
         var hasClicked = false;
 
         $scope.dictionary = {
