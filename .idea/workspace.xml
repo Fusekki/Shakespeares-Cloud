@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/FirstCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/SecondCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/directive1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/directive2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/directive3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/cache/cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/models/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/service1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/service2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/service3.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/directives/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/services.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cache.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/cache/cache.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="service2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/service2.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +55,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1372">
-              <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state relative-caret-position="1513">
+              <caret line="89" column="48" lean-forward="true" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
               <folding>
-                <marker date="1494342629254" expanded="true" signature="1164:4303" ph="..." />
+                <marker date="1494343116694" expanded="true" signature="924:4219" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -235,8 +222,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.js" />
         <option value="chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/adblock-uiscripts-rightclick_hook.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
@@ -259,6 +244,8 @@
         <option value="$PROJECT_DIR$/services/service2.js" />
         <option value="$PROJECT_DIR$/services/service3.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -710,13 +697,6 @@
       <workItem from="1493738647434" duration="8211000" />
       <workItem from="1494080055246" duration="26580000" />
     </task>
-    <task id="LOCAL-00027" summary="Update readme file.">
-      <created>1493909812891</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1493909812892</updated>
-    </task>
     <task id="LOCAL-00028" summary="Add div.right_bottom back.  Have it contain the suggestions.  Set additional class condition on div.right_middle that if the def_cards is empty, the 'reducedHeight' class will be added.">
       <created>1493912531747</created>
       <option name="number" value="00028" />
@@ -1053,11 +1033,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494341358433</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Seperated controllers, services, and directives into separate files and named them following the Angular best practices.">
+      <created>1494342708541</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1494342708541</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298536000" />
+    <option name="totallyTimeSpent" value="298999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1133,7 +1120,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create shithead directive that monitors the nextElementSibling of the element for it to change (presumable to tooltip).  On this, it toggles the clasa dark. &#10;&#10;Remived former unused directives." />
     <MESSAGE value="Change text in first instruction line to be Click over a line." />
     <MESSAGE value="Change .line to be display: -webkit-box so that the background change does not affect the speaker div." />
     <MESSAGE value="Delete $scope.grabText from controller as we are placing that function in the directive." />
@@ -1158,7 +1144,8 @@
     <MESSAGE value="Renamed additional $scope variables that were not fully renamed on previous commit." />
     <MESSAGE value="Renamed additional $scope variables to more suitable names." />
     <MESSAGE value="Change $scope.hasClicked to var hasClicked since it is not needed for the view." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change $scope.hasClicked to var hasClicked since it is not needed for the view." />
+    <MESSAGE value="Seperated controllers, services, and directives into separate files and named them following the Angular best practices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Seperated controllers, services, and directives into separate files and named them following the Angular best practices." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,14 +1290,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/ui-bootstrap-tpls-2.5.0.js" />
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="131" lean-forward="false" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grunt/plays_xml/alls_well_that_ends_well_FF.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1473,12 +1452,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="86" column="30" lean-forward="false" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        <state relative-caret-position="1513">
+          <caret line="89" column="48" lean-forward="true" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
           <folding>
-            <marker date="1494342629254" expanded="true" signature="1164:4303" ph="..." />
+            <marker date="1494343116694" expanded="true" signature="924:4219" ph="..." />
           </folding>
         </state>
       </provider>

@@ -23,7 +23,7 @@
     });
 
 
-    var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'angularSpinners', 'ngSanitize']);
+    var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'ngSanitize']);
     // console.log('here');
 
 
