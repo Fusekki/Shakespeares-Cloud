@@ -31,23 +31,23 @@ angular.module('shakespeareApp')
                                 console.log('change');
                                 if ($el.hasClass('dark')) {
                                     $el.removeClass('dark');
-                                    if ($scope.btnText != 'Examine')
-                                        $scope.btnText = 'Examine';
+                                    if ($scope.dictionary.btnText != 'Examine')
+                                        $scope.dictionary.btnText = 'Examine';
 
                                     if ($scope.btnClicked) {
                                         $scope.btnClicked = !$scope.btnClicked;
                                     }
 
-                                    if ($scope.dictionary.rb_Visible) {
-                                        $scope.dictionary.rb_Visible = !$scope.definition.rb_Visible;
+                                    if ($scope.dictionary.dict_right_bottom_visible) {
+                                        $scope.dictionary.dict_right_bottom_visible = !$scope.definition.dict_right_bottom_visible;
                                     }
                                 } else {
                                     $el.addClass('dark');
                                     if (!$scope.dictionary.step_one_done) {
                                         $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
                                     }
-                                    if ($scope.dictionary.so_Visible) {
-                                        $scope.dictionary.so_Visible = !$scope.dictionary.so_Visible;
+                                    if ($scope.dictionary.step_two_visible) {
+                                        $scope.dictionary.step_two_visible = !$scope.dictionary.step_two_visible;
                                     }
 
                                     if ($scope.dictionary.step_two_done) {
@@ -62,20 +62,20 @@ angular.module('shakespeareApp')
                                         $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
                                     }
 
-                                    if ($scope.dictionary.isVisible) {
-                                        $scope.dictionary.isVisible = !$scope.dictionary.isVisible;
+                                    if ($scope.dictionary.dict_visible) {
+                                        $scope.dictionary.dict_visible = !$scope.dictionary.dict_visible;
                                     }
 
-                                    if ($scope.dictionary.rt_Visible) {
-                                        $scope.dictionary.rt_Visible = !$scope.dictionary.rt_Visible;
+                                    if ($scope.dictionary.dict_right_top_visible) {
+                                        $scope.dictionary.dict_right_top_visible = !$scope.dictionary.dict_right_top_visible;
                                     }
 
-                                    if ($scope.dictionary.st_Visible) {
-                                        $scope.dictionary.st_Visible = !$scope.dictionary.st_Visible;
+                                    if ($scope.dictionary.step_three_visible) {
+                                        $scope.dictionary.step_three_visible = !$scope.dictionary.step_three_visible;
                                     }
 
-                                    if ($scope.dictionary.rm_Visible) {
-                                        $scope.dictionary.rm_Visible = !$scope.dictionary.rm_Visible;
+                                    if ($scope.dictionary.dict_right_middle_visible) {
+                                        $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
                                     }
 
                                     console.log('going to grab text of line');
@@ -90,7 +90,7 @@ angular.module('shakespeareApp')
                                         new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
                                     }
                                     console.log(new_text);
-                                    $scope.text = new_text;
+                                    $scope.dictionary.text = new_text;
 
                                 }
                                 console.log(oldValue);

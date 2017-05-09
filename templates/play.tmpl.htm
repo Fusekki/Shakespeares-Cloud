@@ -8,21 +8,21 @@
         <div><i class="fa fa-reply" aria-hidden="true"></i></div>
         <span ng-class="{'line-through': dictionary.step_one_done}">Click a line to examine the meaning</span>
     </div>
-    <div class="step_one" ng-class="{'visible': dictionary.so_Visible}">
+    <div class="step_one" ng-class="{'visible': dictionary.step_two_visible}">
         <span ng-class="{'line-through': dictionary.step_two_done}">Click the Examine button and choose a word below to select it. </span>
     </div>
-    <div class="step_two" ng-class="{'visible': dictionary.st_Visible}">
+    <div class="step_two" ng-class="{'visible': dictionary.step_three_visible}">
         <span ng-class="{'line-through': dictionary.step_three_done}">Click the button to lookup the definiton </span>
     </div>
     <!--<div class="step_three" ng-class="{'visible': sth_Visible}">-->
         <!--<span>Click a defintion to view its contents </span>-->
     <!--</div>-->
-    <div class="text" dynamic="examinedText" ng-class="{'visible': dictionary.isVisible}"></div>
-    <div class="right_top" ng-class="{'visible': dictionary.rt_Visible}">
+    <div class="text" dynamic="examinedText" ng-class="{'visible': dictionary.dict_visible}"></div>
+    <div class="right_top" ng-class="{'visible': dictionary.dict_right_top_visible}">
         <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
-        <span dynamic="sel_word"></span>
+        <span dynamic="dictionary.sel_word"></span>
     </div>
-    <div class="right_middle" ng-class="{'visible': dictionary.rm_Visible, 'reducedHeight': !def_cards.length, 'curved_bottom_border': !sug_cards.length}">
+    <div class="right_middle" ng-class="{'visible': dictionary.dict_right_middle_visible, 'reducedHeight': !def_cards.length, 'curved_bottom_border': !sug_cards.length}">
         <h4>Definitions</h4>
         <ul ng-show="def_cards.length" class="container_def_card">
             <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
@@ -40,7 +40,7 @@
         </span>
 
     </div>
-    <div class="right_bottom" ng-class="{'visible': dictionary.rb_Visible}">
+    <div class="right_bottom" ng-class="{'visible': dictionary.dict_right_bottom_visible}">
         <hr>
         <h4>Suggestions</h4>
         <span><i>Click a word to select</i> - {{ sug_cards.length }}</span>
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <!--<div class="right_bottom" ng-class="{'visible': rb_Visible}">-->
+    <!--<div class="right_bottom" ng-class="{'visible': dict_right_bottom_visible}">-->
         <!--<div class="definition">-->
             <!--<p ng-show="definition">-->
                 <!--"{{ definition }}"-->
