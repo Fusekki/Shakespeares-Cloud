@@ -2,8 +2,6 @@
 
 angular.module('shakespeareApp')
 
-
-
     .directive('changeOnTooltip', function($compile) {
         return {
             priority: 0,
@@ -20,57 +18,21 @@ angular.module('shakespeareApp')
                             console.log('change');
                             if ($el.hasClass('dark')) {
                                 $el.removeClass('dark');
-                                if ($scope.dictionary.btnText != 'Examine')
                                     $scope.dictionary.btnText = 'Examine';
-
-                                if ($scope.btnClicked) {
-                                    $scope.btnClicked = !$scope.btnClicked;
-                                }
-
-                                if ($scope.dictionary.dict_right_bottom_visible) {
-                                    $scope.dictionary.dict_right_bottom_visible = !$scope.definition.dict_right_bottom_visible;
-                                }
+                                    $scope.btnClicked = false;
+                                    $scope.dictionary.dict_right_bottom_visible = false;
                             } else {
                                 $el.addClass('dark');
-                                if (!$scope.dictionary.step_one_done) {
-                                    $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
-                                }
-                                if ($scope.dictionary.step_two_visible) {
-                                    $scope.dictionary.step_two_visible = !$scope.dictionary.step_two_visible;
-                                }
-
-                                if ($scope.dictionary.step_two_done) {
-                                    $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
-                                }
-
-                                if ($scope.dictionary.step_one_done) {
-                                    $scope.dictionary.step_one_done = !$scope.dictionary.step_one_done;
-                                }
-
-                                if ($scope.dictionary.step_three_done) {
-                                    $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
-                                }
-
-                                if ($scope.dictionary.dict_visible) {
-                                    $scope.dictionary.dict_visible = !$scope.dictionary.dict_visible;
-                                }
-
-                                if ($scope.dictionary.dict_right_top_visible) {
-                                    $scope.dictionary.dict_right_top_visible = !$scope.dictionary.dict_right_top_visible;
-                                }
-
-                                if ($scope.dictionary.step_three_visible) {
-                                    $scope.dictionary.step_three_visible = !$scope.dictionary.step_three_visible;
-                                }
-
-                                if ($scope.dictionary.dict_right_middle_visible) {
-                                    $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
-                                }
-
-                                if ($scope.dictionary.dict_right_bottom_visible) {
-                                    $scope.dictionary.dict_right_bottom_visible = !$scope.dictionary.dict_right_bottom_visible;
-                                }
-
+                                $scope.dictionary.step_one_done = true;
+                                $scope.dictionary.step_two_visible = false;
+                                $scope.dictionary.step_two_done = false;
+                                $scope.dictionary.step_one_done = false;
+                                $scope.dictionary.step_three_done = false;
+                                $scope.dictionary.dict_visible = false;
+                                $scope.dictionary.dict_right_top_visible = false;
+                                $scope.dictionary.step_three_visible = false;
+                                $scope.dictionary.dict_right_middle_visible = false;
+                                $scope.dictionary.dict_right_bottom_visible = false;
                                 console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 console.log(text);

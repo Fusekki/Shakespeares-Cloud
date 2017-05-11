@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directive2.js" afterPath="$PROJECT_DIR$/directives/directive2.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,8 +86,8 @@
       <file leaf-file-name="directive2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+            <state relative-caret-position="969">
+              <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -513,13 +513,6 @@
       <workItem from="1493738647434" duration="8211000" />
       <workItem from="1494080055246" duration="26580000" />
     </task>
-    <task id="LOCAL-00033" summary="Create .right_container. Set the .right to relative display.    Add border-right with half opacity cream type placeholder color to 1px right.">
-      <created>1493931994963</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1493931994963</updated>
-    </task>
     <task id="LOCAL-00034" summary="Add .right_container, step_zero to enclose the first set of directions as is custom with the other two.&#10;Set .right_container to fixed position with remaining viewport height and width.  Set .right to position:relative since it is now the child of the container just created.">
       <created>1493932179553</created>
       <option name="number" value="00034" />
@@ -856,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494519757570</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Add additional comments to controller in hope of future refactoring.">
+      <created>1494519801362</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1494519801362</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305122000" />
+    <option name="totallyTimeSpent" value="307116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,7 +954,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add additional checks for instruction lines being active and/or havng a strike-through based on whether the line had a .dark class already on it.  Moved $scope.grabText function innards to directive." />
     <MESSAGE value="Rename 'shithead' directive to more appropriate &quot;change-on-tooltip&quot;.  Removed  ng-hover directive since the grabText function's logic has been moved to the directive." />
     <MESSAGE value="Make text in examineBtn to be stored in the scope." />
     <MESSAGE value="Changed text slightly in second instruction line." />
@@ -979,7 +978,8 @@
     <MESSAGE value="Move app.js out of JS folder." />
     <MESSAGE value="Refactor lookupWord function." />
     <MESSAGE value="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already." />
+    <MESSAGE value="Add additional comments to controller in hope of future refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add additional comments to controller in hope of future refactoring." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1279,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/directives/directive2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+        <state relative-caret-position="969">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
           <folding />
         </state>
       </provider>
