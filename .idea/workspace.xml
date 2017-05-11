@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="122" column="47" lean-forward="true" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
+            <state relative-caret-position="1048">
+              <caret line="223" column="33" lean-forward="false" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -78,6 +78,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directive2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -193,7 +203,6 @@
         <option value="$PROJECT_DIR$/services/services.js" />
         <option value="$PROJECT_DIR$/services/cache/cache.js" />
         <option value="$PROJECT_DIR$/directives/directive1.js" />
-        <option value="$PROJECT_DIR$/directives/directive2.js" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/directives/directives.js" />
         <option value="$PROJECT_DIR$/directives/directive3.js" />
@@ -208,6 +217,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/change.js" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+        <option value="$PROJECT_DIR$/directives/directive2.js" />
       </list>
     </option>
   </component>
@@ -262,6 +272,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,27 +512,6 @@
       <workItem from="1493737894694" duration="744000" />
       <workItem from="1493738647434" duration="8211000" />
       <workItem from="1494080055246" duration="26580000" />
-    </task>
-    <task id="LOCAL-00030" summary="Add object to hold suggestions (sug_card).  Add logic to populate with suggestion objects as returned.">
-      <created>1493912652129</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1493912652129</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Add 'div.container_sug' and set column-count to 3.">
-      <created>1493913436001</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1493913436001</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Add 'div.container_sug' that wraps 'ul.container_sug_card'">
-      <created>1493913523070</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1493913523070</updated>
     </task>
     <task id="LOCAL-00033" summary="Create .right_container. Set the .right to relative display.    Add border-right with half opacity cream type placeholder color to 1px right.">
       <created>1493931994963</created>
@@ -832,11 +835,32 @@
       <option name="project" value="LOCAL" />
       <updated>1494343319043</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Refactor lookupWord function.">
+      <created>1494518569432</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1494518569432</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Refactor lookupWord function.">
+      <created>1494519332227</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1494519332227</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already.">
+      <created>1494519757570</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1494519757570</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303868000" />
+    <option name="totallyTimeSpent" value="305122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,7 +874,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -930,8 +954,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete $scope.grabText from controller as we are placing that function in the directive." />
-    <MESSAGE value="Add additional checks for instruction lines being active and/or havng a strike-through based on whether the line had a .dark class already on it." />
     <MESSAGE value="Add additional checks for instruction lines being active and/or havng a strike-through based on whether the line had a .dark class already on it.  Moved $scope.grabText function innards to directive." />
     <MESSAGE value="Rename 'shithead' directive to more appropriate &quot;change-on-tooltip&quot;.  Removed  ng-hover directive since the grabText function's logic has been moved to the directive." />
     <MESSAGE value="Make text in examineBtn to be stored in the scope." />
@@ -955,7 +977,9 @@
     <MESSAGE value="Seperated controllers, services, and directives into separate files and named them following the Angular best practices." />
     <MESSAGE value="Reposition script locations in index.html file as suggested by Angular best practices.&#10;Remove 'angularSpinners' from Module in app.js" />
     <MESSAGE value="Move app.js out of JS folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move app.js out of JS folder." />
+    <MESSAGE value="Refactor lookupWord function." />
+    <MESSAGE value="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1205,14 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directives/directive3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1255,8 +1271,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="122" column="47" lean-forward="true" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
+        <state relative-caret-position="1048">
+          <caret line="223" column="33" lean-forward="false" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
           <folding />
         </state>
       </provider>

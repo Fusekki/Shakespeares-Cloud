@@ -206,7 +206,6 @@ angular.module('shakespeareApp')
                         for (var s = 0; s < sug.length; s++) {
                             sug_list.push(sug[s]);
                         }
-
                     } else {
                         // type is string
                         console.log('There is only one suggestion.');
