@@ -124,14 +124,16 @@ angular.module('shakespeareApp')
                 // Check if entry length is above 1
                 if (entries.entry.length) {
                     console.log('entry is length of 1 or more');
+                    // Cycle through each of the entries
                     for (var x = 0; x < entries.entry.length; x++) {
-                        // console.log(x);
+                        // if def is in current entry
                         if ('def' in entries.entry[x]) {
                             var def = entries.entry[x].def;
                             console.log('entry: ' + x);
                             console.log(def);
                             // This should always be an object returned
                             console.log(typeof(def));
+                            // What type of object is dt? if object do the following
                             if (typeof(def.dt) == 'object') {
                                 console.log('OBJECT ' + ' entry: ' + x);
                                 // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
@@ -140,27 +142,26 @@ angular.module('shakespeareApp')
                                     console.log('push ' + idx + '-----------------');
                                     def_list.push(def.dt.__text.replace(/^:/, ""));
                                 } else {
+                                    // Item is still an object just doesn't contain __text
                                     for (var i = 0; i < def.dt.length; i++) {
                                         console.log(def.dt.length);
                                         idx++;
                                         console.log(def.dt[i]);
                                         // console.log(typeof(def.dt[i]));
-                                        if (typeof(def.dt[i]) == 'string') {
+                                        if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
                                             // console.log('WE SHOULD NEVER GET HERE');
                                             console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
-                                            if (def.dt[i].length > 1) {
-                                                console.log('push ' + idx + '-----------------');
-                                                def_list.push(def.dt[i].replace(/^:/, ""));
-                                            }
+                                            // is item longer than a single character
+                                            console.log('push ' + idx + '-----------------');
+                                            def_list.push(def.dt[i].replace(/^:/, ""));
                                         } else  {
+                                            // type of dt[i] is object
                                             // console.log('WE SHOULD NEVER GET HERE');
                                             console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
-                                            if (def.dt[i].__text) {
-                                                if (def.dt[i].__text.length > 1) {
+                                            if (def.dt[i].__text && def.dt[i].__text.length > 1) {
                                                     console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
                                                     def_list.push(def.dt[i].__text.replace(/^:/, ""));
                                                     // def_list.push(def.dt.replace(/^:/, ""));
-                                                }
                                             } else {
                                                 console.log('unable to parse this entry: ' + x + ' dt: ' + i);
                                                 console.log(def.dt[i]);
@@ -184,15 +185,17 @@ angular.module('shakespeareApp')
                     if (typeof(def.dt) == 'string') {
                         console.log('push ' + idx + '-----------------');
                         def_list.push(def.dt.replace(/^:/, ""));
+                    } else {
+                        console.log('unable to parse entry.');
                     }
-                    console.log(def_list);
                 }
                 console.log('COMPILE-----------------');
-
                 $scope.def_cards = def_list;
 
             } else {
+                // No entries returned.
                 console.log('no entries returned.');
+                // Are there suggestions?
                 if ('suggestion' in entries) {
                     $scope.dictionary.dict_right_bottom_visible = true;
                     // $scope.dictionary.dict_right_middle_visible = false;
@@ -204,7 +207,8 @@ angular.module('shakespeareApp')
                             sug_list.push(sug[s]);
                         }
 
-                    } else if (typeof(sug) == 'string') {
+                    } else {
+                        // type is string
                         console.log('There is only one suggestion.');
                         // console.log(sug);
                         sug_list.push(sug);
