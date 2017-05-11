@@ -67,6 +67,10 @@ angular.module('shakespeareApp')
                                     $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
                                 }
 
+                                if ($scope.dictionary.dict_right_bottom_visible) {
+                                    $scope.dictionary.dict_right_bottom_visible = !$scope.dictionary.dict_right_bottom_visible;
+                                }
+
                                 console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 console.log(text);
