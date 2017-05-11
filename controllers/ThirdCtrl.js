@@ -136,20 +136,24 @@ angular.module('shakespeareApp')
                                 console.log('OBJECT ' + ' entry: ' + x);
                                 // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
                                 if ('__text' in def.dt && def.dt.__text.length > 1) {
+                                    // console.log('WE SHOULD NEVER GET HERE');
                                     console.log('push ' + idx + '-----------------');
                                     def_list.push(def.dt.__text.replace(/^:/, ""));
                                 } else {
-                                    for (var i = 0; i < def.dt.length + 1; i++) {
+                                    for (var i = 0; i < def.dt.length; i++) {
+                                        console.log(def.dt.length);
                                         idx++;
                                         console.log(def.dt[i]);
                                         // console.log(typeof(def.dt[i]));
                                         if (typeof(def.dt[i]) == 'string') {
+                                            // console.log('WE SHOULD NEVER GET HERE');
                                             console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
                                             if (def.dt[i].length > 1) {
                                                 console.log('push ' + idx + '-----------------');
                                                 def_list.push(def.dt[i].replace(/^:/, ""));
                                             }
-                                        } else if (typeof(def.dt[i]) == 'object') {
+                                        } else  {
+                                            // console.log('WE SHOULD NEVER GET HERE');
                                             console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
                                             if (def.dt[i].__text) {
                                                 if (def.dt[i].__text.length > 1) {
@@ -164,7 +168,8 @@ angular.module('shakespeareApp')
                                         }
                                     }
                                 }
-                            } else if (typeof(def.dt) == 'string') {
+                            } else  {
+                                // console.log('WE SHOULD NEVER GET HERE');
                                 console.log('STRING' + ' entry: ' + x + ' dt: 0');
                                 console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: 0');
                                 def_list.push(def.dt.replace(/^:/, ""));
@@ -179,30 +184,6 @@ angular.module('shakespeareApp')
                     if (typeof(def.dt) == 'string') {
                         console.log('push ' + idx + '-----------------');
                         def_list.push(def.dt.replace(/^:/, ""));
-                    } else {
-                        for (var i = 0; i < def.dt.length + 1; i++) {
-                            console.log(i);
-                            console.log(def.dt[i]);
-                            if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
-
-                                def_list.push(def.dt[i].replace(/^:/, ""));
-
-                            } else if (typeof(def.dt[i]) == 'object' && def.dt[i].__text.length > 1) {
-                                console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
-
-                                def_list.push(def.dt[i].__text.replace(/^:/, ""));
-                            } else if (def.dt.__text) {
-                                console(def.dt.__text.length);
-                                console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
-
-                                def_list.push(def.dt.__text.replace(/^:/, ""));
-                                // def_list.push(def.dt.replace(/^:/, ""));
-                            } else {
-                                console.log(def.dt);
-                                console.log(' entry: ' + x + ' dt: ' + i);
-                            }
-                        }
                     }
                     console.log(def_list);
                 }
@@ -220,7 +201,6 @@ angular.module('shakespeareApp')
                     if (typeof(sug) == 'object') {
                         console.log('There are multiple suggestions.');
                         for (var s = 0; s < sug.length; s++) {
-                            // console.log(sug[s]);
                             sug_list.push(sug[s]);
                         }
 
