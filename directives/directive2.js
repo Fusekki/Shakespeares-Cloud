@@ -14,6 +14,7 @@ angular.module('shakespeareApp')
                 $scope.$watch(
                     function () { return $el[0].nextElementSibling; },
                     function (newValue, oldValue) {
+                        var nextLine;
                         if (newValue !== oldValue) {
                             console.log('change');
                             if ($el.hasClass('dark')) {
@@ -41,12 +42,29 @@ angular.module('shakespeareApp')
                                 var new_word;
                                 for (var x = 0; x < split_text.length; x++) {
                                     // Here we are stripping punctuation-like characters out of the word
-                                    new_word = split_text[x].replace(/([.,!?\\-])/, "");
+                                    // new_word = split_text[x].replace(/([.,!?\\-])/, "");
+                                    new_word = split_text[x].replace(/([.,!?\\])/, "");
+                                    var n = new_word.slice(-1);
+                                    if (n == "-") {
+                                        new_word = new_word.slice(0, new_word.length - 1);
+                                        // Need to grab split word from original line
+                                        console.log('split word detected');
+                                        // Grab the next line
+                                        nextLine = $el[0].nextSibling.nextElementSibling.innerText;
+                                        console.log(nextLine)
+                                        var splitWord = nextLine.match(/^([^\s]+)/);
+                                        console.log(splitWord[1]);
+                                        var fullWord = new_word + splitWord[1];
+                                        console.log(fullWord);
+                                        new_word = fullWord;
+                                    }
+                                    console.log(n);
+
+                                    console.log(new_word);
                                     new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
                                 }
                                 console.log(new_text);
                                 $scope.dictionary.text = new_text;
-
                             }
                             console.log(oldValue);
                             console.log(newValue);

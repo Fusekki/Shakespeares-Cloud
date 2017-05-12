@@ -19,8 +19,6 @@ angular.module('shakespeareApp')
         btnText: "Examine"
     }
 
-
-
     apiService.getHTML(function(response) {
         $scope.play = response.data;
     }, function(err) {
