@@ -6,17 +6,17 @@ angular.module('shakespeareApp')
         return {
             priority: 0,
             link: function ($scope, $el, $attrs) {
-                console.log("Inside link function");
-                console.log($el);
+                // console.log("Inside link function");
+                // console.log($el);
                 // var par = ele.parentElement;
-                console.log($attrs);
-                console.log($scope);
+                // console.log($attrs);
+                // console.log($scope);
                 $scope.$watch(
                     function () { return $el[0].nextElementSibling; },
                     function (newValue, oldValue) {
                         var nextLine;
                         if (newValue !== oldValue) {
-                            console.log('change');
+                            // console.log('change');
                             if ($el.hasClass('dark')) {
                                 $el.removeClass('dark');
                                     $scope.dictionary.btnText = 'Examine';
@@ -34,7 +34,7 @@ angular.module('shakespeareApp')
                                 $scope.dictionary.step_three_visible = false;
                                 $scope.dictionary.dict_right_middle_visible = false;
                                 $scope.dictionary.dict_right_bottom_visible = false;
-                                console.log('going to grab text of line');
+                                // console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 console.log(text);
                                 var split_text = text.toString().split(" ");
@@ -48,26 +48,26 @@ angular.module('shakespeareApp')
                                     if (n == "-") {
                                         new_word = new_word.slice(0, new_word.length - 1);
                                         // Need to grab split word from original line
-                                        console.log('split word detected');
+                                        // console.log('split word detected');
                                         // Grab the next line
                                         nextLine = $el[0].nextSibling.nextElementSibling.innerText;
-                                        console.log(nextLine)
+                                        // console.log(nextLine);
                                         var splitWord = nextLine.match(/^([^\s]+)/);
-                                        console.log(splitWord[1]);
+                                        // console.log(splitWord[1]);
                                         var fullWord = new_word + splitWord[1];
-                                        console.log(fullWord);
+                                        // console.log(fullWord);
                                         new_word = fullWord;
                                     }
-                                    console.log(n);
+                                    // console.log(n);
 
-                                    console.log(new_word);
+                                    // console.log(new_word);
                                     new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
                                 }
-                                console.log(new_text);
+                                // console.log(new_text);
                                 $scope.dictionary.text = new_text;
                             }
-                            console.log(oldValue);
-                            console.log(newValue);
+                            // console.log(oldValue);
+                            // console.log(newValue);
                         }
                     }
                 );
