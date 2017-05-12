@@ -7,7 +7,6 @@ angular.module('shakespeareApp')
             priority: 0,
             link: function ($scope, $el, $attrs) {
                 // console.log("Inside link function");
-                // console.log($el);
                 // var par = ele.parentElement;
                 // console.log($attrs);
                 // console.log($scope);
@@ -17,6 +16,7 @@ angular.module('shakespeareApp')
                         var nextLine;
                         if (newValue !== oldValue) {
                             // console.log('change');
+                            console.log($el);
                             if ($el.hasClass('dark')) {
                                 $el.removeClass('dark');
                                     $scope.dictionary.btnText = 'Examine';
@@ -36,7 +36,9 @@ angular.module('shakespeareApp')
                                 $scope.dictionary.dict_right_bottom_visible = false;
                                 // console.log('going to grab text of line');
                                 text = $el[0].innerText;
-                                console.log(text);
+                                var prevText = $el[0].previousElementSibling.innerText;
+                                console.log(prevText);
+                                // console.log(text);
                                 var split_text = text.toString().split(" ");
                                 var new_text = "";
                                 var new_word;
