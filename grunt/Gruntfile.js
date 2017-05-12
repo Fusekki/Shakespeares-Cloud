@@ -73,9 +73,11 @@ module.exports = function (grunt) {
               match:/<scenetitle type=.+/g,
               replacement: ''
             },
+
                                                                                                         {
               match:/<stagedir>/g,
-              replacement: '<div class="stagedir">'
+			  replacement: '<div class="stagedir" change-on-tooltip tooltip-append-to-body="false"  tooltip-trigger="&#39;outsideClick&#39;" tooltip-placement="top" tooltip-class="tooltipClass" uib-tooltip-template="&#39;templates/tooltip.tmpl.htm&#39;">'
+
             },
                                                                       {
               match:/<\/stagedir>/g,
@@ -107,7 +109,7 @@ module.exports = function (grunt) {
             },
                                                                                                                               {
               match:/<line>/g,
-              replacement: '<div class="line">'
+              replacement: '<div class="line" change-on-tooltip tooltip-append-to-body="false"  tooltip-trigger="&#39;outsideClick&#39;" tooltip-placement="top" tooltip-class="tooltipClass" uib-tooltip-template="&#39;templates/tooltip.tmpl.htm&#39;">'
             },
                                                                       {
               match:/<\/line>/g,
