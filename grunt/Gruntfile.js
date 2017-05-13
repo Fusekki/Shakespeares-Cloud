@@ -11,9 +11,6 @@ module.exports = function (grunt) {
 							match: /(<\?xml-).+/,
 							replacement: ''
 						}, {
-							match: /\">.+<\/title>/,
-							replacement: '</div>'
-						}, {
 							match: /(<play).+/,
 							replacement: '<div class="play">'
 						}, {
@@ -26,8 +23,11 @@ module.exports = function (grunt) {
 							match: /<\/dropcap>/g,
 							replacement: ''
 						}, {
-							match: /<title short="/,
+							match: /<title short="/g,
 							replacement: '<div class="title">'
+						}, {
+							match: /\">.+<\/title>/,
+							replacement: '</div>'
 						}, {
 							match: /<playwright>/g,
 							replacement: '<div class="playwright">'
