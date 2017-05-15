@@ -30,15 +30,15 @@
                             No results.
             </p>
         </span>
-
     </div>
     <div class="container_def_card" ng-class="{'visible': dictionary.dict_right_middle_visible, 'reducedHeight': !def_cards.length, 'curved_bottom_border': !sug_cards.length}">
-        <ul class="listDefCards" ng-show="def_cards.length" >
+        <ul class="listDefCards" ng-show="def_cards.length" ng-repeat="(key, value) in def_cards | groupBy: 'date'">
+           <span ng-show="key != 'undefined'"><b>Date: {{ key }}</b></span>
             <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
-            <li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index">
+            <li class="def_card" id="dc_{{ $index }}" ng-repeat="def in value">
                 <p>
                     <!--{{ title(d) }}-->
-                    <span ng-show="def_cards.length > 1">{{ $index + 1 }})</span> <span>{{ d }}</span>
+                    <span ng-show="def_cards.length > 1"><span>{{ def.def }}</span></span>
                 </p>
             </li>
         </ul>
