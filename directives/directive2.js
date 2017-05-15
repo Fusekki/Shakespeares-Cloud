@@ -16,15 +16,15 @@ angular.module('shakespeareApp')
                         var nextLine;
                         if (newValue !== oldValue) {
                             // console.log('change');
-                            console.log($el);
+                            // console.log($el);
                             if ($el.hasClass('dark')) {
-                                console.log('has dark');
+                                // console.log('has dark');
                                 $el.removeClass('dark');
                                     $scope.dictionary.btnText = 'Examine';
                                     $scope.btnClicked = false;
                                     $scope.dictionary.dict_right_bottom_visible = false;
                             } else {
-                                console.log('does not have dark');
+                                // console.log('does not have dark');
                                 $el.addClass('dark');
                                 $scope.dictionary.step_one_done = true;
                                 $scope.dictionary.step_two_visible = false;
@@ -39,70 +39,72 @@ angular.module('shakespeareApp')
                                 // console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 var firstHalf;
+                                // First check to see if there is a hyphenated word in the previous line
                                 if ($el[0].previousElementSibling) {
                                     var previousElement = $el[0].previousElementSibling;
-                                    console.log(previousElement);
+                                    // console.log(previousElement);
+                                    // Check to see if the previous Element is the tooltip.  If so, grab the element before that.
                                     if (previousElement.className == 'tooltip ng-scope ng-isolate-scope top tooltipClass fade in') {
-                                        console.log('previous element is a tooltip.  Grabbing item before');
+                                        // console.log('previous element is a tooltip.  Grabbing item before');
                                         if (previousElement.previousElementSibling && 'innerText' in previousElement.previousElementSibling) {
                                             previousElement = previousElement.previousElementSibling;
                                             if (!'innerText' in previousElement) {
-                                                console.log('previousSibling inner text is not there.');
+                                                // console.log('previousSibling inner text is not there.');
                                             }
                                         } else {
-                                            console.log('previousSibling inner text is not there.');
+                                            // console.log('previousSibling inner text is not there.');
                                         }
                                     }
+                                    // Check if innnerText is a part of previousElement.  If we don't check first, we will receive an erro
                                     if ('innerText'  in previousElement) {
                                         var prevText = previousElement.innerText;
-                                        console.log(prevText);
+                                        // console.log(prevText);
                                         prevText = prevText.toString().split(" ");
-                                        console.log(prevText.length);
+                                        // console.log(prevText.length);
                                         var lastCharacter = prevText[prevText.length - 1].slice(-1);
                                         if (lastCharacter == "-") {
                                             firstHalf = prevText[prevText.length - 1].slice(0, prevText.length - 1);
                                         } else {
-                                            console.log('lastCharacter is not a hyphen. Not joining.');
+                                            // console.log('lastCharacter is not a hyphen. Not joining.');
                                         }
                                     }
                                 } else {
-                                    console.log('previousSibling inner text is not there.');
+                                    // console.log('previousSibling inner text is not there.');
                                 }
 
-                                // console.log(text);
+                                // Let's split up the words of the sentence
                                 var split_text = text.toString().split(" ");
                                 var new_text = "";
                                 var new_word;
-
+                                // Let's replace each word minus any grammatical characters like comma or apostrophe
                                 for (var x = 0; x < split_text.length; x++) {
                                     // Here we are stripping punctuation-like characters out of the word
                                     // new_word = split_text[x].replace(/([.,!?\\-])/, "");
                                     new_word = split_text[x].replace(/([.,!?\\])/, "");
+                                    // If firstHalf is defined, there is a split word from the previous div.  Only add firstHalf
+                                    // if it exists and the word is the first of the line.
                                     if (firstHalf && x == 0) {
                                         // combine the first and second half.
-                                        console.log('need to combine words');
-                                        console.log(firstHalf);
+                                        // console.log('need to combine words');
+                                        // console.log(firstHalf);
                                         firstHalf = firstHalf.slice(0, firstHalf.length - 1);
-                                        console.log(firstHalf);
-
+                                        // console.log(firstHalf);
                                     }
                                     var n = new_word.slice(-1);
+                                    // Check if that word has a hyphen.
                                     if (n == "-") {
+                                        //  If it has a hyphen, remove it and grab the first word of the next line and combine.
                                         new_word = new_word.slice(0, new_word.length - 1);
-                                        // Need to grab split word from original line
                                         // console.log('split word detected');
                                         // Grab the next line
                                         nextLine = $el[0].nextSibling.nextElementSibling.innerText;
-                                        // console.log(nextLine);
                                         var splitWord = nextLine.match(/^([^\s]+)/);
-                                        // console.log(splitWord[1]);
                                         var fullWord = new_word + splitWord[1];
-                                        // console.log(fullWord);
                                         new_word = fullWord;
                                     }
 
                                     if (firstHalf) {
-                                        console.log('combining words');
+                                        // console.log('combining words');
                                         new_word = firstHalf + new_word;
                                         firstHalf = null;
                                     }

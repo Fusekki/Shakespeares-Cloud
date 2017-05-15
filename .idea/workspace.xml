@@ -104,8 +104,8 @@
       <file leaf-file-name="directive2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+            <state relative-caret-position="412">
+              <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -676,13 +676,6 @@
       <workItem from="1494080055246" duration="26580000" />
       <workItem from="1494618749186" duration="2544000" />
     </task>
-    <task id="LOCAL-00040" summary="Change config options in module to aid with the tooltip click.">
-      <created>1494087489495</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1494087489495</updated>
-    </task>
     <task id="LOCAL-00041" summary="Add logic to tooltip function.">
       <created>1494087529837</created>
       <option name="number" value="00041" />
@@ -1019,11 +1012,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494627364014</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Add logic to directive to examine previous line for innerText.  If it resolves to the tooltip, grab the element before.  If the last letter of the last line of the previous Line is a hyphen, grab the letters prior to the hyphen and combine it with the first word of the line we are examining.">
+      <created>1494864095330</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1494864095330</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321326000" />
+    <option name="totallyTimeSpent" value="322710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1037,7 +1037,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1119,7 +1119,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Place all dictionary view $scope items in $scope.dictionary object.  Rename variables throughout." />
     <MESSAGE value="Add blink animation.  Fixed overflow for suggestions div." />
     <MESSAGE value="Removed emtpy excess lines." />
     <MESSAGE value="Add a couple more conditionals for suggestions div in changeOnTooltip directive.  Add scrolly directive." />
@@ -1144,7 +1143,8 @@
     <MESSAGE value="Add line to find &lt;floaralcap&gt; elements and replace with nothing.  Find replacement text of &lt;div-&quot;line&quot;&gt; and replace with angular markup." />
     <MESSAGE value="Process play XML files through new Grunt file.  Replace plays in project with new files." />
     <MESSAGE value="Add some logging in directive to isolate the element key we need for the previous line." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some logging in directive to isolate the element key we need for the previous line." />
+    <MESSAGE value="Add logic to directive to examine previous line for innerText.  If it resolves to the tooltip, grab the element before.  If the last letter of the last line of the previous Line is a hyphen, grab the letters prior to the hyphen and combine it with the first word of the line we are examining." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logic to directive to examine previous line for innerText.  If it resolves to the tooltip, grab the element before.  If the last letter of the last line of the previous Line is a hyphen, grab the letters prior to the hyphen and combine it with the first word of the line we are examining." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1434,8 +1434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/directives/directive2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        <state relative-caret-position="412">
+          <caret line="69" column="37" lean-forward="true" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding />
         </state>
       </provider>
