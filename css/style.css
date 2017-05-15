@@ -589,8 +589,6 @@ navbar-default .navbar-nav>li>a {
         float: right;
     }
 
-
-
     .right_top span {
         float: right;
         margin-top: 5px;
@@ -599,9 +597,13 @@ navbar-default .navbar-nav>li>a {
         font-size: 23px !important;
     }
 
+    .right_top input {
+        right: 10px;
+    }
+
     .right_top:hover {
          background: hsla(235, 16%, 74%, 0.5);
-         color: white;
+         /*color: white;*/
      }
 
     .right_middle {
