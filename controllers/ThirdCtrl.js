@@ -5,6 +5,7 @@ angular.module('shakespeareApp')
     // This is just used once for the chooseWord function when run for the first time.
     var hasClicked = false;
 
+
     $scope.dictionary = {
         dict_visible: false,
         dict_right_top_visible: false,
@@ -50,6 +51,10 @@ angular.module('shakespeareApp')
         }
     };
 
+    $scope.toggleButton = function() {
+        console.log('here');
+        $scope.button_clicked = false;
+    };
 
     apiService.getDef(function(response) {
         var x2js = new X2JS();
@@ -90,6 +95,7 @@ angular.module('shakespeareApp')
     //  This is triggered when the define button is clicked. It prompts the following API call.
     $scope.lookupWord = function($event) {
         var idx = 0;
+        console.log($event);
 
         $scope.button_clicked = true;
 
@@ -106,9 +112,11 @@ angular.module('shakespeareApp')
         // $scope.dict_right_middle_visible = !$scope.dict_right_middle_visible;
         var def_list = [];
         var sug_list = [];
-        console.log('Lookup word: ' + $scope.dictionary.sel_word);
+        var inputText = $event.target.nextElementSibling.value;
+        console.log('Lookup word: ' + inputText);
         // Set the word
-        apiService.word = $scope.dictionary.sel_word;
+        // apiService.word = $scope.dictionary.sel_word;
+        apiService.word = inputText;
         apiService.getDef(function(response) {
             var x2js = new X2JS();
             var xmlText = response.data;
