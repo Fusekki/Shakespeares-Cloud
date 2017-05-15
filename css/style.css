@@ -610,7 +610,6 @@ navbar-default .navbar-nav>li>a {
 
     .right_middle {
         /*max-height: 57%;*/
-        border: 1px solid green;
         background: hsl(235, 14%, 74%);
         color: black;
         overflow: hidden;
@@ -703,7 +702,9 @@ navbar-default .navbar-nav>li>a {
         padding-left: 25px;
         column-count: 3;
     }
-    .def_card,
+    .def_card {
+        list-style: lower-roman;
+    }
     .sug_card {
         list-style: none;
     }
