@@ -97,6 +97,13 @@ angular.module('shakespeareApp')
         var idx = 0;
         console.log($event);
 
+        var defObj = function(date, def) {
+            return {
+                'date': date,
+                'def': def
+            }
+        };
+
         $scope.button_clicked = true;
 
         $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
@@ -142,11 +149,13 @@ angular.module('shakespeareApp')
                             // What type of object is dt? if object do the following
                             if (typeof(def.dt) == 'object') {
                                 console.log('OBJECT ' + ' entry: ' + x);
+                                var newWord;
                                 // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
                                 if ('__text' in def.dt && def.dt.__text.length > 1) {
                                     // console.log('WE SHOULD NEVER GET HERE');
                                     console.log('push ' + idx + '-----------------');
-                                    def_list.push(def.dt.__text.replace(/^:/, ""));
+                                    newWord = def.dt.__text.replace(/^:/, "")
+                                    def_list.push(defObj(def.date, newWord));
                                 } else {
                                     // Item is still an object just doesn't contain __text
                                     for (var i = 0; i < def.dt.length; i++) {
@@ -159,14 +168,17 @@ angular.module('shakespeareApp')
                                             console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
                                             // is item longer than a single character
                                             console.log('push ' + idx + '-----------------');
-                                            def_list.push(def.dt[i].replace(/^:/, ""));
+                                            console.log(typeof(def.dt[i]));
+                                            newWord = def.dt[i].replace(/^:/, "");
+                                            def_list.push(defObj(def.date, newWord));
                                         } else  {
                                             // type of dt[i] is object
                                             // console.log('WE SHOULD NEVER GET HERE');
                                             console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
                                             if (def.dt[i].__text && def.dt[i].__text.length > 1) {
                                                     console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
-                                                    def_list.push(def.dt[i].__text.replace(/^:/, ""));
+                                                    newWord = def.dt[i].__text.replace(/^:/, "");
+                                                    def_list.push(defObj(def.date, newWord));
                                                     // def_list.push(def.dt.replace(/^:/, ""));
                                             } else {
                                                 console.log('unable to parse this entry: ' + x + ' dt: ' + i);
@@ -179,7 +191,8 @@ angular.module('shakespeareApp')
                                 // console.log('WE SHOULD NEVER GET HERE');
                                 console.log('STRING' + ' entry: ' + x + ' dt: 0');
                                 console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: 0');
-                                def_list.push(def.dt.replace(/^:/, ""));
+                                newWord = def.dt.replace(/^:/, "");
+                                def_list.push(defObj(def.date, newWord));
                             }
                         }
                     }
@@ -190,12 +203,14 @@ angular.module('shakespeareApp')
                     console.log(def.dt.length);
                     if (typeof(def.dt) == 'string') {
                         console.log('push ' + idx + '-----------------');
-                        def_list.push(def.dt.replace(/^:/, ""));
+                        newWorld = def.dt.replace(/^:/, "")
+                        def_list.push(defObj(def.date, newWord));
                     } else {
                         console.log('unable to parse entry.');
                     }
                 }
                 console.log('COMPILE-----------------');
+                console.log(def_list);
                 $scope.def_cards = def_list;
 
             } else {

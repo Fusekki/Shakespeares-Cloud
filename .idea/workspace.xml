@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Change gruntfile config to reorder renaming of 'title' elements.  Add newly converted plays from grunt results.">
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +24,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="504">
+              <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
               <folding>
-                <marker date="1494351638082" expanded="true" signature="4248:4256" ph="..." />
+                <marker date="1494886772360" expanded="true" signature="4355:4363" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="129" lean-forward="false" selection-start-line="25" selection-start-column="129" selection-end-line="25" selection-end-column="129" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +76,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="621" column="5" lean-forward="true" selection-start-line="621" selection-start-column="5" selection-end-line="621" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="705" column="31" lean-forward="false" selection-start-line="705" selection-start-column="31" selection-end-line="705" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -76,8 +86,8 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="125" lean-forward="false" selection-start-line="25" selection-start-column="125" selection-end-line="25" selection-end-column="125" />
+            <state relative-caret-position="378">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,35 +106,9 @@
       <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1494871597888" expanded="true" signature="4576:10889" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="4623:10816" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="4975:9770" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="5166:9109" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="5357:9091" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="5468:9069" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="5903:8663" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="6213:6498" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="6504:8633" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="6673:8599" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="7028:7533" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="7540:8561" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="7586:7700" ph="//..." />
-                <marker date="1494871597888" expanded="true" signature="7904:8283" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="8289:8519" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="8670:9043" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="9115:9653" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="9381:9543" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="9549:9635" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="9776:10806" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="9958:10792" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="10260:10495" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="10395:10473" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="10501:10725" ph="{...}" />
-                <marker date="1494871597888" expanded="true" signature="10832:10880" ph="{...}" />
-              </folding>
+            <state relative-caret-position="676">
+              <caret line="193" column="67" lean-forward="true" selection-start-line="193" selection-start-column="67" selection-end-line="193" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>t_done</find>
       <find>active</find>
       <find>s_done</find>
       <find>Active</find>
@@ -173,6 +156,7 @@
       <find>diction</find>
       <find>text-align</find>
       <find>list</find>
+      <find>push</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;vendor/img/</replace>
@@ -254,15 +238,15 @@
         <option value="$PROJECT_DIR$/services/service3.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/filters/filter.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/change.js" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
         <option value="$PROJECT_DIR$/directives/directive2.js" />
-        <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
       </list>
     </option>
@@ -700,41 +684,6 @@
       <workItem from="1494080055246" duration="26580000" />
       <workItem from="1494618749186" duration="2544000" />
     </task>
-    <task id="LOCAL-00045" summary="Add custom 'mydir' directive to monitor element's changes.">
-      <created>1494172414455</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1494172414455</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Add $scope.checkfortooltip function.">
-      <created>1494172464636</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1494172464636</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Add .dark class for when line has tooltip displayed.">
-      <created>1494172503154</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1494172503154</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Add shithead directive.  Remove ng-click and ng-style directives.">
-      <created>1494186744167</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1494186744167</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Remove old commented out code for previous HTML filters.">
-      <created>1494186788335</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1494186788335</updated>
-    </task>
     <task id="LOCAL-00050" summary="Create shithead directive that monitors the nextElementSibling of the element for it to change (presumable to tooltip).  On this, it toggles the clasa dark. &#10;&#10;Remived former unused directives.">
       <created>1494186901955</created>
       <option name="number" value="00050" />
@@ -1043,11 +992,46 @@
       <option name="project" value="LOCAL" />
       <updated>1494878220791</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Fix overwrap not wrapping properly for definition area of dictionary divs.">
+      <created>1494878267971</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1494878267971</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Add angular.filter script.">
+      <created>1494887947189</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1494887947189</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Add angular.filter to module.">
+      <created>1494887970404</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1494887970404</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Remove border from right.middle.&#10;&#10;Change list style to roman numeral on def_csrds">
+      <created>1494888036501</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1494888036501</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Add group by feature for date in ng-repeat directive of def_cards.  Change ng-repeat statement to complement this.">
+      <created>1494888157071</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1494888157071</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330616000" />
+    <option name="totallyTimeSpent" value="334988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1143,11 +1127,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Change ng-show for arrow_down div to be if elements exceed 21 in length." />
-    <MESSAGE value="Purge old code." />
-    <MESSAGE value="Purge old code.&#10;&#10;Make stylist changes to div.right and children color themes.  Align colors to a more neutral placehoilder color along the lines of the theme's colors." />
-    <MESSAGE value="Include .idea folder in project." />
-    <MESSAGE value="Renamed $scope variables in dictionary object to more appropriate names." />
     <MESSAGE value="Renamed additional $scope variables that were not fully renamed on previous commit." />
     <MESSAGE value="Renamed additional $scope variables to more suitable names." />
     <MESSAGE value="Change $scope.hasClicked to var hasClicked since it is not needed for the view." />
@@ -1168,7 +1147,12 @@
     <MESSAGE value="Change label to input in right_top.  Set the ng-model (or value) to be dictionary.sel_word. Add ng-change directive to a function that sets the button_clicked to false.  This way if the text is altered, the Define button is enabled." />
     <MESSAGE value="Add some style to .right_top input." />
     <MESSAGE value="Fix overwrap problem in dictionary definition area.  Add minor styling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix overwrap problem in dictionary definition area.  Add minor styling." />
+    <MESSAGE value="Fix overwrap not wrapping properly for definition area of dictionary divs." />
+    <MESSAGE value="Add angular.filter script." />
+    <MESSAGE value="Add angular.filter to module." />
+    <MESSAGE value="Remove border from right.middle.&#10;&#10;Change list style to roman numeral on def_csrds" />
+    <MESSAGE value="Add group by feature for date in ng-repeat directive of def_cards.  Change ng-repeat statement to complement this." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add group by feature for date in ng-repeat directive of def_cards.  Change ng-repeat statement to complement this." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1341,17 +1325,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filters/filter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1368,6 +1346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,6 +1354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,65 +1426,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494871597888" expanded="true" signature="4576:10889" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="4623:10816" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="4975:9770" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="5166:9109" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="5357:9091" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="5468:9069" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="5903:8663" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="6213:6498" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="6504:8633" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="6673:8599" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="7028:7533" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="7540:8561" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="7586:7700" ph="//..." />
-            <marker date="1494871597888" expanded="true" signature="7904:8283" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="8289:8519" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="8670:9043" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="9115:9653" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="9381:9543" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="9549:9635" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="9776:10806" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="9958:10792" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="10260:10495" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="10395:10473" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="10501:10725" ph="{...}" />
-            <marker date="1494871597888" expanded="true" signature="10832:10880" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="504">
+          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding>
-            <marker date="1494351638082" expanded="true" signature="4248:4256" ph="..." />
+            <marker date="1494886772360" expanded="true" signature="4355:4363" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="129" lean-forward="false" selection-start-line="25" selection-start-column="129" selection-end-line="25" selection-end-column="129" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="621" column="5" lean-forward="true" selection-start-line="621" selection-start-column="5" selection-end-line="621" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="705" column="31" lean-forward="false" selection-start-line="705" selection-start-column="31" selection-end-line="705" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="193" column="67" lean-forward="true" selection-start-line="193" selection-start-column="67" selection-end-line="193" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="125" lean-forward="false" selection-start-line="25" selection-start-column="125" selection-end-line="25" selection-end-column="125" />
+        <state relative-caret-position="378">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
