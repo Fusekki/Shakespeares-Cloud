@@ -6,7 +6,6 @@ angular.module('shakespeareApp')
     var hasClicked = false;
     $scope.loading = true;
 
-
     $scope.dictionary = {
         dict_visible: false,
         dict_right_top_visible: false,
@@ -23,7 +22,7 @@ angular.module('shakespeareApp')
 
     apiService.getHTML(function(response) {
         $scope.play = response.data;
-        // $scope.loading = false;
+        $scope.loading = false;
     }, function(err) {
         console.log(err.status);
     });
