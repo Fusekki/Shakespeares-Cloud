@@ -19,9 +19,17 @@
     <!--</div>-->
     <div class="text" dynamic="examinedText" ng-class="{'visible': dictionary.dict_visible}"></div>
     <div class="right_top" ng-class="{'visible': dictionary.dict_right_top_visible}">
-        <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
-        <!--<span dynamic="dictionary.sel_word"></span>-->
-        <input type="text"  ng-model="dictionary.sel_word" ng-change="toggleButton()">
+        <form ng-submit="button_clicked || lookupWord($event)">
+            <!--<input type="text" ng-model="name" />-->
+            <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
+            <!--<span dynamic="dictionary.sel_word"></span>-->
+            <input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">
+            <!--<br />-->
+            <!--<input type="text" ng-model="email" />-->
+        </form>
+        <!--<label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>-->
+        <!--&lt;!&ndash;<span dynamic="dictionary.sel_word"></span>&ndash;&gt;-->
+        <!--<input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">-->
     </div>
     <div class="right_middle" ng-class="{'visible': dictionary.dict_right_middle_visible, 'reducedHeight': !def_cards.length}">
         <h4>Definitions</h4>
