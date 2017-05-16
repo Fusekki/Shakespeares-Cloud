@@ -155,7 +155,8 @@ angular.module('shakespeareApp')
                                     // console.log('WE SHOULD NEVER GET HERE');
                                     console.log('push ' + idx + '-----------------');
                                     newWord = def.dt.__text.replace(/^:/, "")
-                                    def_list.push(defObj(def.date, newWord));
+                                    console.log('--------------NOT GOING TO PUSH-------------');
+                                    // def_list.push(defObj(def.date, newWord));
                                 } else {
                                     // Item is still an object just doesn't contain __text
                                     for (var i = 0; i < def.dt.length; i++) {
@@ -188,11 +189,12 @@ angular.module('shakespeareApp')
                                     }
                                 }
                             } else  {
-                                // console.log('WE SHOULD NEVER GET HERE');
+                                // These seme to fall under people (like a thesaurus search).
                                 console.log('STRING' + ' entry: ' + x + ' dt: 0');
                                 console.log('push ' + idx + '-----------------' + ' entry: ' + x + ' dt: 0');
                                 newWord = def.dt.replace(/^:/, "");
-                                def_list.push(defObj(def.date, newWord));
+                                console.log('--------------NOT GOING TO PUSH-------------');
+                                // def_list.push(defObj(def.date, newWord));
                             }
                         }
                     }
@@ -200,10 +202,10 @@ angular.module('shakespeareApp')
                     // Only one entry exists but it may contain multiple dts
                     var def = entries.entry.def;
                     console.log(def);
-                    console.log(def.dt.length);
-                    if (typeof(def.dt) == 'string') {
+                    console.log(def.length);
+                    if (typeof(def.def) == 'string') {
                         console.log('push ' + idx + '-----------------');
-                        newWorld = def.dt.replace(/^:/, "")
+                        newWord = def.def.replace(/^:/, "")
                         def_list.push(defObj(def.date, newWord));
                     } else {
                         console.log('unable to parse entry.');
