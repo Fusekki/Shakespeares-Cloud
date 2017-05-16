@@ -4,6 +4,7 @@ angular.module('shakespeareApp')
 
     // This is just used once for the chooseWord function when run for the first time.
     var hasClicked = false;
+    $scope.loading = true;
 
 
     $scope.dictionary = {
@@ -22,6 +23,7 @@ angular.module('shakespeareApp')
 
     apiService.getHTML(function(response) {
         $scope.play = response.data;
+        // $scope.loading = false;
     }, function(err) {
         console.log(err.status);
     });
