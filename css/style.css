@@ -522,6 +522,12 @@ navbar-default .navbar-nav>li>a {
 
 @media only screen and (min-width: 769px) {
 
+    .btn.focus,
+    .btn:focus,
+    .btn:hover {
+        color: white;
+        text-decoration: none;
+    }
     .hero_img {
         top: 51px;
     }
