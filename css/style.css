@@ -522,8 +522,8 @@ navbar-default .navbar-nav>li>a {
 
 @media only screen and (min-width: 769px) {
 
-
-    .spinner {
+    .spinner,
+    .spinner_test {
         position: absolute;
         top: 25%;
         left: calc(50% - 75px);
