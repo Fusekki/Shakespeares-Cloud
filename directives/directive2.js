@@ -2,7 +2,7 @@
 
 angular.module('shakespeareApp')
 
-    .directive('changeOnTooltip', function($compile) {
+    .directive('changeOnTooltip', function() {
         return {
             priority: 0,
             link: function ($scope, $el, $attrs) {

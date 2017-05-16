@@ -98,8 +98,8 @@
       <file leaf-file-name="directive2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="191">
+              <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -700,13 +700,6 @@
       <workItem from="1494618749186" duration="2544000" />
       <workItem from="1494889907656" duration="2795000" />
     </task>
-    <task id="LOCAL-00052" summary="Change .line to be display: -webkit-box so that the background change does not affect the speaker div.">
-      <created>1494253762090</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1494253762090</updated>
-    </task>
     <task id="LOCAL-00053" summary="Delete $scope.grabText from controller as we are placing that function in the directive.">
       <created>1494253814291</created>
       <option name="number" value="00053" />
@@ -1043,11 +1036,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494892752299</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Add condition when looking at previous element to only consider div.line elements.  Declare text explicitly in directive.  Comment out console.log lines.">
+      <created>1494944084738</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1494944084739</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338523000" />
+    <option name="totallyTimeSpent" value="338815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1061,7 +1061,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1143,7 +1143,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Change $scope.hasClicked to var hasClicked since it is not needed for the view." />
     <MESSAGE value="Seperated controllers, services, and directives into separate files and named them following the Angular best practices." />
     <MESSAGE value="Reposition script locations in index.html file as suggested by Angular best practices.&#10;Remove 'angularSpinners' from Module in app.js" />
     <MESSAGE value="Move app.js out of JS folder." />
@@ -1168,7 +1167,8 @@
     <MESSAGE value="Add group by feature for date in ng-repeat directive of def_cards.  Change ng-repeat statement to complement this." />
     <MESSAGE value="Define defObj for each item passed to def_list.&#10;Create function that creates object out of parameters.&#10;Move .replace statements to own variable declared prior to each function call." />
     <MESSAGE value="Fix ng-repeat not showing correct item.element in one of the if for loops in the third controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix ng-repeat not showing correct item.element in one of the if for loops in the third controller." />
+    <MESSAGE value="Add condition when looking at previous element to only consider div.line elements.  Declare text explicitly in directive.  Comment out console.log lines." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add condition when looking at previous element to only consider div.line elements.  Declare text explicitly in directive.  Comment out console.log lines." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1474,8 +1474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/directives/directive2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="191">
+          <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
           <folding />
         </state>
       </provider>
