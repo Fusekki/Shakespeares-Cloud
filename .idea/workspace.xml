@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Add .btn:focus and btn.hover styles to set the color to white (otherwise it was going dark).">
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="1479">
               <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
               <folding />
             </state>
@@ -101,21 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="131" lean-forward="true" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
+            <state relative-caret-position="510">
+              <caret line="33" column="155" lean-forward="false" selection-start-line="33" selection-start-column="155" selection-end-line="33" selection-end-column="155" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="10" />
+            <state relative-caret-position="301">
+              <caret line="698" column="23" lean-forward="false" selection-start-line="698" selection-start-column="23" selection-end-line="698" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -243,9 +243,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/directives/directive2.js" />
-        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
       </list>
     </option>
   </component>
@@ -683,20 +683,6 @@
       <workItem from="1494618749186" duration="2544000" />
       <workItem from="1494889907656" duration="2795000" />
     </task>
-    <task id="LOCAL-00056" summary="Make text in examineBtn to be stored in the scope.">
-      <created>1494256208314</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1494256208314</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Changed text slightly in second instruction line.">
-      <created>1494256247131</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1494256247131</updated>
-    </task>
     <task id="LOCAL-00058" summary="Add carriage line.">
       <created>1494256283724</created>
       <option name="number" value="00058" />
@@ -1026,11 +1012,25 @@
       <option name="project" value="LOCAL" />
       <updated>1494947002947</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="In lookupWord function, declare inputText prior to assigning it a value.  Add if/else if to grab the text from the proper DOM element based on whether they clicked the button or pressed enter.  This can be determined through the relations of the currentTarget on the $event.">
+      <created>1494947118106</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1494947118106</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Add margin-left of 5px to dictionary form.">
+      <created>1494947695047</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1494947695048</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341513000" />
+    <option name="totallyTimeSpent" value="342207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1126,8 +1126,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Refactor lookupWord function." />
-    <MESSAGE value="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already." />
     <MESSAGE value="Add additional comments to controller in hope of future refactoring." />
     <MESSAGE value="In grunt file, change the div.line and div.stagedir replacement text to include angular markup." />
     <MESSAGE value="Replace All's Well play html file with newly created file genrated via grunt." />
@@ -1151,7 +1149,9 @@
     <MESSAGE value="Removed $compile from directive." />
     <MESSAGE value="Add .btn:focus and btn.hover styles to set the color to white (otherwise it was going dark)." />
     <MESSAGE value="Change input box and label in right_top to be a form.  Add ui-keypress that triggers the lookupWord on an 'enter' keypress." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change input box and label in right_top to be a form.  Add ui-keypress that triggers the lookupWord on an 'enter' keypress." />
+    <MESSAGE value="In lookupWord function, declare inputText prior to assigning it a value.  Add if/else if to grab the text from the proper DOM element based on whether they clicked the button or pressed enter.  This can be determined through the relations of the currentTarget on the $event." />
+    <MESSAGE value="Add margin-left of 5px to dictionary form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add margin-left of 5px to dictionary form." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1422,17 +1422,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="131" lean-forward="true" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1479">
           <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
           <folding />
         </state>
@@ -1440,8 +1432,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="10" />
+        <state relative-caret-position="301">
+          <caret line="698" column="23" lean-forward="false" selection-start-line="698" selection-start-column="23" selection-end-line="698" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="155" lean-forward="false" selection-start-line="33" selection-start-column="155" selection-end-line="33" selection-end-column="155" />
           <folding />
         </state>
       </provider>

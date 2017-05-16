@@ -19,7 +19,7 @@
     <!--</div>-->
     <div class="text" dynamic="examinedText" ng-class="{'visible': dictionary.dict_visible}"></div>
     <div class="right_top" ng-class="{'visible': dictionary.dict_right_top_visible}">
-        <form ng-submit="button_clicked || lookupWord($event)">
+        <form class="dictForm" ng-submit="button_clicked || lookupWord($event)">
             <!--<input type="text" ng-model="name" />-->
             <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
             <!--<span dynamic="dictionary.sel_word"></span>-->
@@ -31,7 +31,7 @@
         <!--&lt;!&ndash;<span dynamic="dictionary.sel_word"></span>&ndash;&gt;-->
         <!--<input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">-->
     </div>
-    <div class="right_middle" ng-class="{'visible': dictionary.dict_right_middle_visible, 'reducedHeight': !def_cards.length}">
+    <div class="right_middle" ng-class="{'visible': dictionary.dict_right_middle_visible, 'reducedHeight': !def_cards.length, 'curved_bottom_border': !def_cards.length }">
         <h4>Definitions</h4>
         <span ng-show="!def_cards.length">
             <p>
@@ -39,7 +39,7 @@
             </p>
         </span>
     </div>
-    <div class="container_def_card" ng-class="{'visible': dictionary.dict_right_middle_visible, 'reducedHeight': !def_cards.length, 'curved_bottom_border': !sug_cards.length}">
+    <div class="container_def_card" ng-class="{'visible': def_cards.length, 'curved_bottom_border': !sug_cards.length}">
         <ul class="listDefCards" ng-show="def_cards.length" ng-repeat="(key, value) in def_cards | groupBy: 'date'" >
            <span ng-show="key != 'undefined'"><b>Date: {{ key }}</b></span>
             <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
