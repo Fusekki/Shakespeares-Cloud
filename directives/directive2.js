@@ -20,11 +20,12 @@ angular.module('shakespeareApp')
                             if ($el.hasClass('dark')) {
                                 // console.log('has dark');
                                 $el.removeClass('dark');
-                                    $scope.dictionary.btnText = 'Examine';
-                                    $scope.btnClicked = false;
-                                    $scope.dictionary.dict_right_bottom_visible = false;
+                                $scope.dictionary.btnText = 'Examine';
+                                $scope.btnClicked = false;
+                                $scope.dictionary.dict_right_bottom_visible = false;
                             } else {
                                 // console.log('does not have dark');
+                                var text;
                                 $el.addClass('dark');
                                 $scope.dictionary.step_one_done = true;
                                 $scope.dictionary.step_two_visible = false;
@@ -55,8 +56,12 @@ angular.module('shakespeareApp')
                                             // console.log('previousSibling inner text is not there.');
                                         }
                                     }
-                                    // Check if innnerText is a part of previousElement.  If we don't check first, we will receive an erro
-                                    if ('innerText'  in previousElement) {
+                                    // console.log(previousElement);
+                                    // console.log(previousElement.className);
+                                    // Check if innnerText is a part of previousElement (otherwise will receive an error).  Also, check if previousElement's class is 'line'. We are only
+                                    // concerned with div.line elements for broken text.
+                                    if ('innerText' in previousElement && previousElement.className == 'line') {
+                                        // console.log('prev element is a line');
                                         var prevText = previousElement.innerText;
                                         // console.log(prevText);
                                         prevText = prevText.toString().split(" ");
@@ -109,7 +114,6 @@ angular.module('shakespeareApp')
                                         firstHalf = null;
                                     }
                                     // console.log(n);
-
                                     // console.log(new_word);
                                     new_text += '<span class="word" ng-click="chooseWord($event)">' + new_word + '</span> ';
                                 }
