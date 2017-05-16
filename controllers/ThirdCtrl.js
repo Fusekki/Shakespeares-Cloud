@@ -119,7 +119,24 @@ angular.module('shakespeareApp')
         // $scope.dict_right_middle_visible = !$scope.dict_right_middle_visible;
         var def_list = [];
         var sug_list = [];
-        var inputText = $event.target.nextElementSibling.value;
+        console.log($event);
+        var inputText;
+        // Based on whether they pressed enter or clicked the button, grab the appropriate text of the input field. We can determine whether it was the button of the enter key based on checking
+        // the $event.currentTarget container.
+        if ($event.currentTarget.nextElementSibling) {
+            inputText = $event.currentTarget.nextElementSibling.value;
+        } else if ($event.currentTarget.lastElementChild) {
+            inputText = $event.currentTarget.lastElementChild.value;
+        }
+
+        if ($event.type = 'click') {
+            console.log('it is a click!');
+
+        } else {
+            inputText = $event.currentTarget.nextElementSibling.value;
+        }
+
+
         console.log('Lookup word: ' + inputText);
         // Set the word
         // apiService.word = $scope.dictionary.sel_word;

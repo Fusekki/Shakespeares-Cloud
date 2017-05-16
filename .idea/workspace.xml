@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Add .btn:focus and btn.hover styles to set the color to white (otherwise it was going dark).">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directive2.js" afterPath="$PROJECT_DIR$/directives/directive2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,13 +44,9 @@
       <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <marker date="1494943381506" expanded="true" signature="10599:10661" ph="{...}" />
-                <marker date="1494943381506" expanded="true" signature="11151:11386" ph="{...}" />
-                <marker date="1494943381506" expanded="true" signature="11286:11364" ph="{...}" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directive2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="directive2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="-217">
               <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
               <folding />
             </state>
@@ -108,32 +104,19 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="23" column="86" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+            <state relative-caret-position="425">
+              <caret line="25" column="131" lean-forward="true" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10234">
-              <caret line="602" column="20" lean-forward="false" selection-start-line="602" selection-start-column="20" selection-end-line="602" selection-end-column="20" />
-              <folding>
-                <marker date="1494943381507" expanded="true" signature="8961:8999" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="11824:11857" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="11873:11904" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="11942:11975" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="11991:12053" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12073:12119" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12134:12185" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12197:12253" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12271:12325" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12395:12486" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12508:12593" ph="{...}" />
-                <marker date="1494943381507" expanded="true" signature="12611:12711" ph="{...}" />
-              </folding>
+            <state relative-caret-position="760">
+              <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -259,10 +242,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/directives/directive2.js" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
-        <option value="$PROJECT_DIR$/directives/directive2.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -700,27 +683,6 @@
       <workItem from="1494618749186" duration="2544000" />
       <workItem from="1494889907656" duration="2795000" />
     </task>
-    <task id="LOCAL-00053" summary="Delete $scope.grabText from controller as we are placing that function in the directive.">
-      <created>1494253814291</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1494253814291</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Add additional checks for instruction lines being active and/or havng a strike-through based on whether the line had a .dark class already on it.  Moved $scope.grabText function innards to directive.">
-      <created>1494253900307</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1494253900307</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Rename 'shithead' directive to more appropriate &quot;change-on-tooltip&quot;.  Removed  ng-hover directive since the grabText function's logic has been moved to the directive.">
-      <created>1494253992558</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1494253992558</updated>
-    </task>
     <task id="LOCAL-00056" summary="Make text in examineBtn to be stored in the scope.">
       <created>1494256208314</created>
       <option name="number" value="00056" />
@@ -1043,11 +1005,32 @@
       <option name="project" value="LOCAL" />
       <updated>1494944084739</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Removed $compile from directive.">
+      <created>1494944352346</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1494944352346</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Add .btn:focus and btn.hover styles to set the color to white (otherwise it was going dark).">
+      <created>1494946925682</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1494946925682</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Change input box and label in right_top to be a form.  Add ui-keypress that triggers the lookupWord on an 'enter' keypress.">
+      <created>1494947002947</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1494947002947</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338815000" />
+    <option name="totallyTimeSpent" value="341513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1061,7 +1044,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1143,9 +1126,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Seperated controllers, services, and directives into separate files and named them following the Angular best practices." />
-    <MESSAGE value="Reposition script locations in index.html file as suggested by Angular best practices.&#10;Remove 'angularSpinners' from Module in app.js" />
-    <MESSAGE value="Move app.js out of JS folder." />
     <MESSAGE value="Refactor lookupWord function." />
     <MESSAGE value="Add if (dictionary.dict_right_bottom_visible) in directive as it was not hiding the right_bottom when another element is clicked if it is showing already." />
     <MESSAGE value="Add additional comments to controller in hope of future refactoring." />
@@ -1168,7 +1148,10 @@
     <MESSAGE value="Define defObj for each item passed to def_list.&#10;Create function that creates object out of parameters.&#10;Move .replace statements to own variable declared prior to each function call." />
     <MESSAGE value="Fix ng-repeat not showing correct item.element in one of the if for loops in the third controller." />
     <MESSAGE value="Add condition when looking at previous element to only consider div.line elements.  Declare text explicitly in directive.  Comment out console.log lines." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add condition when looking at previous element to only consider div.line elements.  Declare text explicitly in directive.  Comment out console.log lines." />
+    <MESSAGE value="Removed $compile from directive." />
+    <MESSAGE value="Add .btn:focus and btn.hover styles to set the color to white (otherwise it was going dark)." />
+    <MESSAGE value="Change input box and label in right_top to be a form.  Add ui-keypress that triggers the lookupWord on an 'enter' keypress." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change input box and label in right_top to be a form.  Add ui-keypress that triggers the lookupWord on an 'enter' keypress." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1424,35 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10234">
-          <caret line="602" column="20" lean-forward="false" selection-start-line="602" selection-start-column="20" selection-end-line="602" selection-end-column="20" />
-          <folding>
-            <marker date="1494943381507" expanded="true" signature="8961:8999" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="11824:11857" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="11873:11904" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="11942:11975" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="11991:12053" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12073:12119" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12134:12185" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12197:12253" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12271:12325" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12395:12486" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12508:12593" ph="{...}" />
-            <marker date="1494943381507" expanded="true" signature="12611:12711" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="23" column="86" lean-forward="false" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1460,22 +1414,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1494943381506" expanded="true" signature="10599:10661" ph="{...}" />
-            <marker date="1494943381506" expanded="true" signature="11151:11386" ph="{...}" />
-            <marker date="1494943381506" expanded="true" signature="11286:11364" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-217">
+          <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="425">
+          <caret line="25" column="131" lean-forward="true" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="10" />
           <folding />
         </state>
       </provider>
