@@ -522,6 +522,19 @@ navbar-default .navbar-nav>li>a {
 
 @media only screen and (min-width: 769px) {
 
+
+    .spinner {
+        position: absolute;
+        top: 25%;
+        left: calc(50% - 75px);
+        width: 150px;
+        height: 150px;
+    }
+
+    .spinner img {
+        width: 100%;
+    }
+
     .btn.focus,
     .btn:focus,
     .btn:hover {
