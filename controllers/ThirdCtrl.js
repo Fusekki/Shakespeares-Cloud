@@ -11,6 +11,7 @@ angular.module('shakespeareApp')
         dict_right_top_visible: false,
         dict_right_middle_visible: false,
         dict_right_bottom_visible: false,
+        sug_container_visible: false,
         step_two_visible: false,
         step_three_visible: false,
         step_one_done: false,
@@ -81,6 +82,7 @@ angular.module('shakespeareApp')
         $scope.dictionary.step_three_visible = true;
         $scope.dictionary.dict_right_middle_visible = false;
         $scope.dictionary.dict_right_bottom_visible = false;
+        $scope.dictionary.sug_container_visible = false;
         // Clear the def_cards of any previous values.
         if ($scope.def_cards) {
             $scope.def_cards.length = 0;
@@ -182,16 +184,20 @@ angular.module('shakespeareApp')
     }
 
     var processResults = function(results) {
-        console.log(results);
-        if (results.deflist) {
-            console.log('dicationary elements found');
-            $scope.def_cards = results.deflist;
+        if (results) {
+            console.log(results);
+            if (results.deflist) {
+                console.log('dictionary elements found');
+                $scope.def_cards = results.deflist;
+            }
+            if (results.suglist) {
+                console.log('suggestion elements found');
+                $scope.dictionary.dict_right_bottom_visible = true;
+                $scope.dictionary.sug_container_visible = true;
+                $scope.sug_cards = results.suglist;
+            }
         }
-        if (results.suglist) {
-            console.log('suggestion elements found');
-            $scope.dictionary.dict_right_bottom_visible = true;
-            $scope.sug_cards = results.suglist;
-        }
+
     }
 
 });
