@@ -117,6 +117,7 @@ angular.module('shakespeareApp')
                 var sug = entries.suggestion;
                 console.log('sugestions found');
                 if (typeof(sug) == 'object') {
+                    console.log(sug);
                     console.log('There are multiple suggestions.');
                     for (var s = 0; s < sug.length; s++) {
                         sug_list.push(sug[s]);
