@@ -17,6 +17,8 @@ angular.module('shakespeareApp')
                         if (newValue !== oldValue) {
                             // console.log('change');
                             // console.log($el);
+
+                            $scope.dictionary.sug_container_visible = false;
                             if ($el.hasClass('dark')) {
                                 // console.log('has dark');
                                 $el.removeClass('dark');
