@@ -522,13 +522,21 @@ navbar-default .navbar-nav>li>a {
 
 @media only screen and (min-width: 769px) {
 
+
+    .loadingContainer {
+        height: 100vh;
+        width: 100vw;
+        background: hsla(0, 0%, 0%, 0.75);
+    }
     .spinner,
-    .spinner_test {
+    .loadingMsg {
         position: absolute;
-        top: 25%;
+        top: 45%;
         left: calc(50% - 75px);
         width: 150px;
         height: 150px;
+        font-size: 30px;
+        color: white;
     }
 
     .spinner img {
