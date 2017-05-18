@@ -655,13 +655,14 @@ navbar-default .navbar-nav>li>a {
         background: hsl(235, 14%, 74%);
     }
 
+
     .reducedHeight {
         height: 14%;
     }
 
     .right_middle:hover {
         background:  hsla(235, 14%, 74%, 0.5);
-        color: hsl(0, 0%, 0%, 0.95);
+        color: hsla(0, 0%, 0%, 0.95);
     }
 
     .right_bottom {
@@ -803,6 +804,10 @@ navbar-default .navbar-nav>li>a {
         border-bottom-right-radius: 20px;
     }
 
+    .noHeight {
+        height: 0;
+    }
+
 
     /*This needs to be the last element so it overrides all preceding elements*/
     .visible {
@@ -812,6 +817,6 @@ navbar-default .navbar-nav>li>a {
 }
 
 /*Microsoft IE*/
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/*@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {*/
 
-}
+/*}*/
