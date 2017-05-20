@@ -8,12 +8,12 @@
 <!--<spinner name="loadSpinner" class="spinner" show="loading" img-src="img/loading.gif"></spinner>-->
 <div class="right_container" ng-show="!loading">
     <div class="right">
-    <div class="step_zero">
+    <div class="step_zero" >
         <div><i class="fa fa-reply" aria-hidden="true"></i></div>
-        <span ng-class="{'line-through': dictionary.step_one_done}">Click a line to examine the meaning</span>
+        <span ng-class="{'line-through': dictionary.step_one_done}">Click a line to examine</span>
     </div>
     <div class="step_one" ng-class="{'visible': dictionary.step_two_visible}">
-        <span ng-class="{'line-through': dictionary.step_two_done}">Click the Examine button and choose a word below to select it. </span>
+        <span ng-class="{'line-through': dictionary.step_two_done}">Choose a word below to select it. </span>
     </div>
     <div class="step_two" ng-class="{'visible': dictionary.step_three_visible}">
         <span ng-class="{'line-through': dictionary.step_three_done}">Click the button to lookup the definiton </span>
