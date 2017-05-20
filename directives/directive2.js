@@ -15,6 +15,13 @@ angular.module('shakespeareApp')
                     function (newValue, oldValue) {
                         var nextLine;
                         if (newValue !== oldValue) {
+
+                            if ($scope.def_cards) {
+                                $scope.def_cards.length =0;
+                            }
+                            if ($scope.sug_cards) {
+                                $scope.sug_cards.length =0;
+                            }
                             // console.log('change');
                             // console.log($el);
 
@@ -29,8 +36,8 @@ angular.module('shakespeareApp')
                                 // console.log('does not have dark');
                                 var text;
                                 $el.addClass('dark');
+                                $scope.dictionary.step_two_visible = true;
                                 $scope.dictionary.step_one_done = true;
-                                $scope.dictionary.step_two_visible = false;
                                 $scope.dictionary.step_two_done = false;
                                 $scope.dictionary.step_one_done = false;
                                 $scope.dictionary.step_three_done = false;
@@ -39,6 +46,7 @@ angular.module('shakespeareApp')
                                 $scope.dictionary.step_three_visible = false;
                                 $scope.dictionary.dict_right_middle_visible = false;
                                 $scope.dictionary.dict_right_bottom_visible = false;
+                                $scope.dictionary.sug_container_visible = false;
                                 // console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 var firstHalf;
