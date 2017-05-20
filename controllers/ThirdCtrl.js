@@ -46,9 +46,9 @@ angular.module('shakespeareApp')
         } else {
             $scope.dictionary.btnText = 'Examine';
             $scope.examineText = "";
+            $scope.dictionary.step_two_visible = false;
             $scope.dictionary.dict_visible = false;
             $scope.dictionary.step_two_done = false;
-            $scope.dictionary.step_two_visible = false
             $scope.dictionary.step_one_done = false;
         }
     };
@@ -69,6 +69,7 @@ angular.module('shakespeareApp')
     $scope.chooseWord = function($event) {
         // Grab the text from the element
         $scope.dictionary.sel_word = $event.target.innerHTML;
+
 
         // If this is the first time selecting a word after a sentence is chosen to be examined,
         // toggle the step_two_done and step_three_done so that they appear.
