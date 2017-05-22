@@ -90,14 +90,18 @@ angular.module('shakespeareApp')
                 // Only one entry exists but it may contain multiple dts
                 var def = entries.entry.def;
                 console.log(def);
-                console.log(def.length);
-                if (typeof(def.def) == 'string') {
-                    console.log('push ' + self.idx + '-----------------');
-                    newWord = def.def.replace(/^:/, "")
-                    def_list.push(defObj(def.date, newWord));
-                } else {
-                    console.log('unable to parse entry.');
+                // console.log(def.length);
+                if (def) {
+                    if (typeof(def.def) == 'string') {
+                        console.log('push ' + self.idx + '-----------------');
+                        newWord = def.def.replace(/^:/, "")
+                        def_list.push(defObj(def.date, newWord));
+                    } else {
+                        console.log('unable to parse entry.');
+                    }
                 }
+
+
             }
             console.log('COMPILE-----------------');
             console.log(def_list);

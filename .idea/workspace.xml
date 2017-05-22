@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/service3.js" afterPath="$PROJECT_DIR$/services/service3.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,41 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/service2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service3.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="service3.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/service3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/service1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cache.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/cache/cache.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="548">
+              <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -91,16 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-spinners.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/angular-spinners.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="757" column="25" lean-forward="true" selection-start-line="757" selection-start-column="25" selection-end-line="757" selection-end-column="25" />
+            <state relative-caret-position="12869">
+              <caret line="757" column="25" lean-forward="false" selection-start-line="757" selection-start-column="25" selection-end-line="757" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -242,10 +202,10 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/directives/directive1.js" />
         <option value="$PROJECT_DIR$/directives/directive2.js" />
-        <option value="$PROJECT_DIR$/services/service3.js" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/services/service3.js" />
       </list>
     </option>
   </component>
@@ -732,13 +692,6 @@
       <workItem from="1494618749186" duration="2544000" />
       <workItem from="1494889907656" duration="2795000" />
     </task>
-    <task id="LOCAL-00079" summary="Refactor lookupWord function.">
-      <created>1494518569432</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1494518569432</updated>
-    </task>
     <task id="LOCAL-00080" summary="Refactor lookupWord function.">
       <created>1494519332227</created>
       <option name="number" value="00080" />
@@ -1075,11 +1028,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495467646067</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Comment out console.log line.">
+      <created>1495467677715</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1495467677715</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360719000" />
+    <option name="totallyTimeSpent" value="361739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1093,7 +1053,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1175,7 +1135,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Add .btn:focus and btn.hover styles to set the color to white (otherwise it was going dark)." />
     <MESSAGE value="Change input box and label in right_top to be a form.  Add ui-keypress that triggers the lookupWord on an 'enter' keypress." />
     <MESSAGE value="In lookupWord function, declare inputText prior to assigning it a value.  Add if/else if to grab the text from the proper DOM element based on whether they clicked the button or pressed enter.  This can be determined through the relations of the currentTarget on the $event." />
     <MESSAGE value="Add margin-left of 5px to dictionary form." />
@@ -1200,7 +1159,8 @@
     <MESSAGE value="Add divs beneath both sug and def containers.  This will allow padding to be applied for bottom and top and not have text visible when overflowing this." />
     <MESSAGE value="Uncomment push in definition loop." />
     <MESSAGE value="Modify CSS elements for sug and def areas to clean them up and allow overflow to work properly.  Remove border on sug words.   Stop sug words from overflowing to adjoining columns on hover." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify CSS elements for sug and def areas to clean them up and allow overflow to work properly.  Remove border on sug words.   Stop sug words from overflowing to adjoining columns on hover." />
+    <MESSAGE value="Comment out console.log line." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment out console.log line." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1216,14 +1176,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/Shakespeare's Cloud.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/grunt/Gruntfile.js" />
     <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.xml" />
     <entry file="file://$PROJECT_DIR$/grunt/build/alls_well_that_ends_well_FF.htm">
       <provider selected="true" editor-type-id="text-editor">
@@ -1388,11 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/loading.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/angular-spinners.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1413,14 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/service2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1469,10 +1408,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/service3.js">
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="748">
+          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/header.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/SplitShire-0627-1024x683.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12869">
+          <caret line="757" column="25" lean-forward="false" selection-start-line="757" selection-start-column="25" selection-end-line="757" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/service2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1485,18 +1455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/services/service3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="757" column="25" lean-forward="true" selection-start-line="757" selection-start-column="25" selection-end-line="757" selection-end-column="25" />
+        <state relative-caret-position="548">
+          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
           <folding />
         </state>
       </provider>
