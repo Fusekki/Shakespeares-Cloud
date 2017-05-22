@@ -717,8 +717,9 @@ navbar-default .navbar-nav>li>a {
 
     .container_def_card {
         /*height: 100%;*/
-        overflow: auto;
-        height: calc(61% - 41.2px);
+        /*overflow: auto;*/
+        /*height: calc(61% - 41.2px);*/
+        padding-bottom: 15px;
         /*height: calc(57% - 41.2px);*/
         background: hsl(235, 14%, 74%);
         opacity: 0;
@@ -727,8 +728,23 @@ navbar-default .navbar-nav>li>a {
 
     }
 
+    .def {
+        max-height: 362px;
+        overflow: auto;
+    }
+
     .container_sug {
-        overflow-y: auto;
+        /*overflow-y: auto;*/
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .sug {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow: auto;
+        max-height: 220px;
     }
 
     .ul_sug_card {
@@ -744,6 +760,11 @@ navbar-default .navbar-nav>li>a {
 
     .sug_card {
         padding: 5px 0;
+        -webkit-column-break-inside:avoid;
+        -moz-column-break-inside:avoid;
+        -o-column-break-inside:avoid;
+        -ms-column-break-inside:avoid;
+        column-break-inside:avoid;
     }
 
     .def_card p,
@@ -781,15 +802,14 @@ navbar-default .navbar-nav>li>a {
     }
 
     .sug_word {
-        border: 1px solid white;
-        border-radius: 20px;
+        /*border: 1px solid white;*/
+        /*border-radius: 20px;*/
         padding: 5px;
     }
 
     .sug_word:hover {
         color: black;
         background: white;
-        border-color: black;
     }
 
     .arrow_down {
@@ -806,6 +826,7 @@ navbar-default .navbar-nav>li>a {
 
     .noHeight {
         height: 0;
+        padding: 0;
     }
 
 
