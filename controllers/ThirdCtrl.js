@@ -115,7 +115,7 @@ angular.module('shakespeareApp')
             $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
         }
         // Clear out the def_cards if there are any.
-        console.log($scope.def_cards);
+        // console.log($scope.def_cards);
         // console.log(def_list);
         if ($scope.def_cards) {
             $scope.def_cards.length = 0;
