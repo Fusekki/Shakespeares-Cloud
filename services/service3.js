@@ -43,8 +43,8 @@ angular.module('shakespeareApp')
                                 // console.log('WE SHOULD NEVER GET HERE');
                                 console.log('push ' + self.idx + '-----------------');
                                 newWord = def.dt.__text.replace(/^:/, "")
-                                console.log('--------------NOT GOING TO PUSH-------------');
-                                // def_list.push(defObj(def.date, newWord));
+                                // console.log('--------------NOT GOING TO PUSH-------------');
+                                def_list.push(defObj(def.date, newWord));
                             } else {
                                 // Item is still an object just doesn't contain __text
                                 for (var i = 0; i < def.dt.length; i++) {
