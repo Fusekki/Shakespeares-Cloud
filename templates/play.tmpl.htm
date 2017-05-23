@@ -9,7 +9,10 @@
 <div class="right_container" ng-show="!loading">
     <div class="right">
     <div class="step_zero" >
-        <div><i class="fa fa-reply" aria-hidden="true"></i></div>
+        <div>
+            <!--<i class="fa fa-reply" aria-hidden="true"></i>-->
+            <img class="arrow" src="img/arrow.svg">
+        </div>
         <span ng-class="{'line-through': dictionary.step_one_done}">Click a line to examine</span>
     </div>
     <div class="step_one" ng-class="{'visible': dictionary.step_two_visible}">
@@ -47,6 +50,7 @@
         <div class="def">
             <ul class="listDefCards" ng-show="def_cards.length" ng-repeat="(key, value) in def_cards | groupBy: 'date'" >
                <span ng-show="key != 'undefined'"><b>Date: {{ key }}</b></span>
+                <span ng-show="key == 'undefined'"><b>Date: Unknown</b></span>
                 <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
                 <li class="def_card" id="dc_{{ $index }}" ng-repeat="card in value">
                     <p>
