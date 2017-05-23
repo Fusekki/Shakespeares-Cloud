@@ -18,7 +18,7 @@ angular.module('shakespeareApp')
         }
     };
 
-    self.parseEntries = function(entries) {
+    self.parseEntries = function(word, entries) {
         if ('entry' in entries) {
             // There is 1 or more entries.
             console.log('beginning entry');
@@ -41,10 +41,15 @@ angular.module('shakespeareApp')
                             // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
                             if ('__text' in def.dt && def.dt.__text.length > 1) {
                                 // console.log('WE SHOULD NEVER GET HERE');
-                                console.log('push ' + self.idx + '-----------------');
-                                newWord = def.dt.__text.replace(/^:/, "")
-                                // console.log('--------------NOT GOING TO PUSH-------------');
-                                def_list.push(defObj(def.date, newWord));
+                                console.log('checking if word is same');
+                                if (def.dt.ew == word.toLowerCase()) {
+                                    console.log('push ' + self.idx + '-----------------');
+                                    newWord = def.dt.__text.replace(/^:/, "")
+                                    // console.log('--------------NOT GOING TO PUSH-------------');
+
+                                    def_list.push(defObj(def.date, newWord));
+                                }
+
                             } else {
                                 // Item is still an object just doesn't contain __text
                                 for (var i = 0; i < def.dt.length; i++) {
