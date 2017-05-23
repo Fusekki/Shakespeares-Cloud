@@ -151,6 +151,7 @@ angular.module('shakespeareApp')
             console.log('cache does not contain. making api call.');
             // make API call
             apiService.getDef(function(response) {
+                console.log(response);
                 var x2js = new X2JS();
                 var xmlText = response.data;
                 var jsonObj = x2js.xml_str2json(xmlText);
@@ -160,7 +161,7 @@ angular.module('shakespeareApp')
                 console.log('setting cache item');
                 logicService.setCacheItem(inputText, entries);
                 // Here we cycle through the results and push the relevant information to the object array.
-                results = sharedService.parseEntries(entries);
+                results = sharedService.parseEntries(inputText, entries);
                 processResults(results);
 
             }, function(err) {
@@ -169,7 +170,7 @@ angular.module('shakespeareApp')
         } else {
             console.log('rertieving item from cache.');
 
-            results = sharedService.parseEntries(self.cacheResults);
+            results = sharedService.parseEntries(inputText, self.cacheResults);
             processResults(results);
         }
 
