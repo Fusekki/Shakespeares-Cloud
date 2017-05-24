@@ -629,23 +629,12 @@ navbar-default .navbar-nav>li>a {
     .right_top input {
         right: 10px;
     }
-
-    .right_top:hover,
-    .right_top:hover .right_middle
-    /*.right_middle:hover .right_top .container_def_card,*/
-    /*.container_def_card:hover .right_middle*/
-    {
-         background: hsla(235, 16%, 74%, 0.5);
-         /*color: white;*/
-     }
-
     .right_middle {
-        background: hsl(235, 14%, 74%);
-        color: black;
-        overflow: hidden;
-        opacity: 0;
-        transition: background, color, opacity 0.5s;
-
+             background: hsl(235, 14%, 74%);
+             color: black;
+             overflow: hidden;
+             opacity: 0;
+             transition: background, color, opacity 0.5s;
     }
 
     .dictForm {
@@ -657,9 +646,9 @@ navbar-default .navbar-nav>li>a {
     }
 
 
-    .reducedHeight {
-        height: 14%;
-    }
+    /*.reducedHeight {*/
+        /*height: 14%;*/
+    /*}*/
 
     /*.right_middle:hover {*/
         /*background:  hsla(235, 14%, 74%, 0.5);*/
@@ -680,7 +669,7 @@ navbar-default .navbar-nav>li>a {
     }
 
     .right_bottom:hover {
-        background: hsla(46, 18%, 24%, 0.75);
+        /*background: hsla(46, 18%, 24%, 0.75);*/
         color: white;
     }
 
@@ -754,7 +743,8 @@ navbar-default .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
         overflow: auto;
-        max-height: 220px;
+        max-height: calc(100vh - 560px);
+        max-height: 396px;
     }
 
     .ul_sug_card {
@@ -832,13 +822,26 @@ navbar-default .navbar-nav>li>a {
         border-bottom-right-radius: 20px;
     }
 
+    .containerDict:hover .right_top,
+    .containerDict:hover .right_middle,
+    .containerDict:hover .container_def_card{
+        background: hsla(235, 16%, 74%, 0.5);
+    }
+    .containerDict:hover .right_bottom {
+        background: hsla(46, 18%, 24%, 0.75);
+    }
+
+
+
     .noHeight {
         height: 0;
         padding: 0;
     }
 
 
-    /*This needs to be the last element so it overrides all preceding elements*/
+
+
+/*This needs to be the last element so it overrides all preceding elements*/
     .visible {
         opacity: 1;
     }
