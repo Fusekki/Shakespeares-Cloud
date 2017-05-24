@@ -593,7 +593,6 @@ navbar-default .navbar-nav>li>a {
     }
     .right {
         position: relative;
-        /*height: calc(100% - 308px);*/
         height: calc(100% - 100px);
         top: 100px;
         overflow: hidden;
@@ -641,14 +640,11 @@ navbar-default .navbar-nav>li>a {
      }
 
     .right_middle {
-        /*max-height: 57%;*/
         background: hsl(235, 14%, 74%);
         color: black;
         overflow: hidden;
         opacity: 0;
         transition: background, color, opacity 0.5s;
-        /*border-top-left-radius: 20px;*/
-        /*border-top-right-radius: 20px;*/
 
     }
 
@@ -671,15 +667,11 @@ navbar-default .navbar-nav>li>a {
     /*}*/
 
     .right_bottom {
-        /*display: block;*/
         overflow: hidden;
-        /*height: 50%;*/
         background: #474231;
         color: white;
         opacity: 0;
         transition: opacity 0.5s;
-        /*border-bottom-left-radius: 20px;*/
-        /*border-bottom-right-radius: 20px;*/
      }
 
     .listDefCards {
@@ -722,23 +714,12 @@ navbar-default .navbar-nav>li>a {
     }
 
     .container_def_card {
-        /*height: 100%;*/
-        /*overflow: auto;*/
-        /*height: calc(61% - 41.2px);*/
         padding-bottom: 15px;
-        /*height: calc(57% - 41.2px);*/
         background: hsl(235, 14%, 74%);
         opacity: 0;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-
     }
-
-    /*.step_zero,*/
-    /*.step_one,*/
-    /*.step_two {*/
-        /*text-align: right;*/
-    /*}*/
 
     .arrow {
         width: 200px;
@@ -758,12 +739,12 @@ navbar-default .navbar-nav>li>a {
     }
 
     .def {
-        max-height: 362px;
+        max-height: 524px;
+        max-height: calc(100vh - 440px);
         overflow: auto;
     }
 
     .container_sug {
-        /*overflow-y: auto;*/
         overflow: hidden;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -831,8 +812,6 @@ navbar-default .navbar-nav>li>a {
     }
 
     .sug_word {
-        /*border: 1px solid white;*/
-        /*border-radius: 20px;*/
         padding: 5px;
     }
 
