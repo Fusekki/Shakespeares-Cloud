@@ -5,6 +5,18 @@ angular.module('shakespeareApp')
     // This is just used once for the chooseWord function when run for the first time.
     var hasClicked = false;
     $scope.loading = true;
+    $scope.showBackBtn = false;
+
+    var cacheItem = {
+        'dictionary': null,
+        'def_cards': null,
+        'sug_cards': null,
+        'definition': null,
+        'examinedText': null
+    }
+
+    var cachedActions = [];
+
 
     $scope.dictionary = {
         dict_visible: false,
@@ -198,6 +210,7 @@ angular.module('shakespeareApp')
                 $scope.dictionary.sug_container_visible = true;
                 $scope.sug_cards = results.suglist;
             }
+            // Store the items in the cache,
         }
 
     }
