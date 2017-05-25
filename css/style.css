@@ -529,7 +529,7 @@ navbar-default .navbar-nav>li>a {
         background: hsla(0, 0%, 0%, 0.75);
         margin-top: -6em;
     }
-    .spinner,
+
     .loadingMsg {
         position: absolute;
         top: 45%;
@@ -538,6 +538,14 @@ navbar-default .navbar-nav>li>a {
         height: 150px;
         font-size: 30px;
         color: white;
+    }
+
+    .loadingMsg + span {
+        position: absolute;
+        top: 50%;
+        left: calc(35% - 75px);
+        font-size: 16px;
+        color: hsla(0, 0%, 100%, 0.75);
     }
 
     .spinner img {
@@ -552,6 +560,10 @@ navbar-default .navbar-nav>li>a {
     }
     .hero_img {
         top: 51px;
+    }
+
+    .btnBack {
+        float: right;
     }
 
     .navbar-default .navbar-nav>li>a{
