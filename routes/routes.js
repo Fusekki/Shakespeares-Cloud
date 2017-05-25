@@ -19,6 +19,11 @@ calibreApp.config(function ($routeProvider) {
             controller: 'playCtrl'
         })
 
+        .when('/error', {
+            templateUrl: 'templates/error.tmpl.htm',
+            controller: 'errorCtrl'
+        })
+
         // .when('/play', {
         //     templateUrl: 'assets/plays/alls_well_that_ends_well_FF.htm',
         //     controller: 'playCtrl'
