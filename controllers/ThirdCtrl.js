@@ -19,15 +19,15 @@ angular.module('shakespeareApp')
 
 
     $scope.dictionary = {
-        dict_visible: false,
-        dict_right_top_visible: false,
+        block_text_visible: false,
+        block_dictionary_one_visible: false,
         dict_right_middle_visible: false,
         dict_right_bottom_visible: false,
         sug_container_visible: false,
-        step_two_visible: false,
-        step_three_visible: false,
-        step_one_done: false,
-        step_three_done: false,
+        block_two_visible: false,
+        block_three_visible: false,
+        block_one_line_through: false,
+        block_three_line_through: false,
         text: "Sentence",
         sel_word: "Word",
         btnText: "Examine"
@@ -47,21 +47,21 @@ angular.module('shakespeareApp')
         if ($scope.btnClicked) {
             $scope.dictionary.btnText = "Unexamine";
             $scope.examinedText = $scope.dictionary.text;
-            $scope.dictionary.step_two_visible = true;
-            $scope.dictionary.dict_visible = true;
-            $scope.dictionary.dict_right_top_visible = false;
+            $scope.dictionary.block_two_visible = true;
+            $scope.dictionary.block_text_visible = true;
+            $scope.dictionary.block_dictionary_one_visible = false;
             $scope.dictionary.dict_right_middle_visible = false;
             $scope.dictionary.dict_right_bottom_visible = false;
-            $scope.dictionary.step_one_done = true;
-            $scope.dictionary.step_two_done = false;
-            $scope.dictionary.step_three_done = false;
+            $scope.dictionary.block_one_line_through = true;
+            $scope.dictionary.block_two_linethrough = false;
+            $scope.dictionary.block_three_linethrough = false;
         } else {
             $scope.dictionary.btnText = 'Examine';
             $scope.examineText = "";
-            $scope.dictionary.step_two_visible = false;
-            $scope.dictionary.dict_visible = false;
-            $scope.dictionary.step_two_done = false;
-            $scope.dictionary.step_one_done = false;
+            $scope.dictionary.block_two_visible = false;
+            $scope.dictionary.block_text_visible = false;
+            $scope.dictionary.block_two_linethrough = false;
+            $scope.dictionary.block_one_line_through = false;
         }
     };
 
@@ -82,17 +82,18 @@ angular.module('shakespeareApp')
         // Grab the text from the element
         $scope.dictionary.sel_word = $event.target.innerHTML;
 
+        console.log(hasClicked);
 
         // If this is the first time selecting a word after a sentence is chosen to be examined,
         // toggle the step_two_done and step_three_done so that they appear.
         // If this is not the first time, if the step_three_done is marked, unmark it.
         if (!hasClicked) {
             hasClicked = true;
-            $scope.dictionary.step_two_done = !$scope.dictionary.step_two_done;
+            $scope.dictionary.block_two_line_through = !$scope.dictionary.block_two_line_through;
         }
-        $scope.dictionary.step_three_done = false
-        $scope.dictionary.dict_right_top_visible = true;
-        $scope.dictionary.step_three_visible = true;
+        $scope.dictionary.block_three_linethrough = false
+        $scope.dictionary.block_dictionary_one_visible = true;
+        $scope.dictionary.block_three_visible = true;
         $scope.dictionary.dict_right_middle_visible = false;
         $scope.dictionary.dict_right_bottom_visible = false;
         $scope.dictionary.sug_container_visible = false;
@@ -122,7 +123,7 @@ angular.module('shakespeareApp')
 
         $scope.button_clicked = true;
 
-        $scope.dictionary.step_three_done = !$scope.dictionary.step_three_done;
+        $scope.dictionary.block_three_linethrough = !$scope.dictionary.block_three_linethrough;
         if (!$scope.dictionary.dict_right_middle_visible) {
             $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
         }

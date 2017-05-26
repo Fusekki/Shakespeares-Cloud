@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Add FourthCtrl.js to handle errors.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,31 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/service3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directive1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/directive1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="379">
+              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -55,18 +34,18 @@
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="235">
+              <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state relative-caret-position="528">
+              <caret line="736" column="16" lean-forward="false" selection-start-line="736" selection-start-column="16" selection-end-line="736" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -76,47 +55,27 @@
         <entry file="file://$PROJECT_DIR$/templates/error.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <file leaf-file-name="directive2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourthCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/FourthCtrl.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="95" column="49" lean-forward="true" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="547" column="37" lean-forward="false" selection-start-line="547" selection-start-column="37" selection-end-line="547" selection-end-column="37" />
+            <state relative-caret-position="565">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -126,68 +85,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rb_Visible</find>
-      <find>text</find>
-      <find>$scope.text</find>
-      <find>$scope.sel_word</find>
-      <find>sel_word</find>
-      <find>$scope.btnText</find>
-      <find>btnText</find>
-      <find>hasClicked</find>
-      <find>$scope.hasClicked</find>
-      <find>i_done</find>
-      <find>$scope.dictionary.tex</find>
-      <find>$scope.dictionary.text</find>
-      <find>dictionary.text</find>
-      <find>diction</find>
-      <find>text-align</find>
-      <find>list</find>
-      <find>push</find>
-      <find>apiServc</find>
-      <find>def_list</find>
-      <find>defobj</find>
-      <find>idx</find>
-      <find>redu</find>
-      <find>visible</find>
-      <find>dict_right</find>
-      <find>step_two_visible</find>
+      <find>.def_card</find>
+      <find>.right_bottom</find>
+      <find>.containerSug</find>
+      <find>.container_sug</find>
+      <find>.inner-suggestion</find>
+      <find>.sug</find>
+      <find>.ul_sug_card</find>
+      <find>.sug_card</find>
+      <find>container_def_card</find>
+      <find>dictForm</find>
+      <find>.sug_word</find>
+      <find>step_one</find>
+      <find>step_one_done</find>
       <find>dictionary.step_two_visible</find>
-      <find>dark</find>
-      <find>reduced</find>
-      <find>loading</find>
-      <find>load</find>
+      <find>blockTwoVisible</find>
+      <find>blockOneLineThrough</find>
+      <find>block_two_visibl</find>
+      <find>step_two_visible</find>
+      <find>step_two_visibl</find>
+      <find>step_two</find>
+      <find>step_wo</find>
+      <find>step_two_done</find>
+      <find>step_three_done</find>
+      <find>dict</find>
+      <find>dict_visible</find>
+      <find>block-three</find>
+      <find>dict_right_top_visible</find>
+      <find>step_three_visible</find>
+      <find>block_two</find>
+      <find>block_two_line</find>
     </findStrings>
     <replaceStrings>
-      <replace>src=&quot;assets/img/</replace>
-      <replace>.play_cards</replace>
-      <replace>currentEntry</replace>
-      <replace>currentDef</replace>
-      <replace>console.log('push ' + idx + '-----------------');</replace>
-      <replace>$scope.toolTipActive</replace>
-      <replace>$scope.dictionary</replace>
-      <replace>tooltip</replace>
-      <replace>visible</replace>
-      <replace>step_two_done</replace>
-      <replace>step_three_done</replace>
-      <replace>_visible</replace>
-      <replace>_Visible</replace>
-      <replace>Visible</replace>
-      <replace>isVisible</replace>
-      <replace>step_one_visible</replace>
-      <replace>step_two_visible</replace>
-      <replace>step_three_visible</replace>
-      <replace>dict_visible</replace>
-      <replace>dict_right_top_visible</replace>
-      <replace>dict_right_middle_visible</replace>
-      <replace>dict_right_bottom_visible</replace>
-      <replace>dictionary.text</replace>
-      <replace>$scope.dictionary.text</replace>
-      <replace>$scope.dictionary.sel_word</replace>
-      <replace>dictionary.btnText</replace>
-      <replace>dictionary.sel_word</replace>
-      <replace>$scope.dictionary.btnText</replace>
-      <replace>step_one_done</replace>
-      <replace>self.idx</replace>
+      <replace>.block-dictionary-one</replace>
+      <replace>container-dictionary</replace>
+      <replace>.form-dictionary</replace>
+      <replace>.block-dictionary-two</replace>
+      <replace>block-dictionary-two</replace>
+      <replace>container-definitions</replace>
+      <replace>.block-dictionary-no-results</replace>
+      <replace>.container-definition</replace>
+      <replace>.definition</replace>
+      <replace>.innner-definition</replace>
+      <replace>.list-definition</replace>
+      <replace>.list-item-definition</replace>
+      <replace>.container-suggestion</replace>
+      <replace>.container-inner-suggestion</replace>
+      <replace>.inner-suggestion</replace>
+      <replace>.list-suggestion</replace>
+      <replace>.list-item-suggestion</replace>
+      <replace>'is-visible'</replace>
+      <replace>.block-two</replace>
+      <replace>blockOneLineThrough</replace>
+      <replace>container-definition</replace>
+      <replace>dictionary.block_two_visible</replace>
+      <replace>block_one_line_through</replace>
+      <replace>block_two_visible</replace>
+      <replace>block_two_linethrough</replace>
+      <replace>block_three_linethrough</replace>
+      <replace>block_text_visible</replace>
+      <replace>.suggestion-word</replace>
+      <replace>block_three_visible</replace>
+      <replace>block_dictionary_one_visible</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -234,7 +193,6 @@
         <option value="$PROJECT_DIR$/change.js" />
         <option value="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" />
         <option value="$PROJECT_DIR$/directives/directive1.js" />
-        <option value="$PROJECT_DIR$/directives/directive2.js" />
         <option value="$PROJECT_DIR$/services/service3.js" />
         <option value="$PROJECT_DIR$/templates/errror.tmpl.htm" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
@@ -242,11 +200,12 @@
         <option value="$PROJECT_DIR$/controllers/FourthCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/templates/error.tmpl.htm" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+        <option value="$PROJECT_DIR$/directives/directive2.js" />
       </list>
     </option>
   </component>
@@ -450,7 +409,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -579,6 +537,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -747,34 +706,6 @@
       <workItem from="1494618749186" duration="2544000" />
       <workItem from="1494889907656" duration="2795000" />
       <workItem from="1495634649911" duration="5531000" />
-    </task>
-    <task id="LOCAL-00093" summary="Fix overwrap problem in dictionary definition area.  Add minor styling.">
-      <created>1494878220775</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1494878220791</updated>
-    </task>
-    <task id="LOCAL-00094" summary="Fix overwrap not wrapping properly for definition area of dictionary divs.">
-      <created>1494878267971</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1494878267971</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Add angular.filter script.">
-      <created>1494887947189</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1494887947189</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Add angular.filter to module.">
-      <created>1494887970404</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1494887970404</updated>
     </task>
     <task id="LOCAL-00097" summary="Remove border from right.middle.&#10;&#10;Change list style to roman numeral on def_csrds">
       <created>1494888036501</created>
@@ -1091,11 +1022,39 @@
       <option name="project" value="LOCAL" />
       <updated>1495728600915</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Comment out console.log lines.">
+      <created>1495814234781</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1495814234782</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Rename CSS classes and booleans to be adhere to best practices.">
+      <created>1495814270925</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1495814270925</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Change variable names to adhere to best practices.">
+      <created>1495814308378</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1495814308378</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Change variable names to adhere to best practices.">
+      <created>1495814321201</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1495814321201</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377890000" />
+    <option name="totallyTimeSpent" value="384185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1109,7 +1068,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1120,12 +1079,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1181,9 +1149,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Set styling for loadingContainer.  Rename spinner_test to loadingMsg.  Set top down to 45%." />
-    <MESSAGE value="Move parseEntries function to sharedServices." />
-    <MESSAGE value="Make additions to ng-class for container def card (no height) and visible being dependent on boolean vs array length." />
     <MESSAGE value="Fix right middle: hover with missing a for hsla. Add noHeight class." />
     <MESSAGE value="Rework processResults to not generate error if results is undefined.  Add $scope.dictionary.sug_container.visible boolean for suggestions.  Set sug_container to true if suggestions exist." />
     <MESSAGE value="Add logic still needed to smoothly transition move of function to sharedService from the controller." />
@@ -1206,7 +1171,10 @@
     <MESSAGE value="Uncomment lines out to successfully implement error page." />
     <MESSAGE value="Add route for error page." />
     <MESSAGE value="Add FourthCtrl.js to handle errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add FourthCtrl.js to handle errors." />
+    <MESSAGE value="Comment out console.log lines." />
+    <MESSAGE value="Rename CSS classes and booleans to be adhere to best practices." />
+    <MESSAGE value="Change variable names to adhere to best practices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change variable names to adhere to best practices." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1392,14 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directives/directive3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1411,13 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1451,18 +1404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/FourthCtrl.js">
+    <entry file="file://$PROJECT_DIR$/directives/directive1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="95" column="49" lean-forward="true" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1475,31 +1420,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="547" column="37" lean-forward="false" selection-start-line="547" selection-start-column="37" selection-end-line="547" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/error.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -1507,10 +1428,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="95" column="49" lean-forward="true" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/FourthCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="736" column="16" lean-forward="false" selection-start-line="736" selection-start-column="16" selection-end-line="736" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="379">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
           <folding />
         </state>
       </provider>
