@@ -596,14 +596,14 @@ navbar-default .navbar-nav>li>a {
         background: black;
         color: white;
     }
-    .right_container {
+    .container-right {
         position: fixed;
         left: 60%;
         top: 0;
         width: 40%;
         height: 100%;
     }
-    .right {
+    .inner-right {
         position: relative;
         height: calc(100% - 100px);
         top: 100px;
@@ -611,11 +611,11 @@ navbar-default .navbar-nav>li>a {
         background: transparent;
     }
 
-    .right div span {
+    .inner-right div span {
         font-size: 14px;
     }
 
-    .right_top {
+    .block-dictionary-one {
         background: #b1b3c7;
         color: black;
         opacity: 0;
@@ -625,12 +625,12 @@ navbar-default .navbar-nav>li>a {
         padding: 5px 0 0 5px;
     }
 
-    .right_top h3 {
+    .block-dictionary-one h3 {
         display: inline;
         float: right;
     }
 
-    .right_top span {
+    .block-dictionary-one span {
         float: right;
         margin-top: 5px;
         margin-right: 62%;
@@ -638,10 +638,10 @@ navbar-default .navbar-nav>li>a {
         font-size: 23px !important;
     }
 
-    .right_top input {
+    .block-dictionary-one input {
         right: 10px;
     }
-    .right_middle {
+    .block-dictionary-no-results {
              background: hsl(235, 14%, 74%);
              color: black;
              overflow: hidden;
@@ -649,7 +649,7 @@ navbar-default .navbar-nav>li>a {
              transition: background, color, opacity 0.5s;
     }
 
-    .dictForm {
+    .form-dictionary {
         margin-left: 5px;
     }
 
@@ -662,12 +662,12 @@ navbar-default .navbar-nav>li>a {
         /*height: 14%;*/
     /*}*/
 
-    /*.right_middle:hover {*/
+    /*.block-dictionary-no-results:hover {*/
         /*background:  hsla(235, 14%, 74%, 0.5);*/
         /*color: hsla(0, 0%, 0%, 0.95);*/
     /*}*/
 
-    .right_bottom {
+    .container-suggestion {
         overflow: hidden;
         background: #474231;
         color: white;
@@ -675,12 +675,12 @@ navbar-default .navbar-nav>li>a {
         transition: opacity 0.5s;
      }
 
-    .listDefCards {
+    .list-definition {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
-    .right_bottom:hover {
+    .container-suggestion:hover {
         /*background: hsla(46, 18%, 24%, 0.75);*/
         color: white;
     }
@@ -694,14 +694,13 @@ navbar-default .navbar-nav>li>a {
         color: white;
     }
 
-    .step_one,
-    .step_two,
-    .step_three {
+    .block-two,
+    .block-three {
         opacity: 0;
         transition: opacity 0.25s;
     }
 
-    .text {
+    .block-text {
         font-size: 20px;
         padding: 5px;
         background: rgba(255,255,255, 0.5);
@@ -709,12 +708,12 @@ navbar-default .navbar-nav>li>a {
         transition: background, color, opacity 0.5s;
     }
 
-    .text:hover {
+    .block-text:hover {
         background: rgba(255,255,255, 1);
         color: black;
     }
 
-    .container_def_card {
+    .container-definition {
         padding-bottom: 15px;
         background: hsl(235, 14%, 74%);
         opacity: 0;
@@ -733,25 +732,25 @@ navbar-default .navbar-nav>li>a {
         border-radius: 20px;
         background-color: #2c2a47;
     }
-    .step_zero span,
-    .step_one span,
-    .step_two span {
+    .block-one span,
+    .block-two span,
+    .block-three span {
         margin-left: 40%;
     }
 
-    .def {
+    .innner-definition {
         max-height: 524px;
         max-height: calc(100vh - 440px);
         overflow: auto;
     }
 
-    .container_sug {
+    .container-inner-suggestion {
         overflow: hidden;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
-    .sug {
+    .inner-suggestion {
         padding-top: 10px;
         padding-bottom: 10px;
         overflow: auto;
@@ -759,18 +758,18 @@ navbar-default .navbar-nav>li>a {
         max-height: 396px;
     }
 
-    .ul_sug_card {
+    .list-suggestion {
         padding-left: 25px;
         column-count: 3;
     }
-    .def_card {
+    .list-item-definition {
         list-style: lower-roman;
     }
-    .sug_card {
+    .list-item-suggestion {
         list-style: none;
     }
 
-    .sug_card {
+    .list-item-suggestion {
         padding: 5px 0;
         -webkit-column-break-inside:avoid;
         -moz-column-break-inside:avoid;
@@ -779,8 +778,8 @@ navbar-default .navbar-nav>li>a {
         column-break-inside:avoid;
     }
 
-    .def_card p,
-    .sug_card span {
+    .list-item-definition p,
+    .list-item-suggestion span {
         list-style: none;
     }
 
@@ -813,11 +812,11 @@ navbar-default .navbar-nav>li>a {
         color: white;
     }
 
-    .sug_word {
+    .suggestion-word {
         padding: 5px;
     }
 
-    .sug_word:hover {
+    .suggestion-word:hover {
         color: black;
         background: white;
     }
@@ -834,12 +833,12 @@ navbar-default .navbar-nav>li>a {
         border-bottom-right-radius: 20px;
     }
 
-    .containerDict:hover .right_top,
-    .containerDict:hover .right_middle,
-    .containerDict:hover .container_def_card{
+    .container-dictionary:hover .block-dictionary-one,
+    .container-dictionary:hover .block-dictionary-no-results,
+    .container-dictionary:hover .container-definition{
         background: hsla(235, 16%, 74%, 0.5);
     }
-    .containerDict:hover .right_bottom {
+    .container-dictionary:hover .container-suggestion {
         background: hsla(46, 18%, 24%, 0.75);
     }
 
@@ -854,7 +853,7 @@ navbar-default .navbar-nav>li>a {
 
 
 /*This needs to be the last element so it overrides all preceding elements*/
-    .visible {
+    .is-visible {
         opacity: 1;
     }
 
