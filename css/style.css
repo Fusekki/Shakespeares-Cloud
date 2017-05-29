@@ -738,7 +738,7 @@ navbar-default .navbar-nav>li>a {
         margin-left: 40%;
     }
 
-    .innner-definition {
+    .inner-definition {
         max-height: 524px;
         max-height: calc(100vh - 440px);
         overflow: auto;
