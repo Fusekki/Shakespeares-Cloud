@@ -13,27 +13,26 @@
             <!--<i class="fa fa-reply" aria-hidden="true"></i>-->
             <img class="arrow" src="img/arrow.svg">
         </div>
-        <span ng-class="{'line-through': dictionary.block_one_line_through}">Click a line to examine</span>
+        <span ng-class="{'line-through': instructions.block_one_line_through}">Click a line to examine</span>
     </div>
-    <div class="block-two" ng-class="{'is-visible': dictionary.block_two_visible}">
-        <span ng-class="{'line-through': dictionary.block_two_line_through}">Choose a word below to select it. </span>
+    <div class="block-two" ng-class="{'is-visible': instructions.block_two_visible}">
+        <span ng-class="{'line-through': instructions.block_two_line_through}">Choose a word below to select it. </span>
     </div>
-    <div class="block-three" ng-class="{'is-visible': dictionary.block_three_visible}">
-        <span ng-class="{'line-through': dictionary.block_three_line_through}">Click the button to lookup the definiton </span>
+    <div class="block-three" ng-class="{'is-visible': instructions.block_three_visible}">
+        <span ng-class="{'line-through': instructions.block_three_line_through}">Click the button to lookup the definiton </span>
     </div>
     <!--<div class="step_three" ng-class="{'is-visible': sth_Visible}">-->
         <!--<span>Click a defintion to view its contents </span>-->
     <!--</div>-->
     <div class="block-text" dynamic="examinedText" ng-class="{'is-visible': dictionary.block_text_visible}"></div>
     <div class="container-dictionary">
-        <div class="block-dictionary-one" ng-class="{'is-visible': dictionary.block_dictionary_one_visible, 'curved_bottom_border': !dictionary.dict_right_middle_visible}">
+        <div class="block-dictionary-one" ng-class="{'is-visible': dictionary.block_one_visible, 'curved_bottom_border': !button_clicked}">
             <form class="form-dictionary" ng-submit="button_clicked || lookupWord($event)">
                 <!--<input type="text" ng-model="name" />-->
                 <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
 
                 <!--<span dynamic="dictionary.sel_word"></span>-->
                 <input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">
-                <label class="btn btn-primary btn-back" ng-show="showBackBtn">Back</label>
                 <!--<br />-->
                 <!--<input type="text" ng-model="email" />-->
             </form>
@@ -41,7 +40,7 @@
             <!--&lt;!&ndash;<span dynamic="dictionary.sel_word"></span>&ndash;&gt;-->
             <!--<input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">-->
         </div>
-        <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.dict_right_middle_visible, 'curved_bottom_border': !def_cards.length  &&  !dictionary.sug_container_visible}">
+        <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_cards.length  &&  !dictionary.sug_container_visible}">
             <h4>Definitions</h4>
             <span ng-show="!def_cards.length">
                 <p>

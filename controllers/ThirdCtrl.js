@@ -7,26 +7,24 @@ angular.module('shakespeareApp')
     $scope.loading = true;
     $scope.showBackBtn = false;
 
-    var cacheItem = {
-        'dictionary': null,
-        'def_cards': null,
-        'sug_cards': null,
-        'definition': null,
-        'examinedText': null
-    }
-
     var cachedActions = [];
+    
+    $scope.instructions = {
+        block_two_visible: false,       
+        block_three_visible: false,
+        block_one_line_through: false,
+        block_two_line_through: false,
+    }
 
 
     $scope.dictionary = {
         block_text_visible: false,
-        block_dictionary_one_visible: false,
-        dict_right_middle_visible: false,
+        block__one_visible: false,
         dict_right_bottom_visible: false,
         sug_container_visible: false,
-        block_two_visible: false,
-        block_three_visible: false,
-        block_one_line_through: false,
+
+
+
         block_three_line_through: false,
         text: "Sentence",
         sel_word: "Word",
@@ -47,21 +45,21 @@ angular.module('shakespeareApp')
         if ($scope.btnClicked) {
             $scope.dictionary.btnText = "Unexamine";
             $scope.examinedText = $scope.dictionary.text;
-            $scope.dictionary.block_two_visible = true;
+            $scope.instructions.block_two_visible = true;
             $scope.dictionary.block_text_visible = true;
-            $scope.dictionary.block_dictionary_one_visible = false;
-            $scope.dictionary.dict_right_middle_visible = false;
+            $scope.dictionary.block_one_visible = false;
+            $scope.dictionary.block_no_results_visible = false;
             $scope.dictionary.dict_right_bottom_visible = false;
-            $scope.dictionary.block_one_line_through = true;
+            $scope.instructions.block_one_line_through = true;
             $scope.dictionary.block_two_linethrough = false;
-            $scope.dictionary.block_three_linethrough = false;
+            $scope.instructions.block_three_line_through = false;
         } else {
             $scope.dictionary.btnText = 'Examine';
             $scope.examineText = "";
-            $scope.dictionary.block_two_visible = false;
+            $scope.instructions.block_two_visible = false;
             $scope.dictionary.block_text_visible = false;
             $scope.dictionary.block_two_linethrough = false;
-            $scope.dictionary.block_one_line_through = false;
+            $scope.instructions.block_one_line_through = false;
         }
     };
 
@@ -89,12 +87,12 @@ angular.module('shakespeareApp')
         // If this is not the first time, if the step_three_done is marked, unmark it.
         if (!hasClicked) {
             hasClicked = true;
-            $scope.dictionary.block_two_line_through = !$scope.dictionary.block_two_line_through;
+            $scope.instructions.block_two_line_through = !$scope.instructions.block_two_line_through;
         }
-        $scope.dictionary.block_three_linethrough = false
-        $scope.dictionary.block_dictionary_one_visible = true;
-        $scope.dictionary.block_three_visible = true;
-        $scope.dictionary.dict_right_middle_visible = false;
+        $scope.instructions.block_three_line_through = false
+        $scope.dictionary.block_one_visible = true;
+        $scope.instructions.block_three_visible = true;
+        $scope.dictionary.block_no_results_visible = false;
         $scope.dictionary.dict_right_bottom_visible = false;
         $scope.dictionary.sug_container_visible = false;
         // Clear the def_cards of any previous values.
@@ -123,9 +121,9 @@ angular.module('shakespeareApp')
 
         $scope.button_clicked = true;
 
-        $scope.dictionary.block_three_linethrough = !$scope.dictionary.block_three_linethrough;
-        if (!$scope.dictionary.dict_right_middle_visible) {
-            $scope.dictionary.dict_right_middle_visible = !$scope.dictionary.dict_right_middle_visible;
+        $scope.instructions.block_three_line_through = !$scope.instructions.block_three_line_through;
+        if (!$scope.dictionary.block_no_results_visible) {
+            $scope.dictionary.block_no_results_visible = !$scope.dictionary.block_no_results_visible;
         }
         // Clear out the def_cards if there are any.
         // console.log($scope.def_cards);
