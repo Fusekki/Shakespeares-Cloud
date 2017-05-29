@@ -52,34 +52,35 @@ angular.module('shakespeareApp')
 
                             } else {
                                 // Item is still an object just doesn't contain __text
-                                for (var i = 0; i < def.dt.length; i++) {
-                                    console.log(def.dt.length);
-                                    self.idx++;
-                                    console.log(def.dt[i]);
-                                    // console.log(typeof(def.dt[i]));
-                                    if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
-                                        // console.log('WE SHOULD NEVER GET HERE');
-                                        console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
-                                        // is item longer than a single character
-                                        console.log('push ' + self.idx + '-----------------');
-                                        console.log(typeof(def.dt[i]));
-                                        newWord = def.dt[i].replace(/^:/, "");
-                                        def_list.push(defObj(def.date, newWord));
-                                    } else  {
-                                        // type of dt[i] is object
-                                        // console.log('WE SHOULD NEVER GET HERE');
-                                        console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
-                                        if (def.dt[i].__text && def.dt[i].__text.length > 1) {
-                                            console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
-                                            newWord = def.dt[i].__text.replace(/^:/, "");
-                                            def_list.push(defObj(def.date, newWord));
-                                            // def_list.push(def.dt.replace(/^:/, ""));
-                                        } else {
-                                            console.log('unable to parse this entry: ' + x + ' dt: ' + i);
-                                            console.log(def.dt[i]);
-                                        }
-                                    }
-                                }
+                                processDT(def, x);
+                                // for (var i = 0; i < def.dt.length; i++) {
+                                //     console.log(def.dt.length);
+                                //     self.idx++;
+                                //     console.log(def.dt[i]);
+                                //     // console.log(typeof(def.dt[i]));
+                                //     if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                                //         // console.log('WE SHOULD NEVER GET HERE');
+                                //         console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
+                                //         // is item longer than a single character
+                                //         console.log('push ' + self.idx + '-----------------');
+                                //         console.log(typeof(def.dt[i]));
+                                //         newWord = def.dt[i].replace(/^:/, "");
+                                //         def_list.push(defObj(def.date, newWord));
+                                //     } else  {
+                                //         // type of dt[i] is object
+                                //         // console.log('WE SHOULD NEVER GET HERE');
+                                //         console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
+                                //         if (def.dt[i].__text && def.dt[i].__text.length > 1) {
+                                //             console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+                                //             newWord = def.dt[i].__text.replace(/^:/, "");
+                                //             def_list.push(defObj(def.date, newWord));
+                                //             // def_list.push(def.dt.replace(/^:/, ""));
+                                //         } else {
+                                //             console.log('unable to parse this entry: ' + x + ' dt: ' + i);
+                                //             console.log(def.dt[i]);
+                                //         }
+                                //     }
+                                // }
                             }
                         } else  {
                             // These seme to fall under people (like a thesaurus search).
@@ -95,13 +96,53 @@ angular.module('shakespeareApp')
                 // Only one entry exists but it may contain multiple dts
                 var def = entries.entry.def;
                 console.log(def);
-                // console.log(def.length);
+                console.log(def.length);
+                console.log(typeof(def));
                 if (def) {
-                    if (typeof(def.def) == 'string') {
-                        console.log('push ' + self.idx + '-----------------');
-                        newWord = def.def.replace(/^:/, "")
-                        def_list.push(defObj(def.date, newWord));
-                    } else {
+                    if ('def' in def) {
+                        console.log('def in def');
+                    } else if ('dt' in def) {
+                        console.log('dt in def');
+                        processDT(def, x);
+                        // for (var i = 0; i < def.dt.length; i++) {
+                        //     console.log(def.dt.length);
+                        //     self.idx++;
+                        //     console.log(def.dt[i]);
+                        //     // console.log(typeof(def.dt[i]));
+                        //     if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                        //         // console.log('WE SHOULD NEVER GET HERE');
+                        //         console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
+                        //         // is item longer than a single character
+                        //         console.log('push ' + self.idx + '-----------------');
+                        //         console.log(typeof(def.dt[i]));
+                        //         newWord = def.dt[i].replace(/^:/, "");
+                        //         def_list.push(defObj(def.date, newWord));
+                        //     } else  {
+                        //         // type of dt[i] is object
+                        //         // console.log('WE SHOULD NEVER GET HERE');
+                        //         console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
+                        //         if (def.dt[i].__text && def.dt[i].__text.length > 1) {
+                        //             console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+                        //             newWord = def.dt[i].__text.replace(/^:/, "");
+                        //             def_list.push(defObj(def.date, newWord));
+                        //             // def_list.push(def.dt.replace(/^:/, ""));
+                        //         } else {
+                        //             console.log('unable to parse this entry: ' + x + ' dt: ' + i);
+                        //             console.log(def.dt[i]);
+                        //         }
+                        //     }
+                        // }
+                    }
+
+                    // if (typeof(def.def) == 'string') {
+                    //     console.log('push ' + self.idx + '-----------------');
+                    //     newWord = def.def.replace(/^:/, "")
+                    //     def_list.push(defObj(def.date, newWord));
+                    // } else if (typeof(def.def) == 'object') {
+                    //     console.log('here');
+                    // }
+
+                    else {
                         console.log('unable to parse entry.');
                     }
                 }
@@ -144,5 +185,38 @@ angular.module('shakespeareApp')
                 }
             }
         }
+    }
+
+    var processDT = function(def, x) {
+
+        for (var i = 0; i < def.dt.length; i++) {
+            console.log(def.dt.length);
+            self.idx++;
+            console.log(def.dt[i]);
+            // console.log(typeof(def.dt[i]));
+            if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                // console.log('WE SHOULD NEVER GET HERE');
+                console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
+                // is item longer than a single character
+                console.log('push ' + self.idx + '-----------------');
+                console.log(typeof(def.dt[i]));
+                newWord = def.dt[i].replace(/^:/, "");
+                def_list.push(defObj(def.date, newWord));
+            } else  {
+                // type of dt[i] is object
+                // console.log('WE SHOULD NEVER GET HERE');
+                console.log('type is object' + ' entry: ' + x + ' dt: ' + i);
+                if (def.dt[i].__text && def.dt[i].__text.length > 1) {
+                    console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
+                    newWord = def.dt[i].__text.replace(/^:/, "");
+                    def_list.push(defObj(def.date, newWord));
+                    // def_list.push(def.dt.replace(/^:/, ""));
+                } else {
+                    console.log('unable to parse this entry: ' + x + ' dt: ' + i);
+                    console.log(def.dt[i]);
+                }
+            }
+        }
+
     }
 })
