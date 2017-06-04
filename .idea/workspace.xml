@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directive2.js" afterPath="$PROJECT_DIR$/directives/directive2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1967">
+            <state relative-caret-position="-1949">
               <caret line="96" column="28" lean-forward="false" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
               <folding />
             </state>
@@ -44,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="625" column="26" lean-forward="false" selection-start-line="625" selection-start-column="26" selection-end-line="625" selection-end-column="26" />
+            <state relative-caret-position="651">
+              <caret line="626" column="20" lean-forward="false" selection-start-line="626" selection-start-column="20" selection-end-line="626" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -116,8 +113,8 @@
       <find>dictionary.block_three_linethrough</find>
       <find>dictionary.block_dictionary_one_visible</find>
       <find>dict_right_middle_visible</find>
-      <find>sug_container_visible</find>
       <find>block_one_visible</find>
+      <find>sug_container_visible</find>
     </findStrings>
     <replaceStrings>
       <replace>.definition</replace>
@@ -205,10 +202,10 @@
         <option value="$PROJECT_DIR$/templates/error.tmpl.htm" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/services/service3.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/directives/directive2.js" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -710,13 +707,6 @@
       <workItem from="1494889907656" duration="2795000" />
       <workItem from="1495634649911" duration="5531000" />
     </task>
-    <task id="LOCAL-00100" summary="Fix ng-repeat not showing correct item.element in one of the if for loops in the third controller.">
-      <created>1494892752299</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1494892752299</updated>
-    </task>
     <task id="LOCAL-00101" summary="Add condition when looking at previous element to only consider div.line elements.  Declare text explicitly in directive.  Comment out console.log lines.">
       <created>1494944084738</created>
       <option name="number" value="00101" />
@@ -1053,11 +1043,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496598124913</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Change some remaining dictionary. booleans to instructions. booleans.">
+      <created>1496603425491</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1496603425491</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389688000" />
+    <option name="totallyTimeSpent" value="389793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1144,7 +1141,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Change text slightly for steps." />
     <MESSAGE value="Clear scope cards on directive. Modify step two visibility.  Modify def_card container visibility." />
     <MESSAGE value="Add divs beneath both sug and def containers.  This will allow padding to be applied for bottom and top and not have text visible when overflowing this." />
     <MESSAGE value="Uncomment push in definition loop." />
@@ -1169,7 +1165,8 @@
     <MESSAGE value="Change variable names to be more clesr." />
     <MESSAGE value="Correct typo." />
     <MESSAGE value="Rename sug_container_visible to sug_visible." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename sug_container_visible to sug_visible." />
+    <MESSAGE value="Change some remaining dictionary. booleans to instructions. booleans." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change some remaining dictionary. booleans to instructions. booleans." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1442,14 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="625" column="26" lean-forward="false" selection-start-line="625" selection-start-column="26" selection-end-line="625" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directives/directive2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1468,8 +1457,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1967">
+        <state relative-caret-position="-1949">
           <caret line="96" column="28" lean-forward="false" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="626" column="20" lean-forward="false" selection-start-line="626" selection-start-column="20" selection-end-line="626" selection-end-column="20" />
           <folding />
         </state>
       </provider>

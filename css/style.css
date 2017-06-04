@@ -624,6 +624,7 @@ navbar-default .navbar-nav>li>a {
 
     .container-debug span{
         background: white;
+        width: 100%;
         display: inline-block;
                }
     .inner-right div span {
