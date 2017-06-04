@@ -21,7 +21,7 @@ angular.module('shakespeareApp')
         block_text_visible: false,
         block__one_visible: false,
         dict_right_bottom_visible: false,
-        sug_container_visible: false,
+        sug_visible: false,
 
 
 
@@ -94,7 +94,7 @@ angular.module('shakespeareApp')
         $scope.instructions.block_three_visible = true;
         $scope.dictionary.block_no_results_visible = false;
         $scope.dictionary.dict_right_bottom_visible = false;
-        $scope.dictionary.sug_container_visible = false;
+        $scope.dictionary.sug_visible = false;
         // Clear the def_cards of any previous values.
         if ($scope.def_cards) {
             $scope.def_cards.length = 0;
@@ -202,11 +202,12 @@ angular.module('shakespeareApp')
             if (results.deflist) {
                 console.log('dictionary elements found');
                 $scope.def_cards = results.deflist;
+
             }
             if (results.suglist) {
                 console.log('suggestion elements found');
                 $scope.dictionary.dict_right_bottom_visible = true;
-                $scope.dictionary.sug_container_visible = true;
+                $scope.dictionary.sug_visible = true;
                 $scope.sug_cards = results.suglist;
             }
             // Store the items in the cache,

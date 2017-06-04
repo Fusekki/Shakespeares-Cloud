@@ -40,7 +40,7 @@
             <!--&lt;!&ndash;<span dynamic="dictionary.sel_word"></span>&ndash;&gt;-->
             <!--<input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">-->
         </div>
-        <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_cards.length  &&  !dictionary.sug_container_visible}">
+        <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_cards.length  &&  !dictionary.sug_visible}">
             <h4>Definitions</h4>
             <span ng-show="!def_cards.length">
                 <p>
@@ -63,7 +63,7 @@
                 </ul>
             </div>
         </div>
-        <div class="container-suggestion" ng-class="{'is-visible': dictionary.sug_container_visible, 'curved_bottom_border': sug_cards.length}">
+        <div class="container-suggestion" ng-class="{'is-visible': dictionary.sug_visible, 'curved_bottom_border': sug_cards.length}">
             <hr>
             <h4>Suggestions</h4>
             <span><i>Click a word to select</i> - {{ sug_cards.length }}</span>

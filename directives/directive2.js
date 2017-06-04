@@ -25,7 +25,7 @@ angular.module('shakespeareApp')
                             // console.log('change');
                             // console.log($el);
 
-                            $scope.dictionary.sug_container_visible = false;
+                            $scope.dictionary.sug_visible = false;
                             if ($el.hasClass('dark')) {
                                 // console.log('has dark');
                                 $el.removeClass('dark');
@@ -45,7 +45,7 @@ angular.module('shakespeareApp')
                                 $scope.dictionary.step_three_visible = false;
                                 $scope.dictionary.block_no_results_visible = false;
                                 $scope.dictionary.dict_right_bottom_visible = false;
-                                $scope.dictionary.sug_container_visible = false;
+                                $scope.dictionary.sug_visible = false;
                                 // console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 var firstHalf;
