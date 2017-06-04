@@ -7,6 +7,13 @@
 <div dynamic="play"></div>
 <!--<spinner name="loadSpinner" class="spinner" show="loading" img-src="img/loading.gif"></spinner>-->
 <div class="container-right" ng-show="!loading">
+    <div class="container-debug" ng-show="debug">
+        <span>instructions.block_two_visible: {{ instructions.block_two_visible }}</span>
+        <span>instructions.block_three_visible: {{ instructions.block_three_visible }}</span>
+        <span>instructions.block_one_line_through: {{ instructions.block_one_line_through }}</span>
+        <span>instructions.block_two_line_through: {{ instructions.block_two_line_through }}</span>
+        <span>instructions.block_three_line_through: {{ instructions.block_three_line_through }}</span>
+    </div>
     <div class="inner-right">
     <div class="block-one" >
         <div>
@@ -26,7 +33,7 @@
     <!--</div>-->
     <div class="block-text" dynamic="examinedText" ng-class="{'is-visible': dictionary.block_text_visible}"></div>
     <div class="container-dictionary">
-        <div class="block-dictionary-one" ng-class="{'is-visible': dictionary.block_one_visible, 'curved_bottom_border': !button_clicked}">
+        <div class="block-dictionary-one" ng-class="{'is-visible': instructions.block_one_visible, 'curved_bottom_border': !button_clicked}">
             <form class="form-dictionary" ng-submit="button_clicked || lookupWord($event)">
                 <!--<input type="text" ng-model="name" />-->
                 <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>

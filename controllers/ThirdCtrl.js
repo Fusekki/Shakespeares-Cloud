@@ -7,25 +7,29 @@ angular.module('shakespeareApp')
     $scope.loading = true;
     $scope.showBackBtn = false;
 
+    $scope.debug = true;
+
     var cachedActions = [];
     
     $scope.instructions = {
+        block_one_visible: false,
         block_two_visible: false,       
         block_three_visible: false,
         block_one_line_through: false,
         block_two_line_through: false,
+        block_three_line_through: false
     }
 
 
     $scope.dictionary = {
         block_text_visible: false,
-        block__one_visible: false,
+
         dict_right_bottom_visible: false,
         sug_visible: false,
 
 
 
-        block_three_line_through: false,
+
         text: "Sentence",
         sel_word: "Word",
         btnText: "Examine"
@@ -90,7 +94,7 @@ angular.module('shakespeareApp')
             $scope.instructions.block_two_line_through = !$scope.instructions.block_two_line_through;
         }
         $scope.instructions.block_three_line_through = false
-        $scope.dictionary.block_one_visible = true;
+        $scope.instructions.block_one_visible = true;
         $scope.instructions.block_three_visible = true;
         $scope.dictionary.block_no_results_visible = false;
         $scope.dictionary.dict_right_bottom_visible = false;

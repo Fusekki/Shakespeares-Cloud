@@ -603,6 +603,8 @@ navbar-default .navbar-nav>li>a {
         width: 40%;
         height: 100%;
     }
+
+
     .inner-right {
         position: relative;
         height: calc(100% - 100px);
@@ -611,6 +613,19 @@ navbar-default .navbar-nav>li>a {
         background: transparent;
     }
 
+    .container-debug {
+        color: red;
+        display: flex;
+        position: fixed;
+        top: 50px;
+        overflow: hidden;
+        background: transparent;
+    }
+
+    .container-debug span{
+        background: white;
+        display: inline-block;
+               }
     .inner-right div span {
         font-size: 14px;
     }

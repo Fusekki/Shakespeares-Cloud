@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="Rename sug_container_visible to sug_visible.&#10;Start replacing">
+    <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directive2.js" afterPath="$PROJECT_DIR$/directives/directive2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/templates/play.tmpl.htm" />
     </list>
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="991">
-              <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+            <state relative-caret-position="-1967">
+              <caret line="96" column="28" lean-forward="false" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -46,8 +47,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15540">
-              <caret line="740" column="7" lean-forward="false" selection-start-line="740" selection-start-column="7" selection-end-line="740" selection-end-column="7" />
+            <state relative-caret-position="693">
+              <caret line="625" column="26" lean-forward="false" selection-start-line="625" selection-start-column="26" selection-end-line="625" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -56,18 +57,18 @@
       <file leaf-file-name="directive2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="322">
+              <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="35" column="79" lean-forward="false" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -87,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.sug_word</find>
       <find>step_one</find>
       <find>step_one_done</find>
       <find>dictionary.step_two_visible</find>
@@ -117,6 +117,7 @@
       <find>dictionary.block_dictionary_one_visible</find>
       <find>dict_right_middle_visible</find>
       <find>sug_container_visible</find>
+      <find>block_one_visible</find>
     </findStrings>
     <replaceStrings>
       <replace>.definition</replace>
@@ -205,9 +206,9 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/services/service3.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/directives/directive2.js" />
         <option value="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
-        <option value="$PROJECT_DIR$/templates/play.tmpl.htm" />
       </list>
     </option>
   </component>
@@ -709,13 +710,6 @@
       <workItem from="1494889907656" duration="2795000" />
       <workItem from="1495634649911" duration="5531000" />
     </task>
-    <task id="LOCAL-00099" summary="Define defObj for each item passed to def_list.&#10;Create function that creates object out of parameters.&#10;Move .replace statements to own variable declared prior to each function call.">
-      <created>1494888260843</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1494888260843</updated>
-    </task>
     <task id="LOCAL-00100" summary="Fix ng-repeat not showing correct item.element in one of the if for loops in the third controller.">
       <created>1494892752299</created>
       <option name="number" value="00100" />
@@ -1052,11 +1046,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496078892878</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Rename sug_container_visible to sug_visible.">
+      <created>1496598124913</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1496598124913</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388533000" />
+    <option name="totallyTimeSpent" value="389688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1143,7 +1144,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Add logic still needed to smoothly transition move of function to sharedService from the controller." />
     <MESSAGE value="Change text slightly for steps." />
     <MESSAGE value="Clear scope cards on directive. Modify step two visibility.  Modify def_card container visibility." />
     <MESSAGE value="Add divs beneath both sug and def containers.  This will allow padding to be applied for bottom and top and not have text visible when overflowing this." />
@@ -1168,7 +1168,8 @@
     <MESSAGE value="Change variable names to adhere to best practices." />
     <MESSAGE value="Change variable names to be more clesr." />
     <MESSAGE value="Correct typo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct typo." />
+    <MESSAGE value="Rename sug_container_visible to sug_visible." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename sug_container_visible to sug_visible." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1433,22 +1434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15540">
-          <caret line="740" column="7" lean-forward="false" selection-start-line="740" selection-start-column="7" selection-end-line="740" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/service3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1238">
@@ -1457,18 +1442,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="991">
-          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        <state relative-caret-position="693">
+          <caret line="625" column="26" lean-forward="false" selection-start-line="625" selection-start-column="26" selection-end-line="625" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="35" column="79" lean-forward="false" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1967">
+          <caret line="96" column="28" lean-forward="false" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
           <folding />
         </state>
       </provider>

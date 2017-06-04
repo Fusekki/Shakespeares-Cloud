@@ -38,11 +38,11 @@ angular.module('shakespeareApp')
                                 $el.addClass('dark');
                                 $scope.instructions.block_two_visible = true;
                                 $scope.instructions.block_one_line_through = true;
-                                $scope.dictionary.tblock_two_line_through = false;
+                                $scope.instructions.block_two_line_through = false;
                                 $scope.instructions.block_three_line_through = false;
                                 $scope.dictionary.block_text_visible = false;
-                                $scope.dictionary.block_one_visible = false;
-                                $scope.dictionary.step_three_visible = false;
+                                $scope.instructions.block_one_visible = false;
+                                $scope.instructions.step_three_visible = false;
                                 $scope.dictionary.block_no_results_visible = false;
                                 $scope.dictionary.dict_right_bottom_visible = false;
                                 $scope.dictionary.sug_visible = false;
