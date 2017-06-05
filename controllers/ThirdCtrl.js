@@ -6,7 +6,7 @@ angular.module('shakespeareApp')
     var hasClicked = false;
     $scope.loading = true;
     $scope.showBackBtn = false;
-
+    $scope.btnClicked = false;
     $scope.debug = true;
 
     var cachedActions = [];
@@ -24,6 +24,7 @@ angular.module('shakespeareApp')
     $scope.dictionary = {
         block_text_visible: false,
         dict_right_bottom_visible: false,
+        block_no_results_visible: true,
         sug_visible: false,
         text: "Sentence",
         sel_word: "Word",
