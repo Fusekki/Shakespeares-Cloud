@@ -7,6 +7,8 @@ angular.module('shakespeareApp')
     $scope.loading = true;
     $scope.btnClicked = false;
     $scope.debug = false;
+    $scope.showDictionary = sharedService.showDictionary;
+    console.log($scope.showDictionary);
 
     $scope.instructions = {
         block_one_visible: false,
