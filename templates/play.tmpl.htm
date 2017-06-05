@@ -1,11 +1,8 @@
-<!--<div class="play_container" ng-bind-html="play | unsafe" >-->
-<!--</div>-->
 <div class="loadingContainer" ng-show="loading">
     <div class="loadingMsg">Loading...</div>
     <span><i>Please do not hit refresh on your browser as it will cause the operation to fail</i></span>
 </div>
 <div dynamic="play"></div>
-<!--<spinner name="loadSpinner" class="spinner" show="loading" img-src="img/loading.gif"></spinner>-->
 <div class="container-right" ng-show="!loading">
     <div class="container-debug" ng-show="debug">
         <div><span>i.block_one_visible:</span> <span> {{ instructions.block_one_visible }}</span></div>
@@ -15,7 +12,7 @@
         <div><span>i.block_two_line_through:</span> <span> {{ instructions.block_two_line_through }}</span></div>
         <div><span>i.block_three_line_through:</span> <span> {{ instructions.block_three_line_through }}</span></div>
         <div><span>d.block_text_visible:</span> <span> {{ dictionary.block_text_visible }}</span></div>
-        <div><span>d.block_no_results_visible</span><span>{{ dictionary.block_no_results_visible }}</span></div>
+        <div><span>dictionary.block_no_results_visible</span><span>{{ dictionary.block_no_results_visible }}</span></div>
         <div><span>d.dict_right_bottom_visible:</span> <span> {{ dictionary.dict_right_bottom_visible }}</span></div>
         <div><span>d.sug_visible:</span> <span> {{ dictionary.sug_visible }}</span></div>
         <div><span>d.sel_word:</span> <span> {{ dictionary.sel_word }}</span></div>
@@ -28,7 +25,6 @@
     <div class="inner-right">
     <div class="block-one" >
         <div>
-            <!--<i class="fa fa-reply" aria-hidden="true"></i>-->
             <img class="arrow" src="img/arrow.svg">
         </div>
         <span ng-class="{'line-through': instructions.block_one_line_through}">Click a line to examine</span>
@@ -39,24 +35,15 @@
     <div class="block-three" ng-class="{'is-visible': instructions.block_three_visible}">
         <span ng-class="{'line-through': instructions.block_three_line_through}">Click the button to lookup the definiton </span>
     </div>
-    <!--<div class="step_three" ng-class="{'is-visible': sth_Visible}">-->
-        <!--<span>Click a defintion to view its contents </span>-->
-    <!--</div>-->
+
     <div class="block-text" dynamic="examinedText" ng-class="{'is-visible': dictionary.block_text_visible}"></div>
     <div class="container-dictionary">
         <div class="block-dictionary-one" ng-class="{'is-visible': instructions.block_one_visible, 'curved_bottom_border': !button_clicked}">
             <form class="form-dictionary" ng-submit="button_clicked || lookupWord($event)">
-                <!--<input type="text" ng-model="name" />-->
                 <label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
-
-                <!--<span dynamic="dictionary.sel_word"></span>-->
                 <input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">
-                <!--<br />-->
-                <!--<input type="text" ng-model="email" />-->
             </form>
-            <!--<label class="btn btn-primary" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>-->
-            <!--&lt;!&ndash;<span dynamic="dictionary.sel_word"></span>&ndash;&gt;-->
-            <!--<input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">-->
+
         </div>
         <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_cards.length  &&  !dictionary.sug_visible}">
             <h4>Definitions</h4>
@@ -71,10 +58,8 @@
                 <ul class="list-definition" ng-show="def_cards.length" ng-repeat="(key, value) in def_cards | groupBy: 'date'" >
                    <span ng-show="key != 'undefined'"><b>Date: {{ key }}</b></span>
                     <span ng-show="key == 'undefined'"><b>Date: Unknown</b></span>
-                    <!--<li class="def_card" id="dc_{{ $index }}" ng-repeat="d in def_cards track by $index" ng-click="displayDef(d)">-->
                     <li class="list-item-definition" id="dc_{{ $index }}" ng-repeat="card in value">
                         <p>
-                            <!--{{ title(d) }}-->
                             <span ng-show="def_cards.length > 1"><span>{{ card.def }}</span></span>
                         </p>
                     </li>
@@ -101,16 +86,5 @@
             </div>
         </div>
     </div>
-
-    <!--<div class="right_bottom" ng-class="{'visible': dict_right_bottom_visible}">-->
-        <!--<div class="definition">-->
-            <!--<p ng-show="definition">-->
-                <!--"{{ definition }}"-->
-            <!--</p>-->
-            <!--<p ng-show="!definition">-->
-                <!--Definition-->
-            <!--</p>-->
-        <!--</div>-->
-    <!--</div>-->
     </div>
 </div>
