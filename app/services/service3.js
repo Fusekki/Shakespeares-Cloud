@@ -9,6 +9,8 @@ angular.module('shakespeareApp')
     var self = this;
     self.idx;
 
+    self.showDictionary;
+
     self.filename = null;
 
     var defObj = function(date, def) {
