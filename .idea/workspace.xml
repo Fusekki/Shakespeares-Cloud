@@ -2,10 +2,450 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/A_Midsummer218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/All_well_that_ends_well_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Antony_and_Cleopatra218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/As_You_Like_It_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Comedy_of_Errors218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Coriolanus218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Cymbeline_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Cymtitleblack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Hamlet_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_IV_P1218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_IV_P2218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_V218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_VIII_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_VI_P1218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_VI_P2218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Henry_VI_P3218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Julius_Caesar_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/King_John_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/King_Lear218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Loves_Labours_Lost218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Macbeth218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Measure_for_Measure218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Merchant_of_Venice218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Merry_Wives_Of_Windsor218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Much_Ado_About_Nothing218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Othello_218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Pericles218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Richard_II218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Richard_III218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Romeo_and_Juliet218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Taming_of_the_Shrew218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/The_Tempest218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Timon_of_Athens218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Titus_Andronicus218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Troilus_and_Cressida218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Twelfth_Night218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Two_Gentlemen_of_Verona218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/img/Winters_Tale218x218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/SplitShire-0627-1024x683.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/alls_well_that_ends_well_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/antony_cleopatra_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/as_you_like_it_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/comedy_of_errors_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/coriolanus_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/cymbeline_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/edward_iii_Q1.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/hamlet_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_iv_pt1_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_iv_pt2_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_v_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_vi_pt1_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_vi_pt2_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_vi_pt3_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/henry_viii_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/julius_caesar_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/king_john_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/king_lear_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/king_richard_ii_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/loves_labours_lost_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/macbeth_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/measure_for_measure_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/merchant_of_venice_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/merry_wives_of_windsor_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/midsummer_nights_dream_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/much_ado_about_nothing_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/othello_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/pericles_F3.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/richard_iii_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/romeo_and_juliet_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/sonnets_Q1.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/taming_of_the_shrew_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/tempest_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/timon_of_athens_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/titus_andronicus_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/troilus_cressida_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/twelfth_night_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/two_gentlemen_of_verona_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/assets/plays/winters_tale_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/controllers/FirstCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/controllers/FourthCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/controllers/SecondCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/controllers/ThirdCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/directives/directive1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/directives/directive2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/directives/directive3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/filters/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/alls_well_that_ends_well_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/antony_cleopatra_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/as_you_like_it_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/comedy_of_errors_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/coriolanus_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/cymbeline_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/edward_iii_Q1.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/hamlet_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_iv_pt1_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_iv_pt2_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_v_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_vi_pt1_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_vi_pt2_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_vi_pt3_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/henry_viii_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/julius_caesar_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/king_john_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/king_lear_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/king_richard_ii_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/loves_labours_lost_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/macbeth_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/measure_for_measure_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/merchant_of_venice_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/merry_wives_of_windsor_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/midsummer_nights_dream_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/much_ado_about_nothing_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/othello_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/pericles_F3.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/richard_iii_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/romeo_and_juliet_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/sonnets_Q1.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/taming_of_the_shrew_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/tempest_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/timon_of_athens_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/titus_andronicus_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/troilus_cressida_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/twelfth_night_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/two_gentlemen_of_verona_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/build/winters_tale_FF.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/alls_well_that_ends_well_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/antony_cleopatra_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/as_you_like_it_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/comedy_of_errors_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/coriolanus_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/cymbeline_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/edward_iii_Q1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/hamlet_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_iv_pt1_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_iv_pt2_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_v_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_vi_pt1_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_vi_pt2_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_vi_pt3_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_viii_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/julius_caesar_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/king_john_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/king_lear_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/king_richard_ii_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/loves_labours_lost_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/macbeth_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/measure_for_measure_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/merchant_of_venice_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/merry_wives_of_windsor_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/midsummer_nights_dream_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/much_ado_about_nothing_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/othello_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/pericles_F3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/richard_iii_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/romeo_and_juliet_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/sonnets_Q1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/taming_of_the_shrew_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/tempest_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/timon_of_athens_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/titus_andronicus_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/troilus_cressida_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/twelfth_night_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/two_gentlemen_of_verona_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/grunt/plays_xml/winters_tale_FF.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/routes/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/services/cache/cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/services/models/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/services/service1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/services/service2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/services/service3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/templates/error.tmpl.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/templates/home.tmpl.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/templates/play.tmpl.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/templates/tooltip.tmpl.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/angular-spinners.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/font-awesome-4.6.3/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/ui-bootstrap-tpls-2.5.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/xml2json.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/response.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/controllers/ThirdCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directives/directive2.js" afterPath="$PROJECT_DIR$/directives/directive2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/A_Midsummer218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/A_Midsummer218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/All_well_that_ends_well_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/All_well_that_ends_well_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Antony_and_Cleopatra218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Antony_and_Cleopatra218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/As_You_Like_It_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/As_You_Like_It_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Comedy_of_Errors218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Comedy_of_Errors218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Coriolanus218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Coriolanus218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Cymbeline_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Cymbeline_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Cymtitleblack.png" afterPath="$PROJECT_DIR$/app/assets/img/Cymtitleblack.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Hamlet_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Hamlet_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_IV_P1218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_IV_P1218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_IV_P2218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_IV_P2218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_V218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_V218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_VIII_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_VIII_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_VI_P1218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_VI_P1218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_VI_P2218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_VI_P2218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Henry_VI_P3218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Henry_VI_P3218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Julius_Caesar_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Julius_Caesar_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/King_John_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/King_John_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/King_Lear218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/King_Lear218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Loves_Labours_Lost218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Loves_Labours_Lost218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Macbeth218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Macbeth218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Measure_for_Measure218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Measure_for_Measure218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Merchant_of_Venice218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Merchant_of_Venice218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Merry_Wives_Of_Windsor218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Merry_Wives_Of_Windsor218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Much_Ado_About_Nothing218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Much_Ado_About_Nothing218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Othello_218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Othello_218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Pericles218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Pericles218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Richard_II218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Richard_II218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Richard_III218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Richard_III218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Romeo_and_Juliet218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Romeo_and_Juliet218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Taming_of_the_Shrew218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Taming_of_the_Shrew218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/The_Tempest218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/The_Tempest218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Timon_of_Athens218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Timon_of_Athens218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Titus_Andronicus218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Titus_Andronicus218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Troilus_and_Cressida218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Troilus_and_Cressida218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Twelfth_Night218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Twelfth_Night218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Two_Gentlemen_of_Verona218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Two_Gentlemen_of_Verona218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/Winters_Tale218x218.jpg" afterPath="$PROJECT_DIR$/app/assets/img/Winters_Tale218x218.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/alls_well_that_ends_well_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/antony_cleopatra_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/antony_cleopatra_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/as_you_like_it_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/as_you_like_it_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/comedy_of_errors_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/comedy_of_errors_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/coriolanus_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/coriolanus_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/cymbeline_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/cymbeline_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/edward_iii_Q1.htm" afterPath="$PROJECT_DIR$/app/assets/plays/edward_iii_Q1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/hamlet_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/hamlet_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_iv_pt1_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_iv_pt1_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_iv_pt2_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_iv_pt2_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_v_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_v_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_vi_pt1_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_vi_pt1_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_vi_pt2_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_vi_pt2_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_vi_pt3_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_vi_pt3_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/henry_viii_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/henry_viii_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/julius_caesar_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/julius_caesar_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/king_john_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/king_john_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/king_lear_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/king_lear_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/king_richard_ii_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/king_richard_ii_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/loves_labours_lost_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/loves_labours_lost_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/macbeth_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/macbeth_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/measure_for_measure_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/measure_for_measure_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/merchant_of_venice_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/merchant_of_venice_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/merry_wives_of_windsor_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/merry_wives_of_windsor_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/midsummer_nights_dream_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/midsummer_nights_dream_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/much_ado_about_nothing_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/much_ado_about_nothing_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/othello_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/othello_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/pericles_F3.htm" afterPath="$PROJECT_DIR$/app/assets/plays/pericles_F3.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/richard_iii_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/richard_iii_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/romeo_and_juliet_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/romeo_and_juliet_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/sonnets_Q1.htm" afterPath="$PROJECT_DIR$/app/assets/plays/sonnets_Q1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/taming_of_the_shrew_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/taming_of_the_shrew_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/tempest_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/tempest_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/timon_of_athens_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/timon_of_athens_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/titus_andronicus_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/titus_andronicus_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/troilus_cressida_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/troilus_cressida_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/twelfth_night_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/twelfth_night_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/two_gentlemen_of_verona_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/two_gentlemen_of_verona_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/plays/winters_tale_FF.htm" afterPath="$PROJECT_DIR$/app/assets/plays/winters_tale_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/FirstCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/FirstCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/FourthCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/FourthCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/SecondCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/SecondCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controllers/ThirdCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/ThirdCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/directives/directive1.js" afterPath="$PROJECT_DIR$/app/directives/directive1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/directives/directive2.js" afterPath="$PROJECT_DIR$/app/directives/directive2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/directives/directive3.js" afterPath="$PROJECT_DIR$/app/directives/directive3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/filters/filter.js" afterPath="$PROJECT_DIR$/app/filters/filter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/Gruntfile.js" afterPath="$PROJECT_DIR$/app/grunt/Gruntfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/alls_well_that_ends_well_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/alls_well_that_ends_well_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/antony_cleopatra_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/antony_cleopatra_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/as_you_like_it_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/as_you_like_it_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/comedy_of_errors_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/comedy_of_errors_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/coriolanus_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/coriolanus_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/cymbeline_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/cymbeline_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/edward_iii_Q1.htm" afterPath="$PROJECT_DIR$/app/grunt/build/edward_iii_Q1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/hamlet_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/hamlet_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_iv_pt1_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_iv_pt1_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_iv_pt2_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_iv_pt2_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_v_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_v_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_vi_pt1_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_vi_pt1_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_vi_pt2_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_vi_pt2_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_vi_pt3_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_vi_pt3_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/henry_viii_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/henry_viii_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/julius_caesar_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/julius_caesar_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/king_john_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/king_john_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/king_lear_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/king_lear_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/king_richard_ii_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/king_richard_ii_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/loves_labours_lost_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/loves_labours_lost_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/macbeth_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/macbeth_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/measure_for_measure_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/measure_for_measure_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/merchant_of_venice_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/merchant_of_venice_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/merry_wives_of_windsor_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/merry_wives_of_windsor_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/midsummer_nights_dream_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/midsummer_nights_dream_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/much_ado_about_nothing_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/much_ado_about_nothing_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/othello_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/othello_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/pericles_F3.htm" afterPath="$PROJECT_DIR$/app/grunt/build/pericles_F3.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/richard_iii_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/richard_iii_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/romeo_and_juliet_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/romeo_and_juliet_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/sonnets_Q1.htm" afterPath="$PROJECT_DIR$/app/grunt/build/sonnets_Q1.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/taming_of_the_shrew_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/taming_of_the_shrew_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/tempest_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/tempest_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/timon_of_athens_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/timon_of_athens_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/titus_andronicus_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/titus_andronicus_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/troilus_cressida_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/troilus_cressida_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/twelfth_night_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/twelfth_night_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/two_gentlemen_of_verona_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/two_gentlemen_of_verona_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/build/winters_tale_FF.htm" afterPath="$PROJECT_DIR$/app/grunt/build/winters_tale_FF.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/alls_well_that_ends_well_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/alls_well_that_ends_well_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/antony_cleopatra_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/antony_cleopatra_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/as_you_like_it_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/as_you_like_it_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/comedy_of_errors_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/comedy_of_errors_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/coriolanus_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/coriolanus_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/cymbeline_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/cymbeline_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/edward_iii_Q1.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/edward_iii_Q1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/hamlet_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/hamlet_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_iv_pt1_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_iv_pt1_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_iv_pt2_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_iv_pt2_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_v_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_v_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_vi_pt1_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_vi_pt1_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_vi_pt2_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_vi_pt2_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_vi_pt3_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_vi_pt3_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/henry_viii_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/henry_viii_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/julius_caesar_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/julius_caesar_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/king_john_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/king_john_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/king_lear_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/king_lear_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/king_richard_ii_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/king_richard_ii_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/loves_labours_lost_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/loves_labours_lost_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/macbeth_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/macbeth_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/measure_for_measure_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/measure_for_measure_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/merchant_of_venice_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/merchant_of_venice_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/merry_wives_of_windsor_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/merry_wives_of_windsor_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/midsummer_nights_dream_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/midsummer_nights_dream_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/much_ado_about_nothing_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/much_ado_about_nothing_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/othello_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/othello_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/pericles_F3.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/pericles_F3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/richard_iii_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/richard_iii_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/romeo_and_juliet_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/romeo_and_juliet_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/sonnets_Q1.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/sonnets_Q1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/taming_of_the_shrew_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/taming_of_the_shrew_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/tempest_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/tempest_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/timon_of_athens_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/timon_of_athens_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/titus_andronicus_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/titus_andronicus_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/troilus_cressida_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/troilus_cressida_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/twelfth_night_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/twelfth_night_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/two_gentlemen_of_verona_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/two_gentlemen_of_verona_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grunt/plays_xml/winters_tale_FF.xml" afterPath="$PROJECT_DIR$/app/grunt/plays_xml/winters_tale_FF.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/SplitShire-0627-1024x683.jpg" afterPath="$PROJECT_DIR$/app/img/SplitShire-0627-1024x683.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/arrow.svg" afterPath="$PROJECT_DIR$/app/img/arrow.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/header.jpg" afterPath="$PROJECT_DIR$/app/img/header.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/loading.gif" afterPath="$PROJECT_DIR$/app/img/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/app/routes/routes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services/cache/cache.js" afterPath="$PROJECT_DIR$/app/services/cache/cache.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services/models/model.js" afterPath="$PROJECT_DIR$/app/services/models/model.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services/service1.js" afterPath="$PROJECT_DIR$/app/services/service1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services/service2.js" afterPath="$PROJECT_DIR$/app/services/service2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/services/service3.js" afterPath="$PROJECT_DIR$/app/services/service3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/error.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/error.tmpl.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/home.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/home.tmpl.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/tooltip.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/tooltip.tmpl.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/angular-spinners.min.js" afterPath="$PROJECT_DIR$/app/vendor/angular-spinners.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/HELP-US-OUT.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/animated.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/animated.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/core.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/fixed-width.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/fixed-width.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/font-awesome.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/font-awesome.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/icons.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/larger.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/larger.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/list.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/mixins.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/path.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/path.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/screen-reader.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/screen-reader.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/stacked.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/stacked.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/less/variables.less" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_animated.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_core.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_icons.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_larger.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_list.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_mixins.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_path.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_stacked.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/_variables.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/font-awesome-4.6.3/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/app/vendor/font-awesome-4.6.3/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/ui-bootstrap-tpls-2.5.0.min.js" afterPath="$PROJECT_DIR$/app/vendor/ui-bootstrap-tpls-2.5.0.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/xml2json.min.js" afterPath="$PROJECT_DIR$/app/vendor/xml2json.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +464,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ThirdCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
@@ -33,28 +473,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/app/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2550">
-              <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+              <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="error.tmpl.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/error.tmpl.htm">
+        <entry file="file://$PROJECT_DIR$/app/templates/error.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -64,9 +514,9 @@
         </entry>
       </file>
       <file leaf-file-name="directive2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+        <entry file="file://$PROJECT_DIR$/app/directives/directive2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="1190">
               <caret line="70" column="85" lean-forward="false" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
               <folding />
             </state>
@@ -74,20 +524,20 @@
         </entry>
       </file>
       <file leaf-file-name="service3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/service3.js">
+        <entry file="file://$PROJECT_DIR$/app/services/service3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -167,7 +617,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dev/mixitup/style.css" />
         <option value="code.angularjs.org/1.5.8/angular.js" />
         <option value="E:/grunt/Gruntfile.js" />
         <option value="$PROJECT_DIR$/assets/plays/antony_cleopatra_FF.htm" />
@@ -218,6 +667,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/directives/directive2.js" />
         <option value="$PROJECT_DIR$/services/service3.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -272,7 +722,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,137 +736,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shakespeare's Cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shakespeare" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,12 +921,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Neighborhood Map Project" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\github\shakespeare\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\shakespeare\app" />
       <recent name="E:\github\shakespeare" />
       <recent name="E:\github\shakespeare\services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\shakespeare\dist" />
+      <recent name="E:\github\shakespeare\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -581,7 +943,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/calibre/index.html">
       <method />
     </configuration>
@@ -589,6 +951,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.htm" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shakespeare/dev/mixitup/index.htm">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Shakespeare's Cloud/app/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -657,16 +1022,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.htm" />
       </list>
     </recent_temporary>
   </component>
@@ -718,13 +1085,7 @@
       <workItem from="1494618749186" duration="2544000" />
       <workItem from="1494889907656" duration="2795000" />
       <workItem from="1495634649911" duration="5531000" />
-    </task>
-    <task id="LOCAL-00106" summary="Add margin-left of 5px to dictionary form.">
-      <created>1494947695047</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1494947695048</updated>
+      <workItem from="1496677278996" duration="323000" />
     </task>
     <task id="LOCAL-00107" summary="Assign class name of 'dictForm' to newly created form.&#10;Add curved_bottom_border in ng-class for right middle if !def_cards.length.">
       <created>1494947828347</created>
@@ -1062,11 +1423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496676803227</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Removed commented out lines.">
+      <created>1496676820014</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1496676820014</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394854000" />
+    <option name="totallyTimeSpent" value="395206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,33 +1448,23 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1203,7 +1561,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grunt/plays_xml/antony_cleopatra_FF.xml">
+    <entry file="file://$PROJECT_DIR$/app/grunt/plays_xml/antony_cleopatra_FF.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
@@ -1237,7 +1595,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/xml2json.min.js">
+    <entry file="file://$PROJECT_DIR$/app/vendor/xml2json.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7608" lean-forward="false" selection-start-line="0" selection-start-column="7608" selection-end-line="0" selection-end-column="7608" />
@@ -1265,7 +1623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/app/templates/home.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="88" lean-forward="false" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="121" />
@@ -1277,7 +1635,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/ui-bootstrap-tpls-2.5.0.min.js">
+    <entry file="file://$PROJECT_DIR$/app/vendor/ui-bootstrap-tpls-2.5.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="8" column="5964" lean-forward="false" selection-start-line="8" selection-start-column="5964" selection-end-line="8" selection-end-column="5964" />
@@ -1285,14 +1643,14 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/ui-bootstrap-tpls-2.5.0.js" />
-    <entry file="file://$PROJECT_DIR$/grunt/plays_xml/alls_well_that_ends_well_FF.xml">
+    <entry file="file://$PROJECT_DIR$/app/grunt/plays_xml/alls_well_that_ends_well_FF.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SecondCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/SecondCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1302,28 +1660,28 @@
     <entry file="file://$PROJECT_DIR$/controllers/controllers.js" />
     <entry file="file://$PROJECT_DIR$/services/services.js" />
     <entry file="file://$PROJECT_DIR$/directives/directives.js" />
-    <entry file="file://$PROJECT_DIR$/services/service1.js">
+    <entry file="file://$PROJECT_DIR$/app/services/service1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
           <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/FirstCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/FirstCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/models/model.js">
+    <entry file="file://$PROJECT_DIR$/app/services/models/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4199">
           <caret line="247" column="6" lean-forward="false" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filters/filter.js">
+    <entry file="file://$PROJECT_DIR$/app/filters/filter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
@@ -1331,121 +1689,114 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/change.js" />
-    <entry file="file://$PROJECT_DIR$/assets/plays/antony_cleopatra_FF.htm">
+    <entry file="file://$PROJECT_DIR$/app/assets/plays/antony_cleopatra_FF.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grunt/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/grunt/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2898">
           <caret line="140" column="2" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="140" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/plays/alls_well_that_ends_well_FF.htm">
+    <entry file="file://$PROJECT_DIR$/app/assets/plays/alls_well_that_ends_well_FF.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="259" lean-forward="false" selection-start-line="12" selection-start-column="259" selection-end-line="12" selection-end-column="259" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/angular-spinners.min.js">
+    <entry file="file://$PROJECT_DIR$/app/vendor/angular-spinners.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/service1.js">
+    <entry file="file://$PROJECT_DIR$/app/services/service1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/cache/cache.js">
+    <entry file="file://$PROJECT_DIR$/app/services/cache/cache.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive3.js">
+    <entry file="file://$PROJECT_DIR$/app/directives/directive3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/tooltip.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/app/templates/tooltip.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="57" lean-forward="false" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/header.jpg">
+    <entry file="file://$PROJECT_DIR$/app/img/header.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/loading.gif">
+    <entry file="file://$PROJECT_DIR$/app/img/loading.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/SplitShire-0627-1024x683.jpg">
+    <entry file="file://$PROJECT_DIR$/app/img/SplitShire-0627-1024x683.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/service2.js">
+    <entry file="file://$PROJECT_DIR$/app/services/service2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive1.js">
+    <entry file="file://$PROJECT_DIR$/app/directives/directive1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+    <entry file="file://$PROJECT_DIR$/app/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="95" column="49" lean-forward="true" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/FourthCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/FourthCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/error.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/app/templates/error.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -1453,7 +1804,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ThirdCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/ThirdCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
@@ -1461,34 +1812,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
-          <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/directive2.js">
+    <entry file="file://$PROJECT_DIR$/app/directives/directive2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="1190">
           <caret line="70" column="85" lean-forward="false" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/service3.js">
+    <entry file="file://$PROJECT_DIR$/app/services/service3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/play.tmpl.htm">
+    <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

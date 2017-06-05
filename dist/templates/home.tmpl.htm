@@ -1,0 +1,60 @@
+<div class="col-xs-offset-1 col-xs-10 hero_form">
+        <span class="indent">
+            <!--<h4 class="title">Shakespeare's Cloud</span></h4>-->
+            <!--<h5 class="animated fadeIn subtitle"><i>powered by the Angular framework</i></h5>-->
+        </span>
+
+    <form ng-submit="submit()"">
+        <div class="form-group">
+            <!--<label for="srch">Search plays</label>-->
+            <span class="form_container">
+            <input type="text" ng-model="search_term" autocomplete="off" uib-typeahead="item.title for item in getPlays() | filter:$viewValue" class="form-control" id="srch" placeholder="Enter Play name" required />
+            <button type="submit" class="btn">Go</button>
+            </span>
+        </div>
+
+    </form>
+    <hr class="hr_top">
+    <div class="hero_container">
+        <span class="hero_summary">Digital texts of the first folio provided by <a href="https://www.playshakespeare.com" target="_blank">PlayShakespeare.com</a></span>
+
+        <!--<div class="header_filter">Browse</div>-->
+        <div class="play_cat">
+            <!--<div class="controls">-->
+            <!--<li ng-repeat="c in getCategories()" ng-class="{active: $index === 0}"  ng-click="selectCategory($event)"> {{ c }}</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter="all">All</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-1">Comedies</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-2">Histories</li>-->
+            <!--<li class="filter" ng-click="selectCategory($event)" data-filter=".category-3">Tragedies</li>-->
+            <span>Browse</span>
+            <button type="button" class="filter" data-filter="all">All</button>
+            <!--<button type="button" class="filter" ng-repeat="c in getCategories()" >{{ c }}</button>-->
+
+            <button type="button" class="filter" data-filter=".category-1">Comedies</button>
+            <button type="button" class="filter" data-filter=".category-2">Histories</button>
+            <button type="button" class="filter" data-filter=".category-3">Tragedies</button>
+        </div>
+    </div>
+        <ul class="play_cards">
+            <!--<li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="getClass(p.category)" ng-click="openPlay(p.file)"   data-myorder="{{ $index }}">-->
+            <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }" ng-class="{ 'mix category-1': p.category == 'comedy', 'mix category-2' : p.category == 'history', 'mix category-3' : p.category == 'tragedy' }" ng-click="openPlay(p.file, p.title)" data-myorder="{{ $index }}" style="display: inline-block;">
+
+            <img ng-src="assets/img/{{ p.img }}"  />
+                <div class="img_underlay"></div>
+                <div class="play_name" data-type="{{ p.category }}">{{ p.title }}</div>
+            </li>
+
+            <div class="gap" ng-repeat="g in getGaps()">
+            </div>
+
+            <!--Need to write code to add the number of gap divs based on max columns - 2-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+            <!--<div class="gap"></div>-->
+        </ul>
+    </div>
+</div>
+<img src="img/header.jpg" class="img-responsive hero_img"  />
+
