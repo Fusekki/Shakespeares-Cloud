@@ -70,9 +70,7 @@ navbar-default .navbar-nav>li>a {
     color: #474231;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-
     color: #474231;
-
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -130,16 +128,16 @@ navbar-default .navbar-nav>li>a {
     background: hsla(46, 18%, 24%, 0.75);
 }
 
-.hr-top {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-top: 1px solid #b1b3c7;
-}
+/*.hr-top {*/
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    /*border-top: 1px solid #b1b3c7;*/
+/*}*/
 
-.header_filter {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
+/*.header_filter {*/
+    /*font-weight: bold;*/
+    /*margin-bottom: 10px;*/
+/*}*/
 
 .play_cat {
     display: flex;
@@ -175,7 +173,6 @@ navbar-default .navbar-nav>li>a {
     background: red;
     color: white;
 }
-
 
 /*Placeholder Colors*/
 .form-control::-webkit-input-placeholder {
