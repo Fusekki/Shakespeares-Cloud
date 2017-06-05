@@ -8,11 +8,21 @@
 <!--<spinner name="loadSpinner" class="spinner" show="loading" img-src="img/loading.gif"></spinner>-->
 <div class="container-right" ng-show="!loading">
     <div class="container-debug" ng-show="debug">
-        <span>instructions.block_two_visible: {{ instructions.block_two_visible }}</span>
-        <span>instructions.block_three_visible: {{ instructions.block_three_visible }}</span>
-        <span>instructions.block_one_line_through: {{ instructions.block_one_line_through }}</span>
-        <span>instructions.block_two_line_through: {{ instructions.block_two_line_through }}</span>
-        <span>instructions.block_three_line_through: {{ instructions.block_three_line_through }}</span>
+        <div><span>i.block_one_visible:</span> <span> {{ instructions.block_one_visible }}</span></div>
+        <div><span>i.block_two_visible:</span> <span> {{ instructions.block_two_visible }}</span></div>
+        <div><span>i.block_three_visible:</span> <span> {{ instructions.block_three_visible }}</span></div>
+        <div><span>i.block_one_line_through:</span> <span> {{ instructions.block_one_line_through }}</span></div>
+        <div><span>i.block_two_line_through:</span> <span> {{ instructions.block_two_line_through }}</span></div>
+        <div><span>i.block_three_line_through:</span> <span> {{ instructions.block_three_line_through }}</span></div>
+        <div><span>d.block_text_visible:</span> <span> {{ dictionary.block_text_visible }}</span></div>
+        <div><span>d.dict_right_bottom_visible:</span> <span> {{ dictionary.dict_right_bottom_visible }}</span></div>
+        <div><span>d.sug_visible:</span> <span> {{ dictionary.sug_visible }}</span></div>
+        <div><span>d.sel_word:</span> <span> {{ dictionary.sel_word }}</span></div>
+        <div><span>d.btnText:</span> <span> {{ dictionary.btnText }}</span></div>
+        <div><span>d.btnText:</span> <span> {{ dictionary.btnText }}</span></div>
+        <div><span>btnClicked</span> <span> {{ btnClicked }}</span></div>
+        <div><span>def_cards.length</span> <span> {{ def_cards.length }}</span></div>
+        <div><span>sug_cards.length</span> <span> {{ sug_cards.length }}</span></div>
     </div>
     <div class="inner-right">
     <div class="block-one" >

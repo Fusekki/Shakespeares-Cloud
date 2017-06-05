@@ -615,18 +615,27 @@ navbar-default .navbar-nav>li>a {
 
     .container-debug {
         color: red;
-        display: flex;
         position: fixed;
         top: 50px;
         overflow: hidden;
         background: transparent;
+        z-index: 1;
+        background: hsla(0, 0%, 100%, 0.5);
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 
-    .container-debug span{
-        background: white;
-        width: 100%;
-        display: inline-block;
-               }
+    .container-debug div {
+        width: 223px;
+    }
+    .container-debug div span:nth-of-type(odd) {
+        color: black;
+    }
+    .container-debug div span:nth-of-type(even) {
+        color: red;
+    }
     .inner-right div span {
         font-size: 14px;
     }
