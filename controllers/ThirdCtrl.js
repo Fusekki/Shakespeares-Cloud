@@ -23,13 +23,8 @@ angular.module('shakespeareApp')
 
     $scope.dictionary = {
         block_text_visible: false,
-
         dict_right_bottom_visible: false,
         sug_visible: false,
-
-
-
-
         text: "Sentence",
         sel_word: "Word",
         btnText: "Examine"
