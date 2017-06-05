@@ -5,7 +5,7 @@ angular.module('shakespeareApp')
 
         // var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+', 'desk'];
         var size = logicService.getWindowSize();
-        console.log(size);
+        // console.log(size);
 
         $('.play_cards').mixItUp({
             load: {
@@ -14,7 +14,7 @@ angular.module('shakespeareApp')
         });
 
         $scope.submit = function() {
-            console.log($scope.search_term);
+            // console.log($scope.search_term);
             var file = modelService.searchModel($scope.search_term);
             sharedService.filename = 'assets/plays/' + file;
             logicService.navTo("/play");
@@ -37,10 +37,8 @@ angular.module('shakespeareApp')
                 sharedService.showDictionary = false;
                 sharedService.filename = 'assets/plays/small/' + file;
             }
-
             sharedService.title = title;
             logicService.navTo("/play");
-
         }
 
         $scope.clickBody = function() {
@@ -62,6 +60,5 @@ angular.module('shakespeareApp')
         // $log.log($scope.getGaps());
 
         // $scope.number = 2;
-
 
     })
