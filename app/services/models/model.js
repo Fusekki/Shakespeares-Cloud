@@ -164,12 +164,6 @@ angular.module('shakespeareApp')
                 file: "othello_FF.htm"
             },
             {
-                title: "Pericles",
-                category: "comedy",
-                img: "Pericles218x218.jpg",
-                file: "pericles_F3.htm"
-            },
-            {
                 title: "Richard II",
                 category: "history",
                 img: "Richard_II218x218.jpg",
