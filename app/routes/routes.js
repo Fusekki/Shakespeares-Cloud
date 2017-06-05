@@ -9,11 +9,6 @@ calibreApp.config(function ($routeProvider) {
             controller: 'homeCtrl'
         })
 
-        .when('/connect', {
-            templateUrl: 'templates/connect.tmpl.htm',
-            controller: 'connectCtrl'
-        })
-
         .when('/play', {
             templateUrl: 'templates/play.tmpl.htm',
             controller: 'playCtrl'
@@ -23,10 +18,5 @@ calibreApp.config(function ($routeProvider) {
             templateUrl: 'templates/error.tmpl.htm',
             controller: 'errorCtrl'
         })
-
-        // .when('/play', {
-        //     templateUrl: 'assets/plays/alls_well_that_ends_well_FF.htm',
-        //     controller: 'playCtrl'
-        // })
 
 });
