@@ -54,7 +54,7 @@ angular.module('shakespeareApp')
 
                             } else {
                                 // Item is still an object just doesn't contain __text
-                                processDT(def, x);
+                                processDT(def, x, newWord);
                                 // for (var i = 0; i < def.dt.length; i++) {
                                 //     console.log(def.dt.length);
                                 //     self.idx++;
@@ -105,7 +105,7 @@ angular.module('shakespeareApp')
                         console.log('def in def');
                     } else if ('dt' in def) {
                         console.log('dt in def');
-                        processDT(def, x);
+                        processDT(def, x, newWord);
                         // for (var i = 0; i < def.dt.length; i++) {
                         //     console.log(def.dt.length);
                         //     self.idx++;
@@ -189,7 +189,7 @@ angular.module('shakespeareApp')
         }
     }
 
-    var processDT = function(def, x) {
+    var processDT = function(def, x, newWord) {
 
         for (var i = 0; i < def.dt.length; i++) {
             console.log(def.dt.length);
@@ -211,6 +211,7 @@ angular.module('shakespeareApp')
                 if (def.dt[i].__text && def.dt[i].__text.length > 1) {
                     console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: ' + i);
                     newWord = def.dt[i].__text.replace(/^:/, "");
+                    console.log(newWord);
                     def_list.push(defObj(def.date, newWord));
                     // def_list.push(def.dt.replace(/^:/, ""));
                 } else {
