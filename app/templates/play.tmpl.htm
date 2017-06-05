@@ -3,7 +3,7 @@
     <span><i>Please do not hit refresh on your browser as it will cause the operation to fail</i></span>
 </div>
 <div dynamic="play"></div>
-<div class="container-right" ng-show="!loading">
+<div class="container-right" ng-show="!loading" ng-if="showDictionary">
     <div class="container-debug" ng-show="debug">
         <div><span>i.block_one_visible:</span> <span> {{ instructions.block_one_visible }}</span></div>
         <div><span>i.block_two_visible:</span> <span> {{ instructions.block_two_visible }}</span></div>
