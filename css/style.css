@@ -125,6 +125,11 @@ navbar-default .navbar-nav>li>a {
     color: #e1dac8;
 }
 
+.btn:hover,
+.btn-primary[disabled]:hover {
+    background: hsla(46, 18%, 24%, 0.75);
+}
+
 .hr-top {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -309,11 +314,11 @@ navbar-default .navbar-nav>li>a {
     color: #948c75;
 }
 
-.jump {
-    width: 20px;
-    text-align: right;
-    height: 25px;
-}
+/*.jump {*/
+    /*width: 20px;*/
+    /*text-align: right;*/
+    /*height: 25px;*/
+/*}*/
 
 .play_container {
     background: #e1dac8;
@@ -562,10 +567,6 @@ navbar-default .navbar-nav>li>a {
         top: 51px;
     }
 
-    .btnBack {
-        float: right;
-    }
-
     .navbar-default .navbar-nav>li>a{
         color: #e1dac8;
     }
@@ -592,10 +593,6 @@ navbar-default .navbar-nav>li>a {
         padding-right: 20px;
     }
 
-    .fuckyou {
-        background: black;
-        color: white;
-    }
     .container-right {
         position: fixed;
         left: 60%;
@@ -683,15 +680,6 @@ navbar-default .navbar-nav>li>a {
     }
 
 
-    /*.reducedHeight {*/
-        /*height: 14%;*/
-    /*}*/
-
-    /*.block-dictionary-no-results:hover {*/
-        /*background:  hsla(235, 14%, 74%, 0.5);*/
-        /*color: hsla(0, 0%, 0%, 0.95);*/
-    /*}*/
-
     .container-suggestion {
         overflow: hidden;
         background: #474231;
@@ -705,10 +693,9 @@ navbar-default .navbar-nav>li>a {
         padding-bottom: 10px;
     }
 
-    .container-suggestion:hover {
-        /*background: hsla(46, 18%, 24%, 0.75);*/
-        color: white;
-    }
+    /*.container-suggestion:hover {*/
+        /*color: white;*/
+    /*}*/
 
 
     .word {
@@ -808,10 +795,6 @@ navbar-default .navbar-nav>li>a {
         list-style: none;
     }
 
-    .fa-reply {
-        font-size: 8em !important;
-        color: red;
-    }
 
     .line-through {
         text-decoration: line-through;

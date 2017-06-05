@@ -5,12 +5,9 @@ angular.module('shakespeareApp')
     // This is just used once for the chooseWord function when run for the first time.
     var hasClicked = false;
     $scope.loading = true;
-    $scope.showBackBtn = false;
     $scope.btnClicked = false;
-    $scope.debug = true;
+    $scope.debug = false;
 
-    var cachedActions = [];
-    
     $scope.instructions = {
         block_one_visible: false,
         block_two_visible: false,       
@@ -20,11 +17,10 @@ angular.module('shakespeareApp')
         block_three_line_through: false
     }
 
-
     $scope.dictionary = {
         block_text_visible: false,
         dict_right_bottom_visible: false,
-        block_no_results_visible: true,
+        block_no_results_visible: false,
         sug_visible: false,
         text: "Sentence",
         sel_word: "Word",
@@ -206,6 +202,7 @@ angular.module('shakespeareApp')
             }
             if (results.suglist) {
                 console.log('suggestion elements found');
+                $scope.dictionary.block_no_results_visible = true;
                 $scope.dictionary.dict_right_bottom_visible = true;
                 $scope.dictionary.sug_visible = true;
                 $scope.sug_cards = results.suglist;
