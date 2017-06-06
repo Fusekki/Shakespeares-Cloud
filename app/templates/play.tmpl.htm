@@ -19,8 +19,8 @@
         <div><span>d.btnText:</span> <span> {{ dictionary.btnText }}</span></div>
         <div><span>d.btnText:</span> <span> {{ dictionary.btnText }}</span></div>
         <div><span>btnClicked</span> <span> {{ btnClicked }}</span></div>
-        <div><span>def_cards.length</span> <span> {{ def_cards.length }}</span></div>
-        <div><span>sug_cards.length</span> <span> {{ sug_cards.length }}</span></div>
+        <div><span>def_word.length</span> <span> {{ def_word.length }}</span></div>
+        <div><span>sug_word.length</span> <span> {{ sug_word.length }}</span></div>
     </div>
     <div class="inner-right">
     <div class="block-one" >
@@ -45,41 +45,39 @@
             </form>
 
         </div>
-        <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_cards.length  &&  !dictionary.sug_visible}">
+        <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_word.length  &&  !dictionary.sug_visible}">
             <h4>Definitions</h4>
-            <span ng-show="!def_cards.length">
+            <span ng-show="!def_word.length">
                 <p>
                                 No results.
                 </p>
             </span>
         </div>
-        <div class="container-definition" ng-class="{'is-visible': def_cards.length, 'noHeight': !def_cards.length, 'curved_bottom_border': !sug_cards.length}">
+        <div class="container-definition" ng-class="{'is-visible': def_word.length, 'noHeight': !def_word.length, 'curved_bottom_border': !sug_word.length}">
             <div class="inner-definition">
-                <ul class="list-definition" ng-show="def_cards.length" ng-repeat="(key, value) in def_cards | groupBy: 'date'" >
+                <ul class="list-definition" ng-show="def_word.length" ng-repeat="(key, value) in def_word | groupBy: 'date'" >
                    <span ng-show="key != 'undefined'"><b>Date: {{ key }}</b></span>
                     <span ng-show="key == 'undefined'"><b>Date: Unknown</b></span>
                     <li class="list-item-definition" id="dc_{{ $index }}" ng-repeat="card in value">
                         <p>
-                            <span ng-show="def_cards.length"><span>{{ card.def }}</span></span>
+                            <span ng-show="def_word.length"><span>{{ card.def }}</span></span>
                         </p>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="container-suggestion" ng-class="{'is-visible': dictionary.sug_visible, 'curved_bottom_border': sug_cards.length}">
+        <div class="container-suggestion" ng-class="{'is-visible': dictionary.sug_visible, 'curved_bottom_border': sug_word.length}">
             <hr>
             <h4>Suggestions</h4>
-            <span><i>Click a word to select</i> - {{ sug_cards.length }}</span>
+            <span><i>Click a word to select</i> - {{ sug_word.length }}</span>
             <div class="container-inner-suggestion">
                 <div class="inner-suggestion">
-                    <ul class="list-suggestion" ng-show="sug_cards.length" >
-                        <li class="list-item-suggestion" id="sug_{{ $index }}" ng-repeat="s in sug_cards track by $index">
-                            <!--<p>-->
-                            <span class="suggestion-word" ng-show="sug_cards.length > 1"ng-click="chooseWord($event)">{{ s }}</span>
-                            <!--</p>-->
+                    <ul class="list-suggestion" ng-show="sug_word.length" >
+                        <li class="list-item-suggestion" id="sug_{{ $index }}" ng-repeat="s in sug_word track by $index">
+                            <span class="suggestion-word" ng-show="sug_word.length > 1"ng-click="chooseWord($event)">{{ s }}</span>
                         </li>
                     </ul>
-                    <div class="arrow_down blink_me" ng-show="sug_cards.length > 21">
+                    <div class="arrow_down blink_me" ng-show="sug_word.length > 21">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i>
                     </div>
                 </div>

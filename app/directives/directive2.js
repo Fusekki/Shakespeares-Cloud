@@ -14,11 +14,11 @@ angular.module('shakespeareApp')
                         var nextLine;
                         if (newValue !== oldValue) {
 
-                            if ($scope.def_cards) {
-                                $scope.def_cards.length = 0;
+                            if ($scope.def_word) {
+                                $scope.def_word.length = 0;
                             }
-                            if ($scope.sug_cards) {
-                                $scope.sug_cards.length = 0;
+                            if ($scope.sug_word) {
+                                $scope.sug_word.length = 0;
                             }
 
                             $scope.dictionary.sug_visible = false;

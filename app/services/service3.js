@@ -82,7 +82,7 @@ angular.module('shakespeareApp')
                 }
                 console.log('COMPILE-----------------');
                 console.log(def_list);
-                // $scope.def_cards = def_list;
+                // $scope.def_word = def_list;
                 return {
                     'deflist': def_list,
                     'suglist': null

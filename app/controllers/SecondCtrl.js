@@ -93,13 +93,13 @@ angular.module('shakespeareApp')
             $scope.dictionary.block_no_results_visible = false;
             $scope.dictionary.dict_right_bottom_visible = false;
             $scope.dictionary.sug_visible = false;
-            // Clear the def_cards of any previous values.
-            if ($scope.def_cards) {
-                $scope.def_cards.length = 0;
+            // Clear the def_word of any previous values.
+            if ($scope.def_word) {
+                $scope.def_word.length = 0;
             }
-            // Clear out sug_cards of any previous values.
-            if ($scope.sug_cards) {
-                $scope.sug_cards.length = 0;
+            // Clear out sug_word of any previous values.
+            if ($scope.sug_word) {
+                $scope.sug_word.length = 0;
             }
             $scope.definition = "";
             $scope.button_clicked = false;
@@ -123,11 +123,11 @@ angular.module('shakespeareApp')
             if (!$scope.dictionary.block_no_results_visible) {
                 $scope.dictionary.block_no_results_visible = !$scope.dictionary.block_no_results_visible;
             }
-            // Clear out the def_cards if there are any.
-            // console.log($scope.def_cards);
+            // Clear out the def_word if there are any.
+            // console.log($scope.def_word);
             // console.log(def_list);
-            if ($scope.def_cards) {
-                $scope.def_cards.length = 0;
+            if ($scope.def_word) {
+                $scope.def_word.length = 0;
             }
             // $scope.dict_right_middle_visible = !$scope.dict_right_middle_visible;
             // var def_list = [];
@@ -193,7 +193,7 @@ angular.module('shakespeareApp')
                 // console.log(results);
                 if (results.deflist) {
                     // console.log('dictionary elements found');
-                    $scope.def_cards = results.deflist;
+                    $scope.def_word = results.deflist;
 
                 }
                 if (results.suglist) {
@@ -201,7 +201,7 @@ angular.module('shakespeareApp')
                     $scope.dictionary.block_no_results_visible = true;
                     $scope.dictionary.dict_right_bottom_visible = true;
                     $scope.dictionary.sug_visible = true;
-                    $scope.sug_cards = results.suglist;
+                    $scope.sug_word = results.suglist;
                 }
                 // Store the items in the cache,
             }
