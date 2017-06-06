@@ -2,7 +2,7 @@
 
 angular.module('shakespeareApp')
 
-    .service('modelService', function() {
+    .service('modelService', function () {
 
         var self = this;
 
@@ -239,4 +239,4 @@ angular.module('shakespeareApp')
             }
         };
 
-    })
+    });

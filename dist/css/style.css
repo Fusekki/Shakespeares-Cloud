@@ -27,25 +27,6 @@ body {
     background: #e1dac8;
 }
 
-.hero_img {
-    width: 100%;
-    position: absolute;
-    top: 56px;
-    z-index: -1;
-}
-
-form {
-    margin-left: -25px;
-}
-
-.form_container {
-    display: inline-flex;
-    width: 100%;
-}
-
-.hero_form {
-    margin-top: 5px;
-}
 
 .navbar-header {
     background: #777594;
@@ -70,9 +51,7 @@ navbar-default .navbar-nav>li>a {
     color: #474231;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-
     color: #474231;
-
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -97,7 +76,25 @@ navbar-default .navbar-nav>li>a {
 }
 
 /*Home template*/
+.hero_img {
+    width: 100%;
+    position: absolute;
+    top: 56px;
+    z-index: -1;
+}
 
+form {
+    margin-left: -25px;
+}
+
+.form_container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.hero_form {
+    margin-top: 5px;
+}
 
 .hero_container {
     margin-top: 30px;
@@ -105,7 +102,6 @@ navbar-default .navbar-nav>li>a {
 }
 .hero_summary {
     font-size: 1.3em;
-
 }
 
 .hero_summary a {
@@ -126,20 +122,20 @@ navbar-default .navbar-nav>li>a {
 }
 
 .btn:hover,
-.btn-primary[disabled]:hover {
+.btn[disabled]:hover {
     background: hsla(46, 18%, 24%, 0.75);
 }
 
-.hr-top {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-top: 1px solid #b1b3c7;
-}
+/*.hr-top {*/
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    /*border-top: 1px solid #b1b3c7;*/
+/*}*/
 
-.header_filter {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
+/*.header_filter {*/
+    /*font-weight: bold;*/
+    /*margin-bottom: 10px;*/
+/*}*/
 
 .play_cat {
     display: flex;
@@ -176,7 +172,6 @@ navbar-default .navbar-nav>li>a {
     color: white;
 }
 
-
 /*Placeholder Colors*/
 .form-control::-webkit-input-placeholder {
     color: #e1dac8;
@@ -193,10 +188,10 @@ navbar-default .navbar-nav>li>a {
     color: #e1dac8;
 }
 
-.gap {
-    height: 0;
-    width: 100px;
-}
+/*.gap {*/
+    /*height: 0;*/
+    /*width: 100px;*/
+/*}*/
 
 .play_cards {
     display: flex;
@@ -379,10 +374,6 @@ navbar-default .navbar-nav>li>a {
     margin: 10px 0 10px;
 }
 
-.nameref {
-    display: inline;
-}
-
 .epilogue {
     padding-left: 30px;
     font-weight: bold;
@@ -391,10 +382,6 @@ navbar-default .navbar-nav>li>a {
 
 .epilogue .line {
     padding-left: 0;
-}
-
-.myCustomStyle {
-    color: yellow;
 }
 
 
@@ -420,17 +407,12 @@ navbar-default .navbar-nav>li>a {
 /*iphone 5 LS*/
 
 @media only screen and (min-width: 568px) and (orientation: landscape) {
-
-
-
 }
 
 /*iPhone 6 Portrait*/
 
 @media only screen and (min-width: 375px) and (orientation: portrait)
 {
-
-
 }
 
 /*iPhone 6 LS*/
@@ -440,8 +422,7 @@ navbar-default .navbar-nav>li>a {
 
     .hero_summary {
         background: hsla(179, 100%, 100%, 0.2);
-        padding: 5px;
-        border-radius: 1em;
+        padding: 10px;
     }
 
 }
@@ -553,16 +534,13 @@ navbar-default .navbar-nav>li>a {
         color: hsla(0, 0%, 100%, 0.75);
     }
 
-    .spinner img {
-        width: 100%;
-    }
-
     .btn.focus,
     .btn:focus,
     .btn:hover {
         color: white;
         text-decoration: none;
     }
+
     .hero_img {
         top: 51px;
     }
@@ -585,9 +563,6 @@ navbar-default .navbar-nav>li>a {
         border-right: 1px solid rgba(245, 255, 250, 0.5);
     }
 
-    .line_cb {
-        float: right;
-    }
     .speaker {
         font-size: 1em;
         padding-right: 20px;
@@ -600,7 +575,6 @@ navbar-default .navbar-nav>li>a {
         width: 40%;
         height: 100%;
     }
-
 
     .inner-right {
         position: relative;
@@ -621,7 +595,6 @@ navbar-default .navbar-nav>li>a {
         height: 200px;
         display: flex;
         flex-wrap: wrap;
-
     }
 
     .container-debug div {
@@ -664,21 +637,16 @@ navbar-default .navbar-nav>li>a {
         right: 10px;
     }
     .block-dictionary-no-results {
-             background: hsl(235, 14%, 74%);
-             color: black;
-             overflow: hidden;
-             opacity: 0;
-             transition: background, color, opacity 0.5s;
+        background: hsl(235, 14%, 74%);
+        color: black;
+        overflow: hidden;
+        opacity: 0;
+        transition: background, color, opacity 0.5s;
     }
 
     .form-dictionary {
         margin-left: 5px;
     }
-
-    .bluebg {
-        background: hsl(235, 14%, 74%);
-    }
-
 
     .container-suggestion {
         overflow: hidden;
@@ -692,12 +660,6 @@ navbar-default .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
-    /*.container-suggestion:hover {*/
-        /*color: white;*/
-    /*}*/
-
-
     .word {
         transition: background 0.5s;
     }
@@ -739,11 +701,11 @@ navbar-default .navbar-nav>li>a {
         margin-bottom: -20px;
     }
 
-
     .tooltip-inner {
         border-radius: 20px;
         background-color: #2c2a47;
     }
+
     .block-one span,
     .block-two span,
     .block-three span {
@@ -795,10 +757,9 @@ navbar-default .navbar-nav>li>a {
         list-style: none;
     }
 
-
-    .line-through {
-        text-decoration: line-through;
-    }
+    /*.line-through {*/
+        /*text-decoration: line-through;*/
+    /*}*/
 
     .toolTip {
         width: 125px;
@@ -814,7 +775,6 @@ navbar-default .navbar-nav>li>a {
         margin-top: 15%;
         width: 100px;
     }
-
 
     .examineBtn:hover {
         color: white;
@@ -850,24 +810,19 @@ navbar-default .navbar-nav>li>a {
         background: hsla(46, 18%, 24%, 0.75);
     }
 
-
-
     .noHeight {
         height: 0;
         padding: 0;
     }
 
-
-
-
-/*This needs to be the last element so it overrides all preceding elements*/
+    /*This needs to be the last element so it overrides all preceding elements*/
     .is-visible {
         opacity: 1;
     }
 
 }
 
-/*Microsoft IE*/
-/*@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {*/
+    /*Microsoft IE*/
+    /*@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {*/
 
-/*}*/
+    /*}*/

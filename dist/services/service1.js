@@ -7,7 +7,7 @@ angular.module('shakespeareApp')
     .service('logicService', function (myCache, $rootScope, $location, $route, $templateCache) {
         var self = this;
 
-        var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+'];
+        var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+', 'desk'];
 
         var spinner = null;
 
@@ -58,6 +58,9 @@ angular.module('shakespeareApp')
 
         // This function is so that JS can store the media size.  This is necessary for future CSS calculations set by the JS code.
         var checkWindowSize = function() {
+            if (window.matchMedia("(min-width : 769px)").matches) {
+                return window_sizes[8];
+            }
             if (window.matchMedia("(min-width : 768px)").matches) {
                 // iPhone6P
                 if (window.matchMedia("orientation : portrait").matches) {
@@ -136,11 +139,6 @@ angular.module('shakespeareApp')
                 return getCacheItem(cacheName);
             },
 
-            // Public function to get categories.
-            getCategories: function() {
-                return categories;
-            },
-
             localizeThis: function(some_date) {
                 return convertToLocal(some_date);
             },
@@ -151,7 +149,7 @@ angular.module('shakespeareApp')
 
             navTo: function(url) {
                 navigateTo(url);
-            },
+            }
 
         };
-    })
+    });
