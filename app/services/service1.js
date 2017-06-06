@@ -139,11 +139,6 @@ angular.module('shakespeareApp')
                 return getCacheItem(cacheName);
             },
 
-            // Public function to get categories.
-            getCategories: function() {
-                return categories;
-            },
-
             localizeThis: function(some_date) {
                 return convertToLocal(some_date);
             },
@@ -154,7 +149,7 @@ angular.module('shakespeareApp')
 
             navTo: function(url) {
                 navigateTo(url);
-            },
+            }
 
         };
-    })
+    });
