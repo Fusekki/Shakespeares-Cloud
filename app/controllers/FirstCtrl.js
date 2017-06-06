@@ -13,10 +13,20 @@ angular.module('shakespeareApp')
             }
         });
 
-        $scope.submit = function () {
+        $scope.submit = function (title) {
             // console.log($scope.search_term);
             var file = modelService.searchModel($scope.search_term);
-            sharedService.filename = 'assets/plays/' + file;
+
+            if (size === 'desk') {
+                sharedService.showDictionary = true;
+                sharedService.filename = 'assets/plays/large/' + file;
+
+            } else {
+                sharedService.showDictionary = false;
+                sharedService.filename = 'assets/plays/small/' + file;
+            }
+            sharedService.title = title;
+            // sharedService.filename = 'assets/plays/' + file;
             logicService.navTo("/play");
         };
 
