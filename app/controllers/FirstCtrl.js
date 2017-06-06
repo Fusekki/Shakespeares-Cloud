@@ -1,7 +1,7 @@
 angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
-    .controller('homeCtrl', function($scope, logicService, modelService, apiService, sharedService) {
+    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
 
         // var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+', 'desk'];
         var size = logicService.getWindowSize();
@@ -13,23 +13,23 @@ angular.module('shakespeareApp')
             }
         });
 
-        $scope.submit = function() {
+        $scope.submit = function () {
             // console.log($scope.search_term);
             var file = modelService.searchModel($scope.search_term);
             sharedService.filename = 'assets/plays/' + file;
             logicService.navTo("/play");
         };
 
-        $scope.getPlays = function() {
+        $scope.getPlays = function () {
             return modelService.plays;
         };
 
-        $scope.getCategories = function() {
+        $scope.getCategories = function () {
             return modelService.categories;
         };
 
-        $scope.openPlay = function(file, title) {
-            if (size == 'desk') {
+        $scope.openPlay = function (file, title) {
+            if (size === 'desk') {
                 sharedService.showDictionary = true;
                 sharedService.filename = 'assets/plays/large/' + file;
 
@@ -39,9 +39,9 @@ angular.module('shakespeareApp')
             }
             sharedService.title = title;
             logicService.navTo("/play");
-        }
+        };
 
-        $scope.clickBody = function() {
+        $scope.clickBody = function () {
             sharedService.prevLine = !sharedService.prevLine;
         }
 
@@ -61,4 +61,4 @@ angular.module('shakespeareApp')
 
         // $scope.number = 2;
 
-    })
+    });

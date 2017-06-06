@@ -9,11 +9,6 @@ calibreApp.config(function ($routeProvider) {
             controller: 'homeCtrl'
         })
 
-        .when('/connect', {
-            templateUrl: 'templates/connect.tmpl.htm',
-            controller: 'connectCtrl'
-        })
-
         .when('/play', {
             templateUrl: 'templates/play.tmpl.htm',
             controller: 'playCtrl'

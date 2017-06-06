@@ -24,23 +24,12 @@
 
 
     var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'ngSanitize', 'angular.filter', 'angularSpinners']);
-    // console.log('here');
 
 
     shakespeareApp.run(function ($rootScope, $route, $window, $location, $routeParams, $anchorScroll) {
-        // console.log('here');
 
         $rootScope.$on('$routeChangeStart', function (event, next, current) {
-            // console.log(event);
-            // console.log(next);
-            // console.log(current);
-
-            // console.log('here');
             if (next.$$route.controller == "homeCtrl" || next.$$route.controller == undefined) {
-                // console.log('here I am');
-                // console.log(next);
-                // console.log(event);
-                // console.log(current);
                 $location.path('/');
             } else if (!current) {
                 $location.path('/error');
@@ -55,8 +44,3 @@
     });
 
 })();
-
-
-
-
-
