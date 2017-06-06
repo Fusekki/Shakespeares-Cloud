@@ -107,6 +107,7 @@ angular.module('shakespeareApp')
 
         //  This is triggered when the define button is clicked. It prompts the following API call.
         $scope.lookupWord = function ($event) {
+            var results;
             sharedService.idx = 0;
             // console.log($event);
 
