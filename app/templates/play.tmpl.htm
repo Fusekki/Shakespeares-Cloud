@@ -65,7 +65,7 @@
                     <ul class="list-definition" ng-show="def_word.length"
                         ng-repeat="(key, value) in def_word | groupBy: 'date'">
                         <li ng-show="key != 'undefined'"><b>Date: {{ key }}</b></li>
-                        <li ng-show="key == 'undefined'"><b>Date: Unknown</b></span>
+                        <li ng-show="key == 'undefined'"><b>Date: Unknown</b></li>
                         <li class="list-item-definition" id="dc_{{ $index }}" ng-repeat="card in value">
                             <p>
                                 <span ng-show="def_word.length"><span>{{ card.def }}</span></span>
