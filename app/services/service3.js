@@ -7,9 +7,9 @@ angular.module('shakespeareApp')
         var def_list = [];
         var sug_list = [];
         var self = this;
-        self.idx;
+        self.idx = null;
 
-        self.showDictionary;
+        self.showDictionary = null;
 
         self.filename = null;
 
@@ -21,6 +21,7 @@ angular.module('shakespeareApp')
         };
 
         self.parseEntries = function (word, entries) {
+            var newWord;
             if ('entry' in entries) {
                 // There is 1 or more entries.
                 console.log('beginning entry');
@@ -37,15 +38,14 @@ angular.module('shakespeareApp')
                             // This should always be an object returned
                             console.log(typeof(def));
                             // What type of object is dt? if object do the following
-                            if (typeof(def.dt) == 'object') {
+                            if (typeof(def.dt) === 'object') {
                                 console.log('OBJECT ' + ' entry: ' + x);
-                                var newWord;
                                 // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
                                 if ('__text' in def.dt && def.dt.__text.length > 1) {
                                     console.log('checking if word is same');
-                                    if (def.dt.ew == word.toLowerCase()) {
+                                    if (def.dt.ew === word.toLowerCase()) {
                                         console.log('push ' + self.idx + '-----------------');
-                                        newWord = def.dt.__text.replace(/^:/, "")
+                                        newWord = def.dt.__text.replace(/^:/, "");
                                         def_list.push(defObj(def.date, newWord));
                                     }
                                 } else {
@@ -53,7 +53,7 @@ angular.module('shakespeareApp')
                                     processDT(def, x, newWord);
                                 }
                             } else {
-                                // These seme to fall under people (like a thesaurus search).
+                                // These seem to fall under people (like a thesaurus search).
                                 console.log('STRING' + ' entry: ' + x + ' dt: 0');
                                 console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: 0');
                                 newWord = def.dt.replace(/^:/, "");
@@ -94,7 +94,7 @@ angular.module('shakespeareApp')
                 if ('suggestion' in entries) {
                     var sug = entries.suggestion;
                     console.log('sugestions found');
-                    if (typeof(sug) == 'object') {
+                    if (typeof(sug) === 'object') {
                         console.log(sug);
                         console.log('There are multiple suggestions.');
                         for (var s = 0; s < sug.length; s++) {
@@ -111,7 +111,7 @@ angular.module('shakespeareApp')
                     }
                 }
             }
-        }
+        };
 
         var processDT = function (def, x, newWord) {
 
@@ -120,7 +120,7 @@ angular.module('shakespeareApp')
                 self.idx++;
                 console.log(def.dt[i]);
                 // console.log(typeof(def.dt[i]));
-                if (typeof(def.dt[i]) == 'string' && def.dt[i].length > 1) {
+                if (typeof(def.dt[i]) === 'string' && def.dt[i].length > 1) {
                     console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
                     // is item longer than a single character
                     console.log('push ' + self.idx + '-----------------');
@@ -142,4 +142,4 @@ angular.module('shakespeareApp')
                 }
             }
         }
-    })
+    });

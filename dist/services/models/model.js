@@ -1,17 +1,11 @@
-//SERVICES
-
 angular.module('shakespeareApp')
-
     .service('modelService', function () {
-
         var self = this;
-
         self.categories = [
             "comedy",
             "history",
             "tragedy"
         ];
-
         self.plays = [
             {
                 title: "All's Well That Ends Well",
@@ -230,7 +224,6 @@ angular.module('shakespeareApp')
                 file: "winters_tale_FF.htm"
             }
         ];
-
         self.searchModel = function (value) {
             for (var key in self.plays) {
                 if (self.plays[key].title === value) {

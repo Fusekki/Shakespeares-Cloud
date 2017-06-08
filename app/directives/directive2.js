@@ -1,5 +1,3 @@
-//DIRECTIVES
-
 angular.module('shakespeareApp')
 
     .directive('changeOnTooltip', function () {

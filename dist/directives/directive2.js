@@ -1,5 +1,3 @@
-//DIRECTIVES
-
 angular.module('shakespeareApp')
 
     .directive('changeOnTooltip', function () {
@@ -13,14 +11,12 @@ angular.module('shakespeareApp')
                     function (newValue, oldValue) {
                         var nextLine;
                         if (newValue !== oldValue) {
-
                             if ($scope.def_word) {
                                 $scope.def_word.length = 0;
                             }
                             if ($scope.sug_word) {
                                 $scope.sug_word.length = 0;
                             }
-
                             $scope.dictionary.sug_visible = false;
                             if ($el.hasClass('dark')) {
                                 $el.removeClass('dark');
@@ -40,20 +36,15 @@ angular.module('shakespeareApp')
                                 $scope.dictionary.block_no_results_visible = false;
                                 $scope.dictionary.dict_right_bottom_visible = false;
                                 $scope.dictionary.sug_visible = false;
-                                // console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 var firstHalf;
-                                // First check to see if there is a hyphenated word in the previous line
                                 if ($el[0].previousElementSibling) {
                                     var previousElement = $el[0].previousElementSibling;
-                                    // Check to see if the previous Element is the tooltip.  If so, grab the element before that.
                                     if (previousElement.className === 'tooltip ng-scope ng-isolate-scope top tooltipClass fade in') {
                                         if (previousElement.previousElementSibling && 'innerText' in previousElement.previousElementSibling) {
                                             previousElement = previousElement.previousElementSibling;
                                         }
                                     }
-                                    // Check if innerText is a part of previousElement (otherwise will receive an error).  Also, check if previousElement's class is 'line'. We are only
-                                    // concerned with div.line elements for broken text.
                                     if ('innerText' in previousElement && previousElement.className === 'line') {
                                         var prevText = previousElement.innerText;
                                         prevText = prevText.toString().split(" ");
@@ -63,26 +54,17 @@ angular.module('shakespeareApp')
                                         }
                                     }
                                 }
-                                // Let's split up the words of the sentence
                                 var split_text = text.toString().split(" ");
                                 var new_text = "";
                                 var new_word;
-                                // Let's replace each word minus any grammatical characters like comma or apostrophe
                                 for (var x = 0; x < split_text.length; x++) {
-                                    // Here we are stripping punctuation-like characters out of the word
                                     new_word = split_text[x].replace(/([.,!?\\])/, "");
-                                    // If firstHalf is defined, there is a split word from the previous div.  Only add firstHalf
-                                    // if it exists and the word is the first of the line.
                                     if (firstHalf && x === 0) {
-                                        // combine the first and second half.
                                         firstHalf = firstHalf.slice(0, firstHalf.length - 1);
                                     }
                                     var n = new_word.slice(-1);
-                                    // Check if that word has a hyphen.
                                     if (n === "-") {
-                                        //  If it has a hyphen, remove it and grab the first word of the next line and combine.
                                         new_word = new_word.slice(0, new_word.length - 1);
-                                        // Grab the next line
                                         nextLine = $el[0].nextSibling.nextElementSibling.innerText;
                                         var splitWord = nextLine.match(/^([^\s]+)/);
                                         new_word += splitWord[1];

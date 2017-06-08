@@ -1,7 +1,6 @@
 angular.module('shakespeareApp')
 
     .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
-
         var size = logicService.getWindowSize();
 
         $('.play_cards').mixItUp({
@@ -49,5 +48,4 @@ angular.module('shakespeareApp')
         $scope.clickBody = function () {
             sharedService.prevLine = !sharedService.prevLine;
         }
-
     });

@@ -1,5 +1,3 @@
-//SERVICES
-
 angular.module('shakespeareApp')
 
     .service('modelService', function () {

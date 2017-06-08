@@ -3,9 +3,7 @@ angular.module('shakespeareApp')
 // The home controller handles the home.tmpl.htm page
     .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
 
-        // var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+', 'desk'];
         var size = logicService.getWindowSize();
-        // console.log(size);
 
         $('.play_cards').mixItUp({
             load: {
@@ -26,7 +24,6 @@ angular.module('shakespeareApp')
                 sharedService.filename = 'assets/plays/small/' + file;
             }
             sharedService.title = title;
-            // sharedService.filename = 'assets/plays/' + file;
             logicService.navTo("/play");
         };
 

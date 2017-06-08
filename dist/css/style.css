@@ -7,16 +7,6 @@
 /*#777594 med purple*/
 /*#b1b3c7 lt purple*/
 
-/*Animations*/
-.blink_me {
-    animation: blinker 1.5s linear infinite;
-}
-
-@keyframes blinker {
-    50% { opacity: 0; }
-}
-/*Animations end*/
-
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #474231;
     font-weight: bold;
@@ -27,7 +17,6 @@ body {
     background: #e1dac8;
 }
 
-
 .navbar-header {
     background: #777594;
 }
@@ -37,7 +26,7 @@ body {
 
 }
 
-navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #e1dac8;
 }
 
@@ -50,7 +39,8 @@ navbar-default .navbar-nav>li>a {
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #474231;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #474231;
 }
 
@@ -67,7 +57,7 @@ navbar-default .navbar-nav>li>a {
     border-color: #b1b3c7;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #e1dac8;
 }
 
@@ -100,6 +90,7 @@ form {
     margin-top: 30px;
     text-align: center;
 }
+
 .hero_summary {
     font-size: 1.3em;
 }
@@ -125,17 +116,6 @@ form {
 .btn[disabled]:hover {
     background: hsla(46, 18%, 24%, 0.75);
 }
-
-/*.hr-top {*/
-    /*margin-top: 5px;*/
-    /*margin-bottom: 5px;*/
-    /*border-top: 1px solid #b1b3c7;*/
-/*}*/
-
-/*.header_filter {*/
-    /*font-weight: bold;*/
-    /*margin-bottom: 10px;*/
-/*}*/
 
 .play_cat {
     display: flex;
@@ -172,10 +152,10 @@ form {
     color: white;
 }
 
-/*Placeholder Colors*/
 .form-control::-webkit-input-placeholder {
     color: #e1dac8;
 }
+
 .form-control:-moz-placeholder { /* Firefox 18- */
     color: #e1dac8;
 }
@@ -188,11 +168,6 @@ form {
     color: #e1dac8;
 }
 
-/*.gap {*/
-    /*height: 0;*/
-    /*width: 100px;*/
-/*}*/
-
 .play_cards {
     display: flex;
     flex-wrap: wrap;
@@ -201,7 +176,6 @@ form {
     padding: 0;
     margin: 0;
     text-align: justify;
-    font-size: 0.1px;
 }
 
 .play_cards:after {
@@ -264,14 +238,15 @@ form {
     display: none;
     float: none;
 }
+
 .play_cards img {
     width: 100%;
 }
 
-
 .play_cards li:hover .img_underlay {
-   opacity: 0.5;
+    opacity: 0.5;
 }
+
 .play_name {
     position: relative;
     top: -196%;
@@ -288,9 +263,6 @@ form {
     transition: opacity .25s;
 }
 
-/*End Home Template*/
-
-/*play template*/
 .play_nav {
     width: 100%;
     position: fixed;
@@ -308,12 +280,6 @@ form {
 .play_nav input {
     color: #948c75;
 }
-
-/*.jump {*/
-    /*width: 20px;*/
-    /*text-align: right;*/
-    /*height: 25px;*/
-/*}*/
 
 .play_container {
     background: #e1dac8;
@@ -363,7 +329,6 @@ form {
     padding-left: 30px;
 }
 
-
 .speaker,
 .finis {
     font-weight: bold;
@@ -384,41 +349,7 @@ form {
     padding-left: 0;
 }
 
-
-/*End play template*/
-
-
-/*MEDIA QUERIES*/
-
-/*Media Queries defined*/
-/*iPhone 5 portrait: min-device-width: 320px*/
-/*iPhone 5 landscape: 320px and orientation: landscape*/
-
-/*iPhone 6 portrait: min-device-width: 376px */
-/*iPhone 6 landscape: 375px and orientation: landscape*/
-
-/*iPhone 6P portrait: min-device-width: 414px*/
-/*iPhone 6P landscape: 414px and orientation: landscape*/
-
-/*iPad portrait: min-device-width: 768px*/
-/*iPad landscape: 768px and orientation: landscape*/
-
-
-/*iphone 5 LS*/
-
-@media only screen and (min-width: 568px) and (orientation: landscape) {
-}
-
-/*iPhone 6 Portrait*/
-
-@media only screen and (min-width: 375px) and (orientation: portrait)
-{
-}
-
-/*iPhone 6 LS*/
-
-@media only screen and (min-width: 375px) and (orientation: landscape)
-{
+@media only screen and (min-width: 375px) and (orientation: landscape) {
 
     .hero_summary {
         background: hsla(179, 100%, 100%, 0.2);
@@ -427,36 +358,18 @@ form {
 
 }
 
-/*iPhone 6+ P */
-
-
-@media only screen and (min-width: 414px) and (orientation:portrait) {
-
-
-}
-
-/*iPhone 6+ LS */
-
-@media only screen and (min-width: 735px) and (orientation: landscape)
-{
-
-
-}
-
-/*iPad P */
-
-@media only screen and (min-width: 768px) and (orientation: portrait)
-{
+@media only screen and (min-width: 768px) and (orientation: portrait) {
 
     .hero_img {
         top: 51px;
     }
+
     .navbar-nav {
         background: #777594;
 
     }
 
-    .navbar-default .navbar-nav>li>a{
+    .navbar-default .navbar-nav > li > a {
         color: #e1dac8;
     }
 
@@ -483,31 +396,27 @@ form {
 
 }
 
-/*iPad LS */
-
-@media only screen and (min-width: 768px) and (orientation: landscape)
-{
+@media only screen and (min-width: 768px) and (orientation: landscape) {
     .hero_img {
         top: 51px;
     }
+
     .play_cat button {
         margin-left: 3px;
     }
+
     .play {
         font-size: 1.5em;
     }
+
     .speaker {
         font-size: 1em;
         padding-right: 20px;
     }
 
-
 }
 
-/*desktops*/
-
 @media only screen and (min-width: 769px) {
-
 
     .loadingContainer {
         height: 100vh;
@@ -545,18 +454,20 @@ form {
         top: 51px;
     }
 
-    .navbar-default .navbar-nav>li>a{
+    .navbar-default .navbar-nav > li > a {
         color: #e1dac8;
     }
 
     .play_cat span {
         color: #e1dac8;
     }
+
     .play_cards {
         max-width: 1000px;
         margin: 0 auto;
         padding: 5px;
     }
+
     .play {
         font-size: 1.5em;
         width: 60%;
@@ -589,7 +500,6 @@ form {
         position: fixed;
         top: 50px;
         overflow: hidden;
-        background: transparent;
         z-index: 1;
         background: hsla(0, 0%, 100%, 0.5);
         height: 200px;
@@ -600,12 +510,15 @@ form {
     .container-debug div {
         width: 223px;
     }
+
     .container-debug div span:nth-of-type(odd) {
         color: black;
     }
+
     .container-debug div span:nth-of-type(even) {
         color: red;
     }
+
     .inner-right div span {
         font-size: 14px;
     }
@@ -636,6 +549,7 @@ form {
     .block-dictionary-one input {
         right: 10px;
     }
+
     .block-dictionary-no-results {
         background: hsl(235, 14%, 74%);
         color: black;
@@ -654,15 +568,17 @@ form {
         color: white;
         opacity: 0;
         transition: opacity 0.5s;
-     }
+    }
 
     .list-definition {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .word {
         transition: background 0.5s;
     }
+
     .word:hover {
         background: black;
         color: white;
@@ -677,13 +593,13 @@ form {
     .block-text {
         font-size: 20px;
         padding: 5px;
-        background: rgba(255,255,255, 0.5);
+        background: rgba(255, 255, 255, 0.5);
         opacity: 0;
         transition: background, color, opacity 0.5s;
     }
 
     .block-text:hover {
-        background: rgba(255,255,255, 1);
+        background: rgba(255, 255, 255, 1);
         color: black;
     }
 
@@ -736,30 +652,24 @@ form {
         padding-left: 25px;
         column-count: 3;
     }
+
     .list-item-definition {
         list-style: lower-roman;
     }
+
     .list-item-suggestion {
         list-style: none;
     }
 
     .list-item-suggestion {
         padding: 5px 0;
-        -webkit-column-break-inside:avoid;
-        -moz-column-break-inside:avoid;
-        -o-column-break-inside:avoid;
-        -ms-column-break-inside:avoid;
-        column-break-inside:avoid;
+        -webkit-column-break-inside: avoid;
     }
 
     .list-item-definition p,
     .list-item-suggestion span {
         list-style: none;
     }
-
-    /*.line-through {*/
-        /*text-decoration: line-through;*/
-    /*}*/
 
     .toolTip {
         width: 125px;
@@ -803,9 +713,10 @@ form {
 
     .container-dictionary:hover .block-dictionary-one,
     .container-dictionary:hover .block-dictionary-no-results,
-    .container-dictionary:hover .container-definition{
+    .container-dictionary:hover .container-definition {
         background: hsla(235, 16%, 74%, 0.5);
     }
+
     .container-dictionary:hover .container-suggestion {
         background: hsla(46, 18%, 24%, 0.75);
     }
@@ -815,14 +726,8 @@ form {
         padding: 0;
     }
 
-    /*This needs to be the last element so it overrides all preceding elements*/
     .is-visible {
         opacity: 1;
     }
 
 }
-
-    /*Microsoft IE*/
-    /*@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {*/
-
-    /*}*/

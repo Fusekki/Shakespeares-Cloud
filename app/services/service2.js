@@ -1,5 +1,3 @@
-//SERVICES
-
 angular.module('shakespeareApp')
 
     .service('apiService', function ($http, logicService, sharedService, $sce) {

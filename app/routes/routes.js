@@ -1,7 +1,6 @@
-//ROUTES
-var calibreApp = angular.module('shakespeareApp');
+var shakespeareApp= angular.module('shakespeareApp');
 
-calibreApp.config(function ($routeProvider) {
+shakespeareApp.config(function ($routeProvider) {
 
     $routeProvider
         .when('/', {

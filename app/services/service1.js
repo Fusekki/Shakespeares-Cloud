@@ -1,5 +1,3 @@
-//SERVICES
-
 angular.module('shakespeareApp')
 
 // logic service is a shared service between controllers.  It's purpose is twofold.  It functions as the app's memory by storing scope variables between controllers.  If you notice,
@@ -9,20 +7,7 @@ angular.module('shakespeareApp')
 
         var window_sizes = ['xs', 'xs+', 'sm', 'sm+', 'med', 'med+', 'lrg', 'lrg+', 'desk'];
 
-        var spinner = null;
-
         self.orientation = screen.orientation.angle;
-
-        // function to convert date from european time to local with hour and minute.
-        var convertToLocal = function(some_date) {
-            return new Date(some_date).toLocaleString().replace(/(.*)\D\d+/, '$1');
-        };
-
-        // function to convert date from european time to local without hour and minute.  Used for film release date in the filmresult template.
-
-        var convertToLocalDate = function(some_date) {
-            return new Date(some_date).toLocaleDateString();
-        };
 
         // function to get a cache item.
         var getCacheItem = function (item) {
@@ -35,7 +20,7 @@ angular.module('shakespeareApp')
             myCache.put(cache, items);
         };
 
-        var navigateTo = function(url) {
+        var navigateTo = function (url) {
             if ($location.path() === url) {
                 // console.log('sending route.reload');
                 var currentPageTemplate = $route.current.templateUrl;
@@ -48,16 +33,16 @@ angular.module('shakespeareApp')
         };
 
         // Listener for orientation changes on mobile devices.
-
-        $(window).on("orientationchange",function(){
-            // Announce the new orientation number
-            self.orientation = screen.orientation.angle;
-            // console.log(self.orientation);
-            $rootScope.$broadcast('orientation_change');
-        });
+        //
+        // $(window).on("orientationchange", function () {
+        //     // Announce the new orientation number
+        //     self.orientation = screen.orientation.angle;
+        //     // console.log(self.orientation);
+        //     $rootScope.$broadcast('orientation_change');
+        // });
 
         // This function is so that JS can store the media size.  This is necessary for future CSS calculations set by the JS code.
-        var checkWindowSize = function() {
+        var checkWindowSize = function () {
             if (window.matchMedia("(min-width : 769px)").matches) {
                 return window_sizes[8];
             }
@@ -108,46 +93,27 @@ angular.module('shakespeareApp')
 
             // Debug area
 
-            getOrientation: function() {
+            getOrientation: function () {
                 return screen.orientation.angle;
             },
 
-            getWindowSize: function() {
+            getWindowSize: function () {
                 return checkWindowSize();
             },
 
             // End Debug area.
 
-            // get spinner state
-            getSpinner: function() {
-                return spinner;
-            },
-            // set spinner state.
-            setSpinner: function(activate) {
-                spinner = activate;
-            },
-
-
-
             // Public functions for set and get cache.
 
-            setCacheItem: function(name, contents) {
+            setCacheItem: function (name, contents) {
                 setCacheItem(name, contents);
             },
 
-            getCacheItem: function(cacheName) {
+            getCacheItem: function (cacheName) {
                 return getCacheItem(cacheName);
             },
 
-            localizeThis: function(some_date) {
-                return convertToLocal(some_date);
-            },
-
-            localizeThisDate: function(some_date) {
-                return convertToLocalDate(some_date);
-            },
-
-            navTo: function(url) {
+            navTo: function (url) {
                 navigateTo(url);
             }
 

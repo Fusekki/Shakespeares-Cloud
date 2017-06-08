@@ -66,12 +66,12 @@ angular.module('shakespeareApp')
             $scope.button_clicked = false;
         };
 
-        apiService.getDef(function (response) {
-            var x2js = new X2JS();
-            var xmlText = response.data;
-            var jsonObj = x2js.xml_str2json(xmlText);
-            // console.log(jsonObj.entry_list);
-        });
+        // apiService.getDef(function (response) {
+        //     var x2js = new X2JS();
+        //     var xmlText = response.data;
+        //     var jsonObj = x2js.xml_str2json(xmlText);
+        //     // console.log(jsonObj.entry_list);
+        // });
 
         // This triggers when the word is clicked in the sentence field.
         $scope.chooseWord = function ($event) {

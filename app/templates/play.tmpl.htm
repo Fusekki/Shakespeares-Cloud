@@ -25,7 +25,7 @@
     <div class="inner-right">
     <div class="block-one" >
         <div>
-            <img class="arrow" src="img/arrow.svg">
+            <img class="arrow" src="img/arrow.svg" alt="Arrow">
         </div>
         <span ng-class="{'line-through': instructions.block_one_line_through}">Click a line to examine</span>
     </div>
@@ -74,7 +74,7 @@
                 <div class="inner-suggestion">
                     <ul class="list-suggestion" ng-show="sug_word.length" >
                         <li class="list-item-suggestion" id="sug_{{ $index }}" ng-repeat="s in sug_word track by $index">
-                            <span class="suggestion-word" ng-show="sug_word.length > 1"ng-click="chooseWord($event)">{{ s }}</span>
+                            <span class="suggestion-word" ng-show="sug_word.length > 1" ng-click="chooseWord($event)">{{ s }}</span>
                         </li>
                     </ul>
                     <div class="arrow_down blink_me" ng-show="sug_word.length > 21">

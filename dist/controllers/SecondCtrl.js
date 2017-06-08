@@ -62,18 +62,18 @@ angular.module('shakespeareApp')
             $scope.button_clicked = false;
         };
 
-        apiService.getDef(function (response) {
-            var x2js = new X2JS();
-            var xmlText = response.data;
-            var jsonObj = x2js.xml_str2json(xmlText);
-        });
+        // apiService.getDef(function (response) {
+        //     var x2js = new X2JS();
+        //     var xmlText = response.data;
+        //     var jsonObj = x2js.xml_str2json(xmlText);
+        // });
 
         $scope.chooseWord = function ($event) {
             // Grab the text from the element
             $scope.dictionary.sel_word = $event.target.innerHTML;
 
             if (!hasClicked) {
-                hasClicked = true;6
+                hasClicked = true;
                 $scope.instructions.block_two_line_through = !$scope.instructions.block_two_line_through;
             }
             $scope.instructions.block_three_line_through = false;
