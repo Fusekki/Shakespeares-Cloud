@@ -4,12 +4,6 @@ angular.module('shakespeareApp')
 
         var self = this;
 
-        self.categories = [
-            "comedy",
-            "history",
-            "tragedy"
-        ];
-
         self.plays = [
             {
                 title: "All's Well That Ends Well",

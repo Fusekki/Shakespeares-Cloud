@@ -52,8 +52,6 @@ angular.module('shakespeareApp')
             sharedService.prevLine = !sharedService.prevLine;
         }
 
-        //
-        //
         // $scope.getGaps = function () {
         //     if (size == 'lrg+') {
         //         return [1 , 2];

@@ -8,7 +8,6 @@ angular.module('shakespeareApp')
         $scope.btnClicked = false;
         $scope.debug = false;
         $scope.showDictionary = sharedService.showDictionary;
-        // console.log($scope.showDictionary);
 
         $scope.instructions = {
             block_one_visible: false,
@@ -62,23 +61,14 @@ angular.module('shakespeareApp')
         };
 
         $scope.toggleButton = function () {
-            console.log('here');
             $scope.button_clicked = false;
         };
 
-        // apiService.getDef(function (response) {
-        //     var x2js = new X2JS();
-        //     var xmlText = response.data;
-        //     var jsonObj = x2js.xml_str2json(xmlText);
-        //     // console.log(jsonObj.entry_list);
-        // });
 
         // This triggers when the word is clicked in the sentence field.
         $scope.chooseWord = function ($event) {
             // Grab the text from the element
             $scope.dictionary.sel_word = $event.target.innerHTML;
-
-            // console.log(hasClicked);
 
             // If this is the first time selecting a word after a sentence is chosen to be examined,
             // toggle the step_two_done and step_three_done so that they appear.
@@ -101,7 +91,6 @@ angular.module('shakespeareApp')
             if ($scope.sug_word) {
                 $scope.sug_word.length = 0;
             }
-            $scope.definition = "";
             $scope.button_clicked = false;
         };
 
@@ -109,15 +98,6 @@ angular.module('shakespeareApp')
         $scope.lookupWord = function ($event) {
             var results;
             sharedService.idx = 0;
-            // console.log($event);
-
-            // var defObj = function(date, def) {
-            //     return {
-            //         'date': date,
-            //         'def': def
-            //     }
-            // };
-
             $scope.button_clicked = true;
 
             $scope.instructions.block_three_line_through = !$scope.instructions.block_three_line_through;
@@ -125,15 +105,9 @@ angular.module('shakespeareApp')
                 $scope.dictionary.block_no_results_visible = !$scope.dictionary.block_no_results_visible;
             }
             // Clear out the def_word if there are any.
-            // console.log($scope.def_word);
-            // console.log(def_list);
             if ($scope.def_word) {
                 $scope.def_word.length = 0;
             }
-            // $scope.dict_right_middle_visible = !$scope.dict_right_middle_visible;
-            // var def_list = [];
-            // var sug_list = [];
-            // console.log($event);
             var inputText;
             // Based on whether they pressed enter or clicked the button, grab the appropriate text of the input field. We can determine whether it was the button of the enter key based on checking
             // the $event.currentTarget container.
@@ -153,22 +127,17 @@ angular.module('shakespeareApp')
             }
             console.log('Lookup word: ' + inputText);
             // Set the word
-            // apiService.word = $scope.dictionary.sel_word;
             apiService.word = inputText;
             // Check for cached entry
             self.cacheResults = logicService.getCacheItem(inputText);
             if (!self.cacheResults) {
-                // console.log('cache does not contain. making api call.');
                 // make API call
                 apiService.getDef(function (response) {
-                    // console.log(response);
                     var x2js = new X2JS();
                     var xmlText = response.data;
                     var jsonObj = x2js.xml_str2json(xmlText);
                     var entries = jsonObj.entry_list;
-                    // console.log(entries);
                     // Set cache item
-                    // console.log('setting cache item');
                     logicService.setCacheItem(inputText, entries);
                     // Here we cycle through the results and push the relevant information to the object array.
                     results = sharedService.parseEntries(inputText, entries);
@@ -178,14 +147,12 @@ angular.module('shakespeareApp')
                     console.log(err.status);
                 });
             } else {
-                // console.log('retrieving item from cache.');
                 results = sharedService.parseEntries(inputText, self.cacheResults);
                 processResults(results);
             }
         };
         // This is triggered when a def_card is clicked.
         $scope.displayDef = function (def) {
-            // console.log('display def.');
             if (!$scope.dictionary.dict_right_bottom_visible) {
                 $scope.dictionary.dict_right_bottom_visible = !$scope.dictionary.dict_right_bottom_visible;
             }
@@ -194,21 +161,15 @@ angular.module('shakespeareApp')
 
         var processResults = function (results) {
             if (results) {
-                // console.log(results);
                 if (results.deflist) {
-                    // console.log('dictionary elements found');
                     $scope.def_word = results.deflist;
-
                 }
                 if (results.suglist) {
-                    // console.log('suggestion elements found');
                     $scope.dictionary.block_no_results_visible = true;
                     $scope.dictionary.dict_right_bottom_visible = true;
                     $scope.dictionary.sug_visible = true;
                     $scope.sug_word = results.suglist;
                 }
-                // Store the items in the cache,
             }
-        }
-
+        };
     });

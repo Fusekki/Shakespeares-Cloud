@@ -22,12 +22,10 @@ angular.module('shakespeareApp')
 
         var navigateTo = function (url) {
             if ($location.path() === url) {
-                // console.log('sending route.reload');
                 var currentPageTemplate = $route.current.templateUrl;
                 $templateCache.remove(currentPageTemplate);
                 $route.reload();
             } else {
-                // console.log('path different. sending to new path');
                 $location.path(url);
             }
         };

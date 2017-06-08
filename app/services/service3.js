@@ -3,7 +3,6 @@
 angular.module('shakespeareApp')
 
     .service('sharedService', function () {
-
         var def_list = [];
         var sug_list = [];
         var self = this;
@@ -21,7 +20,8 @@ angular.module('shakespeareApp')
         };
 
         self.parseEntries = function (word, entries) {
-            var newWord;
+            var newWord = null;
+            var def = null;
             if ('entry' in entries) {
                 // There is 1 or more entries.
                 console.log('beginning entry');
@@ -32,7 +32,7 @@ angular.module('shakespeareApp')
                     for (var x = 0; x < entries.entry.length; x++) {
                         // if def is in current entry
                         if ('def' in entries.entry[x]) {
-                            var def = entries.entry[x].def;
+                            def = entries.entry[x].def;
                             console.log('entry: ' + x);
                             console.log(def);
                             // This should always be an object returned
@@ -54,35 +54,26 @@ angular.module('shakespeareApp')
                                 }
                             } else {
                                 // These seem to fall under people (like a thesaurus search).
-                                console.log('STRING' + ' entry: ' + x + ' dt: 0');
-                                console.log('push ' + self.idx + '-----------------' + ' entry: ' + x + ' dt: 0');
-                                newWord = def.dt.replace(/^:/, "");
-                                console.log('--------------NOT GOING TO PUSH-------------');
-                                // def_list.push(defObj(def.date, newWord));
                             }
                         }
                     }
                 } else {
                     // Only one entry exists but it may contain multiple dts
-                    var def = entries.entry.def;
+                    def = entries.entry.def;
                     console.log(def);
-                    console.log(def.length);
-                    console.log(typeof(def));
+                    // console.log(def.length);
+                    // console.log(typeof(def));
                     if (def) {
-                        if ('def' in def) {
-                            console.log('def in def');
-                        } else if ('dt' in def) {
+                        if ('dt' in def) {
                             console.log('dt in def');
                             processDT(def, x, newWord);
-                        }
-                        else {
+                        } else {
                             console.log('unable to parse entry.');
                         }
                     }
                 }
                 console.log('COMPILE-----------------');
                 console.log(def_list);
-                // $scope.def_word = def_list;
                 return {
                     'deflist': def_list,
                     'suglist': null
@@ -93,7 +84,7 @@ angular.module('shakespeareApp')
                 // Are there suggestions?
                 if ('suggestion' in entries) {
                     var sug = entries.suggestion;
-                    console.log('sugestions found');
+                    console.log('suggestions found');
                     if (typeof(sug) === 'object') {
                         console.log(sug);
                         console.log('There are multiple suggestions.');
@@ -119,7 +110,6 @@ angular.module('shakespeareApp')
                 console.log(def.dt.length);
                 self.idx++;
                 console.log(def.dt[i]);
-                // console.log(typeof(def.dt[i]));
                 if (typeof(def.dt[i]) === 'string' && def.dt[i].length > 1) {
                     console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
                     // is item longer than a single character

@@ -38,7 +38,6 @@ angular.module('shakespeareApp')
                                 $scope.dictionary.block_no_results_visible = false;
                                 $scope.dictionary.dict_right_bottom_visible = false;
                                 $scope.dictionary.sug_visible = false;
-                                // console.log('going to grab text of line');
                                 text = $el[0].innerText;
                                 var firstHalf;
                                 // First check to see if there is a hyphenated word in the previous line
