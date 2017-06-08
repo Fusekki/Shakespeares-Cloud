@@ -247,90 +247,6 @@ form {
     color: #e1dac8;
 }
 
-/*.gap {*/
-/*height: 0;*/
-/*width: 100px;*/
-/*}*/
-
-/*.play_cards {*/
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*list-style: none;*/
-    /*column-count: 2;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*text-align: justify;*/
-/*}*/
-
-/*.play_cards:after {*/
-    /*content: '';*/
-    /*display: inline-block;*/
-    /*width: 100%;*/
-/*}*/
-
-/*.play_cards li {*/
-    /*border: 1px solid black;*/
-    /*padding: 5px;*/
-    /*width: 200px;*/
-    /*height: 200px;*/
-    /*margin: 0 auto;*/
-    /*line-height: 20px;*/
-    /*color: white;*/
-    /*font-weight: bold;*/
-    /*font-size: 20px;*/
-    /*text-align: center;*/
-
-/*}*/
-
-/*.play_cards li:nth-of-type(3),*/
-/*.play_cards li:nth-of-type(7),*/
-/*.play_cards li:nth-of-type(9),*/
-/*.play_cards li:nth-of-type(12),*/
-/*.play_cards li:nth-of-type(17),*/
-/*.play_cards li:nth-of-type(19),*/
-/*.play_cards li:nth-of-type(21),*/
-/*.play_cards li:nth-of-type(22),*/
-/*.play_cards li:nth-of-type(23),*/
-/*.play_cards li:nth-of-type(24),*/
-/*.play_cards li:nth-of-type(25),*/
-/*.play_cards li:nth-of-type(26),*/
-/*.play_cards li:nth-of-type(33),*/
-/*.play_cards li:nth-of-type(35),*/
-/*.play_cards li:nth-of-type(36) {*/
-    /*color: #2c2a47;*/
-/*}*/
-
-/*.play_cards li:nth-of-type(3):hover,*/
-/*.play_cards li:nth-of-type(7):hover,*/
-/*.play_cards li:nth-of-type(9):hover,*/
-/*.play_cards li:nth-of-type(12):hover,*/
-/*.play_cards li:nth-of-type(17):hover,*/
-/*.play_cards li:nth-of-type(19):hover,*/
-/*.play_cards li:nth-of-type(21):hover,*/
-/*.play_cards li:nth-of-type(22):hover,*/
-/*.play_cards li:nth-of-type(23):hover,*/
-/*.play_cards li:nth-of-type(24):hover,*/
-/*.play_cards li:nth-of-type(25):hover,*/
-/*.play_cards li:nth-of-type(26):hover,*/
-/*.play_cards li:nth-of-type(33):hover,*/
-/*.play_cards li:nth-of-type(35):hover,*/
-/*.play_cards li:nth-of-type(36):hover {*/
-    /*color: white;*/
-/*}*/
-
-/*.play_cards .mix {*/
-    /*display: none;*/
-    /*float: none;*/
-/*}*/
-
-/*.play_cards img {*/
-    /*width: 100%;*/
-/*}*/
-
-/*.play_cards li:hover .img_underlay {*/
-    /*opacity: 0.5;*/
-/*}*/
-
 .play_name {
     position: relative;
     top: -196%;
@@ -367,12 +283,6 @@ form {
 .play_nav input {
     color: #948c75;
 }
-
-/*.jump {*/
-/*width: 20px;*/
-/*text-align: right;*/
-/*height: 25px;*/
-/*}*/
 
 .play_container {
     background: #e1dac8;
@@ -502,7 +412,6 @@ form {
 
     .navbar-nav {
         background: #777594;
-
     }
 
     .navbar-default .navbar-nav > li > a {
@@ -640,7 +549,6 @@ form {
         position: fixed;
         top: 50px;
         overflow: hidden;
-        background: transparent;
         z-index: 1;
         background: hsla(0, 0%, 100%, 0.5);
         height: 200px;
@@ -699,7 +607,8 @@ form {
         padding-bottom: 10px;
         transition: background, color, opacity 0.5s;
     }
-    block-dictionary-no-results span {
+
+    .block-dictionary-no-results span {
         margin: 10px;
     }
 
@@ -719,9 +628,9 @@ form {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .list-definition li:nth-of-type(1),
-    .list-definition li:nth-of-type(2)
-    {
+    .list-definition li:nth-of-type(2) {
         list-style: none;
     }
 
