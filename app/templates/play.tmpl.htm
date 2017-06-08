@@ -42,9 +42,9 @@
             <div class="block-dictionary-one"
                  ng-class="{'is-visible': instructions.block_one_visible, 'curved_bottom_border': !button_clicked}">
                 <form class="form-dictionary" ng-submit="button_clicked || lookupWord($event)">
-                    <btn class="btn" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">
+                    <button class="btn" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">
                         Define
-                    </btn>
+                    </button>
                     <label>
                         <input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()"
                                ui-keypress="{enter: 'lookupWord($event)'}">
