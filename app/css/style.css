@@ -231,22 +231,21 @@ form {
     color: white;
 }
 
-/*Placeholder Colors*/
-/*.form-control::-webkit-input-placeholder {*/
-    /*color: #e1dac8;*/
-/*}*/
+.form-control::-webkit-input-placeholder {
+    color: #e1dac8;
+}
 
-/*.form-control:-moz-placeholder { !* Firefox 18- *!*/
-    /*color: #e1dac8;*/
-/*}*/
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color: #e1dac8;
+}
 
-/*.form-control::-moz-placeholder { !* Firefox 19+ *!*/
-    /*color: #e1dac8;*/
-/*}*/
+.form-control::-moz-placeholder { /* Firefox 19+ */
+    color: #e1dac8;
+}
 
-/*.form-control:-ms-input-placeholder {*/
-    /*color: #e1dac8;*/
-/*}*/
+.form-control:-ms-input-placeholder {
+    color: #e1dac8;
+}
 
 /*.gap {*/
 /*height: 0;*/
@@ -698,6 +697,9 @@ form {
         overflow: hidden;
         opacity: 0;
         transition: background, color, opacity 0.5s;
+    }
+    block-dictionary-no-results span {
+        margin: 10px;
     }
 
     .form-dictionary {

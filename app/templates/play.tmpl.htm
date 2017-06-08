@@ -40,7 +40,7 @@
     <div class="container-dictionary">
         <div class="block-dictionary-one" ng-class="{'is-visible': instructions.block_one_visible, 'curved_bottom_border': !button_clicked}">
             <form class="form-dictionary" ng-submit="button_clicked || lookupWord($event)">
-                <label class="btn" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</label>
+                <btn class="btn" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">Define</btn>
                 <input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()" ui-keypress="{enter: 'lookupWord($event)'}">
             </form>
 
@@ -48,9 +48,7 @@
         <div class="block-dictionary-no-results" ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_word.length  &&  !dictionary.sug_visible}">
             <h4>Definitions</h4>
             <span ng-show="!def_word.length">
-                <p>
-                                No results.
-                </p>
+                No results.
             </span>
         </div>
         <div class="container-definition" ng-class="{'is-visible': def_word.length, 'noHeight': !def_word.length, 'curved_bottom_border': !sug_word.length}">

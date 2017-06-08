@@ -31,7 +31,7 @@
         <li ng-repeat="p in getPlays() | filter: { category: searchCategories() }"
             ng-class="{ 'mix category-1': p.category == 'comedy', 'mix category-2' : p.category == 'history', 'mix category-3' : p.category == 'tragedy' }"
             ng-click="openPlay(p.file, p.title)" data-myorder="{{ $index }}" style="display: inline-block;">
-            <img ng-src="assets/img/{{ p.img }}"/ alt="{{p.title}} cover image.">
+            <img ng-src="assets/img/{{ p.img }}" alt="{{p.title}} cover image." />
             <div class="img_underlay"></div>
             <div class="play_name" data-type="{{ p.category }}">{{ p.title }}</div>
         </li>
@@ -45,5 +45,5 @@
         <!--<div class="gap"></div>-->
     </ul>
 </div>
-<img src="img/header.jpg" class="img-responsive hero_img"/>
+<img src="img/header.jpg" class="img-responsive hero_img" alt="Image of Shakespeare's complete works." />
 

@@ -5,160 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/directives/directive3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/SplitShire-0627-1024x683.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/directives/directive3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/filters/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/Gruntfile - no angular directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/alls_well_that_ends_well_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/antony_cleopatra_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/as_you_like_it_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/comedy_of_errors_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/coriolanus_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/cymbeline_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/edward_iii_Q1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/hamlet_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_iv_pt1_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_iv_pt2_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_v_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_vi_pt1_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_vi_pt2_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_vi_pt3_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/henry_viii_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/julius_caesar_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/king_john_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/king_lear_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/king_richard_ii_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/loves_labours_lost_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/macbeth_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/measure_for_measure_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/merchant_of_venice_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/merry_wives_of_windsor_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/midsummer_nights_dream_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/much_ado_about_nothing_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/othello_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/pericles_F3.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/richard_iii_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/romeo_and_juliet_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/sonnets_Q1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/taming_of_the_shrew_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/tempest_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/timon_of_athens_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/titus_andronicus_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/troilus_cressida_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/twelfth_night_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/two_gentlemen_of_verona_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/build/winters_tale_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/alls_well_that_ends_well_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/alls_well_that_ends_well_ps_v3.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/antony_cleopatra_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/as_you_like_it_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/comedy_of_errors_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/coriolanus_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/cymbeline_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/edward_iii_Q1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/hamlet_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_iv_pt1_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_iv_pt2_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_v_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_vi_pt1_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_vi_pt2_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_vi_pt3_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/henry_viii_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/julius_caesar_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/king_john_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/king_lear_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/king_richard_ii_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/loves_labours_lost_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/macbeth_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/measure_for_measure_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/merchant_of_venice_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/merry_wives_of_windsor_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/midsummer_nights_dream_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/much_ado_about_nothing_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/othello_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/pericles_F3.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/richard_iii_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/romeo_and_juliet_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/sonnets_Q1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/taming_of_the_shrew_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/tempest_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/timon_of_athens_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/titus_andronicus_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/troilus_cressida_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/twelfth_night_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/two_gentlemen_of_verona_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/no-angular/winters_tale_FF.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/alls_well_that_ends_well_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/antony_cleopatra_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/as_you_like_it_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/comedy_of_errors_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/coriolanus_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/cymbeline_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/edward_iii_Q1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/hamlet_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_iv_pt1_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_iv_pt2_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_v_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_vi_pt1_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_vi_pt2_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_vi_pt3_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/henry_viii_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/julius_caesar_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/king_john_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/king_lear_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/king_richard_ii_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/loves_labours_lost_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/macbeth_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/measure_for_measure_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/merchant_of_venice_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/merry_wives_of_windsor_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/midsummer_nights_dream_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/much_ado_about_nothing_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/othello_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/pericles_F3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/richard_iii_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/romeo_and_juliet_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/sonnets_Q1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/taming_of_the_shrew_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/tempest_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/timon_of_athens_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/titus_andronicus_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/troilus_cressida_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/twelfth_night_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/two_gentlemen_of_verona_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/grunt/plays_xml/winters_tale_FF.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/SplitShire-0627-1024x683.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/loading.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/FirstCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/FirstCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SecondCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/SecondCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/directives/directive1.js" afterPath="$PROJECT_DIR$/app/directives/directive1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/directives/directive2.js" afterPath="$PROJECT_DIR$/app/directives/directive2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes/routes.js" afterPath="$PROJECT_DIR$/app/routes/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/cache/cache.js" afterPath="$PROJECT_DIR$/app/services/cache/cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/models/model.js" afterPath="$PROJECT_DIR$/app/services/models/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/service1.js" afterPath="$PROJECT_DIR$/app/services/service1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/service2.js" afterPath="$PROJECT_DIR$/app/services/service2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/service3.js" afterPath="$PROJECT_DIR$/app/services/service3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/error.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/error.tmpl.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/home.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/home.tmpl.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/controllers/FirstCtrl.js" afterPath="$PROJECT_DIR$/dist/controllers/FirstCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/controllers/SecondCtrl.js" afterPath="$PROJECT_DIR$/dist/controllers/SecondCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/style.css" afterPath="$PROJECT_DIR$/dist/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/directives/directive2.js" afterPath="$PROJECT_DIR$/dist/directives/directive2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/routes/routes.js" afterPath="$PROJECT_DIR$/dist/routes/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/services/cache/cache.js" afterPath="$PROJECT_DIR$/dist/services/cache/cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/services/models/model.js" afterPath="$PROJECT_DIR$/dist/services/models/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/services/service1.js" afterPath="$PROJECT_DIR$/dist/services/service1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/services/service2.js" afterPath="$PROJECT_DIR$/dist/services/service2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/services/service3.js" afterPath="$PROJECT_DIR$/dist/services/service3.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -176,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/models/model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="service1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/service1.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -219,8 +59,8 @@
       <file leaf-file-name="error.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/error.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="126">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -230,20 +70,28 @@
         <entry file="file://$PROJECT_DIR$/app/templates/home.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1369">
-              <caret line="75" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="6" />
-              <folding>
-                <marker date="1496929059845" expanded="true" signature="5397:5543" ph="..." />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -258,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="561">
               <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
               <folding />
             </state>
@@ -282,8 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dict</find>
-      <find>dict_visible</find>
       <find>block-three</find>
       <find>dict_right_top_visible</find>
       <find>step_three_visible</find>
@@ -312,6 +158,8 @@
       <find>def_cards</find>
       <find>results</find>
       <find>form</find>
+      <find>block</find>
+      <find>filter</find>
     </findStrings>
     <replaceStrings>
       <replace>.list-item-definition</replace>
@@ -388,7 +236,6 @@
         <option value="$PROJECT_DIR$/app/controllers/FirstCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/SecondCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/ThirdCtrl.js" />
-        <option value="$PROJECT_DIR$/app/css/style.css" />
         <option value="$PROJECT_DIR$/app/directives/directive1.js" />
         <option value="$PROJECT_DIR$/app/directives/directive2.js" />
         <option value="$PROJECT_DIR$/app/directives/directive3.js" />
@@ -399,10 +246,11 @@
         <option value="$PROJECT_DIR$/app/services/service2.js" />
         <option value="$PROJECT_DIR$/app/services/service3.js" />
         <option value="$PROJECT_DIR$/app/templates/error.tmpl.htm" />
-        <option value="$PROJECT_DIR$/app/templates/home.tmpl.htm" />
-        <option value="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/home.tmpl.htm" />
+        <option value="$PROJECT_DIR$/app/css/style.css" />
+        <option value="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
       </list>
     </option>
   </component>
@@ -884,13 +732,6 @@
       <workItem from="1495634649911" duration="5531000" />
       <workItem from="1496677278996" duration="2814000" />
     </task>
-    <task id="LOCAL-00133" summary="Pass inputText to parseEntries function as entries were returning words that were only contained more than just the word...such as word plus hyphen.">
-      <created>1495557150823</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1495557150823</updated>
-    </task>
     <task id="LOCAL-00134" summary="Add new calculation for def class using VH.  Also add fallback for browsers that don't support calc or VH.">
       <created>1495638365913</created>
       <option name="number" value="00134" />
@@ -1227,11 +1068,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496766026917</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Reformat and inspect all code.">
+      <created>1496929295146</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1496929295146</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409476000" />
+    <option name="totallyTimeSpent" value="410857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1245,56 +1093,37 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739213" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739213" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1330,7 +1159,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Removed commented out lines." />
     <MESSAGE value="Create app and dist subdirectories." />
     <MESSAGE value="Add ng-if for dictionary." />
     <MESSAGE value="Add self.showDictionary boolean." />
@@ -1355,7 +1183,8 @@
     <MESSAGE value="Remove plays that are not first folios (Edward III, Sonnets)." />
     <MESSAGE value="Rename def_cards to def_word and sug_cards to sug_word." />
     <MESSAGE value="Copy all latest app files into dist directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="Copy all latest app files into dist directory." />
+    <MESSAGE value="Reformat and inspect all code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat and inspect all code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1585,17 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/directive1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1678,37 +1496,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/error.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/tooltip.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1369">
-          <caret line="75" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="6" />
-          <folding>
-            <marker date="1496929059845" expanded="true" signature="5397:5543" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1722,8 +1514,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="561">
           <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/error.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
