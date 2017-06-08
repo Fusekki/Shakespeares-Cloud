@@ -144,11 +144,14 @@ angular.module('shakespeareApp')
             }
 
             if ($event.type === 'click') {
-                // console.log('it is a click!');
+                console.log('it is a click!');
+                console.log($event);
+                inputText = $event.currentTarget.nextElementSibling.children[0].value;
             } else {
-                inputText = $event.currentTarget.nextElementSibling.value;
+                console.log($event);
+                inputText = $event.currentTarget.nextElementSibling.children[0].value;
             }
-            // console.log('Lookup word: ' + inputText);
+            console.log('Lookup word: ' + inputText);
             // Set the word
             // apiService.word = $scope.dictionary.sel_word;
             apiService.word = inputText;
