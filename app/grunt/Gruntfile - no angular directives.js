@@ -127,7 +127,7 @@ module.exports = function (grunt) {
 						expand: true,
 						flatten: true,
 						src: ['xml/*.xml'],
-						dest: 'xml/build-no-angular/',
+						dest: 'xml/small',
 						rename: function (dest, src) {
 							return dest + src.replace(/\.xml$/, ".htm");
 						}
