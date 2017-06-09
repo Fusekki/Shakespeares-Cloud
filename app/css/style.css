@@ -267,6 +267,33 @@ form {
 /*End Home Template*/
 
 /*play template*/
+
+
+.loadingContainer {
+    height: 100vh;
+    width: 100vw;
+    background: hsla(0, 0%, 0%, 0.75);
+    margin-top: -6em;
+    text-align: center;
+}
+
+.loadingMsg {
+    position: absolute;
+    top: 45%;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+}
+
+.loadingMsg + span {
+    position: relative;
+    top: 54%;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
 .play_nav {
     width: 100%;
     position: fixed;
@@ -373,6 +400,10 @@ form {
 /*iphone 5 LS*/
 
 @media only screen and (min-width: 568px) and (orientation: landscape) {
+
+    .loadingMsg + span {
+        top: 56%;
+    }
 }
 
 /*iPhone 6 Portrait*/
@@ -449,6 +480,12 @@ form {
         top: 51px;
     }
 
+    .loadingMsg + span {
+        position: relative;
+        top: 50%;
+        font-size: 16px;
+    }
+
     .play_cat button {
         margin-left: 3px;
     }
@@ -461,36 +498,16 @@ form {
         font-size: 1em;
         padding-right: 20px;
     }
-
 }
 
 /*desktops*/
 
 @media only screen and (min-width: 769px) {
 
-    .loadingContainer {
-        height: 100vh;
-        width: 100vw;
-        background: hsla(0, 0%, 0%, 0.75);
-        margin-top: -6em;
-    }
-
-    .loadingMsg {
-        position: absolute;
-        top: 45%;
-        left: calc(50% - 75px);
-        width: 150px;
-        height: 150px;
-        font-size: 30px;
-        color: white;
-    }
-
     .loadingMsg + span {
         position: relative;
-        top: 50%;
-        left: calc(35% - 75px);
+        top: 53%;
         font-size: 16px;
-        color: hsla(0, 0%, 100%, 0.75);
     }
 
     .btn.focus,
@@ -736,8 +753,6 @@ form {
         padding: 5px 0;
         -webkit-column-break-inside: avoid;
     }
-
-
 
     .toolTip {
         width: 125px;
