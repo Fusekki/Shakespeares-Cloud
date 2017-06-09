@@ -627,10 +627,21 @@ form {
     .list-definition {
         padding-top: 10px;
         padding-bottom: 10px;
+        counter-reset:yourCounter;
+
+    }
+    .list-definition li:not(.skip) {
+        counter-increment: yourCounter;
+        list-style:none;
     }
 
-    .list-definition li:nth-of-type(1),
-    .list-definition li:nth-of-type(2) {
+    .list-definition li:not(.skip):before {
+        content:counter(yourCounter, lower-roman) ".";
+    }
+    .list-definition li.skip:before {
+        content:"\a0\a0\a0"; /* some white-space... optional */
+    }
+    .list-definition li.skip {
         list-style: none;
     }
 
@@ -703,8 +714,8 @@ form {
         padding-top: 10px;
         padding-bottom: 10px;
         overflow: auto;
-        max-height: calc(100vh - 560px);
-        max-height: 396px;
+        max-height: 386px;
+        max-height: calc(100vh - 570px);
     }
 
     .list-suggestion {
@@ -725,10 +736,7 @@ form {
         -webkit-column-break-inside: avoid;
     }
 
-    .list-item-definition p,
-    .list-item-suggestion span {
-        list-style: none;
-    }
+
 
     .toolTip {
         width: 125px;
@@ -783,6 +791,11 @@ form {
     .noHeight {
         height: 0;
         padding: 0;
+    }
+
+    .skip {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 
     /*This needs to be the last element so it overrides all preceding elements*/

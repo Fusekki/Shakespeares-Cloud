@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb75a31-f87d-4132-bc84-40532edda906" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SecondCtrl.js" afterPath="$PROJECT_DIR$/app/controllers/SecondCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/play.tmpl.htm" afterPath="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,43 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThirdCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ThirdCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <marker date="1497017554242" expanded="true" signature="914:981" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="play.tmpl.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="392">
+              <caret line="66" column="97" lean-forward="true" selection-start-line="66" selection-start-column="97" selection-end-line="66" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecondCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/SecondCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3050">
-              <caret line="181" column="47" lean-forward="true" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+            <state relative-caret-position="17">
+              <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3213">
-              <caret line="189" column="24" lean-forward="false" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
+            <state relative-caret-position="1616">
+              <caret line="599" column="5" lean-forward="true" selection-start-line="599" selection-start-column="5" selection-end-line="599" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>step_three_done</find>
       <find>dict</find>
       <find>dict_visible</find>
       <find>block-three</find>
@@ -112,7 +100,6 @@
       <find>block_one_visible</find>
       <find>sug_container_visible</find>
       <find>directions</find>
-      <find>length</find>
       <find>block_no</find>
       <find>jump</find>
       <find>hsla</find>
@@ -122,6 +109,8 @@
       <find>sug_cards</find>
       <find>def_cards</find>
       <find>results</find>
+      <find>list-def</find>
+      <find>length</find>
     </findStrings>
     <replaceStrings>
       <replace>.list-item-definition</replace>
@@ -207,12 +196,12 @@
         <option value="$PROJECT_DIR$/app/services/models/model.js" />
         <option value="$PROJECT_DIR$/app/templates/home.tmpl.htm" />
         <option value="$PROJECT_DIR$/app/controllers/FirstCtrl.js" />
-        <option value="$PROJECT_DIR$/app/css/style.css" />
         <option value="$PROJECT_DIR$/dist/controllers/FirstCtrl.js" />
         <option value="$PROJECT_DIR$/dist/controllers/ThirdCtrl.js" />
         <option value="$PROJECT_DIR$/dist/controllers/SecondCtrl.js" />
-        <option value="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
         <option value="$PROJECT_DIR$/app/controllers/SecondCtrl.js" />
+        <option value="$PROJECT_DIR$/app/templates/play.tmpl.htm" />
+        <option value="$PROJECT_DIR$/app/css/style.css" />
       </list>
     </option>
   </component>
@@ -274,7 +263,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shakespeare's Cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shakespeare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,28 +533,7 @@
       <workItem from="1494889907656" duration="2795000" />
       <workItem from="1495634649911" duration="5531000" />
       <workItem from="1496677278996" duration="2814000" />
-      <workItem from="1497017601295" duration="500000" />
-    </task>
-    <task id="LOCAL-00133" summary="Pass inputText to parseEntries function as entries were returning words that were only contained more than just the word...such as word plus hyphen.">
-      <created>1495557150823</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1495557150823</updated>
-    </task>
-    <task id="LOCAL-00134" summary="Add new calculation for def class using VH.  Also add fallback for browsers that don't support calc or VH.">
-      <created>1495638365913</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1495638365914</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Wrap all of right_top, right_middle, .container_def_card, .right_bottom in containerDict for hover effects.">
-      <created>1495642059290</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1495642059290</updated>
+      <workItem from="1497017601295" duration="3887000" />
     </task>
     <task id="LOCAL-00136" summary="Add FourthCtrl.js to project to handle the error page.">
       <created>1495728405174</created>
@@ -835,11 +857,32 @@
       <option name="project" value="LOCAL" />
       <updated>1496766026917</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Add $scope.noResultsDict and $scope.noResultsSug to controller.">
+      <created>1497018181947</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1497018181948</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Add directory to grunt directory.">
+      <created>1497018224181</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1497018224181</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Remove noResultsDict and noResultsSug as they do not perform any better than .length.">
+      <created>1497021486695</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1497021486695</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406688000" />
+    <option name="totallyTimeSpent" value="410075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,9 +950,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Removed commented out lines." />
-    <MESSAGE value="Create app and dist subdirectories." />
-    <MESSAGE value="Add ng-if for dictionary." />
     <MESSAGE value="Add self.showDictionary boolean." />
     <MESSAGE value="Add 'desk' to windowSizes for displays above 768 width." />
     <MESSAGE value="Add $scope.showDictionary." />
@@ -932,7 +972,10 @@
     <MESSAGE value="Remove plays that are not first folios (Edward III, Sonnets)." />
     <MESSAGE value="Rename def_cards to def_word and sug_cards to sug_word." />
     <MESSAGE value="Copy all latest app files into dist directory." />
-    <option name="LAST_COMMIT_MESSAGE" value="Copy all latest app files into dist directory." />
+    <MESSAGE value="Add $scope.noResultsDict and $scope.noResultsSug to controller." />
+    <MESSAGE value="Add directory to grunt directory." />
+    <MESSAGE value="Remove noResultsDict and noResultsSug as they do not perform any better than .length." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove noResultsDict and noResultsSug as they do not perform any better than .length." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1054,6 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="83" column="48" lean-forward="true" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,6 +1167,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/plays/large/hamlet_FF.htm" />
+    <entry file="file://$PROJECT_DIR$/dist/controllers/FourthCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/dist/controllers/FirstCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/dist/controllers/ThirdCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/dist/controllers/SecondCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/ThirdCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1497017554242" expanded="true" signature="914:981" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SecondCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/home.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1141,41 +1208,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="189" column="24" lean-forward="false" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/plays/large/hamlet_FF.htm" />
-    <entry file="file://$PROJECT_DIR$/dist/controllers/FourthCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/dist/controllers/FirstCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/dist/controllers/ThirdCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/dist/controllers/SecondCtrl.js" />
     <entry file="file://$PROJECT_DIR$/app/templates/play.tmpl.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="392">
+          <caret line="66" column="97" lean-forward="true" selection-start-line="66" selection-start-column="97" selection-end-line="66" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ThirdCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1497017554242" expanded="true" signature="914:981" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SecondCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3050">
-          <caret line="181" column="47" lean-forward="true" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+        <state relative-caret-position="1616">
+          <caret line="599" column="5" lean-forward="true" selection-start-line="599" selection-start-column="5" selection-end-line="599" selection-end-column="5" />
           <folding />
         </state>
       </provider>
