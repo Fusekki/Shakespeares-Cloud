@@ -1,6 +1,6 @@
 <div class="loadingContainer" ng-show="loading">
-    <div class="loadingMsg">Loading...</div>
-    <span><i>Please do not hit refresh on your browser as it will cause the operation to fail</i></span>
+    <span class="loadingMsg">Loading...</span>
+    <span>Please do not hit refresh on your browser as it will cause the operation to fail.</span>
 </div>
 <div dynamic="play"></div>
 <div class="container-right" ng-show="!loading" ng-if="showDictionary">
@@ -36,7 +36,6 @@
         <div class="block-three" ng-class="{'is-visible': instructions.block_three_visible}">
             <span ng-class="{'line-through': instructions.block_three_line_through}">Click the button to lookup the definiton </span>
         </div>
-
         <div class="block-text" dynamic="examinedText" ng-class="{'is-visible': dictionary.block_text_visible}"></div>
         <div class="container-dictionary">
             <div class="block-dictionary-one"
@@ -50,7 +49,6 @@
                                ui-keypress="{enter: 'lookupWord($event)'}">
                     </label>
                 </form>
-
             </div>
             <div class="block-dictionary-no-results"
                  ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_word.length  &&  !dictionary.sug_visible}">
@@ -67,9 +65,7 @@
                         <li class="skip" ng-show="key != 'undefined'"><b>Date: {{ key }}</b></li>
                         <li class="skip" ng-show="key == 'undefined'"><b>Date: Unknown</b></li>
                         <li class="list-item-definition" id="dc_{{ $index }}" ng-repeat="card in value">
-                            <!--<p>-->
-                                <span ng-show="def_word.length"><span>{{ card.def }}</span></span>
-                            <!--</p>-->
+                            <span ng-show="def_word.length"><span>{{ card.def }}</span></span>
                         </li>
                     </ul>
                 </div>

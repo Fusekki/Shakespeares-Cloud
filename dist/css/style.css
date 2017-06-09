@@ -25,7 +25,6 @@
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-
 }
 
 .play_cards li:nth-of-type(3),
@@ -226,11 +225,11 @@ form {
     color: #e1dac8;
 }
 
-.form-control:-moz-placeholder { /* Firefox 18- */
+.form-control:-moz-placeholder {
     color: #e1dac8;
 }
 
-.form-control::-moz-placeholder { /* Firefox 19+ */
+.form-control::-moz-placeholder {
     color: #e1dac8;
 }
 
@@ -252,6 +251,31 @@ form {
     background: hsl(0, 0%, 0%);
     opacity: 0;
     transition: opacity .25s;
+}
+
+.loadingContainer {
+    height: 100vh;
+    width: 100vw;
+    background: hsla(0, 0%, 0%, 0.75);
+    margin-top: -6em;
+    text-align: center;
+}
+
+.loadingMsg {
+    position: absolute;
+    top: 45%;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    color: white;
+}
+
+.loadingMsg + span {
+    position: relative;
+    top: 54%;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .play_nav {
@@ -340,12 +364,20 @@ form {
     padding-left: 0;
 }
 
+@media only screen and (min-width: 568px) and (orientation: landscape) {
+
+    .loadingMsg + span {
+        top: 56%;
+    }
+}
+
 @media only screen and (min-width: 375px) and (orientation: landscape) {
 
     .hero_summary {
         background: hsla(179, 100%, 100%, 0.2);
         padding: 10px;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) {
@@ -389,6 +421,12 @@ form {
         top: 51px;
     }
 
+    .loadingMsg + span {
+        position: relative;
+        top: 50%;
+        font-size: 16px;
+    }
+
     .play_cat button {
         margin-left: 3px;
     }
@@ -401,34 +439,14 @@ form {
         font-size: 1em;
         padding-right: 20px;
     }
-
 }
 
 @media only screen and (min-width: 769px) {
 
-    .loadingContainer {
-        height: 100vh;
-        width: 100vw;
-        background: hsla(0, 0%, 0%, 0.75);
-        margin-top: -6em;
-    }
-
-    .loadingMsg {
-        position: absolute;
-        top: 45%;
-        left: calc(50% - 75px);
-        width: 150px;
-        height: 150px;
-        font-size: 30px;
-        color: white;
-    }
-
     .loadingMsg + span {
-        position: absolute;
-        top: 50%;
-        left: calc(35% - 75px);
+        position: relative;
+        top: 53%;
         font-size: 16px;
-        color: hsla(0, 0%, 100%, 0.75);
     }
 
     .btn.focus,
@@ -566,20 +584,23 @@ form {
     .list-definition {
         padding-top: 10px;
         padding-bottom: 10px;
-        counter-reset:yourCounter;
+        counter-reset: yourCounter;
 
     }
+
     .list-definition li:not(.skip) {
         counter-increment: yourCounter;
-        list-style:none;
+        list-style: none;
     }
 
     .list-definition li:not(.skip):before {
-        content:counter(yourCounter, lower-roman) ".";
+        content: counter(yourCounter, lower-roman) ".";
     }
+
     .list-definition li.skip:before {
-        content:"\a0\a0\a0"; /* some white-space... optional */
+        content: "\a0\a0\a0"; /* some white-space... optional */
     }
+
     .list-definition li.skip {
         list-style: none;
     }
@@ -738,4 +759,5 @@ form {
     .is-visible {
         opacity: 1;
     }
+
 }
