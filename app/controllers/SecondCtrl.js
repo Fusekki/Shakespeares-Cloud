@@ -8,8 +8,6 @@ angular.module('shakespeareApp')
         $scope.btnClicked = false;
         $scope.debug = false;
         $scope.showDictionary = sharedService.showDictionary;
-        $scope.noResultsDict = null;
-        $scope.noResultsSug = null;
 
         $scope.instructions = {
             block_one_visible: false,
@@ -52,8 +50,6 @@ angular.module('shakespeareApp')
                 $scope.instructions.block_one_line_through = true;
                 $scope.dictionary.block_two_linethrough = false;
                 $scope.instructions.block_three_line_through = false;
-                $scope.noResultsDict = null;
-                $scope.noResultsSug = null;
             } else {
                 $scope.dictionary.btnText = 'Examine';
                 $scope.examineText = "";
@@ -167,19 +163,12 @@ angular.module('shakespeareApp')
             if (results) {
                 if (results.deflist) {
                     $scope.def_word = results.deflist;
-                    $scope.noResultsDict = false;
-
-                } else {
-                    $scope.noResultsDict = true;
                 }
                 if (results.suglist) {
                     $scope.dictionary.block_no_results_visible = true;
                     $scope.dictionary.dict_right_bottom_visible = true;
                     $scope.dictionary.sug_visible = true;
                     $scope.sug_word = results.suglist;
-                    $scope.noResultsSug = false;
-                } else {
-                    $scope.noResultsSug = true;
                 }
             }
         };
