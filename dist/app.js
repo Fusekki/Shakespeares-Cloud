@@ -13,7 +13,7 @@
             $('.navbar-toggle:visible').click();
         }
     });
-    var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'ngSanitize', 'angular.filter', 'angularSpinners']);
+    var shakespeareApp = angular.module('shakespeareApp', ['ui.bootstrap', 'ngRoute', 'ngResource', 'ngSanitize', 'angular.filter']);
     shakespeareApp.run(function ($rootScope, $route, $window, $location, $routeParams, $anchorScroll) {
         $rootScope.$on('$routeChangeStart', function (event, next, current) {
             if (next.$$route.controller === "homeCtrl" || next.$$route.controller === undefined) {
