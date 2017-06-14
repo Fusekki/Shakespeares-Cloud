@@ -34,14 +34,13 @@
 .play_cards li:nth-of-type(17),
 .play_cards li:nth-of-type(19),
 .play_cards li:nth-of-type(21),
-.play_cards li:nth-of-type(22),
 .play_cards li:nth-of-type(23),
 .play_cards li:nth-of-type(24),
 .play_cards li:nth-of-type(25),
-.play_cards li:nth-of-type(26),
-.play_cards li:nth-of-type(33),
-.play_cards li:nth-of-type(35),
-.play_cards li:nth-of-type(36) {
+.play_cards li:nth-of-type(32),
+.play_cards li:nth-of-type(34),
+.play_cards li:nth-of-type(35)
+{
     color: #2c2a47;
 }
 
@@ -57,7 +56,9 @@
 .play_cards li:nth-of-type(24):hover,
 .play_cards li:nth-of-type(25):hover,
 .play_cards li:nth-of-type(26):hover,
+.play_cards li:nth-of-type(32):hover,
 .play_cards li:nth-of-type(33):hover,
+.play_cards li:nth-of-type(34):hover,
 .play_cards li:nth-of-type(35):hover,
 .play_cards li:nth-of-type(36):hover {
     color: white;
