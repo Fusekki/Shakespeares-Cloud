@@ -1,13 +1,13 @@
 angular.module('shakespeareApp')
 
-    .controller('playCtrl', function ($scope, logicService, apiService, sharedService) {
+    .controller('playCtrl', function ($scope, logicService, apiService, parseService) {
 
         // This is just used once for the chooseWord function when run for the first time.
         var hasClicked = false;
         $scope.loading = true;
         $scope.btnClicked = false;
         $scope.debug = false;
-        $scope.showDictionary = sharedService.showDictionary;
+        $scope.showDictionary = parseService.showDictionary;
 
         $scope.instructions = {
             block_one_visible: false,
@@ -97,7 +97,7 @@ angular.module('shakespeareApp')
         //  This is triggered when the define button is clicked. It prompts the following API call.
         $scope.lookupWord = function ($event) {
             var results;
-            sharedService.idx = 0;
+            parseService.idx = 0;
             $scope.button_clicked = true;
 
             $scope.instructions.block_three_line_through = !$scope.instructions.block_three_line_through;
@@ -132,14 +132,14 @@ angular.module('shakespeareApp')
                     // Set cache item
                     logicService.setCacheItem(inputText, entries);
                     // Here we cycle through the results and push the relevant information to the object array.
-                    results = sharedService.parseEntries(inputText, entries);
+                    results = parseService.parseEntries(inputText, entries);
                     processResults(results);
 
                 }, function (err) {
                     console.log(err.status);
                 });
             } else {
-                results = sharedService.parseEntries(inputText, self.cacheResults);
+                results = parseService.parseEntries(inputText, self.cacheResults);
                 processResults(results);
             }
         };
