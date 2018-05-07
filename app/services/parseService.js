@@ -2,7 +2,7 @@
 
 angular.module('shakespeareApp')
 
-    .service('sharedService', function () {
+    .service('parseService', function () {
         var def_list = [];
         var sug_list = [];
         var self = this;
