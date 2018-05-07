@@ -1,7 +1,7 @@
 angular.module('shakespeareApp')
 
 // The home controller handles the home.tmpl.htm page
-    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, sharedService) {
+    .controller('homeCtrl', function ($scope, logicService, modelService, apiService, parseService) {
 
         var size = logicService.getWindowSize();
 
@@ -16,14 +16,14 @@ angular.module('shakespeareApp')
             var file = modelService.searchModel($scope.search_term);
 
             if (size === 'desk') {
-                sharedService.showDictionary = true;
-                sharedService.filename = 'assets/plays/large/' + file;
+                parseService.showDictionary = true;
+                parseService.filename = 'assets/plays/large/' + file;
 
             } else {
-                sharedService.showDictionary = false;
-                sharedService.filename = 'assets/plays/small/' + file;
+                parseService.showDictionary = false;
+                parseService.filename = 'assets/plays/small/' + file;
             }
-            sharedService.title = title;
+            parseService.title = title;
             logicService.navTo("/play");
         };
 
@@ -37,19 +37,19 @@ angular.module('shakespeareApp')
 
         $scope.openPlay = function (file, title) {
             if (size === 'desk') {
-                sharedService.showDictionary = true;
-                sharedService.filename = 'assets/plays/large/' + file;
+                parseService.showDictionary = true;
+                parseService.filename = 'assets/plays/large/' + file;
 
             } else {
-                sharedService.showDictionary = false;
-                sharedService.filename = 'assets/plays/small/' + file;
+                parseService.showDictionary = false;
+                parseService.filename = 'assets/plays/small/' + file;
             }
-            sharedService.title = title;
+            parseService.title = title;
             logicService.navTo("/play");
         };
 
         $scope.clickBody = function () {
-            sharedService.prevLine = !sharedService.prevLine;
+            parseService.prevLine = !parseService.prevLine;
         }
 
         // $scope.getGaps = function () {
