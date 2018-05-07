@@ -13,4 +13,16 @@ APIs:
 code by [Phillip Stafford](http://philliprstafford.com)
 texts provided by [PlayShakespeare](https://www.playshakespeare.com).
 
-To launch, clone the repo and launch index.html in the dist folder.
+To use:
+Clone the repo. 
+This application requires a web server to run.
+One option is to Install [nodejs] (https://nodejs.org/en/) if not already installed.
+Install the http server.
+```
+     npm install http-server -g
+```
+Set the server to run the app.
+```
+    http-server C:/location/to/app
+
+```
