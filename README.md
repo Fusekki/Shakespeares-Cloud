@@ -14,7 +14,7 @@ code by [Phillip Stafford](http://philliprstafford.com)
 texts provided by [PlayShakespeare](https://www.playshakespeare.com).
 
 To use:
-Clone the repo. 
+Clone the repo.
 This application requires a web server to run.
 One option is to Install [nodejs] (https://nodejs.org/en/) if not already installed.
 Install the http server.
@@ -24,5 +24,9 @@ Install the http server.
 Set the server to run the app.
 ```
     http-server C:/location/to/app
+
+    -or-
+
+    npm run start
 
 ```
