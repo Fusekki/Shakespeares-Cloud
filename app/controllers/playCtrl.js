@@ -127,8 +127,10 @@ angular.module('shakespeareApp')
                 apiService.getDef(function (response) {
                     var x2js = new X2JS();
                     var xmlText = response.data;
-                    var jsonObj = x2js.xml_str2json(xmlText);
-                    var entries = jsonObj.entry_list;
+                    console.log('response', response);
+                    // var jsonObj = x2js.xml_str2json(xmlText);
+                    // var entries = jsonObj.entry_list;
+                    var entries = response.data;
                     // Set cache item
                     logicService.setCacheItem(inputText, entries);
                     // Here we cycle through the results and push the relevant information to the object array.

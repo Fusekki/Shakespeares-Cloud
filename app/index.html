@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="Phillip Stafford">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <!-- Custom CSS -->
@@ -14,82 +15,85 @@
     <!--<link rel="stylesheet" href="vendor/font-awesome-4.6.3/css/font-awesome.min.css">-->
     <title>Shakespeare's Cloud</title>
 </head>
-<body ng-app="shakespeareApp" ng-controller="homeCtrl" ng-click="clickBody()">
-<header>
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#/">
-                    <span>Shakespear's Cloud</span>
-                </a>
-            </div>
-            <!--Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#/">Plays</a>
-                    </li>
 
-                </ul>
+<body ng-app="shakespeareApp" ng-controller="homeCtrl" ng-click="clickBody()">
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-custom navbar-fixed-top navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#/">
+                        <span>Shakespeare's Cloud</span>
+                    </a>
+                </div>
+                <!--Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#/">Plays</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--/.navbar-collapse -->
             </div>
-            <!--/.navbar-collapse -->
-        </div>
-    </nav>
-</header>
-<container>
-    <div ng-view class="margin-top"></div>
-    <!--<div class="debug" ng-show="debug">-->
-    <!--<span>Debug</span>-->
-    <!--<div>-->
-    <!--<span>{{ screen_size }}</span>-->
-    <!--</div>-->
-    <!--<div>-->
-    <!--<span>{{ screen_pixels }}</span>-->
-    <!--</div>-->
-    <!--<div>-->
-    <!--<span>{{ screen_orientation }}</span>-->
-    <!--</div>-->
-    <!--</div>-->
-</container>
-<footer>
-</footer>
-<!-- Latest jQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!-- Latest Bootstrap-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Angular 1.6.4 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-resource.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.4/angular-sanitize.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.16/angular-filter.min.js"></script>
-<!--Bootstrap UI for Angular-->
-<script src="vendor/ui-bootstrap-tpls-2.5.0.min.js"></script>
-<!-- Mixitup plugin for card arrangement -->
-<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<!-- XML to JSON converter -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.js"></script>
-<!-- JS Script-->
-<script src="app.js"></script>
-<!--Angular parts-->
-<script src="routes/routes.js"></script>
-<script src="directives/dynamic.js"></script>
-<script src="directives/changeontooltip.js"></script>
-<script src="services/logicService.js"></script>
-<script src="services/apiService.js"></script>
-<script src="services/parseService.js"></script>
-<script src="services/models/plays.js"></script>
-<script src="services/cache/cache.js"></script>
-<script src="controllers/homeCtrl.js"></script>
-<script src="controllers/playCtrl.js"></script>
-<script src="controllers/errorCtrl.js"></script>
+        </nav>
+    </header>
+    <container>
+        <div ng-view class="margin-top"></div>
+        <!--<div class="debug" ng-show="debug">-->
+        <!--<span>Debug</span>-->
+        <!--<div>-->
+        <!--<span>{{ screen_size }}</span>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<span>{{ screen_pixels }}</span>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<span>{{ screen_orientation }}</span>-->
+        <!--</div>-->
+        <!--</div>-->
+    </container>
+    <footer>
+    </footer>
+    <!-- Latest jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest Bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Angular 1.6.4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.4/angular-sanitize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.16/angular-filter.min.js"></script>
+    <!--Bootstrap UI for Angular-->
+    <script src="vendor/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <!-- Mixitup plugin for card arrangement -->
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <!-- XML to JSON converter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.js"></script>
+    <!-- JS Script-->
+    <script src="app.js"></script>
+    <!--Angular parts-->
+    <script src="routes/routes.js"></script>
+    <script src="directives/dynamic.js"></script>
+    <script src="directives/changeontooltip.js"></script>
+    <script src="services/logicService.js"></script>
+    <script src="services/apiService.js"></script>
+    <script src="services/parseService.js"></script>
+    <script src="services/models/plays.js"></script>
+    <script src="services/cache/cache.js"></script>
+    <script src="controllers/homeCtrl.js"></script>
+    <script src="controllers/playCtrl.js"></script>
+    <script src="controllers/errorCtrl.js"></script>
 </body>
+
 </html>

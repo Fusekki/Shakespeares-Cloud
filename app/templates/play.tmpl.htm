@@ -31,36 +31,38 @@
             <span ng-class="{'line-through': instructions.block_one_line_through}">Click a line to examine</span>
         </div>
         <div class="block-two" ng-class="{'is-visible': instructions.block_two_visible}">
-            <span ng-class="{'line-through': instructions.block_two_line_through}">Choose a word below to select it. </span>
+            <span ng-class="{'line-through': instructions.block_two_line_through}">Choose a word below to select it.
+            </span>
         </div>
         <div class="block-three" ng-class="{'is-visible': instructions.block_three_visible}">
-            <span ng-class="{'line-through': instructions.block_three_line_through}">Click the button to lookup the definiton </span>
+            <span ng-class="{'line-through': instructions.block_three_line_through}">Click the button to lookup the
+                definiton </span>
         </div>
 
         <div class="block-text" dynamic="examinedText" ng-class="{'is-visible': dictionary.block_text_visible}"></div>
         <div class="container-dictionary">
             <div class="block-dictionary-one"
-                 ng-class="{'is-visible': instructions.block_one_visible, 'curved_bottom_border': !button_clicked}">
+                ng-class="{'is-visible': instructions.block_one_visible, 'curved_bottom_border': !button_clicked}">
                 <form class="form-dictionary" ng-submit="button_clicked || lookupWord($event)">
                     <button class="btn" ng-click="button_clicked || lookupWord($event)" ng-disabled="button_clicked">
                         Define
                     </button>
                     <label>
                         <input type="text" ng-model="dictionary.sel_word" ng-change="toggleButton()"
-                               ui-keypress="{enter: 'lookupWord($event)'}">
+                            ui-keypress="{enter: 'lookupWord($event)'}">
                     </label>
                 </form>
 
             </div>
             <div class="block-dictionary-no-results"
-                 ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_word.length  &&  !dictionary.sug_visible}">
+                ng-class="{'is-visible': dictionary.block_no_results_visible, 'curved_bottom_border': !def_word.length  &&  !dictionary.sug_visible}">
                 <h4>Definitions</h4>
                 <span ng-show="!def_word.length">
-                No results.
-            </span>
+                    No results.
+                </span>
             </div>
             <div class="container-definition"
-                 ng-class="{'is-visible': def_word.length, 'noHeight': !def_word.length, 'curved_bottom_border': !sug_word.length}">
+                ng-class="{'is-visible': def_word.length, 'noHeight': !def_word.length, 'curved_bottom_border': !sug_word.length}">
                 <div class="inner-definition">
                     <ul class="list-definition" ng-show="def_word.length"
                         ng-repeat="(key, value) in def_word | groupBy: 'date'">
@@ -68,14 +70,14 @@
                         <li class="skip" ng-show="key == 'undefined'"><b>Date: Unknown</b></li>
                         <li class="list-item-definition" id="dc_{{ $index }}" ng-repeat="card in value">
                             <!--<p>-->
-                                <span ng-show="def_word.length"><span>{{ card.def }}</span></span>
+                            <span ng-show="def_word.length"><span>{{ card.def }}</span></span>
                             <!--</p>-->
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="container-suggestion"
-                 ng-class="{'is-visible': dictionary.sug_visible, 'curved_bottom_border': sug_word.length}">
+                ng-class="{'is-visible': dictionary.sug_visible, 'curved_bottom_border': sug_word.length}">
                 <hr>
                 <h4>Suggestions</h4>
                 <span><i>Click a word to select</i></span>
@@ -85,7 +87,7 @@
                             <li class="list-item-suggestion" id="sug_{{ $index }}"
                                 ng-repeat="s in sug_word track by $index">
                                 <span class="suggestion-word" ng-show="sug_word.length > 1"
-                                      ng-click="chooseWord($event)">{{ s }}</span>
+                                    ng-click="chooseWord($event)">{{ s }}</span>
                             </li>
                         </ul>
                         <div class="arrow_down blink_me" ng-show="sug_word.length > 21">

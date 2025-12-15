@@ -1,6 +1,6 @@
 angular.module('shakespeareApp')
 
-// The home controller handles the home.tmpl.htm page
+    // The home controller handles the home.tmpl.htm page
     .controller('homeCtrl', function ($scope, logicService, modelService, apiService, parseService) {
 
         var size = logicService.getWindowSize();

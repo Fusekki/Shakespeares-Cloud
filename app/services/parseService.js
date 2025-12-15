@@ -22,41 +22,58 @@ angular.module('shakespeareApp')
         self.parseEntries = function (word, entries) {
             var newWord = null;
             var def = null;
-            if ('entry' in entries) {
+            var date = null;
+            var lala = null;
+            if (entries.length) {
                 // There is 1 or more entries.
                 console.log('beginning entry');
                 // Check if entry length is above 1
-                if (entries.entry.length) {
+                if (entries.length >= 1) {
                     console.log('entry is length of 1 or more');
                     // Cycle through each of the entries
-                    for (var x = 0; x < entries.entry.length; x++) {
+                    for (var x = 0; x < entries.length; x++) {
+                        date = entries[x].date;
                         // if def is in current entry
-                        if ('def' in entries.entry[x]) {
-                            def = entries.entry[x].def;
-                            console.log('entry: ' + x);
-                            console.log(def);
-                            // This should always be an object returned
-                            console.log(typeof(def));
+                        if ('shortdef' in entries[x]) {
+                            console.log('checking if word is same');
+                            var temp = entries[x].meta.id.replace(/[^a-zA-Z]/g, "")
+                            if (word.toLowerCase().includes(temp.toLowerCase())) {
+                                newWord = entries[x].meta.id.replace(/[^a-zA-Z]/g, "");
+                                def_list.push(defObj(date, newWord));
+
+                            array.forEach((element, index, array) => {
+                                    // Code to execute for each element
+                            });
+                            def = entries[x].shortdef;
+                            // console.log('entry: ' + x);
+                            // console.log(def);
+                            // This should always be an array returned
+                            // console.log(typeof (def));
                             // What type of object is dt? if object do the following
-                            if (typeof(def.dt) === 'object') {
-                                console.log('OBJECT ' + ' entry: ' + x);
+                            if (Array.isArray(def)) {
+                                for (var y = 0; y < def.length; y++) {
+                                    // def_list.push(defObj(def[y], newWord));
+                                    processDt(def[y], x, newWord);
+                                    console.log('array ' + ' entry: ' + x);
                                 // If __text exists, only push it if it has a greater length of 1...meaning it will be a word and not just a character
-                                if ('__text' in def.dt && def.dt.__text.length > 1) {
-                                    console.log('checking if word is same');
-                                    if (def.dt.ew === word.toLowerCase()) {
-                                        console.log('push ' + self.idx + '-----------------');
-                                        newWord = def.dt.__text.replace(/^:/, "");
-                                        def_list.push(defObj(def.date, newWord));
+                                // if ('__text' in def.dt && def.dt.__text.length > 1) {
+                                // if ('shortdef' in def && def.shortdef.length > 1)
+
                                     }
-                                } else {
+                                }
+                                else {
+                                    processDt(def[y], x, newWord);
+                                }
+                            }
+                                /* else {
                                     // Item is still an object just doesn't contain __text
                                     processDT(def, x, newWord);
-                                }
+                                } */
                             } else {
                                 // These seem to fall under people (like a thesaurus search).
                             }
                         }
-                    }
+
                 } else {
                     // Only one entry exists but it may contain multiple dts
                     def = entries.entry.def;
@@ -85,7 +102,7 @@ angular.module('shakespeareApp')
                 if ('suggestion' in entries) {
                     var sug = entries.suggestion;
                     console.log('suggestions found');
-                    if (typeof(sug) === 'object') {
+                    if (typeof (sug) === 'object') {
                         console.log(sug);
                         console.log('There are multiple suggestions.');
                         for (var s = 0; s < sug.length; s++) {
@@ -110,11 +127,11 @@ angular.module('shakespeareApp')
                 console.log(def.dt.length);
                 self.idx++;
                 console.log(def.dt[i]);
-                if (typeof(def.dt[i]) === 'string' && def.dt[i].length > 1) {
+                if (typeof (def.dt[i]) === 'string' && def.dt[i].length > 1) {
                     console.log('type is string' + ' entry: ' + x + ' dt: ' + i);
                     // is item longer than a single character
                     console.log('push ' + self.idx + '-----------------');
-                    console.log(typeof(def.dt[i]));
+                    console.log(typeof (def.dt[i]));
                     newWord = def.dt[i].replace(/^:/, "");
                     def_list.push(defObj(def.date, newWord));
                 } else {
