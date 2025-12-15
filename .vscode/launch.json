@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome against localhost",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://192.168.1.138:8080", // Change port to match your server (e.g., 4200)
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
